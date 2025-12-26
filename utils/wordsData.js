@@ -15130,13 +15130,10146 @@ export const wordsData = [
           }
         ]
       },
-
-
-
-
-
-
-
+      {
+        name: "unit19",
+        words: [
+          {
+            word: "alive",
+            phonetic: "/əˈlaɪv/",
+            examples: [
+              "The plant is still alive after winter",
+              "She felt truly alive for the first time",
+              "Is anyone alive in there can you hear",
+              "The tradition is kept alive by local people",
+              "He was found alive after three days",
+              "The city comes alive at night beautifully",
+              "Music makes me feel so alive inside",
+              "The fish must be kept alive until cooking",
+              "Are your grandparents still alive today",
+              "The performance brought the story alive wonderfully"
+            ],
+            questions: [
+              {
+                question: "Did anyone survive?",
+                answers: [
+                  "Yes, they're alive",
+                  "Found alive yesterday",
+                  "Still alive thankfully"
+                ]
+              },
+              {
+                question: "How do you feel?",
+                answers: [
+                  "I feel so alive",
+                  "Never felt more alive",
+                  "Feeling alive again"
+                ]
+              },
+              {
+                question: "What's the condition?",
+                answers: [
+                  "It's still alive",
+                  "Barely alive",
+                  "Kept alive"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bone",
+            phonetic: "/boʊn/",
+            examples: [
+              "The dog buried a bone in the yard",
+              "She broke a bone in her arm yesterday",
+              "The skeleton has two hundred six bones",
+              "Fish bones can be dangerous if swallowed",
+              "He's nothing but skin and bones now",
+              "The archaeologists discovered ancient human bones",
+              "Calcium is good for your bones",
+              "I can feel it in my bones something's wrong",
+              "The bone healed after six weeks in cast",
+              "Chicken bones should not be given to dogs"
+            ],
+            questions: [
+              {
+                question: "What did the dog find?",
+                answers: [
+                  "A bone to chew",
+                  "Old bone buried",
+                  "Big bone"
+                ]
+              },
+              {
+                question: "What's injured?",
+                answers: [
+                  "He broke a bone",
+                  "Fractured bone",
+                  "Bone in his leg"
+                ]
+              },
+              {
+                question: "What's good for health?",
+                answers: [
+                  "Strong bones matter",
+                  "Healthy bones",
+                  "Bone strength"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bother",
+            phonetic: "/ˈbɑːðər/",
+            examples: [
+              "Sorry to bother you at this time",
+              "The noise doesn't bother me at all",
+              "Don't bother calling him he won't answer",
+              "Does the smoke bother you at all",
+              "Why bother trying if it won't work",
+              "She didn't even bother to reply to email",
+              "The heat really bothers me in summer",
+              "Don't bother I can do it myself",
+              "It's no bother at all I'm happy to help",
+              "His rude behavior bothers everyone around him"
+            ],
+            questions: [
+              {
+                question: "Should I help you?",
+                answers: [
+                  "Don't bother thanks",
+                  "It's no bother",
+                  "Please don't bother"
+                ]
+              },
+              {
+                question: "Does it annoy you?",
+                answers: [
+                  "Yes, it bothers me",
+                  "Doesn't bother me",
+                  "Really bothers me"
+                ]
+              },
+              {
+                question: "Why didn't you do it?",
+                answers: [
+                  "Didn't bother trying",
+                  "Why bother",
+                  "Couldn't bother"
+                ]
+              }
+            ]
+          },
+          {
+            word: "captain",
+            phonetic: "/ˈkæptɪn/",
+            examples: [
+              "The captain steered the ship through the storm",
+              "She's the captain of the basketball team",
+              "The captain announced we're landing soon",
+              "He was promoted to captain last year",
+              "The team captain gave an inspiring speech",
+              "Captain Smith will be flying today",
+              "The captain went down with his ship",
+              "She was elected captain by her teammates",
+              "The captain of industry controls many businesses",
+              "Good morning this is your captain speaking"
+            ],
+            questions: [
+              {
+                question: "Who's in charge of the ship?",
+                answers: [
+                  "The captain is",
+                  "Captain Smith",
+                  "Our captain"
+                ]
+              },
+              {
+                question: "Who leads the team?",
+                answers: [
+                  "She's the captain",
+                  "Team captain",
+                  "Our captain"
+                ]
+              },
+              {
+                question: "Who's flying the plane?",
+                answers: [
+                  "The captain today",
+                  "Captain Johnson",
+                  "Experienced captain"
+                ]
+              }
+            ]
+          },
+          {
+            word: "conclusion",
+            phonetic: "/kənˈkluːʒn/",
+            examples: [
+              "What conclusion did you reach after research",
+              "In conclusion I'd like to thank everyone",
+              "The conclusion of the book was surprising",
+              "They came to the same conclusion independently",
+              "Don't jump to conclusions without all facts",
+              "The conclusion follows logically from the evidence",
+              "We can draw no conclusion from these results",
+              "The investigation came to a conclusion finally",
+              "His conclusion was based on careful analysis",
+              "The story's conclusion left everyone satisfied"
+            ],
+            questions: [
+              {
+                question: "What did you decide?",
+                answers: [
+                  "I reached a conclusion",
+                  "Same conclusion",
+                  "No conclusion yet"
+                ]
+              },
+              {
+                question: "What's your final thought?",
+                answers: [
+                  "In conclusion I agree",
+                  "My conclusion is",
+                  "The conclusion"
+                ]
+              },
+              {
+                question: "What can we determine?",
+                answers: [
+                  "Draw your own conclusion",
+                  "Obvious conclusion",
+                  "Wrong conclusion"
+                ]
+              }
+            ]
+          },
+          {
+            word: "doubt",
+            phonetic: "/daʊt/",
+            examples: [
+              "I have no doubt that you'll succeed",
+              "There's some doubt about his story",
+              "She doubts whether he's telling the truth",
+              "Without a doubt this is the best option",
+              "He began to doubt his own abilities",
+              "There's no room for doubt in this matter",
+              "I doubt we'll finish on time today",
+              "Beyond a shadow of a doubt guilty",
+              "She cast doubt on the entire theory",
+              "When in doubt ask for help immediately"
+            ],
+            questions: [
+              {
+                question: "Are you sure about this?",
+                answers: [
+                  "I have no doubt",
+                  "Without a doubt",
+                  "Some doubt remains"
+                ]
+              },
+              {
+                question: "Do you believe him?",
+                answers: [
+                  "I doubt it honestly",
+                  "Starting to doubt",
+                  "Never doubt him"
+                ]
+              },
+              {
+                question: "Will we make it?",
+                answers: [
+                  "I doubt we will",
+                  "No doubt about it",
+                  "Some doubt"
+                ]
+              }
+            ]
+          },
+          {
+            word: "explore",
+            phonetic: "/ɪkˈsplɔːr/",
+            examples: [
+              "They went to explore the ancient ruins",
+              "Children love to explore new places eagerly",
+              "We should explore all possible options first",
+              "The scientist explored new theories carefully",
+              "Let's explore the forest this afternoon",
+              "She wants to explore different career paths",
+              "The spacecraft will explore distant planets",
+              "They explored the cave with flashlights",
+              "We need to explore this idea further",
+              "Astronauts explore space for scientific research"
+            ],
+            questions: [
+              {
+                question: "What should we do today?",
+                answers: [
+                  "Let's explore the city",
+                  "Explore new places",
+                  "Go explore"
+                ]
+              },
+              {
+                question: "What's your plan?",
+                answers: [
+                  "I want to explore options",
+                  "Explore possibilities",
+                  "Explore alternatives"
+                ]
+              },
+              {
+                question: "What did the team do?",
+                answers: [
+                  "They explored the area",
+                  "Explored thoroughly",
+                  "Went exploring"
+                ]
+              }
+            ]
+          },
+          {
+            word: "glad",
+            phonetic: "/ɡlæd/",
+            examples: [
+              "I'm so glad you could come today",
+              "She was glad to hear the good news",
+              "We're glad that everything worked out well",
+              "He'll be glad when this is over",
+              "I'm glad to meet you at last",
+              "They were glad for the opportunity given",
+              "I'd be glad to help you anytime",
+              "She's glad she made that decision now",
+              "We're glad you're feeling better today",
+              "I'm glad we had this conversation finally"
+            ],
+            questions: [
+              {
+                question: "How do you feel about it?",
+                answers: [
+                  "I'm really glad",
+                  "So glad",
+                  "Very glad"
+                ]
+              },
+              {
+                question: "Can you help me?",
+                answers: [
+                  "I'd be glad to",
+                  "Glad to help",
+                  "More than glad"
+                ]
+              },
+              {
+                question: "What's your reaction?",
+                answers: [
+                  "I'm glad it worked",
+                  "Glad to hear",
+                  "Not glad"
+                ]
+              }
+            ]
+          },
+          {
+            word: "however",
+            phonetic: "/haʊˈevər/",
+            examples: [
+              "I want to go however I'm too tired",
+              "However you look at it it's wrong",
+              "She tried hard however she didn't succeed",
+              "However much it costs I'll buy it",
+              "The plan seemed good however it failed",
+              "I'll support you however I can help",
+              "However difficult it may be don't quit",
+              "He's talented however he lacks experience",
+              "However long it takes we'll finish it",
+              "It might work however I have my doubts"
+            ],
+            questions: [
+              {
+                question: "Will you still go?",
+                answers: [
+                  "However I'm not sure",
+                  "Yes however",
+                  "However it's unlikely"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "It's good however expensive",
+                  "However there's an issue",
+                  "However we can't"
+                ]
+              },
+              {
+                question: "Can you help?",
+                answers: [
+                  "However I can",
+                  "However possible",
+                  "However it's needed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "injustice",
+            phonetic: "/ɪnˈdʒʌstɪs/",
+            examples: [
+              "They're fighting against social injustice bravely",
+              "The injustice of the situation angered everyone",
+              "He suffered a great injustice wrongfully",
+              "We must speak out against injustice always",
+              "The injustice was finally corrected after years",
+              "Racial injustice remains a serious problem today",
+              "She devoted her life to fighting injustice",
+              "The injustice of poverty affects millions daily",
+              "This verdict is a grave injustice indeed",
+              "They protested the injustice in the streets"
+            ],
+            questions: [
+              {
+                question: "What are they protesting?",
+                answers: [
+                  "Fighting injustice",
+                  "Against injustice",
+                  "Social injustice"
+                ]
+              },
+              {
+                question: "What's wrong with the system?",
+                answers: [
+                  "There's injustice",
+                  "Full of injustice",
+                  "Injustice everywhere"
+                ]
+              },
+              {
+                question: "What motivates her?",
+                answers: [
+                  "Fighting injustice",
+                  "Ending injustice",
+                  "Stopping injustice"
+                ]
+              }
+            ]
+          },
+          {
+            word: "international",
+            phonetic: "/ˌɪntərˈnæʃənl/",
+            examples: [
+              "She works for an international company now",
+              "International travel requires a valid passport",
+              "The international community condemned the actions",
+              "He's an international student from Japan",
+              "International relations are complex and delicate",
+              "The conference attracted international attention widely",
+              "International law governs relations between countries",
+              "She has an international reputation in science",
+              "International flights depart from terminal three",
+              "The team competes at the international level"
+            ],
+            questions: [
+              {
+                question: "Where does your company operate?",
+                answers: [
+                  "It's international",
+                  "International company",
+                  "International markets"
+                ]
+              },
+              {
+                question: "What kind of student is he?",
+                answers: [
+                  "International student",
+                  "From international program",
+                  "International exchange"
+                ]
+              },
+              {
+                question: "What's the scope?",
+                answers: [
+                  "International level",
+                  "International scale",
+                  "International reach"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lawyer",
+            phonetic: "/ˈlɔːjər/",
+            examples: [
+              "She hired a lawyer to handle the case",
+              "The lawyer presented strong evidence in court",
+              "He's studying to become a lawyer someday",
+              "You should consult a lawyer about this matter",
+              "The lawyer defended her client passionately",
+              "My lawyer advised me not to sign anything",
+              "A good lawyer is expensive but worth it",
+              "The lawyer argued the case brilliantly today",
+              "She's the best lawyer in the city",
+              "The lawyer's office is downtown near courthouse"
+            ],
+            questions: [
+              {
+                question: "Who can help with this?",
+                answers: [
+                  "You need a lawyer",
+                  "Consult a lawyer",
+                  "My lawyer can"
+                ]
+              },
+              {
+                question: "What does she do?",
+                answers: [
+                  "She's a lawyer",
+                  "Works as lawyer",
+                  "Criminal lawyer"
+                ]
+              },
+              {
+                question: "What's your advice?",
+                answers: [
+                  "Talk to your lawyer",
+                  "Get a lawyer",
+                  "Lawyer recommended"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mention",
+            phonetic: "/ˈmenʃn/",
+            examples: [
+              "Did I mention that I'm moving away",
+              "She didn't mention anything about the problem",
+              "He mentioned you in his speech yesterday",
+              "Don't mention it you're very welcome",
+              "Not to mention the additional costs involved",
+              "She mentioned she might be late today",
+              "The article mentions several important facts",
+              "I forgot to mention one important thing",
+              "They mentioned the possibility of delays",
+              "Now that you mention it I remember"
+            ],
+            questions: [
+              {
+                question: "Did she say anything?",
+                answers: [
+                  "She mentioned it briefly",
+                  "Didn't mention anything",
+                  "Did mention that"
+                ]
+              },
+              {
+                question: "Thanks for helping!",
+                answers: [
+                  "Don't mention it",
+                  "No need to mention",
+                  "Worth mentioning"
+                ]
+              },
+              {
+                question: "What did he talk about?",
+                answers: [
+                  "He mentioned you",
+                  "Mentioned the issue",
+                  "Never mentioned"
+                ]
+              }
+            ]
+          },
+          {
+            word: "old",
+            phonetic: "/oʊld/",
+            examples: [
+              "My grandfather is ninety years old now",
+              "This is a very old building indeed",
+              "She's too old to start over again",
+              "How old are you if you don't mind",
+              "The old traditions are still practiced here",
+              "I met an old friend yesterday downtown",
+              "That's an old joke everyone knows it",
+              "The old car still runs perfectly well",
+              "He's wise beyond his young years old",
+              "Good old days were not always good"
+            ],
+            questions: [
+              {
+                question: "How old is she?",
+                answers: [
+                  "Twenty years old",
+                  "Not very old",
+                  "Pretty old now"
+                ]
+              },
+              {
+                question: "What kind of building?",
+                answers: [
+                  "It's very old",
+                  "Old historic building",
+                  "Not that old"
+                ]
+              },
+              {
+                question: "Who did you see?",
+                answers: [
+                  "An old friend",
+                  "Old colleague",
+                  "Old neighbor"
+                ]
+              }
+            ]
+          },
+          {
+            word: "policy",
+            phonetic: "/ˈpɑːləsi/",
+            examples: [
+              "The company has a strict attendance policy",
+              "Government policy affects everyone's lives daily",
+              "What's your return policy for purchases",
+              "The new policy goes into effect Monday",
+              "They changed the policy without warning us",
+              "Insurance policy covers medical expenses fully",
+              "Foreign policy is complex and challenging",
+              "The policy was designed to help workers",
+              "School policy prohibits cell phones in class",
+              "As a matter of policy we don't disclose"
+            ],
+            questions: [
+              {
+                question: "What are the rules?",
+                answers: [
+                  "Check the policy",
+                  "Company policy states",
+                  "Against policy"
+                ]
+              },
+              {
+                question: "Can I return this?",
+                answers: [
+                  "Our return policy allows",
+                  "According to policy",
+                  "Policy says no"
+                ]
+              },
+              {
+                question: "What changed?",
+                answers: [
+                  "The policy changed",
+                  "New policy now",
+                  "Updated policy"
+                ]
+              }
+            ]
+          },
+          {
+            word: "social",
+            phonetic: "/ˈsoʊʃl/",
+            examples: [
+              "Humans are social creatures by nature",
+              "She's very active on social media platforms",
+              "The social event was well attended tonight",
+              "Social skills are important in business",
+              "They study social problems in society",
+              "Social distancing was required during pandemic",
+              "He lacks social awareness at times",
+              "The social gathering was lots of fun",
+              "Social justice is a fundamental right",
+              "Social interaction is essential for mental health"
+            ],
+            questions: [
+              {
+                question: "What kind of event is it?",
+                answers: [
+                  "A social gathering",
+                  "Social event",
+                  "Social occasion"
+                ]
+              },
+              {
+                question: "Where are you active?",
+                answers: [
+                  "On social media",
+                  "Social networks",
+                  "Social platforms"
+                ]
+              },
+              {
+                question: "What skills matter?",
+                answers: [
+                  "Social skills",
+                  "Social abilities",
+                  "Social awareness"
+                ]
+              }
+            ]
+          },
+          {
+            word: "speech",
+            phonetic: "/spiːtʃ/",
+            examples: [
+              "The president gave an inspiring speech today",
+              "She's preparing a speech for the wedding",
+              "His speech was clear and well organized",
+              "Freedom of speech is a basic right",
+              "The speech lasted for thirty minutes exactly",
+              "He lost his power of speech temporarily",
+              "The graduation speech moved everyone deeply",
+              "Parts of speech include nouns and verbs",
+              "Her speech impediment improved with therapy",
+              "The speech received a standing ovation"
+            ],
+            questions: [
+              {
+                question: "What did she do?",
+                answers: [
+                  "Gave a speech",
+                  "Made a speech",
+                  "Delivered speech"
+                ]
+              },
+              {
+                question: "What are you preparing?",
+                answers: [
+                  "My wedding speech",
+                  "A short speech",
+                  "Acceptance speech"
+                ]
+              },
+              {
+                question: "What right is important?",
+                answers: [
+                  "Freedom of speech",
+                  "Speech rights",
+                  "Free speech"
+                ]
+              }
+            ]
+          },
+          {
+            word: "staff",
+            phonetic: "/stæf/",
+            examples: [
+              "The entire staff attended the meeting today",
+              "We need to hire more staff immediately",
+              "The hotel staff was very friendly and helpful",
+              "She's a member of the teaching staff",
+              "The staff room is on the second floor",
+              "Medical staff worked around the clock tirelessly",
+              "The staff meeting is scheduled for tomorrow",
+              "Restaurant staff must wear uniforms always",
+              "He joined the staff last month",
+              "The support staff deserves recognition too"
+            ],
+            questions: [
+              {
+                question: "Who works here?",
+                answers: [
+                  "Our entire staff",
+                  "The staff members",
+                  "Full staff"
+                ]
+              },
+              {
+                question: "What do you need?",
+                answers: [
+                  "More staff needed",
+                  "Additional staff",
+                  "Extra staff"
+                ]
+              },
+              {
+                question: "Who helped you?",
+                answers: [
+                  "The staff here",
+                  "Hotel staff",
+                  "Friendly staff"
+                ]
+              }
+            ]
+          },
+          {
+            word: "toward",
+            phonetic: "/tɔːrd/",
+            examples: [
+              "She walked toward the exit door quickly",
+              "His attitude toward work has improved",
+              "We're moving toward a better solution",
+              "The deadline is getting toward the end",
+              "He leaned toward her to hear better",
+              "Progress toward peace is being made",
+              "They're working toward the same goal",
+              "The car headed toward the mountains",
+              "Feelings toward the proposal are mixed",
+              "We should look toward the future now"
+            ],
+            questions: [
+              {
+                question: "Which direction?",
+                answers: [
+                  "Toward the door",
+                  "Heading toward downtown",
+                  "Moving toward it"
+                ]
+              },
+              {
+                question: "How's he changing?",
+                answers: [
+                  "Working toward improvement",
+                  "Moving toward success",
+                  "Toward better things"
+                ]
+              },
+              {
+                question: "What's your feeling?",
+                answers: [
+                  "Positive toward it",
+                  "Attitude toward",
+                  "Feeling toward"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wood",
+            phonetic: "/wʊd/",
+            examples: [
+              "The table is made of solid wood",
+              "They collected wood for the campfire tonight",
+              "The cabin is built from local wood",
+              "Wood flooring is beautiful and durable",
+              "Don't touch the wood it's still wet",
+              "The forest is full of fallen wood",
+              "Wood smoke filled the air around us",
+              "He carved a figure from a piece of wood",
+              "The wood furniture needs to be polished",
+              "We're out of the woods finally safe"
+            ],
+            questions: [
+              {
+                question: "What's it made of?",
+                answers: [
+                  "It's made of wood",
+                  "Solid wood",
+                  "Real wood"
+                ]
+              },
+              {
+                question: "What do you need for fire?",
+                answers: [
+                  "We need wood",
+                  "More wood",
+                  "Dry wood"
+                ]
+              },
+              {
+                question: "What kind of floor?",
+                answers: [
+                  "Wood flooring",
+                  "Hardwood floor",
+                  "Wood planks"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit20",
+        words: [
+          {
+            word: "achieve",
+            phonetic: "/əˈtʃiːv/",
+            examples: [
+              "She worked hard to achieve her goals",
+              "They achieved success through determination and patience",
+              "He finally achieved his dream of traveling",
+              "What do you hope to achieve today",
+              "The team achieved remarkable results this year",
+              "You can achieve anything you set your mind to",
+              "She achieved the highest score in class",
+              "We need to achieve better results next time",
+              "He achieved fame at a very young age",
+              "They achieved peace after many years of conflict"
+            ],
+            questions: [
+              {
+                question: "What did you accomplish?",
+                answers: [
+                  "I achieved my goal",
+                  "Achieved great success",
+                  "Achieved nothing yet"
+                ]
+              },
+              {
+                question: "What's your ambition?",
+                answers: [
+                  "To achieve greatness",
+                  "Achieve my dreams",
+                  "Achieve something meaningful"
+                ]
+              },
+              {
+                question: "How did they do?",
+                answers: [
+                  "They achieved excellence",
+                  "Achieved their target",
+                  "Achieved remarkable things"
+                ]
+              }
+            ]
+          },
+          {
+            word: "advise",
+            phonetic: "/ədˈvaɪz/",
+            examples: [
+              "I would advise you to be careful",
+              "The doctor advised him to rest more",
+              "She advised me against making that decision",
+              "Financial experts advise saving money regularly",
+              "What would you advise me to do",
+              "I advise that we wait until tomorrow",
+              "The lawyer advised her to remain silent",
+              "Teachers advise students on career choices",
+              "I strongly advise you to reconsider this",
+              "He advised them of the potential risks"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "I'd advise caution",
+                  "I advise waiting",
+                  "Advise you to try"
+                ]
+              },
+              {
+                question: "What did the doctor say?",
+                answers: [
+                  "He advised rest",
+                  "Advised me to exercise",
+                  "Advised against it"
+                ]
+              },
+              {
+                question: "What's your recommendation?",
+                answers: [
+                  "I advise you go",
+                  "Would advise differently",
+                  "Advise careful planning"
+                ]
+              }
+            ]
+          },
+          {
+            word: "already",
+            phonetic: "/ɔːlˈredi/",
+            examples: [
+              "I've already finished my homework tonight",
+              "They've already left for the airport",
+              "Has she already eaten dinner without us",
+              "We already know the answer to that",
+              "He's already seen that movie three times",
+              "It's already too late to change plans",
+              "I already told you this information yesterday",
+              "The train has already departed the station",
+              "Are you already tired from the walk",
+              "We've already been through this situation before"
+            ],
+            questions: [
+              {
+                question: "Have you eaten?",
+                answers: [
+                  "Yes, I already ate",
+                  "Already finished eating",
+                  "Not already"
+                ]
+              },
+              {
+                question: "Should I tell him?",
+                answers: [
+                  "He already knows",
+                  "I already told him",
+                  "Already aware"
+                ]
+              },
+              {
+                question: "Is it time to go?",
+                answers: [
+                  "They already left",
+                  "Already too late",
+                  "Already gone"
+                ]
+              }
+            ]
+          },
+          {
+            word: "basic",
+            phonetic: "/ˈbeɪsɪk/",
+            examples: [
+              "These are the basic rules everyone follows",
+              "She has a basic understanding of Spanish",
+              "Basic skills are essential for this job",
+              "The hotel offers basic amenities only",
+              "He lacks even basic common sense",
+              "We need to cover the basic concepts first",
+              "Basic human rights must be protected always",
+              "The basic salary is quite low here",
+              "Let's start with the basic principles",
+              "Food and water are basic human needs"
+            ],
+            questions: [
+              {
+                question: "What level is the course?",
+                answers: [
+                  "Just basic level",
+                  "Very basic",
+                  "Beyond basic"
+                ]
+              },
+              {
+                question: "What do you need?",
+                answers: [
+                  "Basic supplies only",
+                  "The basic necessities",
+                  "Basic equipment"
+                ]
+              },
+              {
+                question: "What should we learn first?",
+                answers: [
+                  "The basic skills",
+                  "Basic concepts",
+                  "Basic principles"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bit",
+            phonetic: "/bɪt/",
+            examples: [
+              "Can I have a little bit of cake",
+              "Wait just a bit longer please",
+              "She's feeling a bit tired today",
+              "The dog bit him on the hand",
+              "Every bit of information helps us greatly",
+              "It's a bit cold outside right now",
+              "I'm a bit confused about this matter",
+              "He bit off more than he could chew",
+              "Not a bit of it is true actually",
+              "She's quite a bit taller than before"
+            ],
+            questions: [
+              {
+                question: "How much do you want?",
+                answers: [
+                  "Just a bit please",
+                  "A little bit",
+                  "Quite a bit"
+                ]
+              },
+              {
+                question: "How are you feeling?",
+                answers: [
+                  "A bit tired",
+                  "Bit under weather",
+                  "Not a bit"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "The dog bit me",
+                  "Bit my tongue",
+                  "Bit too hard"
+                ]
+              }
+            ]
+          },
+          {
+            word: "consider",
+            phonetic: "/kənˈsɪdər/",
+            examples: [
+              "Please consider my offer very carefully",
+              "I'm considering moving to another city",
+              "Have you considered all the options available",
+              "They consider him to be the best",
+              "Consider yourself lucky to have this chance",
+              "We need to consider the consequences first",
+              "She's considering a career change now",
+              "The judge will consider the evidence carefully",
+              "I consider her my best friend always",
+              "All things considered it went well overall"
+            ],
+            questions: [
+              {
+                question: "What do you think?",
+                answers: [
+                  "I'll consider it",
+                  "Worth considering",
+                  "Never considered"
+                ]
+              },
+              {
+                question: "What are your plans?",
+                answers: [
+                  "Considering my options",
+                  "I'm considering leaving",
+                  "Haven't considered"
+                ]
+              },
+              {
+                question: "How do you view him?",
+                answers: [
+                  "I consider him talented",
+                  "Consider him family",
+                  "Don't consider him"
+                ]
+              }
+            ]
+          },
+          {
+            word: "destroy",
+            phonetic: "/dɪˈstrɔɪ/",
+            examples: [
+              "The fire destroyed the entire building completely",
+              "War destroys lives and families tragically",
+              "Don't let anger destroy your relationships",
+              "The storm destroyed many homes last night",
+              "They destroyed all the evidence quickly",
+              "Pollution is destroying our planet gradually",
+              "One mistake could destroy his career",
+              "The virus destroyed all my computer files",
+              "Drought destroyed the crops this year",
+              "Time destroys everything eventually unfortunately"
+            ],
+            questions: [
+              {
+                question: "What happened to the building?",
+                answers: [
+                  "Fire destroyed it",
+                  "Completely destroyed",
+                  "Was destroyed yesterday"
+                ]
+              },
+              {
+                question: "What's the environmental concern?",
+                answers: [
+                  "We're destroying nature",
+                  "Destroying the planet",
+                  "Being destroyed"
+                ]
+              },
+              {
+                question: "What did they do?",
+                answers: [
+                  "They destroyed evidence",
+                  "Destroyed everything",
+                  "Tried to destroy"
+                ]
+              }
+            ]
+          },
+          {
+            word: "entertain",
+            phonetic: "/ˌentərˈteɪn/",
+            examples: [
+              "The clown entertained the children at party",
+              "She knows how to entertain guests well",
+              "The show will entertain audiences of all ages",
+              "He entertained us with funny stories",
+              "I won't even entertain that ridiculous idea",
+              "The movie entertained and educated viewers",
+              "Musicians entertain people for a living",
+              "We entertained friends over the weekend",
+              "The comedian entertained the crowd brilliantly",
+              "She entertained doubts about the plan"
+            ],
+            questions: [
+              {
+                question: "What does he do?",
+                answers: [
+                  "He entertains people",
+                  "Entertains for living",
+                  "Born to entertain"
+                ]
+              },
+              {
+                question: "How was the show?",
+                answers: [
+                  "Very entertaining",
+                  "Failed to entertain",
+                  "Entertained everyone"
+                ]
+              },
+              {
+                question: "Will you consider it?",
+                answers: [
+                  "Won't entertain the idea",
+                  "Can't entertain that",
+                  "Might entertain it"
+                ]
+              }
+            ]
+          },
+          {
+            word: "extra",
+            phonetic: "/ˈekstrə/",
+            examples: [
+              "Do you have any extra pens available",
+              "She worked extra hours this week",
+              "We ordered extra food just in case",
+              "The hotel charged extra for breakfast",
+              "He went the extra mile to help",
+              "Extra caution is needed in this situation",
+              "I have an extra ticket if interested",
+              "The extra weight makes it harder to carry",
+              "They need extra time to finish properly",
+              "There's no extra charge for this service"
+            ],
+            questions: [
+              {
+                question: "Do you have more?",
+                answers: [
+                  "I have extra",
+                  "No extra available",
+                  "Some extra here"
+                ]
+              },
+              {
+                question: "How much will it cost?",
+                answers: [
+                  "Extra five dollars",
+                  "No extra charge",
+                  "Costs extra"
+                ]
+              },
+              {
+                question: "What do we need?",
+                answers: [
+                  "Need extra time",
+                  "Extra help needed",
+                  "Some extra supplies"
+                ]
+              }
+            ]
+          },
+          {
+            word: "goal",
+            phonetic: "/ɡoʊl/",
+            examples: [
+              "Her goal is to become a doctor",
+              "They scored three goals in the match",
+              "What's your goal for this year",
+              "He achieved his goal through hard work",
+              "Setting goals helps you stay focused",
+              "The team's goal is to win championship",
+              "She's working toward her career goals",
+              "My main goal is to finish school",
+              "The goal of education is learning",
+              "They reached their fundraising goal early"
+            ],
+            questions: [
+              {
+                question: "What do you want to achieve?",
+                answers: [
+                  "That's my goal",
+                  "My main goal",
+                  "Ultimate goal"
+                ]
+              },
+              {
+                question: "What happened in the game?",
+                answers: [
+                  "They scored a goal",
+                  "Three goals total",
+                  "Winning goal"
+                ]
+              },
+              {
+                question: "What are you working toward?",
+                answers: [
+                  "My career goals",
+                  "Toward my goal",
+                  "Set new goals"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lie",
+            phonetic: "/laɪ/",
+            examples: [
+              "Don't lie to me tell the truth",
+              "He lied about where he was yesterday",
+              "The cat likes to lie in the sun",
+              "She's lying on the couch resting now",
+              "The answer lies in careful planning",
+              "The city lies to the north of here",
+              "He caught her in a lie yesterday",
+              "The book is lying on the table",
+              "Truth and lies are opposites always",
+              "Let sleeping dogs lie they say"
+            ],
+            questions: [
+              {
+                question: "Is he telling the truth?",
+                answers: [
+                  "No, he's lying",
+                  "That's a lie",
+                  "Never lies"
+                ]
+              },
+              {
+                question: "Where is she?",
+                answers: [
+                  "Lying down upstairs",
+                  "Lying on bed",
+                  "Lying in sun"
+                ]
+              },
+              {
+                question: "Where's the solution?",
+                answers: [
+                  "The answer lies here",
+                  "Lies in planning",
+                  "Truth lies within"
+                ]
+              }
+            ]
+          },
+          {
+            word: "meat",
+            phonetic: "/miːt/",
+            examples: [
+              "I don't eat red meat anymore",
+              "The meat needs to cook longer",
+              "She's a vegetarian doesn't eat meat",
+              "Fresh meat is sold at the butcher",
+              "The meat was tender and delicious",
+              "White meat is healthier than red",
+              "They serve meat and vegetarian options",
+              "The meat section is in the back",
+              "Processed meat should be eaten sparingly",
+              "The meat of the argument is simple"
+            ],
+            questions: [
+              {
+                question: "What's for dinner?",
+                answers: [
+                  "We're having meat",
+                  "Chicken meat",
+                  "No meat tonight"
+                ]
+              },
+              {
+                question: "What do you eat?",
+                answers: [
+                  "I eat meat sometimes",
+                  "Don't eat meat",
+                  "All kinds of meat"
+                ]
+              },
+              {
+                question: "What's the main point?",
+                answers: [
+                  "The meat of matter",
+                  "Get to the meat",
+                  "Real meat of issue"
+                ]
+              }
+            ]
+          },
+          {
+            word: "opinion",
+            phonetic: "/əˈpɪnjən/",
+            examples: [
+              "What's your opinion on this matter",
+              "In my opinion this is the best choice",
+              "Everyone is entitled to their own opinion",
+              "Public opinion has changed dramatically recently",
+              "He has strong opinions about politics",
+              "She asked for my honest opinion",
+              "Opinions differ on this controversial subject",
+              "That's just your opinion not a fact",
+              "I value your opinion very much",
+              "The doctor gave a second medical opinion"
+            ],
+            questions: [
+              {
+                question: "What do you think?",
+                answers: [
+                  "In my opinion",
+                  "My opinion is",
+                  "No strong opinion"
+                ]
+              },
+              {
+                question: "Does everyone agree?",
+                answers: [
+                  "Opinions differ",
+                  "Different opinions",
+                  "Same opinion"
+                ]
+              },
+              {
+                question: "Should I ask someone else?",
+                answers: [
+                  "Get another opinion",
+                  "Second opinion",
+                  "Ask their opinion"
+                ]
+              }
+            ]
+          },
+          {
+            word: "real",
+            phonetic: "/riːl/",
+            examples: [
+              "Is this story real or made up",
+              "She's a real friend who truly cares",
+              "That was a real surprise for everyone",
+              "Real diamonds are very expensive to buy",
+              "Get real and face the facts please",
+              "The real reason is something else entirely",
+              "This is real leather not fake material",
+              "Real life is different from movies",
+              "He showed his real feelings finally",
+              "The real problem lies elsewhere actually"
+            ],
+            questions: [
+              {
+                question: "Is it genuine?",
+                answers: [
+                  "Yes, it's real",
+                  "Not real",
+                  "Real thing"
+                ]
+              },
+              {
+                question: "What's the truth?",
+                answers: [
+                  "The real reason",
+                  "Real story",
+                  "Real facts"
+                ]
+              },
+              {
+                question: "What kind of friend?",
+                answers: [
+                  "A real friend",
+                  "Real friendship",
+                  "Not real"
+                ]
+              }
+            ]
+          },
+          {
+            word: "reflect",
+            phonetic: "/rɪˈflekt/",
+            examples: [
+              "The mirror reflects your image clearly",
+              "Take time to reflect on your decisions",
+              "His actions reflect his true character",
+              "The lake reflects the mountains beautifully",
+              "This reflects badly on the company",
+              "She reflected on the past year thoughtfully",
+              "The results reflect our hard work",
+              "The essay should reflect your own views",
+              "Light reflects off smooth surfaces easily",
+              "Her face reflected sadness and disappointment"
+            ],
+            questions: [
+              {
+                question: "What does the water do?",
+                answers: [
+                  "It reflects the sky",
+                  "Reflects light",
+                  "Reflects everything"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Take time to reflect",
+                  "Reflect on it",
+                  "Reflect carefully"
+                ]
+              },
+              {
+                question: "What does this show?",
+                answers: [
+                  "It reflects quality",
+                  "Reflects his character",
+                  "Reflects the truth"
+                ]
+              }
+            ]
+          },
+          {
+            word: "regard",
+            phonetic: "/rɪˈɡɑːrd/",
+            examples: [
+              "I regard him as my best friend",
+              "With regard to your question I agree",
+              "She's highly regarded in her field",
+              "Please give my regards to your family",
+              "They regard safety as top priority",
+              "In this regard we must be careful",
+              "He has no regard for other people",
+              "The decision was made without regard to cost",
+              "I regard this as a serious matter",
+              "Send them my warmest regards please"
+            ],
+            questions: [
+              {
+                question: "How do you view him?",
+                answers: [
+                  "I regard him highly",
+                  "Regard him as friend",
+                  "Don't regard him"
+                ]
+              },
+              {
+                question: "What about the rules?",
+                answers: [
+                  "No regard for rules",
+                  "With regard to that",
+                  "In that regard"
+                ]
+              },
+              {
+                question: "Any message?",
+                answers: [
+                  "Send my regards",
+                  "Give them regards",
+                  "Best regards"
+                ]
+              }
+            ]
+          },
+          {
+            word: "serve",
+            phonetic: "/sɜːrv/",
+            examples: [
+              "The restaurant serves excellent food daily",
+              "He served in the army for years",
+              "This will serve our purpose perfectly well",
+              "She serves on several important committees",
+              "Dinner will be served at seven o'clock",
+              "The recipe serves six people easily",
+              "He served twenty years in prison",
+              "The store serves the local community well",
+              "It's your turn to serve in tennis",
+              "They serve breakfast until eleven o'clock"
+            ],
+            questions: [
+              {
+                question: "What does the restaurant do?",
+                answers: [
+                  "They serve Italian food",
+                  "Serves lunch daily",
+                  "Serve great meals"
+                ]
+              },
+              {
+                question: "When is dinner?",
+                answers: [
+                  "We serve at seven",
+                  "Dinner is served",
+                  "Will serve soon"
+                ]
+              },
+              {
+                question: "What's his background?",
+                answers: [
+                  "He served overseas",
+                  "Served the country",
+                  "Served with honor"
+                ]
+              }
+            ]
+          },
+          {
+            word: "vegetable",
+            phonetic: "/ˈvedʒtəbl/",
+            examples: [
+              "Eat your vegetables they're good for you",
+              "She grows fresh vegetables in her garden",
+              "The vegetable soup was delicious and healthy",
+              "Green vegetables are especially nutritious always",
+              "He doesn't like eating vegetables at all",
+              "The vegetable section is near the entrance",
+              "Fresh vegetables taste better than frozen ones",
+              "We need to buy more vegetables today",
+              "Vegetable prices have increased recently",
+              "A vegetable garden requires regular care"
+            ],
+            questions: [
+              {
+                question: "What should I eat more?",
+                answers: [
+                  "More vegetables",
+                  "Fresh vegetables",
+                  "Green vegetables"
+                ]
+              },
+              {
+                question: "What's in the soup?",
+                answers: [
+                  "Lots of vegetables",
+                  "Mixed vegetables",
+                  "Various vegetables"
+                ]
+              },
+              {
+                question: "What do you grow?",
+                answers: [
+                  "I grow vegetables",
+                  "Organic vegetables",
+                  "Different vegetables"
+                ]
+              }
+            ]
+          },
+          {
+            word: "war",
+            phonetic: "/wɔːr/",
+            examples: [
+              "War brings terrible suffering to everyone",
+              "They declared war on the enemy nation",
+              "The war lasted for five long years",
+              "Veterans fought bravely in the war",
+              "War and peace are eternal opposites",
+              "The war ended with a peace treaty",
+              "Civil war divided the country deeply",
+              "The cost of war is immeasurable",
+              "He was wounded in the war badly",
+              "We must prevent war at all costs"
+            ],
+            questions: [
+              {
+                question: "What's happening between the countries?",
+                answers: [
+                  "They're at war",
+                  "War has started",
+                  "Avoiding war"
+                ]
+              },
+              {
+                question: "What did he experience?",
+                answers: [
+                  "He survived the war",
+                  "Fought in war",
+                  "War veteran"
+                ]
+              },
+              {
+                question: "What should we prevent?",
+                answers: [
+                  "Prevent war",
+                  "Stop the war",
+                  "End war"
+                ]
+              }
+            ]
+          },
+          {
+            word: "worth",
+            phonetic: "/wɜːrθ/",
+            examples: [
+              "This painting is worth millions of dollars",
+              "Is it worth the time and effort",
+              "The book is definitely worth reading carefully",
+              "She proved her worth to the company",
+              "It's not worth getting upset over this",
+              "That advice was worth its weight in gold",
+              "The experience was worth every penny spent",
+              "He's worth more than he thinks",
+              "What's it worth to you exactly",
+              "The trip was well worth the money"
+            ],
+            questions: [
+              {
+                question: "Should I buy it?",
+                answers: [
+                  "It's worth it",
+                  "Not worth it",
+                  "Definitely worth"
+                ]
+              },
+              {
+                question: "How much is it?",
+                answers: [
+                  "Worth a fortune",
+                  "Worth millions",
+                  "Worth nothing"
+                ]
+              },
+              {
+                question: "Should I try?",
+                answers: [
+                  "Worth a try",
+                  "Not worth trying",
+                  "Worth the effort"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit21",
+        words: [
+          {
+            word: "appear",
+            phonetic: "/əˈpɪr/",
+            examples: [
+              "Dark clouds appear in the sky above",
+              "She appears to be very tired today",
+              "A strange figure appeared in the doorway",
+              "The sun will appear after the rain",
+              "He appears confident but he's actually nervous",
+              "New evidence appeared during the trial yesterday",
+              "Problems appear when you least expect them",
+              "The movie star appeared on television last night",
+              "It appears that we've made a mistake",
+              "Symptoms usually appear within twenty four hours"
+            ],
+            questions: [
+              {
+                question: "What's happening in the sky?",
+                answers: [
+                  "Clouds are appearing",
+                  "Stars appear now",
+                  "Rainbow appeared"
+                ]
+              },
+              {
+                question: "How does she seem?",
+                answers: [
+                  "She appears happy",
+                  "Appears to be sick",
+                  "Appears confused"
+                ]
+              },
+              {
+                question: "What did you notice?",
+                answers: [
+                  "A problem appeared",
+                  "Something appeared",
+                  "Nothing appeared"
+                ]
+              }
+            ]
+          },
+          {
+            word: "base",
+            phonetic: "/beɪs/",
+            examples: [
+              "The company's base is in New York",
+              "They returned to base after the mission",
+              "The lamp has a heavy marble base",
+              "We need to base our decision on facts",
+              "The military base is heavily guarded always",
+              "The recipe is based on traditional methods",
+              "His theory has no solid base whatsoever",
+              "The mountain base is covered with trees",
+              "She touched base with her team today",
+              "The database contains all customer information"
+            ],
+            questions: [
+              {
+                question: "Where is your headquarters?",
+                answers: [
+                  "Our base is downtown",
+                  "Home base here",
+                  "Main base there"
+                ]
+              },
+              {
+                question: "What's your reasoning?",
+                answers: [
+                  "I base it on experience",
+                  "Based on facts",
+                  "No base for that"
+                ]
+              },
+              {
+                question: "Where did they go?",
+                answers: [
+                  "Back to base",
+                  "Returned to base",
+                  "Left the base"
+                ]
+              }
+            ]
+          },
+          {
+            word: "brain",
+            phonetic: "/breɪn/",
+            examples: [
+              "The human brain is incredibly complex",
+              "Use your brain and think carefully",
+              "She has a brilliant brain for mathematics",
+              "Brain damage can be very serious",
+              "He's the brains behind the operation",
+              "Reading exercises your brain regularly",
+              "The brain controls all body functions",
+              "I need to pick your brain about this",
+              "Brain surgery requires extreme precision",
+              "She's got beauty and brains both"
+            ],
+            questions: [
+              {
+                question: "What controls our body?",
+                answers: [
+                  "The brain does",
+                  "Our brain controls",
+                  "Brain and nerves"
+                ]
+              },
+              {
+                question: "What should I use?",
+                answers: [
+                  "Use your brain",
+                  "Think with brain",
+                  "Brain power"
+                ]
+              },
+              {
+                question: "Who's the smart one?",
+                answers: [
+                  "She's the brains",
+                  "He has brains",
+                  "Real brain"
+                ]
+              }
+            ]
+          },
+          {
+            word: "career",
+            phonetic: "/kəˈrɪr/",
+            examples: [
+              "She has a successful career in medicine",
+              "He's considering a career change now",
+              "What career path are you interested in",
+              "Her career spans over thirty years",
+              "Building a career takes time and effort",
+              "The scandal ended his political career",
+              "Career opportunities are limited here unfortunately",
+              "She devoted her career to helping others",
+              "Career counseling helps students choose wisely",
+              "His career took off after that breakthrough"
+            ],
+            questions: [
+              {
+                question: "What do you do professionally?",
+                answers: [
+                  "My career is teaching",
+                  "Started a new career",
+                  "Career in finance"
+                ]
+              },
+              {
+                question: "What are you considering?",
+                answers: [
+                  "A career change",
+                  "Different career path",
+                  "Career options"
+                ]
+              },
+              {
+                question: "How's work going?",
+                answers: [
+                  "Career is going well",
+                  "Career advancing",
+                  "Career stalled"
+                ]
+              }
+            ]
+          },
+          {
+            word: "clerk",
+            phonetic: "/klɜːrk/",
+            examples: [
+              "The store clerk helped me find items",
+              "She works as a clerk at the bank",
+              "The postal clerk weighed the package carefully",
+              "The clerk processed my payment quickly",
+              "Hotel clerks work at the front desk",
+              "The law clerk assists the judge daily",
+              "He started as a clerk and became manager",
+              "The clerk stamped the official documents",
+              "Office clerks handle administrative tasks",
+              "The sales clerk was very friendly today"
+            ],
+            questions: [
+              {
+                question: "Who helped you?",
+                answers: [
+                  "The store clerk",
+                  "A helpful clerk",
+                  "Friendly clerk"
+                ]
+              },
+              {
+                question: "What's her job?",
+                answers: [
+                  "She's a clerk",
+                  "Works as clerk",
+                  "Office clerk"
+                ]
+              },
+              {
+                question: "Who do I ask?",
+                answers: [
+                  "Ask the clerk",
+                  "The clerk knows",
+                  "Front desk clerk"
+                ]
+              }
+            ]
+          },
+          {
+            word: "effort",
+            phonetic: "/ˈefərt/",
+            examples: [
+              "Your effort will pay off eventually",
+              "She made an effort to be friendly",
+              "It takes effort to learn something new",
+              "The team effort led to success",
+              "He puts a lot of effort into work",
+              "With little effort she solved the problem",
+              "The effort was worth it in the end",
+              "They made every effort to help us",
+              "Minimum effort produces minimum results always",
+              "The rescue effort continued all night long"
+            ],
+            questions: [
+              {
+                question: "Why are you tired?",
+                answers: [
+                  "Too much effort",
+                  "Great effort required",
+                  "Little effort needed"
+                ]
+              },
+              {
+                question: "What does it take?",
+                answers: [
+                  "Requires effort",
+                  "Lots of effort",
+                  "Some effort"
+                ]
+              },
+              {
+                question: "Did they try hard?",
+                answers: [
+                  "Made great effort",
+                  "No effort at all",
+                  "Team effort"
+                ]
+              }
+            ]
+          },
+          {
+            word: "enter",
+            phonetic: "/ˈentər/",
+            examples: [
+              "Please enter through the front door",
+              "She entered the room quietly and carefully",
+              "You need a password to enter here",
+              "The idea never entered my mind before",
+              "He entered the competition and won first",
+              "Enter your name and address on the form",
+              "The bullet entered through the window",
+              "Students must enter by eight o'clock",
+              "He entered politics at a young age",
+              "Press enter to continue to the next page"
+            ],
+            questions: [
+              {
+                question: "How do I get in?",
+                answers: [
+                  "Enter through here",
+                  "Enter the building",
+                  "Can't enter yet"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Enter your password",
+                  "Enter the code",
+                  "Press enter"
+                ]
+              },
+              {
+                question: "Are you joining?",
+                answers: [
+                  "I'll enter the contest",
+                  "Decided to enter",
+                  "Won't enter"
+                ]
+              }
+            ]
+          },
+          {
+            word: "excellent",
+            phonetic: "/ˈeksələnt/",
+            examples: [
+              "That's an excellent idea let's do it",
+              "She's an excellent teacher everyone agrees",
+              "The food here is excellent quality always",
+              "He did an excellent job on the project",
+              "Excellent work keep it up everyone",
+              "The weather is excellent for hiking today",
+              "She graduated with excellent grades",
+              "This is an excellent opportunity for you",
+              "The service was excellent from start to finish",
+              "You're in excellent health for your age"
+            ],
+            questions: [
+              {
+                question: "How was the performance?",
+                answers: [
+                  "It was excellent",
+                  "Absolutely excellent",
+                  "Not excellent"
+                ]
+              },
+              {
+                question: "What do you think?",
+                answers: [
+                  "Excellent choice",
+                  "Excellent idea",
+                  "Looks excellent"
+                ]
+              },
+              {
+                question: "How's the quality?",
+                answers: [
+                  "Excellent quality",
+                  "In excellent condition",
+                  "Excellent standards"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hero",
+            phonetic: "/ˈhɪroʊ/",
+            examples: [
+              "He's a real hero who saved lives",
+              "Superman is a famous fictional hero",
+              "The firefighter was hailed as a hero",
+              "Every story needs a hero character",
+              "She's my hero I really admire her",
+              "The war hero received many medals",
+              "Local hero helps community members daily",
+              "He became a hero overnight after rescue",
+              "The hero defeated the villain in battle",
+              "Unsung heroes work behind the scenes quietly"
+            ],
+            questions: [
+              {
+                question: "Who saved them?",
+                answers: [
+                  "A local hero",
+                  "He's a hero",
+                  "Real hero"
+                ]
+              },
+              {
+                question: "Who's your role model?",
+                answers: [
+                  "She's my hero",
+                  "Childhood hero",
+                  "Sports hero"
+                ]
+              },
+              {
+                question: "Who's the main character?",
+                answers: [
+                  "The hero of story",
+                  "Young hero",
+                  "Brave hero"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hurry",
+            phonetic: "/ˈhɜːri/",
+            examples: [
+              "Hurry up or we'll be late",
+              "There's no need to hurry at all",
+              "She left in a hurry this morning",
+              "Don't hurry me I need time",
+              "We're in a hurry to catch train",
+              "He hurried down the stairs quickly",
+              "Hurry and finish your breakfast now",
+              "They hurried to the hospital immediately",
+              "I'm in no hurry to decide this",
+              "The children hurried home before dark"
+            ],
+            questions: [
+              {
+                question: "Are we late?",
+                answers: [
+                  "Yes, hurry up",
+                  "No hurry",
+                  "We must hurry"
+                ]
+              },
+              {
+                question: "Why did she leave?",
+                answers: [
+                  "She was in hurry",
+                  "Had to hurry",
+                  "Left in hurry"
+                ]
+              },
+              {
+                question: "Should I rush?",
+                answers: [
+                  "Don't hurry",
+                  "No need to hurry",
+                  "Please hurry"
+                ]
+              }
+            ]
+          },
+          {
+            word: "inform",
+            phonetic: "/ɪnˈfɔːrm/",
+            examples: [
+              "Please inform me of any changes immediately",
+              "I regret to inform you of bad news",
+              "They failed to inform us in time",
+              "We will inform you when it's ready",
+              "She informed the police about the incident",
+              "Keep me informed of your progress please",
+              "The teacher informed parents about the trip",
+              "I'm pleased to inform you of acceptance",
+              "They should inform customers about delays",
+              "He informed his boss about the problem"
+            ],
+            questions: [
+              {
+                question: "Did they tell you?",
+                answers: [
+                  "They informed me",
+                  "Didn't inform anyone",
+                  "Failed to inform"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Inform them immediately",
+                  "Keep me informed",
+                  "Need to inform"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She informed authorities",
+                  "Informed the manager",
+                  "Informed everyone"
+                ]
+              }
+            ]
+          },
+          {
+            word: "later",
+            phonetic: "/ˈleɪtər/",
+            examples: [
+              "I'll call you later this evening",
+              "See you later at the meeting",
+              "We can discuss this later tomorrow",
+              "Later that day something happened unexpectedly",
+              "She arrived ten minutes later than expected",
+              "Sooner or later you'll understand everything",
+              "Later in life he changed his views",
+              "I'll do it later when I'm free",
+              "Later developments proved him right",
+              "Save that question for later please"
+            ],
+            questions: [
+              {
+                question: "When will you do it?",
+                answers: [
+                  "I'll do it later",
+                  "Maybe later",
+                  "Later today"
+                ]
+              },
+              {
+                question: "When can we talk?",
+                answers: [
+                  "Talk to you later",
+                  "See you later",
+                  "Call me later"
+                ]
+              },
+              {
+                question: "What happened next?",
+                answers: [
+                  "Later that day",
+                  "A week later",
+                  "Much later"
+                ]
+              }
+            ]
+          },
+          {
+            word: "leave",
+            phonetic: "/liːv/",
+            examples: [
+              "What time do you leave for work",
+              "Please leave a message after the beep",
+              "Don't leave your bag unattended here",
+              "She decided to leave the company soon",
+              "Leave me alone I need some space",
+              "The train leaves at nine o'clock sharp",
+              "He left without saying goodbye yesterday",
+              "Leave some food for your brother please",
+              "I have two weeks of leave remaining",
+              "They left early to avoid the traffic"
+            ],
+            questions: [
+              {
+                question: "When are you going?",
+                answers: [
+                  "I leave tomorrow",
+                  "Leaving soon",
+                  "Already left"
+                ]
+              },
+              {
+                question: "What should I do with this?",
+                answers: [
+                  "Just leave it there",
+                  "Leave it alone",
+                  "Don't leave it"
+                ]
+              },
+              {
+                question: "Are you taking vacation?",
+                answers: [
+                  "I'm on leave",
+                  "Taking leave",
+                  "Annual leave"
+                ]
+              }
+            ]
+          },
+          {
+            word: "locate",
+            phonetic: "/ˈloʊkeɪt/",
+            examples: [
+              "Can you help me locate my keys",
+              "The store is located downtown near park",
+              "They finally located the missing child safely",
+              "We need to locate the source of problem",
+              "The hospital is conveniently located here",
+              "Police are trying to locate the suspect",
+              "I can't locate the file on computer",
+              "The restaurant is located on Main Street",
+              "Satellites help locate positions accurately",
+              "They located the leak in the pipe"
+            ],
+            questions: [
+              {
+                question: "Where is it?",
+                answers: [
+                  "Can't locate it",
+                  "Located nearby",
+                  "Need to locate"
+                ]
+              },
+              {
+                question: "Did they find him?",
+                answers: [
+                  "They located him",
+                  "Unable to locate",
+                  "Finally located"
+                ]
+              },
+              {
+                question: "Where's the office?",
+                answers: [
+                  "Located downtown",
+                  "Located on fifth floor",
+                  "Centrally located"
+                ]
+              }
+            ]
+          },
+          {
+            word: "nurse",
+            phonetic: "/nɜːrs/",
+            examples: [
+              "The nurse checked my blood pressure carefully",
+              "She works as a nurse at hospital",
+              "Nurses provide essential care to patients daily",
+              "The nurse gave him his medication on time",
+              "He's studying to become a nurse",
+              "The nurse was very kind and gentle",
+              "School nurses help sick students immediately",
+              "The nurse took excellent care of grandmother",
+              "Male nurses are becoming more common now",
+              "She nursed him back to health slowly"
+            ],
+            questions: [
+              {
+                question: "Who helped you?",
+                answers: [
+                  "The nurse did",
+                  "A kind nurse",
+                  "My nurse"
+                ]
+              },
+              {
+                question: "What's her profession?",
+                answers: [
+                  "She's a nurse",
+                  "Works as nurse",
+                  "Registered nurse"
+                ]
+              },
+              {
+                question: "Who's on duty?",
+                answers: [
+                  "The night nurse",
+                  "Nurse on call",
+                  "Head nurse"
+                ]
+              }
+            ]
+          },
+          {
+            word: "operation",
+            phonetic: "/ˌɑːpəˈreɪʃn/",
+            examples: [
+              "The operation was successful and smooth",
+              "He needs an operation on his knee",
+              "The business operation runs twenty four hours",
+              "Military operations began at dawn today",
+              "She's recovering from a major operation",
+              "The operation of this machine is simple",
+              "Police conducted an undercover operation successfully",
+              "The rescue operation saved many lives",
+              "Company operations were suspended temporarily",
+              "Understanding the operation takes time and practice"
+            ],
+            questions: [
+              {
+                question: "What does he need?",
+                answers: [
+                  "He needs an operation",
+                  "Heart operation",
+                  "Emergency operation"
+                ]
+              },
+              {
+                question: "How's the business?",
+                answers: [
+                  "Operation is running smoothly",
+                  "Full operation now",
+                  "Operations expanding"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Police operation succeeded",
+                  "Rescue operation",
+                  "Military operation"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pain",
+            phonetic: "/peɪn/",
+            examples: [
+              "I have a terrible pain in my back",
+              "The pain will go away soon hopefully",
+              "She's in a lot of pain right now",
+              "No pain no gain they always say",
+              "The medicine relieves pain effectively",
+              "He felt a sharp pain in his chest",
+              "Emotional pain can hurt more than physical",
+              "The pain was unbearable at times",
+              "Time heals all pain eventually",
+              "She took painkillers for the headache"
+            ],
+            questions: [
+              {
+                question: "What's wrong?",
+                answers: [
+                  "I'm in pain",
+                  "Severe pain",
+                  "No pain"
+                ]
+              },
+              {
+                question: "Where does it hurt?",
+                answers: [
+                  "Pain in my leg",
+                  "Sharp pain here",
+                  "Pain everywhere"
+                ]
+              },
+              {
+                question: "How do you feel?",
+                answers: [
+                  "The pain is terrible",
+                  "Pain is gone",
+                  "Less pain now"
+                ]
+              }
+            ]
+          },
+          {
+            word: "refuse",
+            phonetic: "/rɪˈfjuːz/",
+            examples: [
+              "She refused to answer the question firmly",
+              "I refuse to believe that story",
+              "He refused the job offer surprisingly",
+              "They can't refuse you entry here",
+              "She refused his invitation politely",
+              "I refuse to give up on my dreams",
+              "The bank refused his loan application",
+              "He refused to admit he was wrong",
+              "They refuse to negotiate with terrorists",
+              "She refused help from anyone stubbornly"
+            ],
+            questions: [
+              {
+                question: "Will you do it?",
+                answers: [
+                  "I refuse to do it",
+                  "Absolutely refuse",
+                  "Can't refuse"
+                ]
+              },
+              {
+                question: "What did she say?",
+                answers: [
+                  "She refused",
+                  "Refused the offer",
+                  "Refused to go"
+                ]
+              },
+              {
+                question: "Did they accept?",
+                answers: [
+                  "They refused",
+                  "Refused completely",
+                  "Didn't refuse"
+                ]
+              }
+            ]
+          },
+          {
+            word: "though",
+            phonetic: "/ðoʊ/",
+            examples: [
+              "It's difficult though not impossible to do",
+              "Though he tried hard he failed",
+              "She smiled though she was sad inside",
+              "The job pays well even though it's hard",
+              "Though small the apartment is cozy",
+              "I'll come though I'm very tired",
+              "Though it's expensive it's worth it",
+              "He's kind though a bit shy sometimes",
+              "It looks easy though it's actually hard",
+              "I liked the movie though others didn't"
+            ],
+            questions: [
+              {
+                question: "Will you still try?",
+                answers: [
+                  "Yes, though it's difficult",
+                  "I will though",
+                  "Though I doubt it"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Though good it's expensive",
+                  "Nice though small",
+                  "Though talented he's lazy"
+                ]
+              },
+              {
+                question: "Are you coming?",
+                answers: [
+                  "Yes though I'm tired",
+                  "Maybe though",
+                  "Though I shouldn't"
+                ]
+              }
+            ]
+          },
+          {
+            word: "various",
+            phonetic: "/ˈveriəs/",
+            examples: [
+              "We offer various payment options here",
+              "She tried various methods to solve it",
+              "Various people have complained about this issue",
+              "The menu has various vegetarian dishes available",
+              "Various factors contributed to the success",
+              "They come from various countries around world",
+              "He has various reasons for leaving now",
+              "Various studies support this conclusion strongly",
+              "The store sells various types of bread",
+              "Various problems need to be addressed soon"
+            ],
+            questions: [
+              {
+                question: "What options are there?",
+                answers: [
+                  "Various options available",
+                  "Various choices",
+                  "Various possibilities"
+                ]
+              },
+              {
+                question: "What did you try?",
+                answers: [
+                  "Various methods",
+                  "Various approaches",
+                  "Various solutions"
+                ]
+              },
+              {
+                question: "Who complained?",
+                answers: [
+                  "Various people did",
+                  "Various customers",
+                  "Various sources"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit22",
+        words: [
+          {
+            word: "actual",
+            phonetic: "/ˈæktʃuəl/",
+            examples: [
+              "What's the actual cost of this item",
+              "The actual results were better than expected",
+              "Is this an actual photograph or edited",
+              "The actual time of arrival was delayed",
+              "His actual age is older than he looks",
+              "The actual situation is much worse unfortunately",
+              "What are the actual facts of the case",
+              "The actual number is higher than reported",
+              "This is the actual location of the event",
+              "In actual fact he never said that"
+            ],
+            questions: [
+              {
+                question: "What's the real price?",
+                answers: [
+                  "The actual cost is higher",
+                  "Actual price varies",
+                  "No actual figure"
+                ]
+              },
+              {
+                question: "Is this true?",
+                answers: [
+                  "The actual truth is different",
+                  "Actual facts show",
+                  "Not actual"
+                ]
+              },
+              {
+                question: "What really happened?",
+                answers: [
+                  "The actual events were",
+                  "Actual situation differs",
+                  "Actual circumstances"
+                ]
+              }
+            ]
+          },
+          {
+            word: "amaze",
+            phonetic: "/əˈmeɪz/",
+            examples: [
+              "Her talent never ceases to amaze me",
+              "The magic trick amazed the entire audience",
+              "I'm amazed by your incredible progress",
+              "The view from the mountain amazed us",
+              "It amazes me how fast children learn",
+              "The discovery amazed scientists around the world",
+              "She was amazed at the beautiful sunset",
+              "The technology continues to amaze everyone daily",
+              "What amazes me most is his dedication",
+              "The results will amaze you I promise"
+            ],
+            questions: [
+              {
+                question: "What do you think?",
+                answers: [
+                  "It amazes me",
+                  "I'm amazed",
+                  "Really amazing"
+                ]
+              },
+              {
+                question: "How did they react?",
+                answers: [
+                  "They were amazed",
+                  "Completely amazed",
+                  "Amazed everyone"
+                ]
+              },
+              {
+                question: "What's your impression?",
+                answers: [
+                  "It's amazing",
+                  "Never ceases to amaze",
+                  "Amazed by it"
+                ]
+              }
+            ]
+          },
+          {
+            word: "charge",
+            phonetic: "/tʃɑːrdʒ/",
+            examples: [
+              "How much do you charge for delivery",
+              "The phone battery needs to charge overnight",
+              "He's in charge of the entire project",
+              "They charge fifty dollars per hour here",
+              "The police will charge him with theft",
+              "There's no charge for children under five",
+              "She took charge of the situation immediately",
+              "The bull charged at the red cape",
+              "Who's in charge here I need to speak",
+              "The lawyer dropped all charges against him"
+            ],
+            questions: [
+              {
+                question: "How much does it cost?",
+                answers: [
+                  "They charge twenty dollars",
+                  "No charge",
+                  "Extra charge"
+                ]
+              },
+              {
+                question: "Who's the boss?",
+                answers: [
+                  "She's in charge",
+                  "He took charge",
+                  "Nobody in charge"
+                ]
+              },
+              {
+                question: "What about the phone?",
+                answers: [
+                  "It needs to charge",
+                  "Battery charging",
+                  "Fully charged"
+                ]
+              }
+            ]
+          },
+          {
+            word: "comfort",
+            phonetic: "/ˈkʌmfərt/",
+            examples: [
+              "This chair provides excellent comfort all day",
+              "She tried to comfort the crying child",
+              "Home is where I find the most comfort",
+              "The hotel offers every modern comfort available",
+              "His words brought comfort to the family",
+              "I take comfort in knowing you're safe",
+              "Comfort food makes me feel better always",
+              "The couch is designed for maximum comfort",
+              "She found comfort in her old friends",
+              "They live in comfort with no financial worries"
+            ],
+            questions: [
+              {
+                question: "How's the furniture?",
+                answers: [
+                  "Very comfortable",
+                  "Provides great comfort",
+                  "No comfort"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She comforted him",
+                  "Tried to comfort",
+                  "Offered comfort"
+                ]
+              },
+              {
+                question: "How do you feel?",
+                answers: [
+                  "I find comfort here",
+                  "Take comfort in it",
+                  "Need comfort"
+                ]
+              }
+            ]
+          },
+          {
+            word: "contact",
+            phonetic: "/ˈkɑːntækt/",
+            examples: [
+              "Please contact me if you need help",
+              "We lost contact with him years ago",
+              "Eye contact is important during conversations",
+              "I'll be in contact with you soon",
+              "She made contact with old friends recently",
+              "Contact your doctor if symptoms worsen",
+              "The contact information is on the website",
+              "They came into contact with the virus",
+              "Keep in contact while you're away please",
+              "The spacecraft made contact with Earth"
+            ],
+            questions: [
+              {
+                question: "How can I reach you?",
+                answers: [
+                  "Contact me by email",
+                  "Here's my contact",
+                  "Stay in contact"
+                ]
+              },
+              {
+                question: "Did you hear from him?",
+                answers: [
+                  "Lost contact completely",
+                  "Made contact yesterday",
+                  "No contact yet"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Contact the office",
+                  "Get in contact",
+                  "Make contact"
+                ]
+              }
+            ]
+          },
+          {
+            word: "customer",
+            phonetic: "/ˈkʌstəmər/",
+            examples: [
+              "The customer is always right they say",
+              "We value every customer who visits us",
+              "Customer service is available twenty four hours",
+              "She's a regular customer at the cafe",
+              "Customer satisfaction is our top priority always",
+              "The store was full of customers today",
+              "Customer complaints are taken seriously here",
+              "He's been a loyal customer for years",
+              "Customer reviews are mostly positive overall",
+              "The customer ordered three items online"
+            ],
+            questions: [
+              {
+                question: "Who came to the store?",
+                answers: [
+                  "Many customers today",
+                  "Regular customers",
+                  "New customers"
+                ]
+              },
+              {
+                question: "What's important to you?",
+                answers: [
+                  "Customer satisfaction",
+                  "Customer service",
+                  "Our customers"
+                ]
+              },
+              {
+                question: "Who called?",
+                answers: [
+                  "A customer called",
+                  "Unhappy customer",
+                  "Potential customer"
+                ]
+              }
+            ]
+          },
+          {
+            word: "deliver",
+            phonetic: "/dɪˈlɪvər/",
+            examples: [
+              "They deliver packages to your door daily",
+              "The mailman delivers mail every morning",
+              "She delivered a powerful speech at graduation",
+              "Can you deliver this message to him",
+              "The company promises to deliver on time",
+              "The doctor delivered the baby safely yesterday",
+              "We deliver fresh pizza within thirty minutes",
+              "He failed to deliver on his promises",
+              "The service delivers excellent results consistently",
+              "They deliver groceries for a small fee"
+            ],
+            questions: [
+              {
+                question: "When will it arrive?",
+                answers: [
+                  "They'll deliver tomorrow",
+                  "Deliver by Friday",
+                  "Already delivered"
+                ]
+              },
+              {
+                question: "What does the company do?",
+                answers: [
+                  "They deliver packages",
+                  "Deliver nationwide",
+                  "Don't deliver here"
+                ]
+              },
+              {
+                question: "Did he keep his word?",
+                answers: [
+                  "He delivered on promises",
+                  "Failed to deliver",
+                  "Always delivers"
+                ]
+              }
+            ]
+          },
+          {
+            word: "earn",
+            phonetic: "/ɜːrn/",
+            examples: [
+              "How much do you earn per month",
+              "She earns a good salary at work",
+              "You have to earn people's trust slowly",
+              "He earned his degree through hard work",
+              "The investment earns five percent interest",
+              "She earned respect from her colleagues",
+              "They earn enough to live comfortably",
+              "Hard work will earn you success eventually",
+              "The company earned millions in profit",
+              "He earned his reputation over many years"
+            ],
+            questions: [
+              {
+                question: "What's your income?",
+                answers: [
+                  "I earn decent salary",
+                  "Earn enough",
+                  "Don't earn much"
+                ]
+              },
+              {
+                question: "How did he get it?",
+                answers: [
+                  "He earned it",
+                  "Earned through work",
+                  "Earned respect"
+                ]
+              },
+              {
+                question: "What does it pay?",
+                answers: [
+                  "Earns good interest",
+                  "Earn commission",
+                  "Doesn't earn much"
+                ]
+              }
+            ]
+          },
+          {
+            word: "gate",
+            phonetic: "/ɡeɪt/",
+            examples: [
+              "Please close the gate behind you",
+              "The plane is boarding at gate twelve",
+              "The garden gate was left open overnight",
+              "We waited at the school gate for her",
+              "The front gate needs to be repaired",
+              "Passengers should proceed to the boarding gate",
+              "The gate opens automatically when you approach",
+              "They stood by the gate waving goodbye",
+              "The iron gate was locked securely",
+              "Our flight departs from gate twenty three"
+            ],
+            questions: [
+              {
+                question: "Where's the plane?",
+                answers: [
+                  "At gate fifteen",
+                  "Boarding gate open",
+                  "Wrong gate"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Close the gate",
+                  "Lock the gate",
+                  "Open gate"
+                ]
+              },
+              {
+                question: "Where do we meet?",
+                answers: [
+                  "At the front gate",
+                  "By the gate",
+                  "Near gate"
+                ]
+              }
+            ]
+          },
+          {
+            word: "include",
+            phonetic: "/ɪnˈkluːd/",
+            examples: [
+              "Does the price include taxes and fees",
+              "The tour includes lunch and transportation",
+              "Please include me in the discussion",
+              "The list includes all important items",
+              "Breakfast is included in the room rate",
+              "The package includes free shipping today",
+              "Don't forget to include your contact information",
+              "The team includes players from many countries",
+              "Services include cleaning and maintenance",
+              "The price includes everything you need"
+            ],
+            questions: [
+              {
+                question: "What's covered?",
+                answers: [
+                  "It includes everything",
+                  "Includes breakfast",
+                  "Not included"
+                ]
+              },
+              {
+                question: "Am I part of this?",
+                answers: [
+                  "Yes, you're included",
+                  "Please include me",
+                  "Not including you"
+                ]
+              },
+              {
+                question: "What comes with it?",
+                answers: [
+                  "Includes accessories",
+                  "Includes warranty",
+                  "Nothing included"
+                ]
+              }
+            ]
+          },
+          {
+            word: "manage",
+            phonetic: "/ˈmænɪdʒ/",
+            examples: [
+              "She manages a team of twenty people",
+              "Can you manage to finish by tomorrow",
+              "He manages the store very efficiently",
+              "I don't know how you manage everything",
+              "They managed to escape just in time",
+              "She manages her time wisely and well",
+              "The company is well managed by experts",
+              "I can't manage without your help today",
+              "He managed to solve the difficult problem",
+              "Learning to manage stress is very important"
+            ],
+            questions: [
+              {
+                question: "Who's the boss?",
+                answers: [
+                  "She manages this department",
+                  "I manage here",
+                  "Manager oversees"
+                ]
+              },
+              {
+                question: "Can you do it?",
+                answers: [
+                  "I'll manage somehow",
+                  "Can't manage alone",
+                  "Managed to finish"
+                ]
+              },
+              {
+                question: "How do you cope?",
+                answers: [
+                  "I manage okay",
+                  "Barely managing",
+                  "Managing well"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mystery",
+            phonetic: "/ˈmɪstəri/",
+            examples: [
+              "The disappearance remains a complete mystery",
+              "She loves reading mystery novels at night",
+              "How he did it is still a mystery",
+              "The mystery was finally solved yesterday",
+              "Life is full of mystery and wonder",
+              "The mystery surrounding the case deepened daily",
+              "It's a mystery why she left suddenly",
+              "Mystery movies keep audiences guessing throughout",
+              "The ancient mystery has never been explained",
+              "There's no mystery about what happened here"
+            ],
+            questions: [
+              {
+                question: "Do you understand it?",
+                answers: [
+                  "It's a mystery",
+                  "Complete mystery",
+                  "No mystery"
+                ]
+              },
+              {
+                question: "What do you read?",
+                answers: [
+                  "I read mysteries",
+                  "Mystery novels",
+                  "Love mystery books"
+                ]
+              },
+              {
+                question: "Was it solved?",
+                answers: [
+                  "Mystery solved",
+                  "Still a mystery",
+                  "Unsolved mystery"
+                ]
+              }
+            ]
+          },
+          {
+            word: "occur",
+            phonetic: "/əˈkɜːr/",
+            examples: [
+              "When did the accident occur exactly",
+              "Problems occur when we least expect them",
+              "The idea suddenly occurred to me",
+              "These events occur naturally in nature",
+              "It never occurred to me to ask",
+              "Changes occur gradually over time slowly",
+              "The meeting will occur next Tuesday",
+              "Similar incidents occur frequently here",
+              "It occurred to him that she was right",
+              "Earthquakes occur along fault lines regularly"
+            ],
+            questions: [
+              {
+                question: "When did it happen?",
+                answers: [
+                  "It occurred yesterday",
+                  "Occurred last night",
+                  "Will occur soon"
+                ]
+              },
+              {
+                question: "Did you think of it?",
+                answers: [
+                  "It occurred to me",
+                  "Never occurred",
+                  "Just occurred"
+                ]
+              },
+              {
+                question: "How often does it happen?",
+                answers: [
+                  "Occurs frequently",
+                  "Rarely occurs",
+                  "Occurs naturally"
+                ]
+              }
+            ]
+          },
+          {
+            word: "opposite",
+            phonetic: "/ˈɑːpəzɪt/",
+            examples: [
+              "They have completely opposite opinions about it",
+              "The store is on the opposite side of street",
+              "Hot and cold are opposite temperatures",
+              "She lives in the opposite direction from me",
+              "Their personalities are totally opposite",
+              "The opposite of love is not hate but indifference",
+              "He sat opposite me at the table",
+              "The opposite effect occurred surprisingly",
+              "They walked in opposite directions quickly",
+              "The opposite is true in this case"
+            ],
+            questions: [
+              {
+                question: "Where is it located?",
+                answers: [
+                  "On the opposite side",
+                  "Directly opposite",
+                  "Opposite direction"
+                ]
+              },
+              {
+                question: "Are they similar?",
+                answers: [
+                  "They're complete opposites",
+                  "Totally opposite",
+                  "Not opposite"
+                ]
+              },
+              {
+                question: "What's the reverse?",
+                answers: [
+                  "The opposite is true",
+                  "Opposite effect",
+                  "Exact opposite"
+                ]
+              }
+            ]
+          },
+          {
+            word: "plate",
+            phonetic: "/pleɪt/",
+            examples: [
+              "Please pass me that plate over there",
+              "She put food on her plate carefully",
+              "The plates are in the kitchen cupboard",
+              "He has a lot on his plate right now",
+              "The license plate number was noted down",
+              "Clean your plate before leaving the table",
+              "The china plates are very expensive antiques",
+              "She served dinner on beautiful ceramic plates",
+              "The plate fell and broke into pieces",
+              "A plate of cookies sat on the counter"
+            ],
+            questions: [
+              {
+                question: "What do you need?",
+                answers: [
+                  "I need a plate",
+                  "Clean plate please",
+                  "More plates"
+                ]
+              },
+              {
+                question: "How busy are you?",
+                answers: [
+                  "I have a full plate",
+                  "Too much on plate",
+                  "Empty plate"
+                ]
+              },
+              {
+                question: "What broke?",
+                answers: [
+                  "A plate broke",
+                  "The dinner plate",
+                  "Several plates"
+                ]
+              }
+            ]
+          },
+          {
+            word: "receive",
+            phonetic: "/rɪˈsiːv/",
+            examples: [
+              "Did you receive my email yesterday",
+              "She received a gift for her birthday",
+              "We receive deliveries every morning here",
+              "He received excellent grades in school",
+              "They received a warm welcome from everyone",
+              "I received your message loud and clear",
+              "The patient received immediate medical attention",
+              "She received an award for her achievements",
+              "You'll receive a confirmation email shortly",
+              "He received praise from his boss today"
+            ],
+            questions: [
+              {
+                question: "Did it arrive?",
+                answers: [
+                  "Yes, I received it",
+                  "Haven't received",
+                  "Just received"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "She received an award",
+                  "Received good news",
+                  "Received nothing"
+                ]
+              },
+              {
+                question: "What's the response?",
+                answers: [
+                  "Received well",
+                  "Poorly received",
+                  "Received positively"
+                ]
+              }
+            ]
+          },
+          {
+            word: "reward",
+            phonetic: "/rɪˈwɔːrd/",
+            examples: [
+              "Hard work brings its own reward always",
+              "There's a reward for finding the dog",
+              "She rewarded him for his honesty",
+              "The reward money is ten thousand dollars",
+              "Good behavior should be rewarded appropriately",
+              "The job has many rewards beyond salary",
+              "They offered a reward for any information",
+              "Success is the best reward for effort",
+              "He felt rewarded by their gratitude",
+              "The rewards of teaching are immeasurable"
+            ],
+            questions: [
+              {
+                question: "What do you get?",
+                answers: [
+                  "There's a reward",
+                  "Monetary reward",
+                  "No reward"
+                ]
+              },
+              {
+                question: "Why do it?",
+                answers: [
+                  "The rewards are great",
+                  "For the reward",
+                  "Reward yourself"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "He was rewarded",
+                  "Received reward",
+                  "Rewarded handsomely"
+                ]
+              }
+            ]
+          },
+          {
+            word: "set",
+            phonetic: "/set/",
+            examples: [
+              "Please set the table for dinner now",
+              "The sun sets in the west daily",
+              "She set a new world record today",
+              "Set your alarm for six o'clock",
+              "They set high standards for themselves",
+              "He set the book on the shelf carefully",
+              "The movie is set in Paris France",
+              "We need to set a date for meeting",
+              "The concrete will set in two hours",
+              "She bought a complete set of dishes"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Set the table",
+                  "Set your alarm",
+                  "Set it down"
+                ]
+              },
+              {
+                question: "Where does it take place?",
+                answers: [
+                  "Set in London",
+                  "Set in future",
+                  "Set locally"
+                ]
+              },
+              {
+                question: "What did she achieve?",
+                answers: [
+                  "Set a record",
+                  "Set new standards",
+                  "Set goals"
+                ]
+              }
+            ]
+          },
+          {
+            word: "steal",
+            phonetic: "/stiːl/",
+            examples: [
+              "Someone tried to steal my wallet yesterday",
+              "It's wrong to steal from anyone ever",
+              "The thieves stole jewelry from the store",
+              "Don't let them steal your joy away",
+              "He stole a glance at her secretly",
+              "They stole the car in broad daylight",
+              "She can steal the show with her talent",
+              "The product is a steal at that price",
+              "Time seems to steal away too quickly",
+              "He stole first base during the game"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "Someone stole my phone",
+                  "They stole money",
+                  "Nothing was stolen"
+                ]
+              },
+              {
+                question: "Is it a good deal?",
+                answers: [
+                  "It's a steal",
+                  "Total steal",
+                  "Not a steal"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She stole the show",
+                  "Stole a look",
+                  "Stole hearts"
+                ]
+              }
+            ]
+          },
+          {
+            word: "thief",
+            phonetic: "/θiːf/",
+            examples: [
+              "The thief was caught by police yesterday",
+              "A thief broke into their house last night",
+              "The thief stole expensive jewelry quickly",
+              "Stop thief someone shouted loudly",
+              "The thief escaped through the window",
+              "Time is a thief that steals everything",
+              "The notorious thief was finally captured",
+              "She felt like a thief taking it",
+              "The thief left no evidence behind",
+              "A thief in the night came and went"
+            ],
+            questions: [
+              {
+                question: "Who took it?",
+                answers: [
+                  "A thief did",
+                  "The thief escaped",
+                  "Caught the thief"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Thief broke in",
+                  "Thief was arrested",
+                  "No thief found"
+                ]
+              },
+              {
+                question: "Who's responsible?",
+                answers: [
+                  "Must be a thief",
+                  "The thief",
+                  "Common thief"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit23",
+        words: [
+          {
+            word: "advance",
+            phonetic: "/ədˈvæns/",
+            examples: [
+              "Technology continues to advance rapidly every day",
+              "The army advanced toward the enemy position",
+              "She received an advance payment for work",
+              "Medical science has advanced significantly recently",
+              "Please let me know in advance next time",
+              "The team advanced to the finals successfully",
+              "We need to advance our departure time",
+              "His career advanced quickly through hard work",
+              "Advance tickets are cheaper than at the door",
+              "They made great advances in cancer research"
+            ],
+            questions: [
+              {
+                question: "When should I tell you?",
+                answers: [
+                  "Let me know in advance",
+                  "Tell me in advance",
+                  "Need advance notice"
+                ]
+              },
+              {
+                question: "What's happening with technology?",
+                answers: [
+                  "It's advancing rapidly",
+                  "Advances constantly",
+                  "Advanced significantly"
+                ]
+              },
+              {
+                question: "How did they do?",
+                answers: [
+                  "They advanced to finals",
+                  "Advancing well",
+                  "Failed to advance"
+                ]
+              }
+            ]
+          },
+          {
+            word: "athlete",
+            phonetic: "/ˈæθliːt/",
+            examples: [
+              "She's a professional athlete who trains daily",
+              "Olympic athletes compete at the highest level",
+              "The athlete broke the world record today",
+              "Young athletes need proper nutrition and rest",
+              "He's a natural athlete with great talent",
+              "The athlete suffered a serious injury yesterday",
+              "College athletes balance sports and studies",
+              "Famous athletes often become role models",
+              "The athlete signed a lucrative contract",
+              "Every athlete dreams of winning gold medals"
+            ],
+            questions: [
+              {
+                question: "What does she do?",
+                answers: [
+                  "She's an athlete",
+                  "Professional athlete",
+                  "Olympic athlete"
+                ]
+              },
+              {
+                question: "Who won the race?",
+                answers: [
+                  "The top athlete",
+                  "Young athlete",
+                  "Local athlete"
+                ]
+              },
+              {
+                question: "What's his talent?",
+                answers: [
+                  "He's a great athlete",
+                  "Natural athlete",
+                  "Talented athlete"
+                ]
+              }
+            ]
+          },
+          {
+            word: "average",
+            phonetic: "/ˈævərɪdʒ/",
+            examples: [
+              "The average temperature is twenty degrees celsius",
+              "She's of average height for her age",
+              "His grades are above average this semester",
+              "The average person sleeps eight hours nightly",
+              "Average rainfall has decreased this year",
+              "The movie was just average nothing special",
+              "The average cost is about fifty dollars",
+              "He's not average he's exceptional actually",
+              "On average we see ten customers daily",
+              "The average age of students is eighteen"
+            ],
+            questions: [
+              {
+                question: "What's the typical amount?",
+                answers: [
+                  "The average is ten",
+                  "Above average",
+                  "Below average"
+                ]
+              },
+              {
+                question: "How was the movie?",
+                answers: [
+                  "Just average",
+                  "Pretty average",
+                  "Better than average"
+                ]
+              },
+              {
+                question: "What's the usual temperature?",
+                answers: [
+                  "Average temperature",
+                  "On average",
+                  "Average twenty degrees"
+                ]
+              }
+            ]
+          },
+          {
+            word: "behavior",
+            phonetic: "/bɪˈheɪvjər/",
+            examples: [
+              "His behavior at school has improved greatly",
+              "That kind of behavior is not acceptable here",
+              "Animal behavior is fascinating to study",
+              "Her behavior was very professional throughout",
+              "Good behavior should be rewarded appropriately",
+              "The child's behavior concerned the teachers",
+              "Consumer behavior affects the market significantly",
+              "Strange behavior may indicate a problem",
+              "Human behavior is complex and unpredictable",
+              "The behavior of the crowd was peaceful"
+            ],
+            questions: [
+              {
+                question: "How is he acting?",
+                answers: [
+                  "His behavior is good",
+                  "Bad behavior",
+                  "Unusual behavior"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "His behavior concerns me",
+                  "Inappropriate behavior",
+                  "Behavior has changed"
+                ]
+              },
+              {
+                question: "What do you study?",
+                answers: [
+                  "I study behavior",
+                  "Human behavior",
+                  "Animal behavior"
+                ]
+              }
+            ]
+          },
+          {
+            word: "behind",
+            phonetic: "/bɪˈhaɪnd/",
+            examples: [
+              "The car behind us is driving too close",
+              "She's sitting behind me in the classroom",
+              "We're behind schedule on this project today",
+              "The reason behind his decision was personal",
+              "Don't leave anyone behind when we leave",
+              "He's behind in his rent payments now",
+              "The truth behind the story finally emerged",
+              "They walked behind the group quietly",
+              "She's behind all of this I know it",
+              "The team is behind by three points"
+            ],
+            questions: [
+              {
+                question: "Where is it?",
+                answers: [
+                  "Behind the door",
+                  "Right behind you",
+                  "Behind the building"
+                ]
+              },
+              {
+                question: "Are we on time?",
+                answers: [
+                  "We're behind schedule",
+                  "Running behind",
+                  "Not behind"
+                ]
+              },
+              {
+                question: "Who's responsible?",
+                answers: [
+                  "She's behind it",
+                  "Behind the scenes",
+                  "Behind this idea"
+                ]
+              }
+            ]
+          },
+          {
+            word: "course",
+            phonetic: "/kɔːrs/",
+            examples: [
+              "I'm taking a course in computer science",
+              "Of course I'll help you with that",
+              "The ship changed course to avoid the storm",
+              "The golf course is very challenging here",
+              "In the course of time things will improve",
+              "She's on a collision course with disaster",
+              "The course of treatment lasts six weeks",
+              "Of course you're welcome to join us",
+              "The river changed its course over centuries",
+              "This course teaches advanced mathematics thoroughly"
+            ],
+            questions: [
+              {
+                question: "What are you studying?",
+                answers: [
+                  "I'm taking a course",
+                  "Online course",
+                  "History course"
+                ]
+              },
+              {
+                question: "Will you help me?",
+                answers: [
+                  "Of course I will",
+                  "Of course",
+                  "Yes of course"
+                ]
+              },
+              {
+                question: "Where did they go?",
+                answers: [
+                  "They changed course",
+                  "Stayed on course",
+                  "Off course"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lower",
+            phonetic: "/ˈloʊər/",
+            examples: [
+              "Please lower your voice in the library",
+              "The temperature will lower tonight significantly",
+              "They need to lower prices to compete",
+              "He lives on the lower floor downstairs",
+              "Lower back pain is very common nowadays",
+              "The flag was lowered to half mast",
+              "We should lower our expectations perhaps",
+              "The water level is lower than usual",
+              "Lower your standards and you'll be happier",
+              "They lowered the boat into the water"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Lower your voice",
+                  "Lower the volume",
+                  "Lower it down"
+                ]
+              },
+              {
+                question: "What's happening with prices?",
+                answers: [
+                  "They're lowering prices",
+                  "Need to lower",
+                  "Prices are lower"
+                ]
+              },
+              {
+                question: "Where do you live?",
+                answers: [
+                  "On the lower floor",
+                  "Lower level",
+                  "Lower apartment"
+                ]
+              }
+            ]
+          },
+          {
+            word: "match",
+            phonetic: "/mætʃ/",
+            examples: [
+              "These socks don't match at all today",
+              "We watched an exciting football match yesterday",
+              "The curtains match the sofa perfectly well",
+              "She struck a match to light candle",
+              "He's met his match in this opponent",
+              "The colors match beautifully together",
+              "Do you have a match I can borrow",
+              "Her skills match the job requirements exactly",
+              "The wrestling match lasted thirty minutes",
+              "Can you match this paint color precisely"
+            ],
+            questions: [
+              {
+                question: "Do they go together?",
+                answers: [
+                  "Yes, they match",
+                  "Don't match",
+                  "Perfect match"
+                ]
+              },
+              {
+                question: "What did you watch?",
+                answers: [
+                  "A soccer match",
+                  "Boxing match",
+                  "Tennis match"
+                ]
+              },
+              {
+                question: "Are they equal?",
+                answers: [
+                  "They match perfectly",
+                  "Close match",
+                  "No match"
+                ]
+              }
+            ]
+          },
+          {
+            word: "member",
+            phonetic: "/ˈmembər/",
+            examples: [
+              "She's a member of the tennis club",
+              "Every family member attended the reunion today",
+              "He became a member last year officially",
+              "Team members work together very effectively",
+              "Are you a member of this organization",
+              "Congress members voted on the bill yesterday",
+              "The club has five hundred members total",
+              "Member benefits include free parking",
+              "Each member received a welcome package",
+              "She's the youngest member of the team"
+            ],
+            questions: [
+              {
+                question: "Are you part of the group?",
+                answers: [
+                  "I'm a member",
+                  "Not a member",
+                  "Became a member"
+                ]
+              },
+              {
+                question: "Who's on the team?",
+                answers: [
+                  "All team members",
+                  "New members",
+                  "Active members"
+                ]
+              },
+              {
+                question: "Who attended?",
+                answers: [
+                  "Family members",
+                  "Club members",
+                  "Every member"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mental",
+            phonetic: "/ˈmentl/",
+            examples: [
+              "Mental health is just as important as physical",
+              "He made a mental note to remember",
+              "She has incredible mental strength and resilience",
+              "Mental illness affects millions of people worldwide",
+              "The mental challenge was quite difficult indeed",
+              "He's not in good mental condition today",
+              "Mental calculation is faster than using calculator",
+              "The job requires strong mental abilities",
+              "Mental fatigue can be as tiring as physical",
+              "She provides mental health counseling services"
+            ],
+            questions: [
+              {
+                question: "What kind of health issue?",
+                answers: [
+                  "Mental health problem",
+                  "Mental illness",
+                  "Mental condition"
+                ]
+              },
+              {
+                question: "How do you calculate?",
+                answers: [
+                  "I do mental math",
+                  "Mental calculation",
+                  "Mental arithmetic"
+                ]
+              },
+              {
+                question: "What abilities are needed?",
+                answers: [
+                  "Mental abilities",
+                  "Mental strength",
+                  "Mental capacity"
+                ]
+              }
+            ]
+          },
+          {
+            word: "passenger",
+            phonetic: "/ˈpæsɪndʒər/",
+            examples: [
+              "The passenger sat in the back seat",
+              "All passengers must wear seatbelts during flight",
+              "The train carries thousands of passengers daily",
+              "Passengers are boarding the plane right now",
+              "A passenger asked for directions politely",
+              "The bus driver counts all passengers carefully",
+              "Passengers should arrive two hours early",
+              "She was a passenger in the car accident",
+              "Passenger safety is our top priority always",
+              "The ship accommodates five hundred passengers"
+            ],
+            questions: [
+              {
+                question: "Who's in the car?",
+                answers: [
+                  "I'm just a passenger",
+                  "Several passengers",
+                  "Front passenger"
+                ]
+              },
+              {
+                question: "Who's on the plane?",
+                answers: [
+                  "Two hundred passengers",
+                  "All passengers",
+                  "Passenger list"
+                ]
+              },
+              {
+                question: "Who uses public transport?",
+                answers: [
+                  "Many passengers",
+                  "Daily passengers",
+                  "Regular passengers"
+                ]
+              }
+            ]
+          },
+          {
+            word: "personality",
+            phonetic: "/ˌpɜːrsəˈnæləti/",
+            examples: [
+              "She has a wonderful outgoing personality",
+              "His personality makes him easy to like",
+              "The job requires a strong personality",
+              "Personality tests can reveal interesting traits",
+              "They have very different personalities entirely",
+              "Her warm personality attracts many friends",
+              "Personality development starts in early childhood",
+              "He's a television personality everyone recognizes",
+              "The personality of the restaurant is unique",
+              "Personality conflicts caused problems at work"
+            ],
+            questions: [
+              {
+                question: "What's she like?",
+                answers: [
+                  "She has great personality",
+                  "Wonderful personality",
+                  "Strong personality"
+                ]
+              },
+              {
+                question: "Why don't they get along?",
+                answers: [
+                  "Personality differences",
+                  "Personality clash",
+                  "Different personalities"
+                ]
+              },
+              {
+                question: "What makes him special?",
+                answers: [
+                  "His unique personality",
+                  "Charming personality",
+                  "Personality shines"
+                ]
+              }
+            ]
+          },
+          {
+            word: "poem",
+            phonetic: "/ˈpoʊəm/",
+            examples: [
+              "She wrote a beautiful poem about love",
+              "The poem expresses deep emotions powerfully",
+              "He memorized the entire poem by heart",
+              "This poem was written in eighteen fifty",
+              "The poem has fourteen lines exactly",
+              "She recited a poem at the ceremony",
+              "His favorite poem is by Robert Frost",
+              "The poem describes nature's beauty perfectly",
+              "Writing a poem takes creativity and skill",
+              "The poem won first prize in competition"
+            ],
+            questions: [
+              {
+                question: "What did she write?",
+                answers: [
+                  "She wrote a poem",
+                  "Beautiful poem",
+                  "Short poem"
+                ]
+              },
+              {
+                question: "What are you reading?",
+                answers: [
+                  "I'm reading a poem",
+                  "Love poem",
+                  "Famous poem"
+                ]
+              },
+              {
+                question: "What did he recite?",
+                answers: [
+                  "He recited a poem",
+                  "A poem about nature",
+                  "Classic poem"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pole",
+            phonetic: "/poʊl/",
+            examples: [
+              "The flag flies on a tall pole",
+              "He used a fishing pole at the lake",
+              "The North Pole is extremely cold always",
+              "Telephone poles line the street everywhere",
+              "She's a pole vaulter in track and field",
+              "The tent pole collapsed during the storm",
+              "Electric poles carry power lines safely",
+              "The totem pole is an ancient tradition",
+              "They're at opposite poles on this issue",
+              "The pole vault record was broken today"
+            ],
+            questions: [
+              {
+                question: "What's that tall thing?",
+                answers: [
+                  "It's a pole",
+                  "Flag pole",
+                  "Telephone pole"
+                ]
+              },
+              {
+                question: "Where's the coldest place?",
+                answers: [
+                  "The North Pole",
+                  "South Pole",
+                  "At the poles"
+                ]
+              },
+              {
+                question: "What do you need for fishing?",
+                answers: [
+                  "A fishing pole",
+                  "My pole",
+                  "New pole"
+                ]
+              }
+            ]
+          },
+          {
+            word: "remove",
+            phonetic: "/rɪˈmuːv/",
+            examples: [
+              "Please remove your shoes before entering",
+              "The doctor removed the stitches carefully yesterday",
+              "They removed the old furniture from the house",
+              "Remove all traces of evidence immediately",
+              "She had her wisdom teeth removed",
+              "Remove the lid before heating the container",
+              "The stain was difficult to remove completely",
+              "They removed him from the team unfortunately",
+              "Remove the batteries when not in use",
+              "The software removes viruses automatically"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Remove your coat",
+                  "Remove it now",
+                  "Please remove"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "They removed it",
+                  "Was removed",
+                  "Need to remove"
+                ]
+              },
+              {
+                question: "How do I clean this?",
+                answers: [
+                  "Remove the stain",
+                  "Remove carefully",
+                  "Hard to remove"
+                ]
+              }
+            ]
+          },
+          {
+            word: "safety",
+            phonetic: "/ˈseɪfti/",
+            examples: [
+              "Safety is our number one priority always",
+              "Wear a helmet for safety when cycling",
+              "The safety regulations must be followed strictly",
+              "Children's safety concerns every parent deeply",
+              "Fire safety training is mandatory here",
+              "They reached safety after the storm",
+              "Safety measures prevented serious injuries today",
+              "The safety of passengers is paramount",
+              "Food safety standards are very high",
+              "Safety equipment is provided to all workers"
+            ],
+            questions: [
+              {
+                question: "What's most important?",
+                answers: [
+                  "Safety comes first",
+                  "Safety is priority",
+                  "Your safety"
+                ]
+              },
+              {
+                question: "Why wear a helmet?",
+                answers: [
+                  "For safety reasons",
+                  "Safety precaution",
+                  "Safety requirement"
+                ]
+              },
+              {
+                question: "What are the rules about?",
+                answers: [
+                  "Safety regulations",
+                  "Safety standards",
+                  "Safety protocols"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shoot",
+            phonetic: "/ʃuːt/",
+            examples: [
+              "Don't shoot I'm unarmed please",
+              "She learned to shoot a bow and arrow",
+              "The photographer will shoot the wedding tomorrow",
+              "Bamboo plants shoot up very quickly",
+              "He tried to shoot the basketball but missed",
+              "The movie shoots on location next week",
+              "Shoot me a text when you arrive",
+              "The pain shoots down my leg sometimes",
+              "They shoot fireworks on New Year's Eve",
+              "Shoot for the stars and dream big"
+            ],
+            questions: [
+              {
+                question: "What's the photographer doing?",
+                answers: [
+                  "She's shooting photos",
+                  "Shooting the event",
+                  "Will shoot tomorrow"
+                ]
+              },
+              {
+                question: "What happened in basketball?",
+                answers: [
+                  "He tried to shoot",
+                  "Shoot the ball",
+                  "Great shot"
+                ]
+              },
+              {
+                question: "How do I contact you?",
+                answers: [
+                  "Shoot me a message",
+                  "Shoot me an email",
+                  "Just shoot over"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sound",
+            phonetic: "/saʊnd/",
+            examples: [
+              "What's that strange sound I hear",
+              "The sound of music filled the room",
+              "His advice sounds good to me",
+              "She made a sound to get attention",
+              "The sound quality is excellent here",
+              "That doesn't sound right at all",
+              "Turn down the sound it's too loud",
+              "The sound of waves is very relaxing",
+              "His reasoning is sound and logical",
+              "Light travels faster than sound waves"
+            ],
+            questions: [
+              {
+                question: "What do you hear?",
+                answers: [
+                  "I hear a sound",
+                  "Strange sound",
+                  "Loud sound"
+                ]
+              },
+              {
+                question: "What do you think?",
+                answers: [
+                  "Sounds good to me",
+                  "Sounds interesting",
+                  "Doesn't sound right"
+                ]
+              },
+              {
+                question: "What's the quality like?",
+                answers: [
+                  "Sound quality is great",
+                  "Poor sound",
+                  "Clear sound"
+                ]
+              }
+            ]
+          },
+          {
+            word: "swim",
+            phonetic: "/swɪm/",
+            examples: [
+              "Can you swim in deep water safely",
+              "She swims every morning for exercise",
+              "The children love to swim in summer",
+              "He's learning to swim at the pool",
+              "Fish swim in schools together naturally",
+              "Let's go for a swim at the beach",
+              "She swam across the lake successfully yesterday",
+              "My head is swimming with information now",
+              "They swim competitively for the school team",
+              "Don't swim immediately after eating food"
+            ],
+            questions: [
+              {
+                question: "What do you do for exercise?",
+                answers: [
+                  "I swim daily",
+                  "Love to swim",
+                  "Swim regularly"
+                ]
+              },
+              {
+                question: "Can you do it?",
+                answers: [
+                  "Yes, I can swim",
+                  "Learning to swim",
+                  "Can't swim"
+                ]
+              },
+              {
+                question: "What activity do you want?",
+                answers: [
+                  "Let's go swim",
+                  "Want to swim",
+                  "Swimming sounds good"
+                ]
+              }
+            ]
+          },
+          {
+            word: "web",
+            phonetic: "/web/",
+            examples: [
+              "The spider spun an intricate web overnight",
+              "She found the information on the web",
+              "The web of lies eventually unraveled completely",
+              "Web design is a growing career field",
+              "He's caught in a web of deceit",
+              "The World Wide Web changed everything forever",
+              "Visit our web page for more information",
+              "The web connects people around the world",
+              "A web of relationships exists between them",
+              "Web developers create amazing sites daily"
+            ],
+            questions: [
+              {
+                question: "Where did you find it?",
+                answers: [
+                  "On the web",
+                  "Found it on web",
+                  "Web search"
+                ]
+              },
+              {
+                question: "What's that structure?",
+                answers: [
+                  "It's a spider web",
+                  "Web in corner",
+                  "Sticky web"
+                ]
+              },
+              {
+                question: "What's your job?",
+                answers: [
+                  "I do web design",
+                  "Web development",
+                  "Web work"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit24",
+        words: [
+          {
+            word: "block",
+            phonetic: "/blɑːk/",
+            examples: [
+              "There's a large block of ice melting",
+              "The building is just one block away",
+              "Don't block the entrance with your car",
+              "He has writer's block and can't write",
+              "The city block is very busy today",
+              "A concrete block fell from the building",
+              "She blocked his phone number yesterday",
+              "The protesters blocked the street completely",
+              "Mental blocks prevent us from succeeding",
+              "They walked around the entire block"
+            ],
+            questions: [
+              {
+                question: "How far is it?",
+                answers: [
+                  "Just one block away",
+                  "Two blocks down",
+                  "Few blocks"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Something's blocking it",
+                  "You're blocking view",
+                  "Road is blocked"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She blocked him",
+                  "Blocked the number",
+                  "Got blocked"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bury",
+            phonetic: "/ˈberi/",
+            examples: [
+              "Dogs love to bury bones in the yard",
+              "They buried the treasure on the island",
+              "He was buried in his hometown cemetery",
+              "Don't bury your head in the sand",
+              "She buried herself in her work completely",
+              "The avalanche buried the entire village tragically",
+              "Time to bury the past and move forward",
+              "The pirates buried their gold carefully",
+              "He buried his face in his hands sadly",
+              "The scandal was buried by the media"
+            ],
+            questions: [
+              {
+                question: "What did the dog do?",
+                answers: [
+                  "It buried the bone",
+                  "Buried something",
+                  "Loves to bury"
+                ]
+              },
+              {
+                question: "Where is he?",
+                answers: [
+                  "He's buried there",
+                  "Was buried yesterday",
+                  "Buried in cemetery"
+                ]
+              },
+              {
+                question: "What's she doing?",
+                answers: [
+                  "Buried in work",
+                  "Burying herself",
+                  "Completely buried"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cheer",
+            phonetic: "/tʃɪr/",
+            examples: [
+              "The crowd began to cheer loudly",
+              "She tried to cheer him up today",
+              "Cheer up things will get better soon",
+              "The good news brought cheer to everyone",
+              "Fans cheer for their team passionately",
+              "A cheer went up from the audience",
+              "Let's give her three cheers everyone",
+              "The children's laughter spread cheer around",
+              "He cheered when his team scored",
+              "Holiday cheer fills the air this season"
+            ],
+            questions: [
+              {
+                question: "What did the fans do?",
+                answers: [
+                  "They cheered loudly",
+                  "Started to cheer",
+                  "Cheering wildly"
+                ]
+              },
+              {
+                question: "How can I help?",
+                answers: [
+                  "Try to cheer up",
+                  "Cheer me up",
+                  "Need cheering"
+                ]
+              },
+              {
+                question: "What's the atmosphere like?",
+                answers: [
+                  "Full of cheer",
+                  "Holiday cheer",
+                  "Spreading cheer"
+                ]
+              }
+            ]
+          },
+          {
+            word: "complex",
+            phonetic: "/kəmˈpleks/",
+            examples: [
+              "The problem is very complex to solve",
+              "She lives in an apartment complex nearby",
+              "Human behavior is incredibly complex always",
+              "The complex system requires expert knowledge",
+              "He has an inferiority complex unfortunately",
+              "The shopping complex has many stores",
+              "Complex issues need careful analysis",
+              "The building complex covers ten acres",
+              "Mathematics can be quite complex sometimes",
+              "The sports complex opens at six"
+            ],
+            questions: [
+              {
+                question: "Is it simple?",
+                answers: [
+                  "No, it's complex",
+                  "Very complex",
+                  "Too complex"
+                ]
+              },
+              {
+                question: "Where do you live?",
+                answers: [
+                  "In an apartment complex",
+                  "Housing complex",
+                  "The complex downtown"
+                ]
+              },
+              {
+                question: "What's the issue?",
+                answers: [
+                  "It's a complex problem",
+                  "Complex situation",
+                  "Complex matter"
+                ]
+              }
+            ]
+          },
+          {
+            word: "critic",
+            phonetic: "/ˈkrɪtɪk/",
+            examples: [
+              "The movie critic gave it five stars",
+              "He's a harsh critic of government policy",
+              "Critics praised the new restaurant highly",
+              "She's her own worst critic always",
+              "The art critic wrote a negative review",
+              "Literary critics analyze books carefully",
+              "He faces many critics in his field",
+              "The critic attended the opening night",
+              "Food critics visit restaurants anonymously",
+              "Critics and fans disagree on this film"
+            ],
+            questions: [
+              {
+                question: "What did the reviewer say?",
+                answers: [
+                  "The critic loved it",
+                  "Critics praised it",
+                  "Harsh critic"
+                ]
+              },
+              {
+                question: "Who's judging?",
+                answers: [
+                  "A professional critic",
+                  "Film critic",
+                  "Art critic"
+                ]
+              },
+              {
+                question: "Who disagrees?",
+                answers: [
+                  "Many critics do",
+                  "His critics",
+                  "Vocal critics"
+                ]
+              }
+            ]
+          },
+          {
+            word: "direction",
+            phonetic: "/dəˈrekʃn/",
+            examples: [
+              "Can you give me directions to downtown",
+              "The wind changed direction suddenly today",
+              "She's heading in the right direction now",
+              "Follow the directions on the package carefully",
+              "The company needs a new direction forward",
+              "He looked in every direction nervously",
+              "The movie was under her direction",
+              "Which direction did they go exactly",
+              "The project lacks clear direction currently",
+              "I have no sense of direction whatsoever"
+            ],
+            questions: [
+              {
+                question: "Where do I go?",
+                answers: [
+                  "In that direction",
+                  "Wrong direction",
+                  "This direction"
+                ]
+              },
+              {
+                question: "Can you help me find it?",
+                answers: [
+                  "I'll give you directions",
+                  "Need directions",
+                  "Follow directions"
+                ]
+              },
+              {
+                question: "How's the company doing?",
+                answers: [
+                  "Needs new direction",
+                  "Right direction",
+                  "Clear direction"
+                ]
+              }
+            ]
+          },
+          {
+            word: "event",
+            phonetic: "/ɪˈvent/",
+            examples: [
+              "The wedding was a beautiful event",
+              "What events are happening this weekend",
+              "It was a historic event everyone remembers",
+              "Sports events attract large crowds always",
+              "In the event of emergency call this",
+              "The event was well organized and successful",
+              "Cultural events celebrate diversity",
+              "The charity event raised thousands of dollars",
+              "Major events are held at the stadium",
+              "The event begins at seven o'clock sharp"
+            ],
+            questions: [
+              {
+                question: "What's happening tonight?",
+                answers: [
+                  "There's a special event",
+                  "Big event",
+                  "Social event"
+                ]
+              },
+              {
+                question: "How was it?",
+                answers: [
+                  "Great event",
+                  "The event was wonderful",
+                  "Important event"
+                ]
+              },
+              {
+                question: "What should I do if?",
+                answers: [
+                  "In the event of",
+                  "Event occurs",
+                  "Such event"
+                ]
+              }
+            ]
+          },
+          {
+            word: "exercise",
+            phonetic: "/ˈeksərsaɪz/",
+            examples: [
+              "Regular exercise keeps you healthy always",
+              "She exercises at the gym every morning",
+              "This is a good grammar exercise",
+              "Exercise your right to vote in elections",
+              "The military conducted training exercises today",
+              "Mental exercise is important for brain health",
+              "He doesn't get enough exercise lately",
+              "The exercise was too difficult for beginners",
+              "Exercise caution when driving at night",
+              "Breathing exercises help reduce stress effectively"
+            ],
+            questions: [
+              {
+                question: "What do you do daily?",
+                answers: [
+                  "I exercise regularly",
+                  "Do some exercise",
+                  "Need more exercise"
+                ]
+              },
+              {
+                question: "What's this assignment?",
+                answers: [
+                  "It's an exercise",
+                  "Practice exercise",
+                  "Grammar exercise"
+                ]
+              },
+              {
+                question: "What should I be careful about?",
+                answers: [
+                  "Exercise caution",
+                  "Exercise care",
+                  "Exercise judgment"
+                ]
+              }
+            ]
+          },
+          {
+            word: "friendship",
+            phonetic: "/ˈfrendʃɪp/",
+            examples: [
+              "Their friendship has lasted for decades",
+              "True friendship is hard to find nowadays",
+              "The friendship between them grew stronger",
+              "She values friendship above all else",
+              "Friendship requires trust and honesty always",
+              "Their friendship ended badly unfortunately",
+              "International friendship promotes peace globally",
+              "The friendship bracelet symbolizes their bond",
+              "Childhood friendships are often the strongest",
+              "Building friendship takes time and effort"
+            ],
+            questions: [
+              {
+                question: "What's your relationship?",
+                answers: [
+                  "We have a friendship",
+                  "Close friendship",
+                  "Long friendship"
+                ]
+              },
+              {
+                question: "What matters most?",
+                answers: [
+                  "Friendship is important",
+                  "Value friendship",
+                  "True friendship"
+                ]
+              },
+              {
+                question: "How long have you known them?",
+                answers: [
+                  "Our friendship is old",
+                  "Years of friendship",
+                  "Friendship started early"
+                ]
+              }
+            ]
+          },
+          {
+            word: "guide",
+            phonetic: "/ɡaɪd/",
+            examples: [
+              "The tour guide explained the history clearly",
+              "Let me guide you through the process",
+              "She's a guide for mountain climbers",
+              "The user guide explains everything thoroughly",
+              "Stars guide sailors at night traditionally",
+              "He guided us to the right location",
+              "A guide dog helps blind people navigate",
+              "Follow this guide for best results",
+              "The guide led the group through caves",
+              "Travel guides provide useful information"
+            ],
+            questions: [
+              {
+                question: "Who showed you around?",
+                answers: [
+                  "The tour guide did",
+                  "Our guide",
+                  "Local guide"
+                ]
+              },
+              {
+                question: "Can you help me?",
+                answers: [
+                  "I'll guide you",
+                  "Let me guide",
+                  "Need a guide"
+                ]
+              },
+              {
+                question: "What's this book?",
+                answers: [
+                  "It's a guide",
+                  "Travel guide",
+                  "User guide"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lack",
+            phonetic: "/læk/",
+            examples: [
+              "The project failed due to lack of funding",
+              "He lacks experience in this field unfortunately",
+              "There's no lack of talent here today",
+              "She lacks confidence in her abilities",
+              "The lack of rain caused a drought",
+              "They lack the necessary equipment currently",
+              "For lack of a better word",
+              "The plan lacks detail and clarity",
+              "Many people lack basic education still",
+              "His lack of interest is obvious"
+            ],
+            questions: [
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Lack of money",
+                  "Lack of time",
+                  "Complete lack"
+                ]
+              },
+              {
+                question: "What does he need?",
+                answers: [
+                  "He lacks experience",
+                  "Lacks confidence",
+                  "Lacks skills"
+                ]
+              },
+              {
+                question: "Why did it fail?",
+                answers: [
+                  "Due to lack of support",
+                  "Lack of planning",
+                  "Lack of resources"
+                ]
+              }
+            ]
+          },
+          {
+            word: "perform",
+            phonetic: "/pərˈfɔːrm/",
+            examples: [
+              "The band will perform at eight tonight",
+              "She performs surgery at the hospital regularly",
+              "How did he perform on the test",
+              "Actors perform on stage before audiences",
+              "The car performs well in all conditions",
+              "Doctors perform miracles every day",
+              "He performed his duties excellently",
+              "The team performed poorly this season",
+              "She loves to perform in front of crowds",
+              "The machine performs multiple functions efficiently"
+            ],
+            questions: [
+              {
+                question: "What are they doing tonight?",
+                answers: [
+                  "They're performing live",
+                  "Will perform here",
+                  "Performing concert"
+                ]
+              },
+              {
+                question: "How did he do?",
+                answers: [
+                  "He performed well",
+                  "Performed badly",
+                  "Great performance"
+                ]
+              },
+              {
+                question: "What does it do?",
+                answers: [
+                  "It performs tasks",
+                  "Performs functions",
+                  "Performs perfectly"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pressure",
+            phonetic: "/ˈpreʃər/",
+            examples: [
+              "He's under a lot of pressure at work",
+              "Blood pressure should be checked regularly",
+              "The pressure to succeed is intense",
+              "Water pressure is low in this area",
+              "She felt pressure from her family",
+              "Don't pressure me into deciding now",
+              "Peer pressure affects teenagers greatly",
+              "The tire pressure needs to be checked",
+              "Time pressure makes work stressful",
+              "He works well under pressure"
+            ],
+            questions: [
+              {
+                question: "How are you feeling?",
+                answers: [
+                  "Under a lot of pressure",
+                  "Too much pressure",
+                  "Feeling pressure"
+                ]
+              },
+              {
+                question: "What's wrong with the water?",
+                answers: [
+                  "Low water pressure",
+                  "Pressure problem",
+                  "No pressure"
+                ]
+              },
+              {
+                question: "Why is he stressed?",
+                answers: [
+                  "Work pressure",
+                  "Pressure from deadlines",
+                  "Constant pressure"
+                ]
+              }
+            ]
+          },
+          {
+            word: "probably",
+            phonetic: "/ˈprɑːbəbli/",
+            examples: [
+              "It will probably rain tomorrow afternoon",
+              "She's probably stuck in traffic right now",
+              "He probably forgot about the meeting",
+              "They'll probably arrive late as usual",
+              "You're probably right about that",
+              "I'll probably go to the party tonight",
+              "This is probably the best option available",
+              "She probably won't come after all",
+              "We should probably leave soon",
+              "That's probably not a good idea"
+            ],
+            questions: [
+              {
+                question: "Will it rain?",
+                answers: [
+                  "Probably will",
+                  "Yes probably",
+                  "Probably not"
+                ]
+              },
+              {
+                question: "Where is she?",
+                answers: [
+                  "She's probably home",
+                  "Probably at work",
+                  "Probably late"
+                ]
+              },
+              {
+                question: "What do you think?",
+                answers: [
+                  "You're probably right",
+                  "Probably true",
+                  "Probably best"
+                ]
+              }
+            ]
+          },
+          {
+            word: "public",
+            phonetic: "/ˈpʌblɪk/",
+            examples: [
+              "The park is open to the public daily",
+              "She works in public relations now",
+              "Public transportation is very efficient here",
+              "The public has a right to know",
+              "He gave a public speech yesterday",
+              "Public schools are free for everyone",
+              "The news became public last week",
+              "Public opinion is divided on this issue",
+              "The library is a public building",
+              "Public health is everyone's concern"
+            ],
+            questions: [
+              {
+                question: "Who can use it?",
+                answers: [
+                  "It's public",
+                  "The general public",
+                  "Open to public"
+                ]
+              },
+              {
+                question: "What kind of school?",
+                answers: [
+                  "Public school",
+                  "Public education",
+                  "Public institution"
+                ]
+              },
+              {
+                question: "Is it private?",
+                answers: [
+                  "No, it's public",
+                  "Public property",
+                  "Public space"
+                ]
+              }
+            ]
+          },
+          {
+            word: "smart",
+            phonetic: "/smɑːrt/",
+            examples: [
+              "She's a very smart student indeed",
+              "That was a smart decision you made",
+              "Smart phones have changed our lives",
+              "He looks smart in that suit today",
+              "Smart people learn from their mistakes",
+              "The smart thing to do is wait",
+              "She's street smart and knows her way",
+              "Smart cars are environmentally friendly",
+              "He made a smart investment last year",
+              "Being smart isn't just about grades"
+            ],
+            questions: [
+              {
+                question: "What's she like?",
+                answers: [
+                  "She's very smart",
+                  "Really smart",
+                  "Not smart"
+                ]
+              },
+              {
+                question: "Was it a good choice?",
+                answers: [
+                  "Very smart decision",
+                  "Smart move",
+                  "Not smart"
+                ]
+              },
+              {
+                question: "How does he look?",
+                answers: [
+                  "He looks smart",
+                  "Smart appearance",
+                  "Dressed smart"
+                ]
+              }
+            ]
+          },
+          {
+            word: "strike",
+            phonetic: "/straɪk/",
+            examples: [
+              "Lightning struck the tree last night",
+              "Workers went on strike for better pay",
+              "The clock struck midnight exactly",
+              "That strikes me as odd behavior",
+              "He struck the ball with great force",
+              "A thought suddenly struck me",
+              "The snake can strike without warning",
+              "Strike while the iron is hot",
+              "The union called a strike today",
+              "She struck a match to light candle"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "Lightning struck",
+                  "It struck suddenly",
+                  "Strike occurred"
+                ]
+              },
+              {
+                question: "Why aren't they working?",
+                answers: [
+                  "They're on strike",
+                  "Strike started today",
+                  "Workers strike"
+                ]
+              },
+              {
+                question: "What's your impression?",
+                answers: [
+                  "It strikes me as strange",
+                  "Strikes me odd",
+                  "That strikes me"
+                ]
+              }
+            ]
+          },
+          {
+            word: "support",
+            phonetic: "/səˈpɔːrt/",
+            examples: [
+              "Thank you for your support during this time",
+              "The bridge is supported by strong cables",
+              "She supports her family financially",
+              "Do you support this political candidate",
+              "The evidence supports his claim strongly",
+              "Financial support is available for students",
+              "He supported her decision completely",
+              "The pillar supports the entire roof",
+              "Customer support is available twenty four hours",
+              "We need more support from the community"
+            ],
+            questions: [
+              {
+                question: "What do you need?",
+                answers: [
+                  "I need your support",
+                  "Need support",
+                  "Seeking support"
+                ]
+              },
+              {
+                question: "Do you agree with it?",
+                answers: [
+                  "I support it fully",
+                  "Don't support it",
+                  "Support the idea"
+                ]
+              },
+              {
+                question: "How's it standing?",
+                answers: [
+                  "It's well supported",
+                  "Needs support",
+                  "Support structure"
+                ]
+              }
+            ]
+          },
+          {
+            word: "term",
+            phonetic: "/tɜːrm/",
+            examples: [
+              "The school term ends in June",
+              "I don't understand this technical term",
+              "The president serves a four year term",
+              "They came to terms with the situation",
+              "In the long term this will benefit us",
+              "The loan terms are very favorable",
+              "We're on good terms with our neighbors",
+              "The term refers to a specific concept",
+              "Short term goals are easier to achieve",
+              "The contract has specific terms and conditions"
+            ],
+            questions: [
+              {
+                question: "When does school end?",
+                answers: [
+                  "End of term",
+                  "This term",
+                  "Next term"
+                ]
+              },
+              {
+                question: "What's the meaning?",
+                answers: [
+                  "It's a technical term",
+                  "Medical term",
+                  "The term means"
+                ]
+              },
+              {
+                question: "How long will it last?",
+                answers: [
+                  "For one term",
+                  "Short term",
+                  "Long term"
+                ]
+              }
+            ]
+          },
+          {
+            word: "unite",
+            phonetic: "/juˈnaɪt/",
+            examples: [
+              "The tragedy united the community together",
+              "We must unite against this common threat",
+              "The two companies decided to unite",
+              "United we stand divided we fall",
+              "The country united after the crisis",
+              "Music unites people from all cultures",
+              "They united in their efforts to help",
+              "The United Nations promotes peace globally",
+              "The team united behind their captain",
+              "Let's unite our resources for better results"
+            ],
+            questions: [
+              {
+                question: "What should we do?",
+                answers: [
+                  "We should unite",
+                  "Unite together",
+                  "Need to unite"
+                ]
+              },
+              {
+                question: "What brought them together?",
+                answers: [
+                  "Crisis united them",
+                  "They united",
+                  "United by cause"
+                ]
+              },
+              {
+                question: "How can we succeed?",
+                answers: [
+                  "By uniting efforts",
+                  "Unite forces",
+                  "Stay united"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit25",
+        words: [
+          {
+            word: "associate",
+            phonetic: "/əˈsoʊʃieɪt/",
+            examples: [
+              "I always associate summer with the beach",
+              "She's a business associate of my father",
+              "Don't associate with bad people ever",
+              "He's an associate professor at the university",
+              "The brain associates smells with memories",
+              "They work as sales associates at the store",
+              "I associate that song with happy times",
+              "She doesn't want to associate with them",
+              "The company has many business associates worldwide",
+              "He was associated with the crime unfortunately"
+            ],
+            questions: [
+              {
+                question: "What does it remind you of?",
+                answers: [
+                  "I associate it with childhood",
+                  "Associate with happiness",
+                  "Don't associate anything"
+                ]
+              },
+              {
+                question: "Who is he?",
+                answers: [
+                  "He's my associate",
+                  "Business associate",
+                  "Close associate"
+                ]
+              },
+              {
+                question: "What's his position?",
+                answers: [
+                  "He's an associate professor",
+                  "Associate director",
+                  "Associate member"
+                ]
+              }
+            ]
+          },
+          {
+            word: "environment",
+            phonetic: "/ɪnˈvaɪrənmənt/",
+            examples: [
+              "We must protect the environment for future generations",
+              "The work environment is very friendly here",
+              "Pollution damages the environment severely",
+              "She grew up in a loving environment",
+              "The learning environment affects student performance",
+              "Environmental protection is everyone's responsibility",
+              "The natural environment is beautiful in this area",
+              "A positive environment promotes growth",
+              "The business environment is very competitive",
+              "Climate change threatens the global environment"
+            ],
+            questions: [
+              {
+                question: "What needs protection?",
+                answers: [
+                  "The environment does",
+                  "Our environment",
+                  "Natural environment"
+                ]
+              },
+              {
+                question: "How's the workplace?",
+                answers: [
+                  "Great work environment",
+                  "Positive environment",
+                  "Toxic environment"
+                ]
+              },
+              {
+                question: "What affects learning?",
+                answers: [
+                  "The learning environment",
+                  "Classroom environment",
+                  "Home environment"
+                ]
+              }
+            ]
+          },
+          {
+            word: "factory",
+            phonetic: "/ˈfæktəri/",
+            examples: [
+              "My father works at a car factory",
+              "The factory produces thousands of units daily",
+              "Factory workers went on strike yesterday",
+              "The factory closed down last year permanently",
+              "Smoke rises from the factory chimney",
+              "She got a job at the chocolate factory",
+              "The factory operates twenty four hours",
+              "Factory conditions have improved significantly recently",
+              "The toy factory employs many people",
+              "Pollution from factories affects air quality"
+            ],
+            questions: [
+              {
+                question: "Where does he work?",
+                answers: [
+                  "At a factory",
+                  "The local factory",
+                  "Factory downtown"
+                ]
+              },
+              {
+                question: "What produces these?",
+                answers: [
+                  "The factory makes them",
+                  "Factory production",
+                  "Made in factory"
+                ]
+              },
+              {
+                question: "What's that building?",
+                answers: [
+                  "It's a factory",
+                  "Old factory",
+                  "Factory building"
+                ]
+              }
+            ]
+          },
+          {
+            word: "feature",
+            phonetic: "/ˈfiːtʃər/",
+            examples: [
+              "The main feature of the phone is camera",
+              "Her best feature is her beautiful smile",
+              "The magazine will feature her story next month",
+              "This model has many special features",
+              "The documentary features rare wildlife footage",
+              "Facial features help identify people easily",
+              "The new feature makes the app better",
+              "The movie features several famous actors",
+              "Safety features are very important in cars",
+              "The house features a large swimming pool"
+            ],
+            questions: [
+              {
+                question: "What's special about it?",
+                answers: [
+                  "Its main feature is",
+                  "Best feature",
+                  "Unique features"
+                ]
+              },
+              {
+                question: "What does it include?",
+                answers: [
+                  "It features many things",
+                  "Features include",
+                  "Special features"
+                ]
+              },
+              {
+                question: "Who's in the movie?",
+                answers: [
+                  "It features famous actors",
+                  "Features her",
+                  "Featured performance"
+                ]
+              }
+            ]
+          },
+          {
+            word: "instance",
+            phonetic: "/ˈɪnstəns/",
+            examples: [
+              "For instance you could try this method",
+              "This is a rare instance of success",
+              "In most instances he's right about things",
+              "Can you give me an instance of that",
+              "In this instance I disagree completely",
+              "There are many instances of similar cases",
+              "For instance take yesterday's meeting",
+              "That's a perfect instance of the problem",
+              "In some instances it works better",
+              "This instance proves my point exactly"
+            ],
+            questions: [
+              {
+                question: "Can you give an example?",
+                answers: [
+                  "For instance this one",
+                  "One instance is",
+                  "Several instances"
+                ]
+              },
+              {
+                question: "Is this always true?",
+                answers: [
+                  "In most instances yes",
+                  "In some instances",
+                  "This instance"
+                ]
+              },
+              {
+                question: "What do you mean?",
+                answers: [
+                  "For instance",
+                  "As an instance",
+                  "Perfect instance"
+                ]
+              }
+            ]
+          },
+          {
+            word: "involve",
+            phonetic: "/ɪnˈvɑːlv/",
+            examples: [
+              "The job involves a lot of travel",
+              "Please don't involve me in this matter",
+              "The accident involved three cars total",
+              "The project involves many different people",
+              "What does the process involve exactly",
+              "She's involved in many community activities",
+              "The crime involved several suspects",
+              "The treatment involves regular medication",
+              "Don't involve yourself in their problems",
+              "The program involves children and parents"
+            ],
+            questions: [
+              {
+                question: "What does it require?",
+                answers: [
+                  "It involves hard work",
+                  "Involves commitment",
+                  "Involves risk"
+                ]
+              },
+              {
+                question: "Who's part of this?",
+                answers: [
+                  "Many people are involved",
+                  "She's involved",
+                  "Not involved"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "It involved an accident",
+                  "Involved several people",
+                  "Police involved"
+                ]
+              }
+            ]
+          },
+          {
+            word: "medicine",
+            phonetic: "/ˈmedɪsn/",
+            examples: [
+              "Take this medicine three times daily",
+              "She's studying medicine at university",
+              "The medicine made him feel better quickly",
+              "Modern medicine has saved millions of lives",
+              "Don't forget to take your medicine",
+              "He practices medicine at the hospital",
+              "The medicine cabinet is in the bathroom",
+              "Herbal medicine is becoming popular again",
+              "Medicine has advanced significantly recently",
+              "The best medicine is prevention"
+            ],
+            questions: [
+              {
+                question: "What should I take?",
+                answers: [
+                  "Take this medicine",
+                  "Your medicine",
+                  "Prescribed medicine"
+                ]
+              },
+              {
+                question: "What does she study?",
+                answers: [
+                  "She studies medicine",
+                  "Medical medicine",
+                  "Traditional medicine"
+                ]
+              },
+              {
+                question: "What helps?",
+                answers: [
+                  "The medicine works",
+                  "Good medicine",
+                  "Right medicine"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mix",
+            phonetic: "/mɪks/",
+            examples: [
+              "Mix the ingredients together thoroughly",
+              "Don't mix business with pleasure ever",
+              "Oil and water don't mix well",
+              "She mixed the paint colors carefully",
+              "The DJ mixed different music styles",
+              "It's a mix of old and new",
+              "Never mix those chemicals together",
+              "The crowd was a diverse mix",
+              "Mix the batter until smooth",
+              "He mixed up the dates unfortunately"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Mix them together",
+                  "Mix it well",
+                  "Don't mix"
+                ]
+              },
+              {
+                question: "What's the result?",
+                answers: [
+                  "A good mix",
+                  "Mixed feelings",
+                  "Perfect mix"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "I mixed them up",
+                  "Got mixed",
+                  "Mixed together"
+                ]
+              }
+            ]
+          },
+          {
+            word: "organize",
+            phonetic: "/ˈɔːrɡənaɪz/",
+            examples: [
+              "She organized the entire event perfectly",
+              "We need to organize the files better",
+              "They're organizing a protest next week",
+              "He's very organized with his time",
+              "The workers organized a union successfully",
+              "Please organize your thoughts before speaking",
+              "She organizes charity events regularly",
+              "The closet needs to be organized",
+              "They organized a surprise party for her",
+              "Organize your desk to work more efficiently"
+            ],
+            questions: [
+              {
+                question: "What needs to be done?",
+                answers: [
+                  "We need to organize",
+                  "Organize everything",
+                  "Get organized"
+                ]
+              },
+              {
+                question: "Who planned it?",
+                answers: [
+                  "She organized it",
+                  "We organized",
+                  "Well organized"
+                ]
+              },
+              {
+                question: "What's he like?",
+                answers: [
+                  "He's very organized",
+                  "Highly organized",
+                  "Not organized"
+                ]
+              }
+            ]
+          },
+          {
+            word: "period",
+            phonetic: "/ˈpɪriəd/",
+            examples: [
+              "We studied the Victorian period in history",
+              "There's a waiting period of thirty days",
+              "The class period is fifty minutes long",
+              "She lived in Paris for a brief period",
+              "The period of time was very short",
+              "The Jurassic period had many dinosaurs",
+              "He went through a difficult period recently",
+              "The lease period is one year",
+              "During this period she grew tremendously",
+              "Put a period at the end of sentence"
+            ],
+            questions: [
+              {
+                question: "How long did it last?",
+                answers: [
+                  "For a long period",
+                  "Short period",
+                  "Brief period"
+                ]
+              },
+              {
+                question: "What time are we studying?",
+                answers: [
+                  "The colonial period",
+                  "Modern period",
+                  "That period"
+                ]
+              },
+              {
+                question: "When was this?",
+                answers: [
+                  "During that period",
+                  "Same period",
+                  "Different period"
+                ]
+              }
+            ]
+          },
+          {
+            word: "populate",
+            phonetic: "/ˈpɑːpjuleɪt/",
+            examples: [
+              "Fish populate the ocean in billions",
+              "The area is densely populated with people",
+              "Wildlife populates the forest naturally",
+              "Immigrants populated the new territory",
+              "The database is populated with information",
+              "Stars populate the night sky above",
+              "The town is sparsely populated",
+              "Various species populate the ecosystem",
+              "The region was populated centuries ago",
+              "Tourists populate the beaches in summer"
+            ],
+            questions: [
+              {
+                question: "Who lives there?",
+                answers: [
+                  "It's heavily populated",
+                  "Populated area",
+                  "Sparsely populated"
+                ]
+              },
+              {
+                question: "What's in the ocean?",
+                answers: [
+                  "Fish populate it",
+                  "Populated with life",
+                  "Various species populate"
+                ]
+              },
+              {
+                question: "What about the data?",
+                answers: [
+                  "It's populated automatically",
+                  "Populate the fields",
+                  "Fully populated"
+                ]
+              }
+            ]
+          },
+          {
+            word: "produce",
+            phonetic: "/prəˈduːs/",
+            examples: [
+              "The factory produces cars every day",
+              "Trees produce oxygen for us naturally",
+              "She produces films for television",
+              "The farm produces organic vegetables",
+              "His actions produced unexpected results",
+              "The meeting produced no solutions",
+              "The artist produces beautiful paintings",
+              "Fresh produce is available at the market",
+              "The country produces oil and gas",
+              "They produce high quality products"
+            ],
+            questions: [
+              {
+                question: "What does it make?",
+                answers: [
+                  "It produces electricity",
+                  "Produces goods",
+                  "Produce results"
+                ]
+              },
+              {
+                question: "What do you need?",
+                answers: [
+                  "Fresh produce",
+                  "Local produce",
+                  "Organic produce"
+                ]
+              },
+              {
+                question: "What's her job?",
+                answers: [
+                  "She produces movies",
+                  "Produces content",
+                  "Producer"
+                ]
+              }
+            ]
+          },
+          {
+            word: "range",
+            phonetic: "/reɪndʒ/",
+            examples: [
+              "The price range is very affordable here",
+              "Mountains range across the horizon beautifully",
+              "The store offers a wide range of products",
+              "Temperatures range from ten to twenty degrees",
+              "The shooting range is open daily",
+              "Her skills range from art to science",
+              "The age range is eighteen to sixty five",
+              "Animals range freely in the sanctuary",
+              "The mountain range is spectacular",
+              "Within range of the radio signal"
+            ],
+            questions: [
+              {
+                question: "What's available?",
+                answers: [
+                  "Wide range of options",
+                  "Full range",
+                  "Limited range"
+                ]
+              },
+              {
+                question: "What are the prices?",
+                answers: [
+                  "They range from low to high",
+                  "Price range varies",
+                  "Within my range"
+                ]
+              },
+              {
+                question: "What's that landscape?",
+                answers: [
+                  "A mountain range",
+                  "Range of hills",
+                  "Vast range"
+                ]
+              }
+            ]
+          },
+          {
+            word: "recognize",
+            phonetic: "/ˈrekəɡnaɪz/",
+            examples: [
+              "I didn't recognize you with that haircut",
+              "The company recognizes her outstanding work",
+              "Do you recognize this song at all",
+              "He's recognized as an expert worldwide",
+              "I recognize the problem now clearly",
+              "She didn't recognize him after many years",
+              "The award recognizes excellence in teaching",
+              "They finally recognize the importance",
+              "I barely recognized the old neighborhood",
+              "The system recognizes voice commands"
+            ],
+            questions: [
+              {
+                question: "Do you know him?",
+                answers: [
+                  "I recognize him",
+                  "Don't recognize",
+                  "Didn't recognize"
+                ]
+              },
+              {
+                question: "What did they do?",
+                answers: [
+                  "They recognized her achievement",
+                  "Recognize efforts",
+                  "Recognize contributions"
+                ]
+              },
+              {
+                question: "Do you understand?",
+                answers: [
+                  "I recognize that",
+                  "Recognize the issue",
+                  "Now recognize"
+                ]
+              }
+            ]
+          },
+          {
+            word: "regular",
+            phonetic: "/ˈreɡjələr/",
+            examples: [
+              "She's a regular customer at the cafe",
+              "Regular exercise is important for health",
+              "He has a regular nine to five job",
+              "The bus runs on a regular schedule",
+              "I'm just a regular person like everyone",
+              "Regular maintenance prevents big problems",
+              "They meet on a regular basis weekly",
+              "This is our regular meeting time",
+              "He's not a regular visitor here",
+              "Regular size or large coffee today"
+            ],
+            questions: [
+              {
+                question: "How often do you exercise?",
+                answers: [
+                  "On a regular basis",
+                  "Regular exercise",
+                  "Very regular"
+                ]
+              },
+              {
+                question: "Do you know him?",
+                answers: [
+                  "He's a regular here",
+                  "Regular customer",
+                  "Not regular"
+                ]
+              },
+              {
+                question: "What size?",
+                answers: [
+                  "Regular size please",
+                  "Just regular",
+                  "Large not regular"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sign",
+            phonetic: "/saɪn/",
+            examples: [
+              "Please sign your name here clearly",
+              "The sign says no parking allowed",
+              "Dark clouds are a sign of rain",
+              "She showed signs of improvement",
+              "He signed the contract yesterday officially",
+              "There's no sign of life anywhere",
+              "That's a good sign for the future",
+              "The stop sign is at the corner",
+              "Sign language helps deaf people communicate",
+              "What's your zodiac sign exactly"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Please sign here",
+                  "Sign the document",
+                  "Need your signature"
+                ]
+              },
+              {
+                question: "What does it say?",
+                answers: [
+                  "The sign says",
+                  "Read the sign",
+                  "No sign"
+                ]
+              },
+              {
+                question: "Is this good or bad?",
+                answers: [
+                  "It's a good sign",
+                  "Bad sign",
+                  "Positive sign"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tip",
+            phonetic: "/tɪp/",
+            examples: [
+              "The tip of the iceberg is visible",
+              "She left a generous tip for waiter",
+              "Here's a useful tip for cooking",
+              "The pen tip is very sharp",
+              "He gave me a hot tip about stocks",
+              "The boat began to tip over dangerously",
+              "I'll tip you off about the surprise",
+              "The balance tipped in their favor",
+              "Finger tips are very sensitive to touch",
+              "That's just the tip of the problem"
+            ],
+            questions: [
+              {
+                question: "What should I leave?",
+                answers: [
+                  "Leave a good tip",
+                  "Ten percent tip",
+                  "No tip"
+                ]
+              },
+              {
+                question: "Can you help me?",
+                answers: [
+                  "Here's a tip",
+                  "Useful tip",
+                  "Some tips"
+                ]
+              },
+              {
+                question: "What's that end called?",
+                answers: [
+                  "It's the tip",
+                  "Sharp tip",
+                  "Tip of it"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tradition",
+            phonetic: "/trəˈdɪʃn/",
+            examples: [
+              "It's a family tradition we follow annually",
+              "The tradition dates back many centuries",
+              "Cultural traditions should be preserved",
+              "Breaking tradition can be difficult sometimes",
+              "Christmas traditions vary by country",
+              "They maintain old traditions carefully",
+              "The tradition continues to this day",
+              "Wedding traditions differ across cultures",
+              "It's tradition to give gifts here",
+              "Religious traditions are very important"
+            ],
+            questions: [
+              {
+                question: "Why do you do that?",
+                answers: [
+                  "It's our tradition",
+                  "Family tradition",
+                  "Old tradition"
+                ]
+              },
+              {
+                question: "What's important here?",
+                answers: [
+                  "The tradition is",
+                  "Following tradition",
+                  "Cultural traditions"
+                ]
+              },
+              {
+                question: "How long has this existed?",
+                answers: [
+                  "It's an ancient tradition",
+                  "Long tradition",
+                  "New tradition"
+                ]
+              }
+            ]
+          },
+          {
+            word: "trash",
+            phonetic: "/træʃ/",
+            examples: [
+              "Please take out the trash tonight",
+              "Don't throw trash on the ground ever",
+              "The trash bin is full already",
+              "That movie was complete trash honestly",
+              "Trash collection is on Tuesdays here",
+              "He talks trash during basketball games",
+              "One person's trash is another's treasure",
+              "The room was full of trash everywhere",
+              "She trashed her old belongings yesterday",
+              "Trash the old documents carefully"
+            ],
+            questions: [
+              {
+                question: "What needs to be done?",
+                answers: [
+                  "Take out the trash",
+                  "Empty the trash",
+                  "Trash day"
+                ]
+              },
+              {
+                question: "Where does it go?",
+                answers: [
+                  "In the trash",
+                  "Trash can",
+                  "Trash bin"
+                ]
+              },
+              {
+                question: "What do you think of it?",
+                answers: [
+                  "It's trash",
+                  "Complete trash",
+                  "Not trash"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wide",
+            phonetic: "/waɪd/",
+            examples: [
+              "The river is very wide at this point",
+              "She has a wide range of interests",
+              "Open your eyes wide to see better",
+              "The gap is growing wider every day",
+              "He has wide experience in this field",
+              "The door is three feet wide exactly",
+              "A wide smile spread across her face",
+              "The road is wide enough for cars",
+              "Wide open spaces make me feel free",
+              "There's a wide variety of options available"
+            ],
+            questions: [
+              {
+                question: "How big is it?",
+                answers: [
+                  "It's very wide",
+                  "Ten feet wide",
+                  "Not wide"
+                ]
+              },
+              {
+                question: "What's available?",
+                answers: [
+                  "A wide selection",
+                  "Wide range",
+                  "Wide variety"
+                ]
+              },
+              {
+                question: "What's the difference?",
+                answers: [
+                  "There's a wide gap",
+                  "Wide margin",
+                  "Wide difference"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit26",
+        words: [
+          {
+            word: "advice",
+            phonetic: "/ədˈvaɪs/",
+            examples: [
+              "Can you give me some advice please",
+              "His advice was very helpful and practical",
+              "She followed the doctor's advice carefully",
+              "I need advice on buying a car",
+              "That's good advice I'll take it",
+              "He ignored all my advice completely",
+              "Legal advice can be very expensive",
+              "My advice is to wait a bit longer",
+              "She offered some useful advice today",
+              "A piece of advice don't rush things"
+            ],
+            questions: [
+              {
+                question: "What do you need?",
+                answers: [
+                  "I need some advice",
+                  "Your advice",
+                  "Professional advice"
+                ]
+              },
+              {
+                question: "What did he say?",
+                answers: [
+                  "He gave good advice",
+                  "His advice was",
+                  "Followed his advice"
+                ]
+              },
+              {
+                question: "What's your recommendation?",
+                answers: [
+                  "My advice is",
+                  "Take my advice",
+                  "Best advice"
+                ]
+              }
+            ]
+          },
+          {
+            word: "along",
+            phonetic: "/əˈlɔːŋ/",
+            examples: [
+              "Walk along the street to the end",
+              "Come along with us to the party",
+              "Trees grow along the river bank",
+              "She brought her friend along too",
+              "How are you getting along at work",
+              "The project is coming along well",
+              "He walked along singing happily",
+              "We drove along the coast yesterday",
+              "Move along there's nothing to see",
+              "All along I knew you were right"
+            ],
+            questions: [
+              {
+                question: "Where should I go?",
+                answers: [
+                  "Walk along this road",
+                  "Go along there",
+                  "Drive along"
+                ]
+              },
+              {
+                question: "Can I join you?",
+                answers: [
+                  "Come along with us",
+                  "Bring someone along",
+                  "Tag along"
+                ]
+              },
+              {
+                question: "How's it progressing?",
+                answers: [
+                  "Coming along nicely",
+                  "Getting along well",
+                  "Moving along"
+                ]
+              }
+            ]
+          },
+          {
+            word: "attention",
+            phonetic: "/əˈtenʃn/",
+            examples: [
+              "Pay attention to what I'm saying",
+              "The baby needs constant attention always",
+              "She caught his attention immediately",
+              "Attention everyone please listen carefully",
+              "The issue requires immediate attention",
+              "He loves being the center of attention",
+              "The car needs some attention soon",
+              "May I have your attention please",
+              "Her work received international attention",
+              "Attention to detail is very important"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Pay attention",
+                  "Give attention",
+                  "Need attention"
+                ]
+              },
+              {
+                question: "How did she get noticed?",
+                answers: [
+                  "She attracted attention",
+                  "Caught attention",
+                  "Got attention"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Immediate attention",
+                  "Your attention",
+                  "More attention"
+                ]
+              }
+            ]
+          },
+          {
+            word: "attract",
+            phonetic: "/əˈtrækt/",
+            examples: [
+              "Bright colors attract attention naturally",
+              "The festival attracts thousands of visitors",
+              "Opposites attract in relationships sometimes",
+              "Flowers attract bees and butterflies",
+              "The job attracts highly qualified candidates",
+              "She's attracted to him romantically",
+              "The city attracts tourists year round",
+              "Low prices attract more customers",
+              "Magnets attract iron objects strongly",
+              "The event attracted media coverage"
+            ],
+            questions: [
+              {
+                question: "What brings people here?",
+                answers: [
+                  "It attracts visitors",
+                  "Attracts tourists",
+                  "Attracts crowds"
+                ]
+              },
+              {
+                question: "How does she feel?",
+                answers: [
+                  "She's attracted to him",
+                  "Feel attracted",
+                  "Not attracted"
+                ]
+              },
+              {
+                question: "What does it do?",
+                answers: [
+                  "It attracts attention",
+                  "Attracts interest",
+                  "Attracts customers"
+                ]
+              }
+            ]
+          },
+          {
+            word: "climb",
+            phonetic: "/klaɪm/",
+            examples: [
+              "They climbed the mountain successfully yesterday",
+              "The cat climbed up the tree quickly",
+              "Prices continue to climb steadily upward",
+              "She's climbing the corporate ladder fast",
+              "We climbed the stairs to the top",
+              "The temperature climbed to thirty degrees",
+              "He's learning to climb rocks safely",
+              "The plant climbs along the fence",
+              "They climbed over the wall carefully",
+              "Sales have been climbing this quarter"
+            ],
+            questions: [
+              {
+                question: "What did they do?",
+                answers: [
+                  "They climbed a mountain",
+                  "Climbed to the top",
+                  "Started climbing"
+                ]
+              },
+              {
+                question: "What's happening with prices?",
+                answers: [
+                  "Prices are climbing",
+                  "Climbing rapidly",
+                  "Continue to climb"
+                ]
+              },
+              {
+                question: "How did you get up?",
+                answers: [
+                  "I climbed the stairs",
+                  "Climbed the ladder",
+                  "Climbed up"
+                ]
+              }
+            ]
+          },
+          {
+            word: "drop",
+            phonetic: "/drɑːp/",
+            examples: [
+              "Don't drop the glass it will break",
+              "Temperatures will drop tonight significantly",
+              "She dropped out of college last year",
+              "Can you drop me off downtown",
+              "The price dropped by twenty percent",
+              "He dropped the ball during the game",
+              "Drop by anytime you're welcome",
+              "A tear drop rolled down her cheek",
+              "They dropped the charges against him",
+              "Drop everything and come immediately"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "I dropped it accidentally",
+                  "It dropped",
+                  "Don't drop"
+                ]
+              },
+              {
+                question: "Can you give me a ride?",
+                answers: [
+                  "I'll drop you off",
+                  "Drop you there",
+                  "Can drop you"
+                ]
+              },
+              {
+                question: "What's happening with sales?",
+                answers: [
+                  "They're dropping",
+                  "Sales dropped",
+                  "Sharp drop"
+                ]
+              }
+            ]
+          },
+          {
+            word: "final",
+            phonetic: "/ˈfaɪnl/",
+            examples: [
+              "This is my final answer definitely",
+              "The final exam is next week",
+              "She made it to the final round",
+              "What's the final score of the game",
+              "The final decision rests with you",
+              "This is your final warning seriously",
+              "The final chapter was very emotional",
+              "Finals week is always stressful for students",
+              "The final product exceeded expectations",
+              "In the final analysis we succeeded"
+            ],
+            questions: [
+              {
+                question: "Is this it?",
+                answers: [
+                  "Yes, it's final",
+                  "Final decision",
+                  "Not final"
+                ]
+              },
+              {
+                question: "What's next?",
+                answers: [
+                  "The final exam",
+                  "Final round",
+                  "Final game"
+                ]
+              },
+              {
+                question: "What's the result?",
+                answers: [
+                  "The final score is",
+                  "Final outcome",
+                  "Final result"
+                ]
+              }
+            ]
+          },
+          {
+            word: "further",
+            phonetic: "/ˈfɜːrðər/",
+            examples: [
+              "We need to investigate further immediately",
+              "Don't go any further than this point",
+              "Further information is available online",
+              "She lives further down the road",
+              "Let's discuss this further tomorrow",
+              "Nothing could be further from the truth",
+              "Further education improves job prospects",
+              "I have nothing further to say now",
+              "The situation is getting further complicated",
+              "Until further notice the office is closed"
+            ],
+            questions: [
+              {
+                question: "What should we do?",
+                answers: [
+                  "Look further into it",
+                  "Go further",
+                  "Need further study"
+                ]
+              },
+              {
+                question: "Where is it?",
+                answers: [
+                  "Further down the street",
+                  "Further away",
+                  "Not much further"
+                ]
+              },
+              {
+                question: "Anything else?",
+                answers: [
+                  "Nothing further",
+                  "Further questions",
+                  "Further discussion"
+                ]
+              }
+            ]
+          },
+          {
+            word: "imply",
+            phonetic: "/ɪmˈplaɪ/",
+            examples: [
+              "What are you trying to imply exactly",
+              "Her silence implied agreement with the plan",
+              "The results imply a serious problem",
+              "I didn't mean to imply that at all",
+              "The data implies a different conclusion",
+              "His tone implied disapproval clearly",
+              "The job title implies certain responsibilities",
+              "Are you implying I'm lying to you",
+              "The evidence implies his involvement",
+              "Success implies hard work and dedication"
+            ],
+            questions: [
+              {
+                question: "What do you mean?",
+                answers: [
+                  "What are you implying",
+                  "Are you implying",
+                  "Didn't imply"
+                ]
+              },
+              {
+                question: "What does it suggest?",
+                answers: [
+                  "It implies that",
+                  "Implies something",
+                  "Doesn't imply"
+                ]
+              },
+              {
+                question: "What's the meaning?",
+                answers: [
+                  "The word implies",
+                  "Title implies",
+                  "Implies responsibility"
+                ]
+              }
+            ]
+          },
+          {
+            word: "maintain",
+            phonetic: "/meɪnˈteɪn/",
+            examples: [
+              "They maintain the building very well",
+              "She maintains her innocence strongly",
+              "It's important to maintain good health",
+              "The car requires regular maintenance",
+              "He maintains contact with old friends",
+              "Maintain a safe distance from others",
+              "The company maintains high standards always",
+              "She maintained her composure throughout",
+              "They maintain a large garden beautifully",
+              "Maintain your focus on the goal"
+            ],
+            questions: [
+              {
+                question: "What needs to be done?",
+                answers: [
+                  "Need to maintain it",
+                  "Maintain regularly",
+                  "Proper maintenance"
+                ]
+              },
+              {
+                question: "What does he say?",
+                answers: [
+                  "He maintains his position",
+                  "Maintains innocence",
+                  "Still maintains"
+                ]
+              },
+              {
+                question: "What should I keep?",
+                answers: [
+                  "Maintain your balance",
+                  "Maintain contact",
+                  "Maintain standards"
+                ]
+              }
+            ]
+          },
+          {
+            word: "neither",
+            phonetic: "/ˈniːðər/",
+            examples: [
+              "Neither option is acceptable to me",
+              "Neither of them came to the party",
+              "I like neither coffee nor tea honestly",
+              "Neither team scored during the first half",
+              "Neither answer is correct unfortunately",
+              "She speaks neither English nor French",
+              "Neither he nor I know the answer",
+              "Neither solution will work here",
+              "Neither of us has money right now",
+              "Neither choice appeals to me"
+            ],
+            questions: [
+              {
+                question: "Which one do you want?",
+                answers: [
+                  "I want neither",
+                  "Neither one",
+                  "Neither option"
+                ]
+              },
+              {
+                question: "Who's coming?",
+                answers: [
+                  "Neither of them",
+                  "Neither is coming",
+                  "Neither person"
+                ]
+              },
+              {
+                question: "What's correct?",
+                answers: [
+                  "Neither is correct",
+                  "Neither answer",
+                  "Neither choice"
+                ]
+              }
+            ]
+          },
+          {
+            word: "otherwise",
+            phonetic: "/ˈʌðərwaɪz/",
+            examples: [
+              "Hurry up otherwise we'll be late",
+              "The movie was good otherwise boring",
+              "Leave now otherwise you'll miss it",
+              "He's tired but otherwise feeling fine",
+              "Take notes otherwise you'll forget everything",
+              "The room is small otherwise comfortable",
+              "Study hard otherwise you'll fail",
+              "Unless stated otherwise assume this is correct",
+              "He thinks otherwise about the matter",
+              "Otherwise known as the City of Lights"
+            ],
+            questions: [
+              {
+                question: "What will happen if not?",
+                answers: [
+                  "Otherwise we'll fail",
+                  "Otherwise it won't work",
+                  "Otherwise problems"
+                ]
+              },
+              {
+                question: "How is everything else?",
+                answers: [
+                  "Otherwise it's fine",
+                  "Otherwise good",
+                  "Otherwise okay"
+                ]
+              },
+              {
+                question: "What's the alternative?",
+                answers: [
+                  "Think otherwise",
+                  "Feel otherwise",
+                  "Otherwise stated"
+                ]
+              }
+            ]
+          },
+          {
+            word: "physical",
+            phonetic: "/ˈfɪzɪkl/",
+            examples: [
+              "Regular physical exercise is essential",
+              "She needs a physical examination soon",
+              "Physical contact should be avoided now",
+              "The job requires physical strength",
+              "Physical education is mandatory in schools",
+              "He suffered physical injuries in the accident",
+              "Mental and physical health are connected",
+              "The physical world around us is fascinating",
+              "Physical therapy helped him recover",
+              "There's no physical evidence at all"
+            ],
+            questions: [
+              {
+                question: "What kind of health?",
+                answers: [
+                  "Physical health",
+                  "Physical fitness",
+                  "Physical condition"
+                ]
+              },
+              {
+                question: "What's needed for the job?",
+                answers: [
+                  "Physical strength",
+                  "Physical ability",
+                  "Physical stamina"
+                ]
+              },
+              {
+                question: "What type of exam?",
+                answers: [
+                  "A physical exam",
+                  "Physical examination",
+                  "Physical checkup"
+                ]
+              }
+            ]
+          },
+          {
+            word: "prove",
+            phonetic: "/pruːv/",
+            examples: [
+              "Can you prove that statement with facts",
+              "Time will prove who's right eventually",
+              "She proved her worth to the company",
+              "The theory was proven correct yesterday",
+              "He proved to be a good friend",
+              "They couldn't prove his guilt definitively",
+              "The results prove my point exactly",
+              "She proved everyone wrong successfully",
+              "Prove yourself before asking for promotion",
+              "This proves nothing at all really"
+            ],
+            questions: [
+              {
+                question: "Can you show it's true?",
+                answers: [
+                  "I can prove it",
+                  "Need to prove",
+                  "Can't prove"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "He proved himself",
+                  "She proved wrong",
+                  "Was proven"
+                ]
+              },
+              {
+                question: "What does this show?",
+                answers: [
+                  "It proves that",
+                  "Proves nothing",
+                  "Proves the point"
+                ]
+              }
+            ]
+          },
+          {
+            word: "react",
+            phonetic: "/riˈækt/",
+            examples: [
+              "How did she react to the news",
+              "He reacted angrily to the accusation",
+              "The crowd reacted with loud cheers",
+              "Don't react emotionally stay calm instead",
+              "Chemicals react when mixed together",
+              "She reacted quickly to the emergency",
+              "How will they react to the changes",
+              "His body reacted badly to medication",
+              "We must react fast to this threat",
+              "The market reacted to the announcement"
+            ],
+            questions: [
+              {
+                question: "What did she do?",
+                answers: [
+                  "She reacted badly",
+                  "Didn't react",
+                  "Reacted quickly"
+                ]
+              },
+              {
+                question: "How will they respond?",
+                answers: [
+                  "They'll react strongly",
+                  "Might react",
+                  "Won't react"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Don't overreact",
+                  "React calmly",
+                  "Need to react"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ride",
+            phonetic: "/raɪd/",
+            examples: [
+              "Can you ride a bicycle well",
+              "She rides the bus to work daily",
+              "He learned to ride a horse yesterday",
+              "Let's go for a ride in the car",
+              "The roller coaster ride was thrilling",
+              "I ride my motorcycle on weekends",
+              "Can you give me a ride home",
+              "They took a ride on the ferry",
+              "The taxi ride cost twenty dollars",
+              "She rides horses professionally"
+            ],
+            questions: [
+              {
+                question: "Can you do it?",
+                answers: [
+                  "I can ride a bike",
+                  "Learning to ride",
+                  "Can't ride"
+                ]
+              },
+              {
+                question: "How do you get there?",
+                answers: [
+                  "I ride the bus",
+                  "Ride with friends",
+                  "Get a ride"
+                ]
+              },
+              {
+                question: "What do you want to do?",
+                answers: [
+                  "Go for a ride",
+                  "Take a ride",
+                  "Enjoy the ride"
+                ]
+              }
+            ]
+          },
+          {
+            word: "situated",
+            phonetic: "/ˈsɪtʃueɪtɪd/",
+            examples: [
+              "The house is situated on a hill",
+              "The hotel is centrally situated downtown",
+              "The town is situated near the coast",
+              "We're well situated for shopping here",
+              "The office is situated in a quiet area",
+              "How are you situated financially now",
+              "The restaurant is beautifully situated",
+              "The school is conveniently situated",
+              "The camp is situated by the lake",
+              "The building is strategically situated"
+            ],
+            questions: [
+              {
+                question: "Where is it located?",
+                answers: [
+                  "It's situated downtown",
+                  "Situated nearby",
+                  "Well situated"
+                ]
+              },
+              {
+                question: "What's the position?",
+                answers: [
+                  "Situated on the corner",
+                  "Situated centrally",
+                  "Poorly situated"
+                ]
+              },
+              {
+                question: "How's your condition?",
+                answers: [
+                  "We're well situated",
+                  "Comfortably situated",
+                  "Badly situated"
+                ]
+              }
+            ]
+          },
+          {
+            word: "society",
+            phonetic: "/səˈsaɪəti/",
+            examples: [
+              "We live in a modern society today",
+              "Society must address these problems",
+              "She joined the historical society recently",
+              "The upper class of society is wealthy",
+              "Society has changed dramatically over time",
+              "They contribute positively to society",
+              "High society events are very exclusive",
+              "Modern society faces many challenges",
+              "Society benefits from education",
+              "The role of women in society evolved"
+            ],
+            questions: [
+              {
+                question: "What are we talking about?",
+                answers: [
+                  "Our society",
+                  "Modern society",
+                  "Society today"
+                ]
+              },
+              {
+                question: "What group did she join?",
+                answers: [
+                  "A society for",
+                  "Historical society",
+                  "Member of society"
+                ]
+              },
+              {
+                question: "What needs to change?",
+                answers: [
+                  "Society needs to",
+                  "In our society",
+                  "Society must"
+                ]
+              }
+            ]
+          },
+          {
+            word: "standard",
+            phonetic: "/ˈstændərd/",
+            examples: [
+              "The quality meets industry standards",
+              "She set high standards for herself",
+              "This is standard procedure here always",
+              "The standard size fits most people",
+              "Living standards have improved significantly",
+              "We maintain strict quality standards",
+              "That's below the acceptable standard",
+              "Standard practice requires written consent",
+              "The hotel offers standard amenities",
+              "Educational standards vary by country"
+            ],
+            questions: [
+              {
+                question: "What level is required?",
+                answers: [
+                  "High standards",
+                  "Meet the standard",
+                  "Below standard"
+                ]
+              },
+              {
+                question: "Is this normal?",
+                answers: [
+                  "It's standard procedure",
+                  "Standard practice",
+                  "Not standard"
+                ]
+              },
+              {
+                question: "What size?",
+                answers: [
+                  "Standard size",
+                  "Standard model",
+                  "Above standard"
+                ]
+              }
+            ]
+          },
+          {
+            word: "suggest",
+            phonetic: "/səˈdʒest/",
+            examples: [
+              "I suggest we leave early tomorrow",
+              "Can you suggest a good restaurant",
+              "The evidence suggests he's innocent",
+              "She suggested meeting at noon instead",
+              "What do you suggest I do now",
+              "The results suggest further research needed",
+              "I suggest you reconsider your decision",
+              "His behavior suggests something is wrong",
+              "May I suggest an alternative approach",
+              "The doctor suggested getting more rest"
+            ],
+            questions: [
+              {
+                question: "What's your recommendation?",
+                answers: [
+                  "I suggest trying this",
+                  "Suggest we wait",
+                  "Would suggest"
+                ]
+              },
+              {
+                question: "What does it indicate?",
+                answers: [
+                  "It suggests that",
+                  "Evidence suggests",
+                  "Results suggest"
+                ]
+              },
+              {
+                question: "Any ideas?",
+                answers: [
+                  "Can you suggest something",
+                  "Suggest alternatives",
+                  "Suggestions welcome"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit27",
+        words: [
+          {
+            word: "actually",
+            phonetic: "/ˈæktʃuəli/",
+            examples: [
+              "I actually enjoyed the movie very much",
+              "She's actually older than she looks",
+              "Did that actually happen in real life",
+              "Actually I changed my mind about it",
+              "He actually finished the work on time",
+              "The plan actually worked perfectly well",
+              "Actually I don't agree with that statement",
+              "It's actually quite simple to do",
+              "She actually won the lottery yesterday",
+              "Actually we've met before somewhere"
+            ],
+            questions: [
+              {
+                question: "Did it really happen?",
+                answers: [
+                  "Yes, it actually did",
+                  "Actually it didn't",
+                  "Actually yes"
+                ]
+              },
+              {
+                question: "What's the truth?",
+                answers: [
+                  "Actually the truth is",
+                  "Actually I think",
+                  "Well actually"
+                ]
+              },
+              {
+                question: "Is that correct?",
+                answers: [
+                  "Actually no",
+                  "Actually it's different",
+                  "Actually yes"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bite",
+            phonetic: "/baɪt/",
+            examples: [
+              "Be careful the dog might bite you",
+              "She took a bite of the apple",
+              "Mosquitoes bite during the summer months",
+              "Don't bite off more than you can chew",
+              "The cold wind bites at your face",
+              "He bit into the sandwich hungrily",
+              "Fish won't bite in this weather",
+              "Her words bite with sarcasm sometimes",
+              "The lion can bite with tremendous force",
+              "I'll just have a quick bite to eat"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "The dog bit me",
+                  "Got bitten",
+                  "It might bite"
+                ]
+              },
+              {
+                question: "What are you doing?",
+                answers: [
+                  "Taking a bite",
+                  "Having a bite",
+                  "Quick bite"
+                ]
+              },
+              {
+                question: "Are they biting?",
+                answers: [
+                  "Fish aren't biting",
+                  "Mosquitoes are biting",
+                  "Not biting today"
+                ]
+              }
+            ]
+          },
+          {
+            word: "coast",
+            phonetic: "/koʊst/",
+            examples: [
+              "We drove along the beautiful coast yesterday",
+              "The town is on the east coast",
+              "Coast guard rescued the sailors bravely",
+              "They live near the coast by the sea",
+              "The west coast has great weather always",
+              "He coasted down the hill on his bike",
+              "The coast is clear let's go now",
+              "Coastal areas are vulnerable to hurricanes",
+              "She's coasting through life without effort",
+              "The coastline stretches for many miles"
+            ],
+            questions: [
+              {
+                question: "Where did you go?",
+                answers: [
+                  "To the coast",
+                  "Along the coast",
+                  "Coast vacation"
+                ]
+              },
+              {
+                question: "Where do they live?",
+                answers: [
+                  "On the coast",
+                  "Near the coast",
+                  "West coast"
+                ]
+              },
+              {
+                question: "Is it safe?",
+                answers: [
+                  "The coast is clear",
+                  "Coast guard there",
+                  "Coast patrol"
+                ]
+              }
+            ]
+          },
+          {
+            word: "death",
+            phonetic: "/deθ/",
+            examples: [
+              "Death is a natural part of life",
+              "The accident resulted in three deaths",
+              "She mourned her father's death deeply",
+              "Death penalty is controversial worldwide",
+              "He narrowly escaped death yesterday",
+              "The cause of death was unknown",
+              "Till death do us part they said",
+              "Death rates have decreased significantly",
+              "She was scared to death completely",
+              "Life and death decisions are difficult"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "There was a death",
+                  "Death occurred",
+                  "After his death"
+                ]
+              },
+              {
+                question: "What's the cause?",
+                answers: [
+                  "Cause of death unknown",
+                  "Death by accident",
+                  "Natural death"
+                ]
+              },
+              {
+                question: "How scared were you?",
+                answers: [
+                  "Scared to death",
+                  "Death scare",
+                  "Near death"
+                ]
+              }
+            ]
+          },
+          {
+            word: "desert",
+            phonetic: "/ˈdezərt/",
+            examples: [
+              "The Sahara is the largest hot desert",
+              "Desert temperatures are extreme day and night",
+              "Camels survive well in the desert",
+              "He deserted his family years ago",
+              "Desert plants have adapted to dryness",
+              "The streets were completely deserted",
+              "They crossed the desert on camels",
+              "Don't desert me in my time of need",
+              "Desert landscapes are beautiful but harsh",
+              "The soldiers deserted during the battle"
+            ],
+            questions: [
+              {
+                question: "What's that landscape?",
+                answers: [
+                  "It's a desert",
+                  "Desert region",
+                  "Desert area"
+                ]
+              },
+              {
+                question: "Where is everyone?",
+                answers: [
+                  "The place is deserted",
+                  "Streets deserted",
+                  "Completely deserted"
+                ]
+              },
+              {
+                question: "What did he do?",
+                answers: [
+                  "He deserted them",
+                  "Deserted the army",
+                  "Never desert"
+                ]
+              }
+            ]
+          },
+          {
+            word: "effective",
+            phonetic: "/ɪˈfektɪv/",
+            examples: [
+              "This medicine is very effective against pain",
+              "She's an effective leader and manager",
+              "The new law becomes effective tomorrow",
+              "We need more effective solutions now",
+              "His speech was simple but effective",
+              "Effective communication is essential at work",
+              "The treatment proved highly effective",
+              "They used effective teaching methods",
+              "Cost effective options are preferred",
+              "The policy is effective immediately"
+            ],
+            questions: [
+              {
+                question: "Does it work?",
+                answers: [
+                  "Yes, it's effective",
+                  "Very effective",
+                  "Not effective"
+                ]
+              },
+              {
+                question: "When does it start?",
+                answers: [
+                  "Effective immediately",
+                  "Becomes effective",
+                  "Effective tomorrow"
+                ]
+              },
+              {
+                question: "How's the solution?",
+                answers: [
+                  "Highly effective",
+                  "Most effective",
+                  "Less effective"
+                ]
+              }
+            ]
+          },
+          {
+            word: "examine",
+            phonetic: "/ɪɡˈzæmɪn/",
+            examples: [
+              "The doctor will examine you now",
+              "Let's examine the evidence carefully",
+              "They examined all possible options thoroughly",
+              "She examined the document closely",
+              "The committee will examine the proposal",
+              "We need to examine our assumptions",
+              "He examined the painting with interest",
+              "Police examined the crime scene",
+              "The teacher examines students' progress",
+              "Examine your conscience before deciding"
+            ],
+            questions: [
+              {
+                question: "What should we do?",
+                answers: [
+                  "Let's examine it",
+                  "Need to examine",
+                  "Examine carefully"
+                ]
+              },
+              {
+                question: "What's the doctor doing?",
+                answers: [
+                  "Examining the patient",
+                  "Will examine you",
+                  "Being examined"
+                ]
+              },
+              {
+                question: "How did they investigate?",
+                answers: [
+                  "They examined everything",
+                  "Examined closely",
+                  "Under examination"
+                ]
+              }
+            ]
+          },
+          {
+            word: "false",
+            phonetic: "/fɔːls/",
+            examples: [
+              "That statement is completely false",
+              "He gave a false name to police",
+              "False teeth look very natural now",
+              "Don't bear false witness against anyone",
+              "The alarm was a false alarm",
+              "She accused him on false pretenses",
+              "False promises won't help you",
+              "The test results were false positive",
+              "False advertising is illegal everywhere",
+              "True or false this is correct"
+            ],
+            questions: [
+              {
+                question: "Is it true?",
+                answers: [
+                  "No, it's false",
+                  "Completely false",
+                  "True or false"
+                ]
+              },
+              {
+                question: "What kind of alarm?",
+                answers: [
+                  "A false alarm",
+                  "False alert",
+                  "False warning"
+                ]
+              },
+              {
+                question: "What did he give?",
+                answers: [
+                  "False information",
+                  "False name",
+                  "False testimony"
+                ]
+              }
+            ]
+          },
+          {
+            word: "figure out",
+            phonetic: "/ˈfɪɡjər aʊt/",
+            examples: [
+              "Can you figure out this math problem",
+              "I can't figure out what she wants",
+              "They figured out the solution quickly",
+              "He's trying to figure out his future",
+              "We need to figure out a plan",
+              "She figured out how to fix it",
+              "I finally figured it out myself",
+              "Figure out what went wrong here",
+              "It's hard to figure him out",
+              "Let me figure out the cost first"
+            ],
+            questions: [
+              {
+                question: "Do you understand it?",
+                answers: [
+                  "I can't figure it out",
+                  "Trying to figure out",
+                  "Finally figured out"
+                ]
+              },
+              {
+                question: "What's the solution?",
+                answers: [
+                  "We figured it out",
+                  "Need to figure out",
+                  "Can't figure out"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Let's figure it out",
+                  "Figure out together",
+                  "Must figure out"
+                ]
+              }
+            ]
+          },
+          {
+            word: "gift",
+            phonetic: "/ɡɪft/",
+            examples: [
+              "She gave me a wonderful birthday gift",
+              "He has a natural gift for music",
+              "Gift wrapping is available at the store",
+              "The gift was very thoughtful and kind",
+              "She has the gift of persuasion",
+              "This ring is a gift from grandmother",
+              "Gift cards are popular presents nowadays",
+              "His talent is a rare gift indeed",
+              "They exchanged gifts at Christmas",
+              "The gift shop sells souvenirs"
+            ],
+            questions: [
+              {
+                question: "What did you receive?",
+                answers: [
+                  "I got a gift",
+                  "Birthday gift",
+                  "Special gift"
+                ]
+              },
+              {
+                question: "What's his talent?",
+                answers: [
+                  "He has a gift",
+                  "Natural gift",
+                  "Gift for languages"
+                ]
+              },
+              {
+                question: "What should I buy?",
+                answers: [
+                  "Get a gift card",
+                  "Perfect gift",
+                  "Gift idea"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hunger",
+            phonetic: "/ˈhʌŋɡər/",
+            examples: [
+              "World hunger is a serious problem",
+              "I'm dying of hunger right now",
+              "Hunger makes people desperate sometimes",
+              "She has a hunger for knowledge",
+              "The hunger strike lasted two weeks",
+              "Millions suffer from hunger daily",
+              "He felt a hunger for success",
+              "Hunger pangs kept him awake",
+              "They're fighting to end world hunger",
+              "The hunger in her eyes was obvious"
+            ],
+            questions: [
+              {
+                question: "What's the problem?",
+                answers: [
+                  "There's widespread hunger",
+                  "Suffering from hunger",
+                  "World hunger"
+                ]
+              },
+              {
+                question: "How do you feel?",
+                answers: [
+                  "I feel hunger",
+                  "Dying of hunger",
+                  "No hunger"
+                ]
+              },
+              {
+                question: "What drives her?",
+                answers: [
+                  "Her hunger for success",
+                  "Hunger for knowledge",
+                  "Deep hunger"
+                ]
+              }
+            ]
+          },
+          {
+            word: "imagine",
+            phonetic: "/ɪˈmædʒɪn/",
+            examples: [
+              "Can you imagine life without technology",
+              "I can't imagine what she's going through",
+              "Imagine winning the lottery tomorrow",
+              "He imagined himself as a hero",
+              "Just imagine the possibilities ahead",
+              "She imagined a better future for all",
+              "I never imagined it would happen",
+              "Imagine my surprise when I saw her",
+              "Children have vivid imaginations naturally",
+              "Imagine if we could fly like birds"
+            ],
+            questions: [
+              {
+                question: "Can you picture it?",
+                answers: [
+                  "I can imagine it",
+                  "Can't imagine",
+                  "Just imagine"
+                ]
+              },
+              {
+                question: "What if?",
+                answers: [
+                  "Imagine that scenario",
+                  "Imagine the consequences",
+                  "Hard to imagine"
+                ]
+              },
+              {
+                question: "What was your reaction?",
+                answers: [
+                  "Imagine my surprise",
+                  "Never imagined",
+                  "Who would imagine"
+                ]
+              }
+            ]
+          },
+          {
+            word: "journey",
+            phonetic: "/ˈdʒɜːrni/",
+            examples: [
+              "The journey took twelve hours total",
+              "Life is a journey not a destination",
+              "They embarked on a long journey",
+              "Her spiritual journey was transformative",
+              "The journey was difficult but rewarding",
+              "We're planning a journey across Europe",
+              "His journey to success was inspiring",
+              "The journey home felt very long",
+              "Safe journey take care of yourself",
+              "Every journey begins with a step"
+            ],
+            questions: [
+              {
+                question: "How was your trip?",
+                answers: [
+                  "The journey was great",
+                  "Long journey",
+                  "Difficult journey"
+                ]
+              },
+              {
+                question: "What are you doing?",
+                answers: [
+                  "Starting a journey",
+                  "On a journey",
+                  "Journey ahead"
+                ]
+              },
+              {
+                question: "What do you wish?",
+                answers: [
+                  "Safe journey",
+                  "Good journey",
+                  "Enjoy your journey"
+                ]
+              }
+            ]
+          },
+          {
+            word: "puzzle",
+            phonetic: "/ˈpʌzl/",
+            examples: [
+              "This jigsaw puzzle has thousand pieces",
+              "Her behavior puzzles me completely",
+              "He enjoys solving crossword puzzles",
+              "The mystery is a real puzzle",
+              "Children love doing puzzles together",
+              "I'm puzzled by his strange reaction",
+              "Can you solve this puzzle quickly",
+              "The puzzle pieces fit together perfectly",
+              "It's a puzzle why she left",
+              "The puzzle remained unsolved for years"
+            ],
+            questions: [
+              {
+                question: "What are you doing?",
+                answers: [
+                  "Doing a puzzle",
+                  "Solving puzzle",
+                  "Working on puzzle"
+                ]
+              },
+              {
+                question: "Do you understand it?",
+                answers: [
+                  "It puzzles me",
+                  "I'm puzzled",
+                  "Puzzling situation"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "It's a puzzle",
+                  "Real puzzle",
+                  "Complete puzzle"
+                ]
+              }
+            ]
+          },
+          {
+            word: "quite",
+            phonetic: "/kwaɪt/",
+            examples: [
+              "The movie was quite good actually",
+              "She's quite tall for her age",
+              "It's quite expensive I must say",
+              "I'm not quite ready yet sorry",
+              "That's quite a story you told",
+              "He's quite the athlete these days",
+              "It's quite possible that you're right",
+              "Quite frankly I don't care anymore",
+              "She was quite upset about it",
+              "That's quite enough thank you"
+            ],
+            questions: [
+              {
+                question: "How was it?",
+                answers: [
+                  "It was quite good",
+                  "Quite interesting",
+                  "Not quite"
+                ]
+              },
+              {
+                question: "Are you ready?",
+                answers: [
+                  "Not quite yet",
+                  "Quite ready",
+                  "Almost quite"
+                ]
+              },
+              {
+                question: "What's your opinion?",
+                answers: [
+                  "Quite honestly",
+                  "Quite right",
+                  "Quite different"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rather",
+            phonetic: "/ˈræðər/",
+            examples: [
+              "I'd rather stay home tonight honestly",
+              "She's rather quiet today unusually",
+              "The exam was rather difficult overall",
+              "Rather than wait let's go now",
+              "He's a teacher or rather was one",
+              "I'd rather not discuss it please",
+              "It's rather cold outside right now",
+              "Rather surprisingly he agreed immediately",
+              "She'd rather walk than drive",
+              "That's rather rude of you"
+            ],
+            questions: [
+              {
+                question: "What do you prefer?",
+                answers: [
+                  "I'd rather go",
+                  "Rather stay",
+                  "Would rather not"
+                ]
+              },
+              {
+                question: "How was it?",
+                answers: [
+                  "Rather difficult",
+                  "Rather good",
+                  "Rather disappointing"
+                ]
+              },
+              {
+                question: "What's the alternative?",
+                answers: [
+                  "Rather than that",
+                  "Or rather",
+                  "But rather"
+                ]
+              }
+            ]
+          },
+          {
+            word: "specific",
+            phonetic: "/spəˈsɪfɪk/",
+            examples: [
+              "Can you be more specific please",
+              "She has specific dietary requirements",
+              "He gave specific instructions clearly",
+              "No specific reason just a feeling",
+              "The specific details are confidential",
+              "We need a specific answer now",
+              "Species specific behavior is interesting",
+              "Pacific Ocean is Earth's largest ocean",
+              "Be specific about what you want",
+              "The specific time hasn't been decided"
+            ],
+            questions: [
+              {
+                question: "What exactly do you mean?",
+                answers: [
+                  "Be more specific",
+                  "Need specific details",
+                  "Something specific"
+                ]
+              },
+              {
+                question: "What kind of requirements?",
+                answers: [
+                  "Specific requirements",
+                  "Very specific",
+                  "No specific ones"
+                ]
+              },
+              {
+                question: "What's the reason?",
+                answers: [
+                  "No specific reason",
+                  "Specific purpose",
+                  "For specific use"
+                ]
+              }
+            ]
+          },
+          {
+            word: "spider",
+            phonetic: "/ˈspaɪdər/",
+            examples: [
+              "A large spider crawled across the wall",
+              "She's terrified of spiders completely",
+              "Spiders spin intricate webs naturally",
+              "The spider caught a fly today",
+              "Most spiders are harmless to humans",
+              "A spider bite can be dangerous",
+              "The spider web glistened with dew",
+              "Black widow spiders are venomous",
+              "He has a pet tarantula spider",
+              "Spider legs are thin and long"
+            ],
+            questions: [
+              {
+                question: "What's that creature?",
+                answers: [
+                  "It's a spider",
+                  "Big spider",
+                  "Scary spider"
+                ]
+              },
+              {
+                question: "What are you afraid of?",
+                answers: [
+                  "I fear spiders",
+                  "Afraid of spiders",
+                  "Spider phobia"
+                ]
+              },
+              {
+                question: "What made that web?",
+                answers: [
+                  "A spider made it",
+                  "Spider web",
+                  "Spider's work"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tour",
+            phonetic: "/tʊr/",
+            examples: [
+              "We took a guided tour of the city",
+              "The band is on tour this summer",
+              "She's a tour guide at the museum",
+              "The tour lasted three hours exactly",
+              "They're touring Europe for two weeks",
+              "Book a tour in advance online",
+              "The bus tour was very informative",
+              "He gave us a tour of his house",
+              "Walking tours are popular with tourists",
+              "The tour starts at ten o'clock sharp"
+            ],
+            questions: [
+              {
+                question: "What did you do?",
+                answers: [
+                  "We took a tour",
+                  "Went on tour",
+                  "Guided tour"
+                ]
+              },
+              {
+                question: "What's she doing?",
+                answers: [
+                  "She's touring Europe",
+                  "On a tour",
+                  "Band tour"
+                ]
+              },
+              {
+                question: "What's her job?",
+                answers: [
+                  "She's a tour guide",
+                  "Tour operator",
+                  "Tour director"
+                ]
+              }
+            ]
+          },
+          {
+            word: "trip",
+            phonetic: "/trɪp/",
+            examples: [
+              "How was your trip to Paris",
+              "We're planning a camping trip soon",
+              "The business trip was successful",
+              "She tripped over the stairs yesterday",
+              "It's a three hour trip by car",
+              "They took a day trip to the beach",
+              "Don't trip on that wire there",
+              "The guilt trip made him apologize",
+              "School trips are educational and fun",
+              "Road trips are great summer adventures"
+            ],
+            questions: [
+              {
+                question: "Where did you go?",
+                answers: [
+                  "On a trip abroad",
+                  "Business trip",
+                  "Short trip"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "I tripped and fell",
+                  "She tripped over",
+                  "Don't trip"
+                ]
+              },
+              {
+                question: "What are you planning?",
+                answers: [
+                  "Planning a trip",
+                  "Road trip",
+                  "Weekend trip"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit28",
+        words: [
+          {
+            word: "bend",
+            phonetic: "/bend/",
+            examples: [
+              "Bend your knees when you lift something",
+              "The road bends sharply to the left",
+              "Don't bend the rules for anyone ever",
+              "She bent down to pick up the coin",
+              "The tree branches bend in the wind",
+              "He bent the metal bar with force",
+              "Around the bend means going crazy",
+              "Bend over backwards to help someone",
+              "The river bends around the mountain",
+              "I can't bend my arm after injury"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Bend your knees",
+                  "Don't bend it",
+                  "Bend down"
+                ]
+              },
+              {
+                question: "What's happening to the road?",
+                answers: [
+                  "The road bends",
+                  "Sharp bend ahead",
+                  "Bends to right"
+                ]
+              },
+              {
+                question: "How did you help?",
+                answers: [
+                  "Bent over backwards",
+                  "Willing to bend",
+                  "Won't bend rules"
+                ]
+              }
+            ]
+          },
+          {
+            word: "barely",
+            phonetic: "/ˈberli/",
+            examples: [
+              "I can barely hear you speak louder",
+              "She barely passed the exam fortunately",
+              "We barely made it on time",
+              "He's barely twenty years old now",
+              "They barely know each other yet",
+              "I barely slept last night at all",
+              "The room is barely big enough",
+              "She barely touched her food tonight",
+              "He can barely walk after the accident",
+              "We barely have enough money left"
+            ],
+            questions: [
+              {
+                question: "Can you hear me?",
+                answers: [
+                  "I can barely hear",
+                  "Barely audible",
+                  "Barely understand"
+                ]
+              },
+              {
+                question: "Did you make it?",
+                answers: [
+                  "We barely made it",
+                  "Barely on time",
+                  "Barely survived"
+                ]
+              },
+              {
+                question: "How much is left?",
+                answers: [
+                  "Barely any",
+                  "Barely enough",
+                  "Barely anything"
+                ]
+              }
+            ]
+          },
+          {
+            word: "boring",
+            phonetic: "/ˈbɔːrɪŋ/",
+            examples: [
+              "The movie was extremely boring honestly",
+              "She finds her job very boring",
+              "That's a boring topic to discuss",
+              "The lecture was long and boring",
+              "He has a boring personality unfortunately",
+              "Life would be boring without challenges",
+              "The book started off really boring",
+              "This party is so boring let's leave",
+              "Boring tasks must be done anyway",
+              "She gave a boring presentation today"
+            ],
+            questions: [
+              {
+                question: "How was the movie?",
+                answers: [
+                  "It was boring",
+                  "Really boring",
+                  "Not boring"
+                ]
+              },
+              {
+                question: "What do you think?",
+                answers: [
+                  "It's boring",
+                  "Quite boring",
+                  "Extremely boring"
+                ]
+              },
+              {
+                question: "How's your day?",
+                answers: [
+                  "Pretty boring",
+                  "Very boring",
+                  "Never boring"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cancel",
+            phonetic: "/ˈkænsəl/",
+            examples: [
+              "We had to cancel the meeting",
+              "The flight was cancelled due to weather",
+              "She cancelled her subscription yesterday",
+              "Can I cancel my order please",
+              "They cancelled the event last minute",
+              "The show was cancelled indefinitely",
+              "He cancelled his credit card immediately",
+              "Cancel culture affects many people nowadays",
+              "We should cancel our dinner plans",
+              "The concert won't be cancelled hopefully"
+            ],
+            questions: [
+              {
+                question: "What happened to the event?",
+                answers: [
+                  "It was cancelled",
+                  "They cancelled it",
+                  "Got cancelled"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Cancel the appointment",
+                  "Need to cancel",
+                  "Can't cancel"
+                ]
+              },
+              {
+                question: "Is it still happening?",
+                answers: [
+                  "No, it's cancelled",
+                  "Might be cancelled",
+                  "Not cancelled"
+                ]
+              }
+            ]
+          },
+          {
+            word: "driveway",
+            phonetic: "/ˈdraɪvweɪ/",
+            examples: [
+              "Park in the driveway not on street",
+              "The driveway is covered with snow",
+              "A car is blocking our driveway",
+              "They paved the driveway last week",
+              "The driveway leads to the garage",
+              "Don't walk in the driveway it's dangerous",
+              "Her driveway is very steep uphill",
+              "The driveway needs to be repaired",
+              "Snow removal from driveway is necessary",
+              "Kids play basketball in the driveway"
+            ],
+            questions: [
+              {
+                question: "Where should I park?",
+                answers: [
+                  "In the driveway",
+                  "Use the driveway",
+                  "Driveway is full"
+                ]
+              },
+              {
+                question: "What needs attention?",
+                answers: [
+                  "The driveway does",
+                  "Clean the driveway",
+                  "Fix driveway"
+                ]
+              },
+              {
+                question: "Where are they playing?",
+                answers: [
+                  "In the driveway",
+                  "On driveway",
+                  "Driveway basketball"
+                ]
+              }
+            ]
+          },
+          {
+            word: "garbage",
+            phonetic: "/ˈɡɑːrbɪdʒ/",
+            examples: [
+              "Take out the garbage before bed",
+              "The garbage truck comes on Tuesdays",
+              "There's garbage all over the street",
+              "Garbage disposal is broken again",
+              "That movie was complete garbage honestly",
+              "Separate garbage from recycling please",
+              "The garbage bin is overflowing badly",
+              "Garbage collection starts at seven",
+              "Don't talk garbage nonsense like that",
+              "Garbage in garbage out they say"
+            ],
+            questions: [
+              {
+                question: "What needs to be done?",
+                answers: [
+                  "Take out garbage",
+                  "Empty the garbage",
+                  "Garbage day"
+                ]
+              },
+              {
+                question: "What do you think of it?",
+                answers: [
+                  "It's garbage",
+                  "Complete garbage",
+                  "Total garbage"
+                ]
+              },
+              {
+                question: "Where does it go?",
+                answers: [
+                  "In the garbage",
+                  "Garbage bin",
+                  "Garbage can"
+                ]
+              }
+            ]
+          },
+          {
+            word: "instrument",
+            phonetic: "/ˈɪnstrəmənt/",
+            examples: [
+              "She plays three musical instruments well",
+              "The pilot checked all the instruments",
+              "Surgical instruments must be sterilized always",
+              "He's learning to play an instrument",
+              "Scientific instruments measure precisely",
+              "The guitar is my favorite instrument",
+              "Navigation instruments guide the ship",
+              "String instruments include violin and cello",
+              "Medical instruments are very expensive",
+              "The instrument panel showed all readings"
+            ],
+            questions: [
+              {
+                question: "What does she play?",
+                answers: [
+                  "A musical instrument",
+                  "Several instruments",
+                  "Piano instrument"
+                ]
+              },
+              {
+                question: "What's needed for surgery?",
+                answers: [
+                  "Surgical instruments",
+                  "Medical instruments",
+                  "Sterile instruments"
+                ]
+              },
+              {
+                question: "What did he check?",
+                answers: [
+                  "The instruments",
+                  "All instruments",
+                  "Flight instruments"
+                ]
+              }
+            ]
+          },
+          {
+            word: "list",
+            phonetic: "/lɪst/",
+            examples: [
+              "Make a shopping list before going",
+              "Her name is on the guest list",
+              "Check items off the list as done",
+              "The list includes everyone invited",
+              "He's on the waiting list now",
+              "Top of the list is most important",
+              "She listed all her accomplishments",
+              "The ship is listing to one side",
+              "My to do list is very long",
+              "List your priorities in order"
+            ],
+            questions: [
+              {
+                question: "What do you need?",
+                answers: [
+                  "Make a list",
+                  "Check the list",
+                  "Shopping list"
+                ]
+              },
+              {
+                question: "Is she invited?",
+                answers: [
+                  "She's on the list",
+                  "Not on list",
+                  "Guest list"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "List the items",
+                  "Create a list",
+                  "Add to list"
+                ]
+              }
+            ]
+          },
+          {
+            word: "magic",
+            phonetic: "/ˈmædʒɪk/",
+            examples: [
+              "The magician performed amazing magic tricks",
+              "There's no magic solution to this",
+              "Magic happens when you believe",
+              "She has a magic touch with children",
+              "The magic show was spectacular tonight",
+              "It's like magic how it works",
+              "Magic wand can't solve everything",
+              "The magic word is please remember",
+              "Disney's Magic Kingdom is wonderful",
+              "Black magic is considered dangerous"
+            ],
+            questions: [
+              {
+                question: "What did you see?",
+                answers: [
+                  "A magic show",
+                  "Magic tricks",
+                  "Magic performance"
+                ]
+              },
+              {
+                question: "How did it happen?",
+                answers: [
+                  "Like magic",
+                  "It's magic",
+                  "Magic moment"
+                ]
+              },
+              {
+                question: "What's the solution?",
+                answers: [
+                  "No magic solution",
+                  "Magic formula",
+                  "Magic answer"
+                ]
+              }
+            ]
+          },
+          {
+            word: "message",
+            phonetic: "/ˈmesɪdʒ/",
+            examples: [
+              "Did you get my message yesterday",
+              "Please leave a message after the beep",
+              "She sent a text message quickly",
+              "The message was clear and direct",
+              "I have an important message for you",
+              "Voice messages are convenient nowadays",
+              "He didn't get the message obviously",
+              "The movie has a powerful message",
+              "Check your messages regularly please",
+              "Can you relay the message to her"
+            ],
+            questions: [
+              {
+                question: "Did you receive it?",
+                answers: [
+                  "Got your message",
+                  "No message received",
+                  "Message delivered"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Leave a message",
+                  "Send a message",
+                  "Check messages"
+                ]
+              },
+              {
+                question: "What's the meaning?",
+                answers: [
+                  "The message is clear",
+                  "Important message",
+                  "Hidden message"
+                ]
+              }
+            ]
+          },
+          {
+            word: "notice",
+            phonetic: "/ˈnoʊtɪs/",
+            examples: [
+              "Did you notice anything strange today",
+              "She gave two weeks notice at work",
+              "Notice the difference between them",
+              "The notice was posted on the board",
+              "Without notice he left suddenly",
+              "I didn't notice you standing there",
+              "Further notice will be provided soon",
+              "Notice period is thirty days here",
+              "Take notice of what I'm saying",
+              "The sign said notice no parking"
+            ],
+            questions: [
+              {
+                question: "Did you see it?",
+                answers: [
+                  "I noticed it",
+                  "Didn't notice",
+                  "Notice anything"
+                ]
+              },
+              {
+                question: "What did she give?",
+                answers: [
+                  "Two weeks notice",
+                  "Notice period",
+                  "Formal notice"
+                ]
+              },
+              {
+                question: "What's that sign?",
+                answers: [
+                  "It's a notice",
+                  "Notice board",
+                  "Public notice"
+                ]
+              }
+            ]
+          },
+          {
+            word: "own",
+            phonetic: "/oʊn/",
+            examples: [
+              "I own a small house downtown",
+              "She owns her own business successfully",
+              "Do you own or rent this place",
+              "He needs to own up to mistakes",
+              "This is my own personal opinion",
+              "They own several properties abroad",
+              "Own your decisions and choices",
+              "She has her own unique style",
+              "The company is privately owned",
+              "I did it on my own myself"
+            ],
+            questions: [
+              {
+                question: "Is this yours?",
+                answers: [
+                  "Yes, I own it",
+                  "Don't own",
+                  "Own it now"
+                ]
+              },
+              {
+                question: "What should he do?",
+                answers: [
+                  "Own up to it",
+                  "Own his mistakes",
+                  "Own responsibility"
+                ]
+              },
+              {
+                question: "Whose is this?",
+                answers: [
+                  "It's my own",
+                  "Her own",
+                  "Our own"
+                ]
+              }
+            ]
+          },
+          {
+            word: "predict",
+            phonetic: "/prɪˈdɪkt/",
+            examples: [
+              "Can you predict the future accurately",
+              "Weather forecasters predict rain tomorrow",
+              "It's hard to predict what will happen",
+              "Scientists predict climate change effects",
+              "She predicted he would be late",
+              "The model predicts market trends",
+              "No one could have predicted this",
+              "Experts predict economic growth soon",
+              "As predicted he didn't show up",
+              "I predict you'll love this place"
+            ],
+            questions: [
+              {
+                question: "What will happen?",
+                answers: [
+                  "Hard to predict",
+                  "Can't predict",
+                  "I predict"
+                ]
+              },
+              {
+                question: "What did they say?",
+                answers: [
+                  "They predict rain",
+                  "Predicted correctly",
+                  "Predict success"
+                ]
+              },
+              {
+                question: "What's your guess?",
+                answers: [
+                  "I predict that",
+                  "Predict the outcome",
+                  "My prediction"
+                ]
+              }
+            ]
+          },
+          {
+            word: "professor",
+            phonetic: "/prəˈfesər/",
+            examples: [
+              "Professor Smith teaches mathematics here",
+              "She's a professor at the university",
+              "The professor gave an interesting lecture",
+              "He became a full professor last year",
+              "Professor Johnson is very knowledgeable",
+              "The professor assigned homework yesterday",
+              "She's an associate professor now",
+              "The professor's office hours are posted",
+              "Famous professors attract more students",
+              "The professor published several research papers"
+            ],
+            questions: [
+              {
+                question: "Who teaches this course?",
+                answers: [
+                  "Professor Smith does",
+                  "The professor",
+                  "Our professor"
+                ]
+              },
+              {
+                question: "What's her position?",
+                answers: [
+                  "She's a professor",
+                  "Assistant professor",
+                  "Full professor"
+                ]
+              },
+              {
+                question: "Who should I see?",
+                answers: [
+                  "See the professor",
+                  "Ask professor",
+                  "Professor's office"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rush",
+            phonetic: "/rʌʃ/",
+            examples: [
+              "Don't rush me I need time",
+              "She rushed to catch the train",
+              "There's no need to rush things",
+              "Rush hour traffic is terrible always",
+              "He rushed through his homework quickly",
+              "The ambulance rushed to the scene",
+              "A rush of excitement filled her",
+              "They rushed the injured to hospital",
+              "Don't rush into making decisions",
+              "The Christmas rush is hectic"
+            ],
+            questions: [
+              {
+                question: "What's the hurry?",
+                answers: [
+                  "We need to rush",
+                  "Don't rush",
+                  "In a rush"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "She rushed there",
+                  "Rushed to help",
+                  "Everyone rushed"
+                ]
+              },
+              {
+                question: "What's the traffic like?",
+                answers: [
+                  "It's rush hour",
+                  "Morning rush",
+                  "Rush traffic"
+                ]
+              }
+            ]
+          },
+          {
+            word: "schedule",
+            phonetic: "/ˈskedʒuːl/",
+            examples: [
+              "What's your schedule for tomorrow",
+              "The meeting is scheduled for noon",
+              "We're behind schedule right now",
+              "Check the train schedule online",
+              "Her schedule is very busy today",
+              "The project is on schedule currently",
+              "They scheduled the appointment yesterday",
+              "According to the schedule we're late",
+              "The schedule has been changed",
+              "Work schedule shows all shifts"
+            ],
+            questions: [
+              {
+                question: "When is it?",
+                answers: [
+                  "Check the schedule",
+                  "On the schedule",
+                  "Schedule says"
+                ]
+              },
+              {
+                question: "Are we on time?",
+                answers: [
+                  "Behind schedule",
+                  "On schedule",
+                  "Ahead of schedule"
+                ]
+              },
+              {
+                question: "When can you meet?",
+                answers: [
+                  "Check my schedule",
+                  "Schedule is full",
+                  "Schedule allows"
+                ]
+              }
+            ]
+          },
+          {
+            word: "share",
+            phonetic: "/ʃer/",
+            examples: [
+              "Can you share your food with me",
+              "She shares an apartment with friends",
+              "Let's share the cost equally",
+              "He shared his story with everyone",
+              "They share similar interests",
+              "Please share this post on social media",
+              "Market share is increasing steadily",
+              "We all share the same concerns",
+              "Share your thoughts and opinions",
+              "Company shares rose ten percent today"
+            ],
+            questions: [
+              {
+                question: "Can I have some?",
+                answers: [
+                  "Yes, I'll share",
+                  "Can't share",
+                  "Share with you"
+                ]
+              },
+              {
+                question: "Where does she live?",
+                answers: [
+                  "Shares an apartment",
+                  "Share a house",
+                  "Share accommodation"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Share the cost",
+                  "Share equally",
+                  "Share resources"
+                ]
+              }
+            ]
+          },
+          {
+            word: "stage",
+            phonetic: "/steɪdʒ/",
+            examples: [
+              "The actors performed on stage brilliantly",
+              "She's going through a difficult stage",
+              "At this stage anything is possible",
+              "The stage was beautifully decorated",
+              "Cancer is in its early stage",
+              "They staged a protest downtown",
+              "The project is in the final stage",
+              "Stage fright affects many performers",
+              "The stadium has a large stage",
+              "She took center stage during presentation"
+            ],
+            questions: [
+              {
+                question: "Where are they performing?",
+                answers: [
+                  "On the stage",
+                  "Main stage",
+                  "Center stage"
+                ]
+              },
+              {
+                question: "What phase is it?",
+                answers: [
+                  "At this stage",
+                  "Early stage",
+                  "Final stage"
+                ]
+              },
+              {
+                question: "What did they do?",
+                answers: [
+                  "Staged a protest",
+                  "Staged event",
+                  "Stage performance"
+                ]
+              }
+            ]
+          },
+          {
+            word: "storm",
+            phonetic: "/stɔːrm/",
+            examples: [
+              "A terrible storm hit the coast yesterday",
+              "Storm clouds gathered in the sky",
+              "She stormed out of the room angrily",
+              "The storm caused widespread damage everywhere",
+              "Weather forecasters predict a storm coming",
+              "Storm warning was issued this morning",
+              "They weathered the storm together",
+              "A storm is brewing on the horizon",
+              "Storm drains are blocked with leaves",
+              "He stormed into the office furiously"
+            ],
+            questions: [
+              {
+                question: "What's the weather?",
+                answers: [
+                  "There's a storm",
+                  "Storm is coming",
+                  "Big storm"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She stormed out",
+                  "Stormed away",
+                  "Stormed off"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Storm hit",
+                  "After the storm",
+                  "Storm damage"
+                ]
+              }
+            ]
+          },
+          {
+            word: "within",
+            phonetic: "/wɪˈðɪn/",
+            examples: [
+              "The store is within walking distance",
+              "Please reply within twenty four hours",
+              "Stay within the speed limit always",
+              "Within a week everything changed",
+              "The answer lies within yourself",
+              "Within reason anything is possible",
+              "She lives within five miles of here",
+              "Within minutes help arrived quickly",
+              "Keep costs within the budget",
+              "Within these walls secrets are kept"
+            ],
+            questions: [
+              {
+                question: "How far is it?",
+                answers: [
+                  "Within walking distance",
+                  "Within reach",
+                  "Within miles"
+                ]
+              },
+              {
+                question: "When should I respond?",
+                answers: [
+                  "Within a day",
+                  "Within hours",
+                  "Within deadline"
+                ]
+              },
+              {
+                question: "Where is the answer?",
+                answers: [
+                  "Within yourself",
+                  "Within limits",
+                  "Within reason"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit29",
+        words: [
+          {
+            word: "burden",
+            phonetic: "/ˈbɜːrdn/",
+            examples: [
+              "The heavy burden weighs on his shoulders",
+              "Don't be a burden to anyone ever",
+              "She carries the burden of responsibility",
+              "Financial burdens are difficult to manage",
+              "He's burdened with too much work",
+              "The burden of proof lies with them",
+              "Caring for elderly parents is a burden",
+              "Tax burden affects everyone differently",
+              "She shared her burden with friends",
+              "Debt is a heavy burden indeed"
+            ],
+            questions: [
+              {
+                question: "What's the problem?",
+                answers: [
+                  "It's a burden",
+                  "Heavy burden",
+                  "Big burden"
+                ]
+              },
+              {
+                question: "How does he feel?",
+                answers: [
+                  "He's burdened",
+                  "Feels burdened",
+                  "Burden weighs"
+                ]
+              },
+              {
+                question: "What responsibility?",
+                answers: [
+                  "The burden of proof",
+                  "Burden of care",
+                  "Financial burden"
+                ]
+              }
+            ]
+          },
+          {
+            word: "compromise",
+            phonetic: "/ˈkɑːmprəmaɪz/",
+            examples: [
+              "They reached a compromise on the issue",
+              "Marriage requires compromise from both sides",
+              "Never compromise your values or principles",
+              "The compromise satisfied everyone involved",
+              "He refused to compromise at all",
+              "Compromise is essential in negotiations",
+              "She compromised her safety by going alone",
+              "A good compromise leaves nobody happy",
+              "They found a compromise solution",
+              "Don't compromise on quality ever"
+            ],
+            questions: [
+              {
+                question: "What did they do?",
+                answers: [
+                  "They reached compromise",
+                  "Found a compromise",
+                  "Made compromise"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Need to compromise",
+                  "Compromise required",
+                  "Willing to compromise"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "She compromised safety",
+                  "Won't compromise",
+                  "Compromise values"
+                ]
+              }
+            ]
+          },
+          {
+            word: "craft",
+            phonetic: "/kræft/",
+            examples: [
+              "She's skilled in the craft of pottery",
+              "Arts and crafts are popular hobbies",
+              "He crafted a beautiful wooden table",
+              "The spacecraft orbits the earth",
+              "Traditional crafts are dying out slowly",
+              "She carefully crafted her response",
+              "Handicraft items sell well at markets",
+              "Witchcraft was once feared greatly",
+              "The craft beer industry is growing",
+              "Aircraft safety is strictly regulated"
+            ],
+            questions: [
+              {
+                question: "What's her skill?",
+                answers: [
+                  "She knows the craft",
+                  "Master of craft",
+                  "Traditional craft"
+                ]
+              },
+              {
+                question: "What did he make?",
+                answers: [
+                  "He crafted it",
+                  "Handcrafted item",
+                  "Carefully crafted"
+                ]
+              },
+              {
+                question: "What's that vehicle?",
+                answers: [
+                  "It's a spacecraft",
+                  "Aircraft passing",
+                  "Watercraft nearby"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dive",
+            phonetic: "/daɪv/",
+            examples: [
+              "She learned to dive into the pool",
+              "The submarine can dive very deep",
+              "He took a dive in the boxing match",
+              "Let's dive into the details now",
+              "The eagle dove down for prey",
+              "Scuba diving requires special training",
+              "Stock prices took a dive yesterday",
+              "She dove into her work completely",
+              "The plane went into a dive",
+              "Cliff diving is extremely dangerous"
+            ],
+            questions: [
+              {
+                question: "What can you do?",
+                answers: [
+                  "I can dive",
+                  "Learning to dive",
+                  "Love diving"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Let's dive in",
+                  "Dive into it",
+                  "Dive deeper"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Prices took a dive",
+                  "He dove down",
+                  "Dove for cover"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fragile",
+            phonetic: "/ˈfrædʒəl/",
+            examples: [
+              "Handle with care it's very fragile",
+              "The package contains fragile items inside",
+              "Her health is fragile right now",
+              "Fragile ecosystem needs protection",
+              "The glass is extremely fragile",
+              "Peace is fragile and easily broken",
+              "He's in a fragile emotional state",
+              "Fragile sticker warns careful handling",
+              "The economy is fragile at present",
+              "Relationships can be fragile sometimes"
+            ],
+            questions: [
+              {
+                question: "How should I handle it?",
+                answers: [
+                  "It's fragile",
+                  "Very fragile",
+                  "Handle fragile items"
+                ]
+              },
+              {
+                question: "What's the condition?",
+                answers: [
+                  "It's fragile",
+                  "Fragile state",
+                  "Fragile situation"
+                ]
+              },
+              {
+                question: "What needs protection?",
+                answers: [
+                  "Fragile ecosystem",
+                  "Fragile environment",
+                  "Fragile things"
+                ]
+              }
+            ]
+          },
+          {
+            word: "half",
+            phonetic: "/hæf/",
+            examples: [
+              "Cut the apple in half please",
+              "Half of the students passed the exam",
+              "The glass is half full not empty",
+              "It's half past three o'clock now",
+              "She's my better half we joke",
+              "Half price sale starts tomorrow",
+              "Only half the truth was told",
+              "The job is half done already",
+              "Half the time I don't understand",
+              "He does everything by half measures"
+            ],
+            questions: [
+              {
+                question: "How much?",
+                answers: [
+                  "About half",
+                  "Half of it",
+                  "One half"
+                ]
+              },
+              {
+                question: "What time is it?",
+                answers: [
+                  "Half past five",
+                  "Half an hour",
+                  "Half past"
+                ]
+              },
+              {
+                question: "How's the progress?",
+                answers: [
+                  "Half finished",
+                  "Half done",
+                  "Half complete"
+                ]
+              }
+            ]
+          },
+          {
+            word: "innocence",
+            phonetic: "/ˈɪnəsəns/",
+            examples: [
+              "He maintained his innocence throughout the trial",
+              "Children have a beautiful innocence naturally",
+              "The evidence proved her innocence completely",
+              "Loss of innocence is sad indeed",
+              "Innocence until proven guilty is fundamental",
+              "She protested her innocence loudly",
+              "The age of innocence has passed",
+              "His innocence was obvious to everyone",
+              "Presumption of innocence is a right",
+              "The photo captured childhood innocence"
+            ],
+            questions: [
+              {
+                question: "What does he claim?",
+                answers: [
+                  "He claims innocence",
+                  "Maintains innocence",
+                  "Proves innocence"
+                ]
+              },
+              {
+                question: "What's special about children?",
+                answers: [
+                  "Their innocence",
+                  "Childhood innocence",
+                  "Lost innocence"
+                ]
+              },
+              {
+                question: "What's the principle?",
+                answers: [
+                  "Presumption of innocence",
+                  "Innocent until proven",
+                  "Prove innocence"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lead",
+            phonetic: "/liːd/",
+            examples: [
+              "She will lead the team effectively",
+              "Follow my lead and do this",
+              "The detective followed every lead carefully",
+              "He's in the lead right now",
+              "Lead by example not by words",
+              "The road leads to the beach",
+              "She took the lead in the race",
+              "All roads lead to Rome supposedly",
+              "Lead paint is dangerous to health",
+              "The evidence leads to one conclusion"
+            ],
+            questions: [
+              {
+                question: "Who's in charge?",
+                answers: [
+                  "She'll lead",
+                  "He leads",
+                  "Taking the lead"
+                ]
+              },
+              {
+                question: "Where does it go?",
+                answers: [
+                  "It leads there",
+                  "Leads to downtown",
+                  "Road leads"
+                ]
+              },
+              {
+                question: "What's the clue?",
+                answers: [
+                  "We have a lead",
+                  "Follow the lead",
+                  "New lead"
+                ]
+              }
+            ]
+          },
+          {
+            word: "meeting",
+            phonetic: "/ˈmiːtɪŋ/",
+            examples: [
+              "The meeting starts at nine o'clock",
+              "She's in a meeting right now",
+              "We scheduled a meeting for tomorrow",
+              "The board meeting was productive today",
+              "Meeting rooms are all occupied",
+              "Our first meeting was memorable",
+              "Staff meetings happen every Monday",
+              "The meeting ran over time unfortunately",
+              "Annual general meeting is in June",
+              "Meeting minutes were distributed yesterday"
+            ],
+            questions: [
+              {
+                question: "Where is she?",
+                answers: [
+                  "In a meeting",
+                  "At the meeting",
+                  "Meeting now"
+                ]
+              },
+              {
+                question: "When should we gather?",
+                answers: [
+                  "Meeting at ten",
+                  "Before the meeting",
+                  "After meeting"
+                ]
+              },
+              {
+                question: "What's scheduled?",
+                answers: [
+                  "A meeting",
+                  "Important meeting",
+                  "Team meeting"
+                ]
+              }
+            ]
+          },
+          {
+            word: "merge",
+            phonetic: "/mɜːrdʒ/",
+            examples: [
+              "The two companies decided to merge",
+              "Traffic merges ahead be careful",
+              "Rivers merge at this point naturally",
+              "They merged their resources together",
+              "The lanes merge into one soon",
+              "Cultural traditions merge over time",
+              "Merge the documents into one file",
+              "The merger was announced yesterday",
+              "Colors merge beautifully in sunset",
+              "Both ideas can merge successfully"
+            ],
+            questions: [
+              {
+                question: "What happened to the companies?",
+                answers: [
+                  "They merged",
+                  "Decided to merge",
+                  "Merger completed"
+                ]
+              },
+              {
+                question: "What's ahead on the road?",
+                answers: [
+                  "Lanes merge",
+                  "Traffic merges",
+                  "Merge point"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Let's merge them",
+                  "Merge files",
+                  "Merge ideas"
+                ]
+              }
+            ]
+          },
+          {
+            word: "moderate",
+            phonetic: "/ˈmɑːdərət/",
+            examples: [
+              "Exercise in moderation is healthy",
+              "She has moderate political views",
+              "Temperatures will be moderate today",
+              "Drink alcohol in moderation only",
+              "He's a moderate Republican",
+              "Moderate rain is expected tomorrow",
+              "She moderated the debate well",
+              "Moderate exercise daily is recommended",
+              "His moderate approach works best",
+              "Prices are moderate at this restaurant"
+            ],
+            questions: [
+              {
+                question: "What's the weather?",
+                answers: [
+                  "Moderate temperatures",
+                  "Moderate conditions",
+                  "Moderate rain"
+                ]
+              },
+              {
+                question: "What's her stance?",
+                answers: [
+                  "She's moderate",
+                  "Moderate views",
+                  "Moderate position"
+                ]
+              },
+              {
+                question: "How should I do it?",
+                answers: [
+                  "In moderation",
+                  "Moderate amount",
+                  "Moderate pace"
+                ]
+              }
+            ]
+          },
+          {
+            word: "overwhelm",
+            phonetic: "/ˌoʊvərˈwelm/",
+            examples: [
+              "The work can overwhelm you easily",
+              "She was overwhelmed with emotions",
+              "Don't let stress overwhelm you",
+              "The response was overwhelming positive",
+              "He felt overwhelmed by the task",
+              "Overwhelming evidence proved his guilt",
+              "The army overwhelmed the enemy",
+              "I'm overwhelmed by your kindness",
+              "An overwhelming majority voted yes",
+              "The feeling was simply overwhelming"
+            ],
+            questions: [
+              {
+                question: "How do you feel?",
+                answers: [
+                  "I'm overwhelmed",
+                  "Feel overwhelmed",
+                  "Completely overwhelmed"
+                ]
+              },
+              {
+                question: "What's the response?",
+                answers: [
+                  "It's overwhelming",
+                  "Overwhelming support",
+                  "Overwhelmingly positive"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "It overwhelmed me",
+                  "Got overwhelmed",
+                  "Overwhelmed by work"
+                ]
+              }
+            ]
+          },
+          {
+            word: "payment",
+            phonetic: "/ˈpeɪmənt/",
+            examples: [
+              "The payment is due by Friday",
+              "What payment methods do you accept",
+              "She made a down payment yesterday",
+              "Monthly payments are affordable here",
+              "Payment in full is required now",
+              "Credit card payment was declined",
+              "Payment confirmation was sent via email",
+              "Late payment fees will apply",
+              "Payment plan is available for students",
+              "Online payment is secure and easy"
+            ],
+            questions: [
+              {
+                question: "When is it due?",
+                answers: [
+                  "Payment due Friday",
+                  "Next payment",
+                  "Final payment"
+                ]
+              },
+              {
+                question: "How can I pay?",
+                answers: [
+                  "Cash payment accepted",
+                  "Payment methods",
+                  "Make payment"
+                ]
+              },
+              {
+                question: "What about the money?",
+                answers: [
+                  "Payment received",
+                  "Payment pending",
+                  "Payment complete"
+                ]
+              }
+            ]
+          },
+          {
+            word: "perception",
+            phonetic: "/pərˈsepʃn/",
+            examples: [
+              "Public perception of politicians is negative",
+              "Her perception of reality is distorted",
+              "Perception is not always reality",
+              "Visual perception can be tricked easily",
+              "He has keen perception of people",
+              "Perception management is important in business",
+              "Depth perception helps us judge distance",
+              "Their perception of the situation differs",
+              "Sensory perception varies among individuals",
+              "Change people's perception through actions"
+            ],
+            questions: [
+              {
+                question: "What do people think?",
+                answers: [
+                  "Public perception is",
+                  "General perception",
+                  "Common perception"
+                ]
+              },
+              {
+                question: "How does she see it?",
+                answers: [
+                  "Her perception is",
+                  "Different perception",
+                  "My perception"
+                ]
+              },
+              {
+                question: "What's important?",
+                answers: [
+                  "Perception matters",
+                  "Manage perception",
+                  "Perception vs reality"
+                ]
+              }
+            ]
+          },
+          {
+            word: "settle",
+            phonetic: "/ˈsetl/",
+            examples: [
+              "They settled the dispute peacefully",
+              "Dust settled on the furniture",
+              "Let's settle down and relax now",
+              "The family settled in Canada permanently",
+              "Settle your debts before leaving",
+              "We need to settle this matter",
+              "The sediment settled at the bottom",
+              "She settled into her new job",
+              "Settlers came here centuries ago",
+              "They settled out of court"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "They settled it",
+                  "Case settled",
+                  "Dispute settled"
+                ]
+              },
+              {
+                question: "Where do they live?",
+                answers: [
+                  "They settled here",
+                  "Settled in town",
+                  "Settlement nearby"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Let's settle down",
+                  "Settle the bill",
+                  "Settle differences"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shiver",
+            phonetic: "/ˈʃɪvər/",
+            examples: [
+              "She began to shiver from the cold",
+              "The thought made me shiver",
+              "He shivered despite wearing a coat",
+              "A shiver ran down her spine",
+              "Shivering is the body's response",
+              "The fever caused violent shivers",
+              "I shiver at the memory",
+              "Dogs shiver when they're scared",
+              "Shiver me timbers pirates say",
+              "The cold wind made everyone shiver"
+            ],
+            questions: [
+              {
+                question: "What's wrong?",
+                answers: [
+                  "I'm shivering",
+                  "She's shivering",
+                  "Started shivering"
+                ]
+              },
+              {
+                question: "How do you feel?",
+                answers: [
+                  "It makes me shiver",
+                  "Got the shivers",
+                  "Shiver with fear"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "A shiver ran down",
+                  "Shivered badly",
+                  "Couldn't stop shivering"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sociable",
+            phonetic: "/ˈsoʊʃəbl/",
+            examples: [
+              "She's very sociable and friendly",
+              "He's not a sociable person really",
+              "Sociable people make friends easily",
+              "The party was a sociable gathering",
+              "Being sociable requires effort sometimes",
+              "Dogs are naturally sociable animals",
+              "She became more sociable over time",
+              "Sociable behavior is valued in business",
+              "I'm not feeling very sociable today",
+              "Sociable events help build connections"
+            ],
+            questions: [
+              {
+                question: "What's she like?",
+                answers: [
+                  "She's very sociable",
+                  "Quite sociable",
+                  "Not sociable"
+                ]
+              },
+              {
+                question: "Do you like gatherings?",
+                answers: [
+                  "I'm sociable",
+                  "Not very sociable",
+                  "Feeling sociable"
+                ]
+              },
+              {
+                question: "What's his personality?",
+                answers: [
+                  "He's sociable",
+                  "Not sociable",
+                  "Extremely sociable"
+                ]
+              }
+            ]
+          },
+          {
+            word: "speed",
+            phonetic: "/spiːd/",
+            examples: [
+              "The car is traveling at high speed",
+              "Speed limits must be obeyed always",
+              "She typed with incredible speed",
+              "Speed up we're running late",
+              "The speed of light is constant",
+              "Internet speed is very fast here",
+              "Speed dating is popular nowadays",
+              "He was fined for speeding yesterday",
+              "Speed kills drive carefully",
+              "The train picked up speed quickly"
+            ],
+            questions: [
+              {
+                question: "How fast are you going?",
+                answers: [
+                  "Top speed",
+                  "Full speed",
+                  "High speed"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Speed up",
+                  "Reduce speed",
+                  "Check speed"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "He was speeding",
+                  "Speed limit",
+                  "Speeding ticket"
+                ]
+              }
+            ]
+          },
+          {
+            word: "talkative",
+            phonetic: "/ˈtɔːkətɪv/",
+            examples: [
+              "She's very talkative in the morning",
+              "He's not usually this talkative",
+              "Talkative people dominate conversations often",
+              "The child is surprisingly talkative",
+              "I'm not feeling talkative today",
+              "She became more talkative after coffee",
+              "Talkative neighbors can be annoying",
+              "He's talkative when he's nervous",
+              "The parrot is extremely talkative",
+              "She's the most talkative person here"
+            ],
+            questions: [
+              {
+                question: "What's she like?",
+                answers: [
+                  "She's very talkative",
+                  "Quite talkative",
+                  "Not talkative"
+                ]
+              },
+              {
+                question: "How are you today?",
+                answers: [
+                  "Not feeling talkative",
+                  "More talkative",
+                  "Less talkative"
+                ]
+              },
+              {
+                question: "What's his mood?",
+                answers: [
+                  "He's talkative today",
+                  "Usually talkative",
+                  "Never talkative"
+                ]
+              }
+            ]
+          },
+          {
+            word: "usual",
+            phonetic: "/ˈjuːʒuəl/",
+            examples: [
+              "The usual time is three o'clock",
+              "Business as usual continues today",
+              "She ordered her usual coffee",
+              "This is more than usual traffic",
+              "The usual suspects were questioned",
+              "As usual he was late again",
+              "Nothing out of the usual happened",
+              "It's the usual routine every day",
+              "The usual rules apply here",
+              "More than the usual amount"
+            ],
+            questions: [
+              {
+                question: "What do you want?",
+                answers: [
+                  "The usual please",
+                  "My usual order",
+                  "Same as usual"
+                ]
+              },
+              {
+                question: "Is this normal?",
+                answers: [
+                  "Yes, as usual",
+                  "More than usual",
+                  "Not usual"
+                ]
+              },
+              {
+                question: "When does it happen?",
+                answers: [
+                  "At the usual time",
+                  "Usual schedule",
+                  "Than usual"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit30",
+        words: [
+          {
+            word: "above",
+            phonetic: "/əˈbʌv/",
+            examples: [
+              "The birds are flying above the clouds",
+              "Temperatures are above normal this week",
+              "He lives in the apartment above mine",
+              "Above all means most importantly",
+              "She's above such petty behavior",
+              "The airplane flew above the storm",
+              "Above and beyond means exceeding expectations",
+              "The mountain rises above the valley",
+              "Above average performance is expected",
+              "The shelf is mounted above the desk"
+            ],
+            questions: [
+              {
+                question: "Where is it located?",
+                answers: [
+                  "Above the door",
+                  "Up above",
+                  "Above me"
+                ]
+              },
+              {
+                question: "What's most important?",
+                answers: [
+                  "Above all else",
+                  "Above everything",
+                  "Above all"
+                ]
+              },
+              {
+                question: "How's the temperature?",
+                answers: [
+                  "Above freezing",
+                  "Above normal",
+                  "Above zero"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ahead",
+            phonetic: "/əˈhed/",
+            examples: [
+              "Look straight ahead at the road",
+              "She's always one step ahead",
+              "The deadline is just ahead",
+              "Go ahead with your plans",
+              "He's ahead of his time",
+              "The best is yet ahead",
+              "They're ahead in the game",
+              "Plan ahead for the future",
+              "Ahead of schedule means early",
+              "The path ahead is unclear"
+            ],
+            questions: [
+              {
+                question: "Where should I look?",
+                answers: [
+                  "Look ahead",
+                  "Straight ahead",
+                  "Up ahead"
+                ]
+              },
+              {
+                question: "Can I proceed?",
+                answers: [
+                  "Go ahead",
+                  "Ahead please",
+                  "Move ahead"
+                ]
+              },
+              {
+                question: "Who's winning?",
+                answers: [
+                  "They're ahead",
+                  "Ahead by two",
+                  "Way ahead"
+                ]
+              }
+            ]
+          },
+          {
+            word: "amount",
+            phonetic: "/əˈmaʊnt/",
+            examples: [
+              "What amount of money do you need",
+              "A large amount of time was wasted",
+              "The total amount is one hundred dollars",
+              "Small amounts add up over time",
+              "The amount of work is overwhelming",
+              "Any amount of effort helps",
+              "The amount due is listed here",
+              "No amount of money can buy happiness",
+              "Amount to means to equal or total",
+              "The exact amount is unknown"
+            ],
+            questions: [
+              {
+                question: "How much is it?",
+                answers: [
+                  "The amount is",
+                  "Total amount",
+                  "Large amount"
+                ]
+              },
+              {
+                question: "What quantity?",
+                answers: [
+                  "Small amount",
+                  "Amount needed",
+                  "Right amount"
+                ]
+              },
+              {
+                question: "What does it total?",
+                answers: [
+                  "Amounts to",
+                  "Amount equals",
+                  "Full amount"
+                ]
+              }
+            ]
+          },
+          {
+            word: "belief",
+            phonetic: "/bɪˈliːf/",
+            examples: [
+              "Religious beliefs vary across cultures",
+              "She has strong beliefs about justice",
+              "Contrary to popular belief, it's true",
+              "His belief in himself is strong",
+              "Beyond belief means unbelievable",
+              "Core beliefs guide our actions",
+              "Belief system shapes our worldview",
+              "She holds firm beliefs about education",
+              "Belief in hard work is important",
+              "The belief that all are equal"
+            ],
+            questions: [
+              {
+                question: "What do you think?",
+                answers: [
+                  "My belief is",
+                  "Strong belief",
+                  "Personal belief"
+                ]
+              },
+              {
+                question: "Is it surprising?",
+                answers: [
+                  "Beyond belief",
+                  "Belief that",
+                  "Unbelievable"
+                ]
+              },
+              {
+                question: "What guides you?",
+                answers: [
+                  "My beliefs",
+                  "Core beliefs",
+                  "Belief system"
+                ]
+              }
+            ]
+          },
+          {
+            word: "center",
+            phonetic: "/ˈsentər/",
+            examples: [
+              "The shopping center is downtown",
+              "She's the center of attention",
+              "Place the vase in the center",
+              "The community center offers classes",
+              "Center stage means main focus",
+              "The city center is very busy",
+              "He plays center on basketball team",
+              "The center of town has restaurants",
+              "Center around means focus on",
+              "Dead center means exact middle"
+            ],
+            questions: [
+              {
+                question: "Where should I put it?",
+                answers: [
+                  "In the center",
+                  "Center position",
+                  "Center it"
+                ]
+              },
+              {
+                question: "Where is it located?",
+                answers: [
+                  "City center",
+                  "Town center",
+                  "Center area"
+                ]
+              },
+              {
+                question: "What's the focus?",
+                answers: [
+                  "Center of attention",
+                  "Center stage",
+                  "Centers on"
+                ]
+              }
+            ]
+          },
+          {
+            word: "common",
+            phonetic: "/ˈkɑːmən/",
+            examples: [
+              "It's a common mistake that everyone makes",
+              "Common sense is not always common",
+              "They have a lot in common",
+              "The common cold affects many people",
+              "Common ground means shared interests",
+              "Common practice is to call ahead",
+              "House of Commons is British parliament",
+              "Common courtesy costs nothing",
+              "Common knowledge means widely known",
+              "The common good benefits everyone"
+            ],
+            questions: [
+              {
+                question: "Is it rare?",
+                answers: [
+                  "No, quite common",
+                  "Very common",
+                  "Common occurrence"
+                ]
+              },
+              {
+                question: "What do you share?",
+                answers: [
+                  "Common interests",
+                  "In common",
+                  "Common ground"
+                ]
+              },
+              {
+                question: "What's usual?",
+                answers: [
+                  "Common practice",
+                  "Common sense",
+                  "Commonly done"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cost",
+            phonetic: "/kɔːst/",
+            examples: [
+              "How much does this cost exactly",
+              "The cost of living is rising",
+              "At all costs means no matter what",
+              "The cost is too high for me",
+              "It cost him his job unfortunately",
+              "Count the cost before deciding",
+              "Cost of goods sold is important",
+              "Low cost airlines are popular",
+              "The project cost a fortune",
+              "Cost-effective means good value"
+            ],
+            questions: [
+              {
+                question: "What's the price?",
+                answers: [
+                  "The cost is",
+                  "How much cost",
+                  "Total cost"
+                ]
+              },
+              {
+                question: "What's the expense?",
+                answers: [
+                  "At great cost",
+                  "Cost too much",
+                  "Low cost"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "It cost him",
+                  "Cost dearly",
+                  "Costly mistake"
+                ]
+              }
+            ]
+          },
+          {
+            word: "demonstrate",
+            phonetic: "/ˈdemənstreɪt/",
+            examples: [
+              "Can you demonstrate how it works",
+              "She demonstrated great skill in performance",
+              "Protesters demonstrated against the policy",
+              "The results demonstrate clear improvement",
+              "He demonstrated the technique step by step",
+              "Demonstration models are available",
+              "The experiment demonstrates the principle",
+              "She demonstrated patience with students",
+              "Demonstrations took place in capital",
+              "This demonstrates my point perfectly"
+            ],
+            questions: [
+              {
+                question: "Can you show me?",
+                answers: [
+                  "I'll demonstrate",
+                  "Demonstrate how",
+                  "Demonstration given"
+                ]
+              },
+              {
+                question: "What did they do?",
+                answers: [
+                  "They demonstrated",
+                  "Held demonstration",
+                  "Protested"
+                ]
+              },
+              {
+                question: "What does it prove?",
+                answers: [
+                  "It demonstrates",
+                  "Demonstrates that",
+                  "Demonstration of"
+                ]
+              }
+            ]
+          },
+          {
+            word: "different",
+            phonetic: "/ˈdɪfrənt/",
+            examples: [
+              "This one is different from that",
+              "Everyone is different and unique",
+              "Try a different approach this time",
+              "The two sisters are completely different",
+              "Different strokes for different folks",
+              "She has a different opinion",
+              "Different times require different solutions",
+              "The city looks different at night",
+              "Different doesn't mean wrong",
+              "A different story means conflicting account"
+            ],
+            questions: [
+              {
+                question: "Are they the same?",
+                answers: [
+                  "No, they're different",
+                  "Very different",
+                  "Quite different"
+                ]
+              },
+              {
+                question: "What should I try?",
+                answers: [
+                  "Something different",
+                  "Different approach",
+                  "Different way"
+                ]
+              },
+              {
+                question: "What's changed?",
+                answers: [
+                  "Looks different",
+                  "Different now",
+                  "Different than before"
+                ]
+              }
+            ]
+          },
+          {
+            word: "evidence",
+            phonetic: "/ˈevɪdəns/",
+            examples: [
+              "There's no evidence to support claim",
+              "The evidence proves his innocence",
+              "Scientific evidence shows climate change",
+              "Evidence suggests a different conclusion",
+              "Circumstantial evidence is not conclusive",
+              "She gave evidence in court",
+              "The evidence is overwhelming",
+              "Evidence-based decisions are better",
+              "Physical evidence was found at scene",
+              "In evidence means clearly visible"
+            ],
+            questions: [
+              {
+                question: "What's the proof?",
+                answers: [
+                  "The evidence",
+                  "Strong evidence",
+                  "Evidence shows"
+                ]
+              },
+              {
+                question: "Is there proof?",
+                answers: [
+                  "No evidence",
+                  "Evidence exists",
+                  "Lack evidence"
+                ]
+              },
+              {
+                question: "What did she provide?",
+                answers: [
+                  "Gave evidence",
+                  "Evidence presented",
+                  "Evidence submitted"
+                ]
+              }
+            ]
+          },
+          {
+            word: "honesty",
+            phonetic: "/ˈɑːnəsti/",
+            examples: [
+              "Honesty is the best policy always",
+              "She's known for her honesty",
+              "In all honesty, I don't know",
+              "Honesty and integrity are important",
+              "He appreciated her honesty",
+              "Honesty builds trust in relationships",
+              "With complete honesty, I'll tell you",
+              "Honesty requires courage sometimes",
+              "The honesty of his words touched her",
+              "Radical honesty means complete truthfulness"
+            ],
+            questions: [
+              {
+                question: "What's the best policy?",
+                answers: [
+                  "Honesty is",
+                  "Honesty always",
+                  "Practice honesty"
+                ]
+              },
+              {
+                question: "What's she known for?",
+                answers: [
+                  "Her honesty",
+                  "Honesty character",
+                  "Honest person"
+                ]
+              },
+              {
+                question: "What does it require?",
+                answers: [
+                  "Requires honesty",
+                  "Honesty needed",
+                  "Honest approach"
+                ]
+              }
+            ]
+          },
+          {
+            word: "idiom",
+            phonetic: "/ˈɪdiəm/",
+            examples: [
+              "English idioms are difficult to learn",
+              "That's just an idiom in language",
+              "The idiom means something different",
+              "Idiomatic expressions add color to speech",
+              "She explained the idiom clearly",
+              "Every language has unique idioms",
+              "The idiom lost in translation",
+              "Musical idiom refers to style",
+              "Idioms don't translate literally",
+              "Common idioms are widely used"
+            ],
+            questions: [
+              {
+                question: "What's that phrase?",
+                answers: [
+                  "It's an idiom",
+                  "English idiom",
+                  "Idiomatic expression"
+                ]
+              },
+              {
+                question: "What's difficult?",
+                answers: [
+                  "Learning idioms",
+                  "Idioms are",
+                  "Idiom usage"
+                ]
+              },
+              {
+                question: "What's the meaning?",
+                answers: [
+                  "The idiom means",
+                  "Idiom translation",
+                  "Idiom definition"
+                ]
+              }
+            ]
+          },
+          {
+            word: "independent",
+            phonetic: "/ˌɪndɪˈpendənt/",
+            examples: [
+              "She's a strong independent woman",
+              "The country became independent in 1960",
+              "He works as an independent contractor",
+              "Independent thinking is important",
+              "She lives independently now",
+              "Independent studies confirm the findings",
+              "The independent variable was tested",
+              "Independent film makers create art",
+              "Financial independence is her goal",
+              "Independent judgment is valued"
+            ],
+            questions: [
+              {
+                question: "Does she rely on others?",
+                answers: [
+                  "No, she's independent",
+                  "Very independent",
+                  "Lives independently"
+                ]
+              },
+              {
+                question: "What's his status?",
+                answers: [
+                  "Independent contractor",
+                  "Independent worker",
+                  "Works independently"
+                ]
+              },
+              {
+                question: "What kind of thinking?",
+                answers: [
+                  "Independent thinking",
+                  "Think independently",
+                  "Independent mind"
+                ]
+              }
+            ]
+          },
+          {
+            word: "inside",
+            phonetic: "/ɪnˈsaɪd/",
+            examples: [
+              "Come inside the house quickly",
+              "What's inside the box exactly",
+              "Inside information is confidential",
+              "The inside story reveals truth",
+              "She knows him inside out completely",
+              "Inside job means done by employee",
+              "Turn the shirt inside out",
+              "The inside of building is beautiful",
+              "Inside scoop means exclusive information",
+              "He felt empty inside emotionally"
+            ],
+            questions: [
+              {
+                question: "Where should I go?",
+                answers: [
+                  "Come inside",
+                  "Go inside",
+                  "Wait inside"
+                ]
+              },
+              {
+                question: "Where is it?",
+                answers: [
+                  "Inside the box",
+                  "Inside here",
+                  "On the inside"
+                ]
+              },
+              {
+                question: "What information?",
+                answers: [
+                  "Inside information",
+                  "Inside story",
+                  "Inside scoop"
+                ]
+              }
+            ]
+          },
+          {
+            word: "jail",
+            phonetic: "/dʒeɪl/",
+            examples: [
+              "He was sent to jail for theft",
+              "The jail houses many inmates",
+              "She visited him in jail yesterday",
+              "Go directly to jail, do not pass go",
+              "Jail time means period of imprisonment",
+              "The county jail is overcrowded",
+              "He served three years in jail",
+              "Jail break means prison escape",
+              "Out on bail from jail",
+              "The old jail is now a museum"
+            ],
+            questions: [
+              {
+                question: "Where is he?",
+                answers: [
+                  "In jail",
+                  "Jail sentence",
+                  "Sent to jail"
+                ]
+              },
+              {
+                question: "What's the punishment?",
+                answers: [
+                  "Jail time",
+                  "Go to jail",
+                  "Jail term"
+                ]
+              },
+              {
+                question: "Where was he sent?",
+                answers: [
+                  "To jail",
+                  "County jail",
+                  "Jail facility"
+                ]
+              }
+            ]
+          },
+          {
+            word: "master",
+            phonetic: "/ˈmæstər/",
+            examples: [
+              "She's a master of her craft",
+              "He has a master's degree",
+              "Master the basics before advancing",
+              "The master bedroom is upstairs",
+              "Master chef creates amazing dishes",
+              "Jack of all trades, master of none",
+              "Master copy is the original",
+              "She mastered three languages fluently",
+              "Master plan guides the project",
+              "Master key opens all doors"
+            ],
+            questions: [
+              {
+                question: "How skilled is she?",
+                answers: [
+                  "She's a master",
+                  "Master level",
+                  "Master craftsman"
+                ]
+              },
+              {
+                question: "What degree?",
+                answers: [
+                  "Master's degree",
+                  "Master program",
+                  "Master's level"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Master the skill",
+                  "Master it",
+                  "Master technique"
+                ]
+              }
+            ]
+          },
+          {
+            word: "memory",
+            phonetic: "/ˈmeməri/",
+            examples: [
+              "She has a good memory for names",
+              "The memory of that day remains",
+              "Computer memory stores data",
+              "Memory loss can occur with age",
+              "In memory of those who passed",
+              "From memory means without notes",
+              "Memory lane means nostalgic reminiscence",
+              "Short-term memory is limited",
+              "The memory card is full",
+              "Memories last a lifetime"
+            ],
+            questions: [
+              {
+                question: "Can you recall?",
+                answers: [
+                  "From memory",
+                  "Good memory",
+                  "Memory serves"
+                ]
+              },
+              {
+                question: "What remembers data?",
+                answers: [
+                  "Computer memory",
+                  "Memory storage",
+                  "Memory card"
+                ]
+              },
+              {
+                question: "What remains?",
+                answers: [
+                  "The memory",
+                  "Memory of",
+                  "In memory"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pocket",
+            phonetic: "/ˈpɑːkɪt/",
+            examples: [
+              "Put your keys in your pocket",
+              "The pocket on shirt is torn",
+              "She found money in her pocket",
+              "Out of pocket means paid personally",
+              "Pocket change means small amount",
+              "Pick someone's pocket means steal",
+              "Pocket knife is small and portable",
+              "In your pocket means under control",
+              "Pocket-sized means very small",
+              "Line your pockets means profit illegally"
+            ],
+            questions: [
+              {
+                question: "Where should I put it?",
+                answers: [
+                  "In your pocket",
+                  "Pocket it",
+                  "Back pocket"
+                ]
+              },
+              {
+                question: "What did she find?",
+                answers: [
+                  "In her pocket",
+                  "Pocket money",
+                  "Pocket contents"
+                ]
+              },
+              {
+                question: "What size is it?",
+                answers: [
+                  "Pocket-sized",
+                  "Pocket edition",
+                  "Fits pocket"
+                ]
+              }
+            ]
+          },
+          {
+            word: "proper",
+            phonetic: "/ˈprɑːpər/",
+            examples: [
+              "Use proper grammar when writing",
+              "That's not proper behavior here",
+              "Proper nutrition is essential for health",
+              "She gave him a proper education",
+              "Do it the proper way correctly",
+              "Proper planning prevents problems",
+              "He's a proper gentleman always",
+              "Proper nouns start with capitals",
+              "In proper order means correctly arranged",
+              "The proper authorities were notified"
+            ],
+            questions: [
+              {
+                question: "Is it correct?",
+                answers: [
+                  "Yes, proper way",
+                  "Proper method",
+                  "Proper procedure"
+                ]
+              },
+              {
+                question: "How should I do it?",
+                answers: [
+                  "Proper manner",
+                  "Proper form",
+                  "Properly done"
+                ]
+              },
+              {
+                question: "What's appropriate?",
+                answers: [
+                  "Proper behavior",
+                  "Proper etiquette",
+                  "Proper conduct"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sale",
+            phonetic: "/seɪl/",
+            examples: [
+              "The store is having a big sale",
+              "For sale sign is in the yard",
+              "Sale prices are marked down",
+              "The house sale went through successfully",
+              "Sales figures exceeded expectations",
+              "She works in sales and marketing",
+              "Clearance sale offers great deals",
+              "The sale ends this Sunday",
+              "Sale items are final purchase",
+              "On sale means reduced price"
+            ],
+            questions: [
+              {
+                question: "Is there a discount?",
+                answers: [
+                  "Yes, on sale",
+                  "Sale price",
+                  "Big sale"
+                ]
+              },
+              {
+                question: "Is it available?",
+                answers: [
+                  "For sale",
+                  "On sale now",
+                  "Sale item"
+                ]
+              },
+              {
+                question: "What's her job?",
+                answers: [
+                  "Works in sales",
+                  "Sales position",
+                  "Sales representative"
+                ]
+              }
+            ]
+          }
+        ]
+      },
     ],
   },
   {
