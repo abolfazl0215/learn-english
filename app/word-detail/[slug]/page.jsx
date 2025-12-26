@@ -1,83 +1,94 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import { wordsData } from "../../../utils/wordsData";
 import { ChevronLeft, Volume2, Check } from "lucide-react";
 import { speakText } from "../../../utils/speakText";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const WordDetailPage = ({ params }) => {
-  const slug = React.use(params).slug;
-  const [bookNumber, unitIndex, wordIndex_str] = slug.split("-");
-  const router = useRouter();
-  const [wordIndex, setWordIndex] = useState(
-    wordIndex_str ? +wordIndex_str : 0,
-  );
+  const { slug } = React.use(params);
+
+  // ✅ Parse params با useMemo
+  const { bookNumber, unitIndex, initialWordIndex } = useMemo(() => {
+    const [bookNum, unitIdx, wordIdx] = slug.split("-");
+    return {
+      bookNumber: bookNum,
+      unitIndex: +unitIdx,
+      initialWordIndex: wordIdx ? +wordIdx : 0,
+    };
+  }, [slug]);
+
+  const [wordIndex, setWordIndex] = useState(initialWordIndex);
   const [activeTab, setActiveTab] = useState("examples");
   const [visibleAnswers, setVisibleAnswers] = useState({});
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const book = wordsData.find((b) => +b.book === +bookNumber);
-  const unit = book.units[unitIndex];
-  const wordObj = unit.words[wordIndex];
-  const totalWords = unit.words.length;
+  // ✅ محاسبات سنگین با useMemo
+  const { book, unit, wordObj, totalWords } = useMemo(() => {
+    const foundBook = wordsData.find((b) => +b.book === +bookNumber);
+    const foundUnit = foundBook?.units[unitIndex];
+    const foundWord = foundUnit?.words[wordIndex];
+    const total = foundUnit?.words?.length || 0;
 
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }, [wordIndex]);
+    return {
+      book: foundBook,
+      unit: foundUnit,
+      wordObj: foundWord,
+      totalWords: total,
+    };
+  }, [bookNumber, unitIndex, wordIndex]);
 
-  const toggleAnswer = (qIndex) => {
+  // ✅ استفاده از useCallback برای function optimization
+  const toggleAnswer = useCallback((qIndex) => {
     setVisibleAnswers((prev) => ({
       ...prev,
       [qIndex]: !prev[qIndex],
     }));
-  };
+  }, []);
 
-  const playAudio = (text) => {
+  const playAudio = useCallback((text) => {
     setIsPlaying(true);
     speakText(text);
     setTimeout(() => setIsPlaying(false), 1000);
-  };
+  }, []);
 
-  const goToNext = () => {
+  const goToNext = useCallback(() => {
     if (wordIndex < totalWords - 1) {
       setWordIndex(wordIndex + 1);
       setVisibleAnswers({});
       setActiveTab("examples");
     }
-  };
+  }, [wordIndex, totalWords]);
 
-  const goToPrev = () => {
+  const goToPrev = useCallback(() => {
     if (wordIndex > 0) {
       setWordIndex(wordIndex - 1);
       setVisibleAnswers({});
       setActiveTab("examples");
     }
-  };
+  }, [wordIndex]);
+
   return (
     <div className="min-h-screen relative p-4 py-8">
-
       <div className="max-w-4xl mx-auto">
-        <button
-          onClick={() =>
-            router.push(`/words-list/${unit.name}-${bookNumber}`)
-          }
+        {/* ✅ حذف onClick و state اضافی */}
+        <Link
+          href={`/words-list/${unit?.name}-${bookNumber}`}
+          prefetch={true}
           className="flex items-center gap-2 text-white/80 hover:text-white mb-8 font-medium group transition-all cursor-pointer">
           <ChevronLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
           Back to List
-        </button>
+        </Link>
 
         <div className="relative bg-white/5 backdrop-blur-xl rounded-3xl border border-white/10 overflow-hidden mb-6">
           <div
-            className={`absolute inset-0 bg-gradient-to-br ${book.color} opacity-5`}></div>
+            className={`absolute inset-0 bg-gradient-to-br ${book?.color} opacity-5`}></div>
 
           <div className="relative z-10 p-3 md:p-8">
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center gap-3">
                 <div
-                  className={`px-4 py-2 rounded-full bg-gradient-to-r ${book.color} text-white text-sm font-semibold`}>
+                  className={`px-4 py-2 rounded-full bg-gradient-to-r ${book?.color} text-white text-sm font-semibold`}>
                   Book {bookNumber} • Unit {unitIndex + 1}
                 </div>
               </div>
@@ -87,8 +98,8 @@ const WordDetailPage = ({ params }) => {
             </div>
 
             <div className="flex flex-wrap items-center justify-between md:justify-center gap-6 mb-8">
-              <div className="mdtext-center">
-                <h1 className=" text-4xl md:text-6xl font-bold text-white mb-3">
+              <div className="md:text-center">
+                <h1 className="text-4xl md:text-6xl font-bold text-white mb-3">
                   {wordObj?.word}
                 </h1>
                 {wordObj?.phonetic && (
@@ -100,7 +111,7 @@ const WordDetailPage = ({ params }) => {
               <button
                 onClick={() => playAudio(wordObj?.word)}
                 className={`p-5 rounded-2xl bg-gradient-to-br ${
-                  book.color
+                  book?.color
                 } hover:scale-110 transition-all shadow-lg hover:shadow-xl cursor-pointer ${
                   isPlaying ? "scale-110" : ""
                 }`}>
@@ -144,7 +155,7 @@ const WordDetailPage = ({ params }) => {
                         </div>
                         <button
                           onClick={() => playAudio(example)}
-                          className="p-3 rounded-xl bg-white/10 hover:bg-white/20 transition-all flex-shrink-0  cursor-pointer">
+                          className="p-3 rounded-xl bg-white/10 hover:bg-white/20 transition-all flex-shrink-0 cursor-pointer">
                           <Volume2 className="w-5 h-5 text-white" />
                         </button>
                       </div>
@@ -167,14 +178,14 @@ const WordDetailPage = ({ params }) => {
                         </div>
                         <button
                           onClick={() => playAudio(q?.question)}
-                          className="p-3 rounded-xl bg-white/10 hover:bg-white/20 transition-all flex-shrink-0">
+                          className="p-3 rounded-xl bg-white/10 hover:bg-white/20 transition-all flex-shrink-0 cursor-pointer">
                           <Volume2 className="w-5 h-5 text-white" />
                         </button>
                       </div>
 
                       <button
                         onClick={() => toggleAnswer(idx)}
-                        className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all mb-4 ${
+                        className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all mb-4 cursor-pointer ${
                           visibleAnswers[idx]
                             ? "bg-white/20 text-white"
                             : "bg-white/10 text-white/70 hover:bg-white/15"
@@ -196,7 +207,7 @@ const WordDetailPage = ({ params }) => {
                               </p>
                               <button
                                 onClick={() => playAudio(answer)}
-                                className="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition-all flex-shrink-0">
+                                className="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition-all flex-shrink-0 cursor-pointer">
                                 <Volume2 className="w-4 h-4 text-white" />
                               </button>
                             </div>
@@ -215,10 +226,10 @@ const WordDetailPage = ({ params }) => {
           <button
             onClick={goToPrev}
             disabled={wordIndex === 0}
-            className={`flex items-center justify-center gap-2 py-4 rounded-2xl font-semibold transition-all  ${
+            className={`flex items-center justify-center gap-2 py-4 rounded-2xl font-semibold transition-all ${
               wordIndex === 0
                 ? "bg-white/5 text-white/30 cursor-not-allowed"
-                : "bg-white/10 hover:bg-white/20 text-white backdrop-blur-xl border border-white/10  cursor-pointer"
+                : "bg-white/10 hover:bg-white/20 text-white backdrop-blur-xl border border-white/10 cursor-pointer"
             }`}>
             <ChevronLeft className="w-5 h-5" />
             Previous
@@ -226,10 +237,10 @@ const WordDetailPage = ({ params }) => {
           <button
             onClick={goToNext}
             disabled={wordIndex === totalWords - 1}
-            className={`flex items-center justify-center gap-2 py-4 rounded-2xl font-semibold transition-all  ${
+            className={`flex items-center justify-center gap-2 py-4 rounded-2xl font-semibold transition-all ${
               wordIndex === totalWords - 1
                 ? "bg-white/5 text-white/30 cursor-not-allowed"
-                : `bg-gradient-to-r ${book.color} hover:shadow-xl text-white  cursor-pointer`
+                : `bg-gradient-to-r ${book?.color} hover:shadow-xl text-white cursor-pointer`
             }`}>
             Next
             <ChevronLeft className="w-5 h-5 rotate-180" />

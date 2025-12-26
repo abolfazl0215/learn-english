@@ -1,26 +1,20 @@
 "use client";
 import { ChevronLeft } from "lucide-react";
 import { wordsData } from "../../utils/wordsData";
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+import Link from "next/link";
 
 const Books = () => {
-  const router = useRouter();
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }, []);
   return (
     <div className="min-h-screen relative p-4 py-8">
       <div className="max-w-6xl mx-auto">
-        <button
-          onClick={() => router.push("/")}
+        {/* ✅ حذف onClick و state اضافی */}
+        <Link
+          href="/"
+          prefetch={true}
           className="flex items-center gap-2 text-white/80 hover:text-white mb-8 font-medium group transition-all cursor-pointer">
           <ChevronLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
           Back to Home
-        </button>
+        </Link>
 
         <div className="mb-12">
           <h1 className="text-5xl font-bold text-white mb-4">
@@ -33,9 +27,10 @@ const Books = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {wordsData.map((book) => (
-            <button
+            <Link
               key={book.book}
-              onClick={() => router.push(`/units/${book.book}`)}
+              href={`/units/${book.book}`}
+              prefetch={true}
               className="group relative bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 hover:border-white/30 transition-all duration-300 hover:scale-105 text-left cursor-pointer">
               <div
                 className={`absolute inset-0 bg-gradient-to-br ${book.color} opacity-0 group-hover:opacity-10 rounded-3xl transition-opacity`}></div>
@@ -67,7 +62,7 @@ const Books = () => {
                   <ChevronLeft className="w-4 h-4 rotate-180" />
                 </div>
               </div>
-            </button>
+            </Link>
           ))}
         </div>
       </div>

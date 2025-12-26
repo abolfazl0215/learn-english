@@ -1,7 +1,3 @@
-"use client";
-
-import { useEffect } from "react";
-
 import {
   ChevronLeft,
   BookOpen,
@@ -9,12 +5,10 @@ import {
   Target,
   Clock,
 } from "lucide-react";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 // Home Page Component
 const HomePage = () => {
-  const router = useRouter();
-
   return (
     <div className="min-h-screen relative flex items-center justify-center p-4">
       <div className="max-w-5xl w-full">
@@ -59,8 +53,9 @@ const HomePage = () => {
             </div>
           </div>
 
-          <button
-            onClick={() => router.push("/books")}
+          <Link
+            href="/books"
+            prefetch={true}
             className="group relative bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 hover:border-white/30 transition-all duration-300 cursor-pointer">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-3xl"></div>
@@ -80,7 +75,7 @@ const HomePage = () => {
                 <ChevronLeft className="w-5 h-5 rotate-180" />
               </div>
             </div>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -89,12 +84,6 @@ const HomePage = () => {
 
 // Main App Component
 export default function App() {
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }, []);
   return (
     <>
       <HomePage />
