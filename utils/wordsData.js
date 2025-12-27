@@ -50553,25 +50553,25275 @@ export const wordsData = [
     book: 3,
     level: "B1",
     color: "from-purple-500 to-pink-600",
-    units: Array.from({ length: 30 }, (_, i) => ({
-      name: `unit${i + 1}`,
-      words: [
-        {
-          word: `word${i + 1}`,
-          phonetic: "/wɜːrd/",
-          examples: [
-            `Example 1 for word ${i + 1}`,
-            `Example 2 for word ${i + 1}`,
-          ],
-          questions: [
-            {
-              question: `Question about word ${i + 1}?`,
-              answers: [`Answer 1`, `Answer 2`],
-            },
-          ],
-        },
-      ],
-    })),
+    units:[
+      {
+        name: "unit1",
+        words: [
+          {
+            word: "acre",
+            phonetic: "/ˈeɪkər/",
+            examples: [
+              "The farm covers fifty acres of land",
+              "They bought an acre of property downtown",
+              "Each acre produces tons of wheat annually",
+              "The forest spans thousands of acres total",
+              "An acre equals about forty three thousand square feet",
+              "The vineyard has twenty acres of grapes",
+              "Acre by acre they cleared the field",
+              "The estate includes several acres of gardens",
+              "Land prices are measured per acre here",
+              "He inherited ten acres from his father"
+            ],
+            questions: [
+              {
+                question: "How big is the farm?",
+                answers: [
+                  "Fifty acres",
+                  "Several acres",
+                  "Many acres"
+                ]
+              },
+              {
+                question: "What did they buy?",
+                answers: [
+                  "An acre of land",
+                  "Two acres",
+                  "Acre of property"
+                ]
+              },
+              {
+                question: "How much land?",
+                answers: [
+                  "Ten acres",
+                  "Few acres",
+                  "Acres of forest"
+                ]
+              }
+            ]
+          },
+          {
+            word: "afterlife",
+            phonetic: "/ˈæftərlaɪf/",
+            examples: [
+              "Ancient Egyptians believed in the afterlife strongly",
+              "What happens in the afterlife is unknown",
+              "Many religions teach about the afterlife",
+              "She hopes to meet him in afterlife",
+              "The afterlife concept varies across cultures",
+              "Pharaohs prepared treasures for the afterlife",
+              "Do you believe in the afterlife",
+              "The afterlife remains a great mystery",
+              "Ancient tombs held supplies for afterlife",
+              "Afterlife beliefs shape many people's actions"
+            ],
+            questions: [
+              {
+                question: "What did Egyptians believe?",
+                answers: [
+                  "In the afterlife",
+                  "Afterlife exists",
+                  "Afterlife important"
+                ]
+              },
+              {
+                question: "What's a mystery?",
+                answers: [
+                  "The afterlife is",
+                  "Afterlife unknown",
+                  "Afterlife secrets"
+                ]
+              },
+              {
+                question: "What varies by culture?",
+                answers: [
+                  "Afterlife beliefs",
+                  "Afterlife concepts",
+                  "Afterlife ideas"
+                ]
+              }
+            ]
+          },
+          {
+            word: "archaeology",
+            phonetic: "/ˌɑːrkiˈɑːlədʒi/",
+            examples: [
+              "She studied archaeology at university for years",
+              "Archaeology reveals secrets of ancient civilizations",
+              "The archaeology team discovered rare artifacts",
+              "Archaeology is fascinating but requires patience",
+              "He works in archaeology full time now",
+              "Underwater archaeology explores sunken ships",
+              "Archaeology helps us understand human history",
+              "The archaeology site was carefully excavated",
+              "Modern archaeology uses advanced technology",
+              "Biblical archaeology attracts many scholars"
+            ],
+            questions: [
+              {
+                question: "What does she study?",
+                answers: [
+                  "Archaeology",
+                  "Studies archaeology",
+                  "Archaeology major"
+                ]
+              },
+              {
+                question: "What reveals ancient secrets?",
+                answers: [
+                  "Archaeology does",
+                  "Through archaeology",
+                  "Archaeology shows"
+                ]
+              },
+              {
+                question: "What's his field?",
+                answers: [
+                  "He works in archaeology",
+                  "Archaeology field",
+                  "Archaeology career"
+                ]
+              }
+            ]
+          },
+          {
+            word: "chamber",
+            phonetic: "/ˈtʃeɪmbər/",
+            examples: [
+              "The burial chamber held ancient treasures",
+              "They discovered a secret chamber inside",
+              "The heart has four chambers total",
+              "The chamber was sealed thousands of years",
+              "A sleeping chamber is a bedroom",
+              "The chamber echoed with their voices",
+              "The king's chamber was beautifully decorated",
+              "Chamber music is performed by small groups",
+              "The torture chamber was dark and cold",
+              "Parliament has an upper and lower chamber"
+            ],
+            questions: [
+              {
+                question: "What did they find?",
+                answers: [
+                  "A secret chamber",
+                  "Hidden chamber",
+                  "Burial chamber"
+                ]
+              },
+              {
+                question: "How many chambers?",
+                answers: [
+                  "Four chambers",
+                  "Multiple chambers",
+                  "Several chambers"
+                ]
+              },
+              {
+                question: "Where was the treasure?",
+                answers: [
+                  "In the chamber",
+                  "Chamber inside",
+                  "King's chamber"
+                ]
+              }
+            ]
+          },
+          {
+            word: "channel",
+            phonetic: "/ˈtʃænl/",
+            examples: [
+              "The English Channel separates Britain from France",
+              "Change the TV channel to news",
+              "They dug a channel for water flow",
+              "She channels her energy into work",
+              "The channel was blocked with debris",
+              "Communication channels must remain open always",
+              "The channel provides irrigation for crops",
+              "He channels his anger through exercise",
+              "The channel is thirty miles wide",
+              "Social media channels reach millions daily"
+            ],
+            questions: [
+              {
+                question: "What separates Britain and France?",
+                answers: [
+                  "The English Channel",
+                  "A channel",
+                  "Channel does"
+                ]
+              },
+              {
+                question: "What should I change?",
+                answers: [
+                  "Change the channel",
+                  "TV channel",
+                  "Different channel"
+                ]
+              },
+              {
+                question: "How does she use energy?",
+                answers: [
+                  "She channels it",
+                  "Channels energy",
+                  "Through channels"
+                ]
+              }
+            ]
+          },
+          {
+            word: "core",
+            phonetic: "/kɔːr/",
+            examples: [
+              "The apple core should be thrown away",
+              "Earth's core is extremely hot inside",
+              "The core of the problem is trust",
+              "He has a strong moral core",
+              "The core curriculum includes basic subjects",
+              "At its core the plan is simple",
+              "The core team consists of five members",
+              "Remove the core from the fruit",
+              "Core values guide our decisions always",
+              "The reactor core must be cooled"
+            ],
+            questions: [
+              {
+                question: "What's the main issue?",
+                answers: [
+                  "The core problem",
+                  "At its core",
+                  "Core issue"
+                ]
+              },
+              {
+                question: "What should be removed?",
+                answers: [
+                  "The apple core",
+                  "Remove the core",
+                  "Core removed"
+                ]
+              },
+              {
+                question: "What guides decisions?",
+                answers: [
+                  "Core values",
+                  "Our core",
+                  "Core principles"
+                ]
+              }
+            ]
+          },
+          {
+            word: "corridor",
+            phonetic: "/ˈkɔːrɪdɔːr/",
+            examples: [
+              "The corridor leads to the main hall",
+              "Walk down the corridor and turn right",
+              "The hospital corridor was quiet tonight",
+              "A long corridor connects the buildings",
+              "The corridor was lined with paintings",
+              "She walked through the empty corridor",
+              "The corridor is well lit at night",
+              "His office is at the end of corridor",
+              "The corridor echoed with footsteps",
+              "They met in the corridor by chance"
+            ],
+            questions: [
+              {
+                question: "Where should I go?",
+                answers: [
+                  "Down the corridor",
+                  "Through corridor",
+                  "Corridor ahead"
+                ]
+              },
+              {
+                question: "Where's his office?",
+                answers: [
+                  "End of corridor",
+                  "Corridor location",
+                  "In corridor"
+                ]
+              },
+              {
+                question: "What connects them?",
+                answers: [
+                  "A corridor",
+                  "The corridor does",
+                  "Long corridor"
+                ]
+              }
+            ]
+          },
+          {
+            word: "distinct",
+            phonetic: "/dɪˈstɪŋkt/",
+            examples: [
+              "Each species has distinct characteristics",
+              "There's a distinct smell in here",
+              "The two concepts are quite distinct",
+              "She has a distinct accent from abroad",
+              "They are distinct from each other",
+              "A distinct difference separates them",
+              "His voice is clear and distinct",
+              "The painting shows distinct brush strokes",
+              "There are three distinct phases",
+              "Distinct patterns emerged from the data"
+            ],
+            questions: [
+              {
+                question: "How are they different?",
+                answers: [
+                  "They're distinct",
+                  "Quite distinct",
+                  "Distinct difference"
+                ]
+              },
+              {
+                question: "What do you notice?",
+                answers: [
+                  "Distinct smell",
+                  "Distinct accent",
+                  "Distinct voice"
+                ]
+              },
+              {
+                question: "How many phases?",
+                answers: [
+                  "Three distinct phases",
+                  "Distinct stages",
+                  "Distinct periods"
+                ]
+              }
+            ]
+          },
+          {
+            word: "elite",
+            phonetic: "/ɪˈliːt/",
+            examples: [
+              "He belongs to the social elite",
+              "Elite athletes train every single day",
+              "The elite forces are highly trained",
+              "She attended an elite private school",
+              "Elite universities are very competitive",
+              "The ruling elite control most wealth",
+              "Elite players earn millions annually",
+              "An elite group was invited only",
+              "Elite status comes with privilege",
+              "The elite few have special access"
+            ],
+            questions: [
+              {
+                question: "Who trains daily?",
+                answers: [
+                  "Elite athletes",
+                  "The elite",
+                  "Elite players"
+                ]
+              },
+              {
+                question: "What kind of school?",
+                answers: [
+                  "An elite school",
+                  "Elite private",
+                  "Elite institution"
+                ]
+              },
+              {
+                question: "Who was invited?",
+                answers: [
+                  "The elite group",
+                  "Elite few",
+                  "Elite members"
+                ]
+              }
+            ]
+          },
+          {
+            word: "engineer",
+            phonetic: "/ˌendʒɪˈnɪr/",
+            examples: [
+              "He works as a civil engineer",
+              "Software engineers earn good salaries",
+              "The engineer designed the bridge",
+              "She's studying to become an engineer",
+              "Engineers solve complex technical problems",
+              "The engineer inspected the machine",
+              "Mechanical engineers work with machines",
+              "They engineered a clever solution",
+              "The chief engineer approved the plans",
+              "Engineers must understand mathematics well"
+            ],
+            questions: [
+              {
+                question: "What's his job?",
+                answers: [
+                  "He's an engineer",
+                  "Civil engineer",
+                  "Works as engineer"
+                ]
+              },
+              {
+                question: "Who designed it?",
+                answers: [
+                  "The engineer did",
+                  "An engineer",
+                  "Engineers designed"
+                ]
+              },
+              {
+                question: "What does she study?",
+                answers: [
+                  "To be engineer",
+                  "Engineering",
+                  "Engineer training"
+                ]
+              }
+            ]
+          },
+          {
+            word: "found",
+            phonetic: "/faʊnd/",
+            examples: [
+              "They found the missing child safely",
+              "She founded the company ten years ago",
+              "Have you found your keys yet",
+              "The organization was founded in eighteen ninety",
+              "He found a solution to the problem",
+              "The theory is founded on evidence",
+              "We found the restaurant closed today",
+              "The city was founded by Romans",
+              "I found this book very interesting",
+              "The discovery was found by accident"
+            ],
+            questions: [
+              {
+                question: "Did you locate it?",
+                answers: [
+                  "Yes, I found it",
+                  "Found it",
+                  "Haven't found"
+                ]
+              },
+              {
+                question: "Who started the company?",
+                answers: [
+                  "She founded it",
+                  "Founded by her",
+                  "The founder"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "They found him",
+                  "Was found",
+                  "Found safely"
+                ]
+              }
+            ]
+          },
+          {
+            word: "gap",
+            phonetic: "/ɡæp/",
+            examples: [
+              "There's a gap in the fence",
+              "Mind the gap when boarding trains",
+              "A generation gap separates them",
+              "The gap between rich and poor widens",
+              "She took a gap year before college",
+              "There's a gap in his employment history",
+              "Bridge the gap between theory and practice",
+              "A gap in knowledge needs filling",
+              "The gap was too wide to jump",
+              "Gap analysis reveals weaknesses"
+            ],
+            questions: [
+              {
+                question: "What separates them?",
+                answers: [
+                  "A gap",
+                  "Generation gap",
+                  "Wide gap"
+                ]
+              },
+              {
+                question: "What should I watch?",
+                answers: [
+                  "Mind the gap",
+                  "The gap",
+                  "Gap ahead"
+                ]
+              },
+              {
+                question: "What did she take?",
+                answers: [
+                  "A gap year",
+                  "Gap year",
+                  "Year gap"
+                ]
+              }
+            ]
+          },
+          {
+            word: "glory",
+            phonetic: "/ˈɡlɔːri/",
+            examples: [
+              "The team won glory and fame",
+              "Ancient Rome was at its glory",
+              "He basked in the glory of victory",
+              "Glory days are long gone now",
+              "Morning glory flowers bloom at dawn",
+              "The empire's glory has faded",
+              "She seeks glory and recognition",
+              "Glory to the victors they shouted",
+              "The sunset was in all its glory",
+              "Past glory doesn't guarantee future success"
+            ],
+            questions: [
+              {
+                question: "What did they win?",
+                answers: [
+                  "Glory and fame",
+                  "Won glory",
+                  "Achieved glory"
+                ]
+              },
+              {
+                question: "What has faded?",
+                answers: [
+                  "The glory has",
+                  "Past glory",
+                  "Former glory"
+                ]
+              },
+              {
+                question: "What does she seek?",
+                answers: [
+                  "Seeks glory",
+                  "Glory",
+                  "Glory recognition"
+                ]
+              }
+            ]
+          },
+          {
+            word: "interior",
+            phonetic: "/ɪnˈtɪriər/",
+            examples: [
+              "The interior of the house is beautiful",
+              "Interior design is her specialty",
+              "The car has a luxurious interior",
+              "Interior walls need painting soon",
+              "She works for the Interior Department",
+              "The interior decorator chose elegant furniture",
+              "Interior temperatures remain stable",
+              "The interior is spacious and bright",
+              "Interior quality matters as much as exterior",
+              "They renovated the entire interior"
+            ],
+            questions: [
+              {
+                question: "What needs work?",
+                answers: [
+                  "The interior does",
+                  "Interior walls",
+                  "Interior space"
+                ]
+              },
+              {
+                question: "What's her field?",
+                answers: [
+                  "Interior design",
+                  "Interior decoration",
+                  "Interior work"
+                ]
+              },
+              {
+                question: "How's the inside?",
+                answers: [
+                  "Interior is nice",
+                  "Beautiful interior",
+                  "Spacious interior"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lion",
+            phonetic: "/ˈlaɪən/",
+            examples: [
+              "The lion is king of the jungle",
+              "Lions hunt in groups called prides",
+              "A male lion has a distinctive mane",
+              "Lion populations are declining sadly",
+              "The lion roared loudly at night",
+              "She's brave as a lion",
+              "The stone lion guards the entrance",
+              "Lion cubs are playful and cute",
+              "Mountain lions live in North America",
+              "The lion symbolizes courage and strength"
+            ],
+            questions: [
+              {
+                question: "What animal is that?",
+                answers: [
+                  "It's a lion",
+                  "A lion",
+                  "Lion"
+                ]
+              },
+              {
+                question: "How brave is she?",
+                answers: [
+                  "Brave as lion",
+                  "Like a lion",
+                  "Lion-hearted"
+                ]
+              },
+              {
+                question: "What symbolizes strength?",
+                answers: [
+                  "The lion does",
+                  "A lion",
+                  "Lion symbol"
+                ]
+              }
+            ]
+          },
+          {
+            word: "role",
+            phonetic: "/roʊl/",
+            examples: [
+              "What role did you play in this",
+              "She plays a leading role in theater",
+              "Gender roles are changing nowadays",
+              "He has an important role here",
+              "The role requires excellent acting skills",
+              "Parents play a crucial role in education",
+              "Her role is to manage the team",
+              "Role models inspire young people",
+              "The role was perfectly cast",
+              "Define your role in the project"
+            ],
+            questions: [
+              {
+                question: "What's your part?",
+                answers: [
+                  "My role is",
+                  "Play a role",
+                  "Important role"
+                ]
+              },
+              {
+                question: "What does she do?",
+                answers: [
+                  "Her role is",
+                  "Leading role",
+                  "Role involves"
+                ]
+              },
+              {
+                question: "Who influences youth?",
+                answers: [
+                  "Role models do",
+                  "Good role models",
+                  "Role model"
+                ]
+              }
+            ]
+          },
+          {
+            word: "royal",
+            phonetic: "/ˈrɔɪəl/",
+            examples: [
+              "The royal family lives in palaces",
+              "She received royal treatment everywhere",
+              "Royal blue is a deep blue color",
+              "The royal wedding was spectacular",
+              "Royal guards protect the palace",
+              "He has royal blood in his veins",
+              "Royal duties keep them very busy",
+              "The royal court was magnificent",
+              "Royal decree changed the law",
+              "Royal traditions continue today"
+            ],
+            questions: [
+              {
+                question: "Who lives there?",
+                answers: [
+                  "The royal family",
+                  "Royal residents",
+                  "Royals do"
+                ]
+              },
+              {
+                question: "What kind of treatment?",
+                answers: [
+                  "Royal treatment",
+                  "Treated royally",
+                  "Like royalty"
+                ]
+              },
+              {
+                question: "What changed the law?",
+                answers: [
+                  "Royal decree",
+                  "Royal order",
+                  "Royal command"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sole",
+            phonetic: "/soʊl/",
+            examples: [
+              "She's the sole survivor of crash",
+              "His sole purpose is helping others",
+              "The sole of my shoe is worn",
+              "Sole responsibility rests with him",
+              "He is the sole owner now",
+              "Sole proprietorship has one owner",
+              "The sole witness testified in court",
+              "Dover sole is a delicious fish",
+              "My sole concern is your safety",
+              "She works as a sole trader"
+            ],
+            questions: [
+              {
+                question: "Who survived?",
+                answers: [
+                  "The sole survivor",
+                  "Sole person",
+                  "Only one"
+                ]
+              },
+              {
+                question: "What's his purpose?",
+                answers: [
+                  "His sole purpose",
+                  "Sole aim",
+                  "Sole goal"
+                ]
+              },
+              {
+                question: "Who owns it?",
+                answers: [
+                  "Sole owner",
+                  "He's sole owner",
+                  "Sole proprietor"
+                ]
+              }
+            ]
+          },
+          {
+            word: "stairs",
+            phonetic: "/sterz/",
+            examples: [
+              "Take the stairs to the second floor",
+              "The stairs are steep and narrow",
+              "She fell down the stairs yesterday",
+              "Climbing stairs is good exercise",
+              "The stairs lead to the attic",
+              "He ran up the stairs quickly",
+              "The stairs creak when walked on",
+              "Use the stairs not the elevator",
+              "The stairs need to be repaired",
+              "Flight of stairs has fifteen steps"
+            ],
+            questions: [
+              {
+                question: "How do I get up?",
+                answers: [
+                  "Take the stairs",
+                  "Use stairs",
+                  "Climb stairs"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Fell down stairs",
+                  "Stairs accident",
+                  "On stairs"
+                ]
+              },
+              {
+                question: "Where do they lead?",
+                answers: [
+                  "Stairs lead up",
+                  "To the stairs",
+                  "Stairs go"
+                ]
+              }
+            ]
+          },
+          {
+            word: "surface",
+            phonetic: "/ˈsɜːrfɪs/",
+            examples: [
+              "The surface of the water is calm",
+              "Clean the surface thoroughly before painting",
+              "Problems surfaced during the meeting",
+              "Earth's surface is mostly water",
+              "The surface temperature is rising",
+              "Scratch the surface to reveal truth",
+              "The submarine surfaced near the coast",
+              "A smooth surface reflects light well",
+              "Surface details hide deeper issues",
+              "The surface area needs calculating"
+            ],
+            questions: [
+              {
+                question: "What's calm?",
+                answers: [
+                  "The surface is",
+                  "Water surface",
+                  "Surface calm"
+                ]
+              },
+              {
+                question: "What appeared?",
+                answers: [
+                  "Problems surfaced",
+                  "Issues surfaced",
+                  "Surfaced suddenly"
+                ]
+              },
+              {
+                question: "What needs cleaning?",
+                answers: [
+                  "The surface does",
+                  "Surface area",
+                  "Surface clean"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit2",
+        words: [
+          {
+            word: "agreement",
+            phonetic: "/əˈɡriːmənt/",
+            examples: [
+              "They reached an agreement after negotiations",
+              "The agreement was signed by both parties",
+              "We're in complete agreement on this issue",
+              "The peace agreement ended the war",
+              "Rental agreement includes all terms clearly",
+              "Come to an agreement before proceeding",
+              "The agreement is legally binding now",
+              "They made a verbal agreement yesterday",
+              "Trade agreement benefits both countries",
+              "The agreement expires next year"
+            ],
+            questions: [
+              {
+                question: "What did they reach?",
+                answers: [
+                  "An agreement",
+                  "Reached agreement",
+                  "Agreement made"
+                ]
+              },
+              {
+                question: "Are you aligned?",
+                answers: [
+                  "We're in agreement",
+                  "Complete agreement",
+                  "Agreement reached"
+                ]
+              },
+              {
+                question: "What was signed?",
+                answers: [
+                  "The agreement",
+                  "Peace agreement",
+                  "Agreement document"
+                ]
+              }
+            ]
+          },
+          {
+            word: "arise",
+            phonetic: "/əˈraɪz/",
+            examples: [
+              "Problems may arise during the project",
+              "Questions arose about the decision",
+              "New opportunities arise every day",
+              "Conflicts arise from misunderstandings",
+              "Should difficulties arise contact us immediately",
+              "The issue arose last week suddenly",
+              "Doubts arose in his mind",
+              "Complications can arise at any time",
+              "The need arose for better security",
+              "Situations arise that require immediate attention"
+            ],
+            questions: [
+              {
+                question: "What might happen?",
+                answers: [
+                  "Problems may arise",
+                  "Issues arise",
+                  "Difficulties arise"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Questions arose",
+                  "Situation arose",
+                  "Arose suddenly"
+                ]
+              },
+              {
+                question: "When should I call?",
+                answers: [
+                  "If problems arise",
+                  "When issues arise",
+                  "Should arise"
+                ]
+              }
+            ]
+          },
+          {
+            word: "benefactor",
+            phonetic: "/ˈbenɪfæktər/",
+            examples: [
+              "An anonymous benefactor donated millions",
+              "The university honored its benefactor",
+              "She became a benefactor to the arts",
+              "The benefactor funded the new building",
+              "Without the benefactor the project would fail",
+              "He's a generous benefactor to charities",
+              "The benefactor wishes to remain anonymous",
+              "Local benefactors support the school",
+              "The benefactor's contribution was significant",
+              "They thanked their benefactor publicly"
+            ],
+            questions: [
+              {
+                question: "Who donated?",
+                answers: [
+                  "A benefactor did",
+                  "Anonymous benefactor",
+                  "The benefactor"
+                ]
+              },
+              {
+                question: "Who funded it?",
+                answers: [
+                  "The benefactor",
+                  "Our benefactor",
+                  "Benefactor funded"
+                ]
+              },
+              {
+                question: "Who supports the school?",
+                answers: [
+                  "Local benefactors",
+                  "Benefactors do",
+                  "The benefactor"
+                ]
+              }
+            ]
+          },
+          {
+            word: "blacksmith",
+            phonetic: "/ˈblæksmɪθ/",
+            examples: [
+              "The blacksmith makes horseshoes",
+              "Village blacksmith was highly respected",
+              "The blacksmith heated the iron",
+              "He apprenticed with a skilled blacksmith",
+              "The blacksmith's forge was very hot",
+              "Modern blacksmiths create decorative items",
+              "The blacksmith hammered the metal",
+              "Blacksmith shops were common historically",
+              "The blacksmith repaired farm tools",
+              "She learned blacksmithing from her father"
+            ],
+            questions: [
+              {
+                question: "Who makes horseshoes?",
+                answers: [
+                  "The blacksmith does",
+                  "A blacksmith",
+                  "Village blacksmith"
+                ]
+              },
+              {
+                question: "Who did he learn from?",
+                answers: [
+                  "A skilled blacksmith",
+                  "The blacksmith",
+                  "Master blacksmith"
+                ]
+              },
+              {
+                question: "What's his trade?",
+                answers: [
+                  "He's a blacksmith",
+                  "Blacksmithing",
+                  "Blacksmith work"
+                ]
+              }
+            ]
+          },
+          {
+            word: "chimney",
+            phonetic: "/ˈtʃɪmni/",
+            examples: [
+              "Smoke rises from the chimney",
+              "The chimney needs cleaning annually",
+              "Santa comes down the chimney traditionally",
+              "A brick chimney stands tall",
+              "The chimney sweep arrived early",
+              "Birds nest in the chimney sometimes",
+              "The chimney was damaged by storm",
+              "Chimney caps prevent rain entry",
+              "The old chimney needs repair",
+              "Factory chimneys pollute the air"
+            ],
+            questions: [
+              {
+                question: "Where does smoke go?",
+                answers: [
+                  "Up the chimney",
+                  "Through chimney",
+                  "Chimney exit"
+                ]
+              },
+              {
+                question: "What needs cleaning?",
+                answers: [
+                  "The chimney does",
+                  "Chimney needs",
+                  "Chimney cleaning"
+                ]
+              },
+              {
+                question: "Where does Santa enter?",
+                answers: [
+                  "Down the chimney",
+                  "Through chimney",
+                  "Chimney entrance"
+                ]
+              }
+            ]
+          },
+          {
+            word: "compensate",
+            phonetic: "/ˈkɑːmpənseɪt/",
+            examples: [
+              "They will compensate you for damages",
+              "The company must compensate workers",
+              "Nothing can compensate for the loss",
+              "She was compensated fairly for work",
+              "Compensate employees for overtime hours",
+              "He compensates for weakness with determination",
+              "The payment will compensate expenses",
+              "Compensate victims of the accident",
+              "They compensated him generously",
+              "Insurance will compensate the claim"
+            ],
+            questions: [
+              {
+                question: "What will they do?",
+                answers: [
+                  "They'll compensate you",
+                  "Compensate fairly",
+                  "Will compensate"
+                ]
+              },
+              {
+                question: "Who gets payment?",
+                answers: [
+                  "Compensate workers",
+                  "Compensate victims",
+                  "Compensated employees"
+                ]
+              },
+              {
+                question: "How does he manage?",
+                answers: [
+                  "He compensates",
+                  "Compensates weakness",
+                  "By compensating"
+                ]
+              }
+            ]
+          },
+          {
+            word: "encounter",
+            phonetic: "/ɪnˈkaʊntər/",
+            examples: [
+              "I encountered an old friend downtown",
+              "They encountered many difficulties",
+              "The encounter was completely unexpected",
+              "Wildlife encounters can be dangerous",
+              "She encountered resistance to her ideas",
+              "We may encounter problems ahead",
+              "The encounter changed his perspective",
+              "They encountered bad weather on trip",
+              "Close encounter with a bear",
+              "Encounter new cultures while traveling"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "I encountered him",
+                  "Unexpected encounter",
+                  "Encounter occurred"
+                ]
+              },
+              {
+                question: "What did they face?",
+                answers: [
+                  "Encountered difficulties",
+                  "Encountered problems",
+                  "Many encounters"
+                ]
+              },
+              {
+                question: "What might happen?",
+                answers: [
+                  "May encounter issues",
+                  "Encounter problems",
+                  "Encounter obstacles"
+                ]
+              }
+            ]
+          },
+          {
+            word: "exceed",
+            phonetic: "/ɪkˈsiːd/",
+            examples: [
+              "Don't exceed the speed limit",
+              "Sales exceeded expectations this quarter",
+              "The cost exceeded our budget",
+              "Her performance exceeded all standards",
+              "Temperatures exceeded one hundred degrees",
+              "The demand exceeds the supply",
+              "He exceeded his authority significantly",
+              "Results exceeded previous records",
+              "Don't exceed recommended dosage",
+              "The benefits exceed the costs"
+            ],
+            questions: [
+              {
+                question: "What about the limit?",
+                answers: [
+                  "Don't exceed it",
+                  "Exceeded limit",
+                  "Exceeds maximum"
+                ]
+              },
+              {
+                question: "How were sales?",
+                answers: [
+                  "Exceeded expectations",
+                  "Sales exceeded",
+                  "Exceeded targets"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Exceeded budget",
+                  "Cost exceeds",
+                  "Exceeds authority"
+                ]
+              }
+            ]
+          },
+          {
+            word: "forge",
+            phonetic: "/fɔːrdʒ/",
+            examples: [
+              "The blacksmith works at the forge",
+              "They forged a strong friendship",
+              "He was accused of forging signatures",
+              "Forge ahead despite the obstacles",
+              "The document was a forgery",
+              "Metal is heated in the forge",
+              "They forged an alliance together",
+              "Forge new paths in business",
+              "The signature was forged carefully",
+              "Forge relationships with clients"
+            ],
+            questions: [
+              {
+                question: "Where does he work?",
+                answers: [
+                  "At the forge",
+                  "In the forge",
+                  "Forge workplace"
+                ]
+              },
+              {
+                question: "What did they create?",
+                answers: [
+                  "Forged friendship",
+                  "Forged alliance",
+                  "Forge bonds"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Forge ahead",
+                  "Forge forward",
+                  "Keep forging"
+                ]
+              }
+            ]
+          },
+          {
+            word: "humble",
+            phonetic: "/ˈhʌmbl/",
+            examples: [
+              "He remained humble despite success",
+              "She comes from humble beginnings",
+              "In my humble opinion this works",
+              "Humble people are often well liked",
+              "The experience was a humbling one",
+              "He has a humble demeanor always",
+              "Humble origins don't define you",
+              "She accepted the award humbly",
+              "A humble cottage by the river",
+              "Humble yourself before others"
+            ],
+            questions: [
+              {
+                question: "What's he like?",
+                answers: [
+                  "He's very humble",
+                  "Remains humble",
+                  "Humble person"
+                ]
+              },
+              {
+                question: "What's your view?",
+                answers: [
+                  "My humble opinion",
+                  "Humble view",
+                  "Humbly speaking"
+                ]
+              },
+              {
+                question: "What kind of house?",
+                answers: [
+                  "A humble cottage",
+                  "Humble dwelling",
+                  "Humble home"
+                ]
+              }
+            ]
+          },
+          {
+            word: "iron",
+            phonetic: "/ˈaɪərn/",
+            examples: [
+              "The gate is made of iron",
+              "She needs to iron her shirt",
+              "Iron is a strong metal",
+              "He has an iron will",
+              "Iron deficiency causes anemia",
+              "The iron was hot and ready",
+              "Strike while the iron is hot",
+              "Cast iron pans last forever",
+              "Iron bars secured the window",
+              "Iron out the problems first"
+            ],
+            questions: [
+              {
+                question: "What's it made of?",
+                answers: [
+                  "Made of iron",
+                  "Iron material",
+                  "Iron construction"
+                ]
+              },
+              {
+                question: "What needs doing?",
+                answers: [
+                  "Iron the shirt",
+                  "Needs ironing",
+                  "Iron clothes"
+                ]
+              },
+              {
+                question: "What's his characteristic?",
+                answers: [
+                  "Iron will",
+                  "Iron determination",
+                  "Strong as iron"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ladder",
+            phonetic: "/ˈlædər/",
+            examples: [
+              "He climbed the ladder to the roof",
+              "The ladder is leaning against wall",
+              "She's climbing the corporate ladder",
+              "Extend the ladder fully first",
+              "The ladder was very tall",
+              "A step ladder is shorter",
+              "Ladder safety is extremely important",
+              "He fell off the ladder yesterday",
+              "Use a ladder to reach high places",
+              "The ladder has ten rungs total"
+            ],
+            questions: [
+              {
+                question: "What did he climb?",
+                answers: [
+                  "Climbed the ladder",
+                  "A ladder",
+                  "Ladder up"
+                ]
+              },
+              {
+                question: "What's progressing?",
+                answers: [
+                  "Climbing corporate ladder",
+                  "Career ladder",
+                  "Up the ladder"
+                ]
+              },
+              {
+                question: "What do I need?",
+                answers: [
+                  "Use a ladder",
+                  "Need ladder",
+                  "Get ladder"
+                ]
+              }
+            ]
+          },
+          {
+            word: "modest",
+            phonetic: "/ˈmɑːdɪst/",
+            examples: [
+              "She's very modest about her achievements",
+              "They live in a modest apartment",
+              "A modest proposal was submitted",
+              "He has modest expectations",
+              "The improvement was modest but noticeable",
+              "She wore a modest dress",
+              "Modest gains were made today",
+              "His salary is quite modest",
+              "A modest increase in price",
+              "Remain modest and respectful always"
+            ],
+            questions: [
+              {
+                question: "How is she?",
+                answers: [
+                  "Very modest",
+                  "She's modest",
+                  "Modest person"
+                ]
+              },
+              {
+                question: "What kind of home?",
+                answers: [
+                  "A modest apartment",
+                  "Modest dwelling",
+                  "Modest home"
+                ]
+              },
+              {
+                question: "How big was the gain?",
+                answers: [
+                  "Modest gains",
+                  "Modest increase",
+                  "Modest improvement"
+                ]
+              }
+            ]
+          },
+          {
+            word: "occupy",
+            phonetic: "/ˈɑːkjupaɪ/",
+            examples: [
+              "Enemy forces occupy the territory",
+              "The house is currently occupied",
+              "His work occupies most of his time",
+              "They occupy the third floor",
+              "Protestors occupy the square",
+              "Occupy yourself with productive activities",
+              "The seat is occupied already",
+              "Thoughts occupy her mind constantly",
+              "Romans occupied Britain for centuries",
+              "Occupy this position immediately"
+            ],
+            questions: [
+              {
+                question: "What's the status?",
+                answers: [
+                  "It's occupied",
+                  "Already occupied",
+                  "Occupy building"
+                ]
+              },
+              {
+                question: "Where do they live?",
+                answers: [
+                  "They occupy third floor",
+                  "Occupy apartment",
+                  "Occupy space"
+                ]
+              },
+              {
+                question: "What takes your time?",
+                answers: [
+                  "Work occupies time",
+                  "Occupies mind",
+                  "Occupy attention"
+                ]
+              }
+            ]
+          },
+          {
+            word: "penny",
+            phonetic: "/ˈpeni/",
+            examples: [
+              "A penny saved is a penny earned",
+              "The item costs ninety nine pennies",
+              "She found a penny on the ground",
+              "Not worth a penny in my opinion",
+              "Pennies add up over time",
+              "He doesn't have a penny left",
+              "Count every penny you spend",
+              "A pretty penny means expensive",
+              "Lucky penny brings good fortune",
+              "Penny for your thoughts"
+            ],
+            questions: [
+              {
+                question: "What did she find?",
+                answers: [
+                  "Found a penny",
+                  "A penny",
+                  "Lucky penny"
+                ]
+              },
+              {
+                question: "How much left?",
+                answers: [
+                  "Not a penny",
+                  "No pennies",
+                  "Every penny"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Penny saved",
+                  "Penny earned",
+                  "Pretty penny"
+                ]
+              }
+            ]
+          },
+          {
+            word: "preach",
+            phonetic: "/priːtʃ/",
+            examples: [
+              "The minister preaches every Sunday",
+              "Don't preach to me about morality",
+              "She preaches tolerance and understanding",
+              "Practice what you preach always",
+              "He loves to preach about politics",
+              "The sermon preached forgiveness",
+              "Stop preaching and start listening",
+              "Preach by example not words",
+              "They preach environmental protection",
+              "Religious leaders preach to congregations"
+            ],
+            questions: [
+              {
+                question: "What does he do?",
+                answers: [
+                  "He preaches",
+                  "Preaches sermons",
+                  "Preaches weekly"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Practice what you preach",
+                  "Preach by example",
+                  "Don't preach"
+                ]
+              },
+              {
+                question: "What do they promote?",
+                answers: [
+                  "Preach tolerance",
+                  "Preach values",
+                  "Preach protection"
+                ]
+              }
+            ]
+          },
+          {
+            word: "prosper",
+            phonetic: "/ˈprɑːspər/",
+            examples: [
+              "The business prospered under new management",
+              "May you prosper in all endeavors",
+              "The region prospered from trade",
+              "Plants prosper in good soil",
+              "They prospered despite the difficulties",
+              "The town prospered during gold rush",
+              "His investments prospered greatly",
+              "Prosper and succeed in life",
+              "The economy is prospering now",
+              "Farmers prosper in good years"
+            ],
+            questions: [
+              {
+                question: "How's the business?",
+                answers: [
+                  "It's prospering",
+                  "Business prospered",
+                  "Prospers well"
+                ]
+              },
+              {
+                question: "What's your wish?",
+                answers: [
+                  "May you prosper",
+                  "Prosper always",
+                  "Wish prosperity"
+                ]
+              },
+              {
+                question: "How did they do?",
+                answers: [
+                  "They prospered",
+                  "Prospered greatly",
+                  "Prospered despite"
+                ]
+              }
+            ]
+          },
+          {
+            word: "province",
+            phonetic: "/ˈprɑːvɪns/",
+            examples: [
+              "Ontario is a Canadian province",
+              "Each province has its own laws",
+              "The province covers vast territory",
+              "Provincial government manages healthcare",
+              "She moved to another province",
+              "The province is known for wine",
+              "That's outside my province expertise",
+              "Northern provinces are less populated",
+              "The province declared independence",
+              "Provincial taxes vary by location"
+            ],
+            questions: [
+              {
+                question: "What is Ontario?",
+                answers: [
+                  "A province",
+                  "Canadian province",
+                  "Province of Canada"
+                ]
+              },
+              {
+                question: "Where did she move?",
+                answers: [
+                  "Another province",
+                  "Different province",
+                  "New province"
+                ]
+              },
+              {
+                question: "What's your expertise?",
+                answers: [
+                  "Outside my province",
+                  "Not my province",
+                  "Province of knowledge"
+                ]
+              }
+            ]
+          },
+          {
+            word: "satisfaction",
+            phonetic: "/ˌsætɪsˈfækʃn/",
+            examples: [
+              "Customer satisfaction is our priority",
+              "She expressed satisfaction with results",
+              "The work gives him great satisfaction",
+              "Job satisfaction affects performance",
+              "They guarantee satisfaction or money back",
+              "He smiled with satisfaction",
+              "Satisfaction levels are measured regularly",
+              "The satisfaction was mutual",
+              "Personal satisfaction matters most",
+              "Complete satisfaction guaranteed always"
+            ],
+            questions: [
+              {
+                question: "What's important?",
+                answers: [
+                  "Customer satisfaction",
+                  "Client satisfaction",
+                  "Satisfaction guaranteed"
+                ]
+              },
+              {
+                question: "How does he feel?",
+                answers: [
+                  "Great satisfaction",
+                  "Shows satisfaction",
+                  "Satisfied completely"
+                ]
+              },
+              {
+                question: "What affects performance?",
+                answers: [
+                  "Job satisfaction",
+                  "Satisfaction levels",
+                  "Work satisfaction"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sustain",
+            phonetic: "/səˈsteɪn/",
+            examples: [
+              "Can they sustain this growth rate",
+              "He sustained injuries in the accident",
+              "Sustain the effort until completion",
+              "The ecosystem cannot sustain more damage",
+              "Food sustains life and energy",
+              "Sustained applause filled the theater",
+              "They need help to sustain themselves",
+              "Sustain momentum throughout the project",
+              "The bridge sustained heavy damage",
+              "Sustainable practices protect the environment"
+            ],
+            questions: [
+              {
+                question: "What happened to him?",
+                answers: [
+                  "Sustained injuries",
+                  "He sustained",
+                  "Sustained damage"
+                ]
+              },
+              {
+                question: "Can it continue?",
+                answers: [
+                  "Can't sustain",
+                  "Sustain growth",
+                  "Sustain momentum"
+                ]
+              },
+              {
+                question: "What supports life?",
+                answers: [
+                  "Food sustains",
+                  "Sustains life",
+                  "Sustains energy"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit3",
+        words: [
+          {
+            word: "acquire",
+            phonetic: "/əˈkwaɪər/",
+            examples: [
+              "She acquired new skills through practice",
+              "The company acquired a smaller competitor",
+              "He acquired a taste for coffee",
+              "Acquire knowledge through reading books",
+              "They acquired the property last year",
+              "Children acquire language naturally",
+              "Acquired wealth doesn't guarantee happiness",
+              "The museum acquired rare artifacts",
+              "Acquire good habits early in life",
+              "They acquired the technology recently"
+            ],
+            questions: [
+              {
+                question: "What did she gain?",
+                answers: [
+                  "Acquired new skills",
+                  "Acquired knowledge",
+                  "Skills acquired"
+                ]
+              },
+              {
+                question: "What happened to the company?",
+                answers: [
+                  "Company acquired",
+                  "Acquired competitor",
+                  "Was acquired"
+                ]
+              },
+              {
+                question: "How do children learn?",
+                answers: [
+                  "Acquire language",
+                  "Naturally acquire",
+                  "Acquire skills"
+                ]
+              }
+            ]
+          },
+          {
+            word: "awkward",
+            phonetic: "/ˈɔːkwərd/",
+            examples: [
+              "The situation was extremely awkward",
+              "He felt awkward at the party",
+              "An awkward silence filled the room",
+              "She's going through an awkward phase",
+              "The question was awkward to answer",
+              "Awkward moments happen to everyone",
+              "He made an awkward gesture",
+              "The position was awkward and uncomfortable",
+              "Awkward conversation with my ex",
+              "That's an awkward time to meet"
+            ],
+            questions: [
+              {
+                question: "How was the situation?",
+                answers: [
+                  "Very awkward",
+                  "Extremely awkward",
+                  "Awkward situation"
+                ]
+              },
+              {
+                question: "How did he feel?",
+                answers: [
+                  "Felt awkward",
+                  "So awkward",
+                  "Awkward feeling"
+                ]
+              },
+              {
+                question: "What filled the room?",
+                answers: [
+                  "Awkward silence",
+                  "Awkward moment",
+                  "Awkward pause"
+                ]
+              }
+            ]
+          },
+          {
+            word: "caretaker",
+            phonetic: "/ˈkerteɪkər/",
+            examples: [
+              "The caretaker maintains the building",
+              "She works as a caretaker for elderly",
+              "The caretaker has keys to everything",
+              "School caretaker is very helpful",
+              "He's the caretaker of the estate",
+              "Caretaker government rules temporarily",
+              "The caretaker locked the gates",
+              "Caretaker duties include cleaning",
+              "They hired a full time caretaker",
+              "The caretaker lives on the property"
+            ],
+            questions: [
+              {
+                question: "Who maintains it?",
+                answers: [
+                  "The caretaker does",
+                  "Building caretaker",
+                  "Our caretaker"
+                ]
+              },
+              {
+                question: "What's her job?",
+                answers: [
+                  "She's a caretaker",
+                  "Works as caretaker",
+                  "Caretaker position"
+                ]
+              },
+              {
+                question: "Who has the keys?",
+                answers: [
+                  "The caretaker has",
+                  "Caretaker holds",
+                  "Ask caretaker"
+                ]
+              }
+            ]
+          },
+          {
+            word: "deceive",
+            phonetic: "/dɪˈsiːv/",
+            examples: [
+              "Don't try to deceive me",
+              "He deceived everyone with his lies",
+              "Appearances can deceive you",
+              "She felt deceived by his actions",
+              "They deceived the authorities",
+              "Don't deceive yourself about reality",
+              "The illusion deceives the eye",
+              "He was caught deceiving customers",
+              "Deceive once shame on you",
+              "Never deceive those who trust you"
+            ],
+            questions: [
+              {
+                question: "What did he do?",
+                answers: [
+                  "He deceived them",
+                  "Tried to deceive",
+                  "Deceived everyone"
+                ]
+              },
+              {
+                question: "What can happen?",
+                answers: [
+                  "Appearances deceive",
+                  "Can deceive you",
+                  "Deceive the eye"
+                ]
+              },
+              {
+                question: "How did she feel?",
+                answers: [
+                  "Felt deceived",
+                  "Was deceived",
+                  "Deceived badly"
+                ]
+              }
+            ]
+          },
+          {
+            word: "discourage",
+            phonetic: "/dɪsˈkʌrɪdʒ/",
+            examples: [
+              "Don't let failure discourage you",
+              "The news discouraged investors",
+              "Parents shouldn't discourage children's dreams",
+              "High prices discourage buyers",
+              "She felt discouraged by the results",
+              "Don't discourage him from trying",
+              "The weather discouraged outdoor activities",
+              "Discourage negative behavior always",
+              "Failure doesn't discourage true champions",
+              "They tried to discourage the plan"
+            ],
+            questions: [
+              {
+                question: "How do you feel?",
+                answers: [
+                  "Feel discouraged",
+                  "Very discouraged",
+                  "Discouraged now"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "News discouraged",
+                  "Prices discourage",
+                  "Discouraged buyers"
+                ]
+              },
+              {
+                question: "What should parents avoid?",
+                answers: [
+                  "Don't discourage",
+                  "Discourage dreams",
+                  "Shouldn't discourage"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fake",
+            phonetic: "/feɪk/",
+            examples: [
+              "The painting was a fake",
+              "He gave a fake name",
+              "Don't fake your emotions",
+              "Fake news spreads quickly online",
+              "The diamond turned out to be fake",
+              "She faked illness to skip work",
+              "Fake it till you make it",
+              "The signature was fake",
+              "Fake smiles are easy to spot",
+              "Beware of fake products"
+            ],
+            questions: [
+              {
+                question: "Is it real?",
+                answers: [
+                  "No, it's fake",
+                  "Fake product",
+                  "Fake painting"
+                ]
+              },
+              {
+                question: "What did he give?",
+                answers: [
+                  "A fake name",
+                  "Fake information",
+                  "Fake identity"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She faked illness",
+                  "Faked it",
+                  "Faking symptoms"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hatred",
+            phonetic: "/ˈheɪtrɪd/",
+            examples: [
+              "Hatred destroys the person who hates",
+              "She felt no hatred toward him",
+              "Hatred leads to violence sometimes",
+              "Overcome hatred with love",
+              "The hatred between them was obvious",
+              "Racial hatred must be condemned",
+              "Hatred consumed his thoughts completely",
+              "Let go of hatred and anger",
+              "Hatred is learned not innate",
+              "The hatred lasted for years"
+            ],
+            questions: [
+              {
+                question: "What destroys people?",
+                answers: [
+                  "Hatred does",
+                  "Hatred destroys",
+                  "Consuming hatred"
+                ]
+              },
+              {
+                question: "How does she feel?",
+                answers: [
+                  "No hatred",
+                  "Without hatred",
+                  "Free from hatred"
+                ]
+              },
+              {
+                question: "What should be condemned?",
+                answers: [
+                  "Racial hatred",
+                  "Hatred",
+                  "All hatred"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hut",
+            phonetic: "/hʌt/",
+            examples: [
+              "They lived in a small hut",
+              "The mountain hut provided shelter",
+              "A thatched hut stood by the river",
+              "Beach huts are painted colorful",
+              "The shepherd's hut was simple",
+              "Bamboo huts are common here",
+              "They built a hut in the forest",
+              "The hut had no electricity",
+              "Pizza Hut is a restaurant chain",
+              "The hut collapsed in the storm"
+            ],
+            questions: [
+              {
+                question: "Where do they live?",
+                answers: [
+                  "In a hut",
+                  "Small hut",
+                  "Simple hut"
+                ]
+              },
+              {
+                question: "What provided shelter?",
+                answers: [
+                  "The mountain hut",
+                  "A hut",
+                  "Hut shelter"
+                ]
+              },
+              {
+                question: "What did they build?",
+                answers: [
+                  "Built a hut",
+                  "Forest hut",
+                  "New hut"
+                ]
+              }
+            ]
+          },
+          {
+            word: "inferior",
+            phonetic: "/ɪnˈfɪriər/",
+            examples: [
+              "The quality is clearly inferior",
+              "Never feel inferior to anyone",
+              "Inferior products don't last long",
+              "He felt inferior to his colleagues",
+              "Inferior materials were used",
+              "The inferior model costs less",
+              "An inferior copy of the original",
+              "Inferior workmanship is obvious",
+              "Don't accept inferior service",
+              "The inferior option was cheaper"
+            ],
+            questions: [
+              {
+                question: "How's the quality?",
+                answers: [
+                  "It's inferior",
+                  "Inferior quality",
+                  "Clearly inferior"
+                ]
+              },
+              {
+                question: "How did he feel?",
+                answers: [
+                  "Felt inferior",
+                  "Inferior to others",
+                  "Feeling inferior"
+                ]
+              },
+              {
+                question: "What about the materials?",
+                answers: [
+                  "Inferior materials",
+                  "Materials inferior",
+                  "Inferior quality"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lodge",
+            phonetic: "/lɑːdʒ/",
+            examples: [
+              "They stayed at a mountain lodge",
+              "The bullet lodged in his shoulder",
+              "We'll lodge a complaint immediately",
+              "The ski lodge was cozy",
+              "Lodge the documents with the court",
+              "Guests lodge in comfortable rooms",
+              "A hunting lodge in the woods",
+              "The stone lodged in my shoe",
+              "They lodge with relatives temporarily",
+              "Lodge a formal protest today"
+            ],
+            questions: [
+              {
+                question: "Where did they stay?",
+                answers: [
+                  "At a lodge",
+                  "Mountain lodge",
+                  "Ski lodge"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Lodge a complaint",
+                  "Lodge protest",
+                  "Lodge documents"
+                ]
+              },
+              {
+                question: "Where is the bullet?",
+                answers: [
+                  "Lodged in shoulder",
+                  "Bullet lodged",
+                  "Lodged inside"
+                ]
+              }
+            ]
+          },
+          {
+            word: "neglect",
+            phonetic: "/nɪˈɡlekt/",
+            examples: [
+              "Don't neglect your health",
+              "The house shows signs of neglect",
+              "Child neglect is a serious crime",
+              "He neglected his duties completely",
+              "The garden suffered from neglect",
+              "Don't neglect to lock the door",
+              "Years of neglect damaged the building",
+              "She felt neglected by her family",
+              "Neglect can have serious consequences",
+              "They neglected important details"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't neglect health",
+                  "Neglect duties",
+                  "Neglect responsibilities"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Shows neglect",
+                  "Years of neglect",
+                  "Suffered neglect"
+                ]
+              },
+              {
+                question: "How did she feel?",
+                answers: [
+                  "Felt neglected",
+                  "Was neglected",
+                  "Neglected badly"
+                ]
+              }
+            ]
+          },
+          {
+            word: "newcomer",
+            phonetic: "/ˈnuːkʌmər/",
+            examples: [
+              "She's a newcomer to the city",
+              "Welcome newcomers to the team",
+              "The newcomer adapted quickly",
+              "Newcomers often face challenges",
+              "He's a newcomer to politics",
+              "The restaurant is a relative newcomer",
+              "Newcomers need guidance and support",
+              "As a newcomer she felt nervous",
+              "Experienced workers help newcomers",
+              "The newcomer showed great potential"
+            ],
+            questions: [
+              {
+                question: "Who is she?",
+                answers: [
+                  "She's a newcomer",
+                  "New to city",
+                  "Newcomer here"
+                ]
+              },
+              {
+                question: "Who needs help?",
+                answers: [
+                  "The newcomer does",
+                  "Newcomers need",
+                  "Help newcomers"
+                ]
+              },
+              {
+                question: "What's his status?",
+                answers: [
+                  "He's a newcomer",
+                  "Newcomer to politics",
+                  "New arrival"
+                ]
+              }
+            ]
+          },
+          {
+            word: "offense",
+            phonetic: "/əˈfens/",
+            examples: [
+              "No offense intended by my comment",
+              "The offense was punishable by law",
+              "She took offense at his words",
+              "A minor offense results in a fine",
+              "The team has a strong offense",
+              "Don't take offense so easily",
+              "The offense occurred last night",
+              "Criminal offense carries jail time",
+              "Best defense is a good offense",
+              "His behavior caused great offense"
+            ],
+            questions: [
+              {
+                question: "What did you mean?",
+                answers: [
+                  "No offense intended",
+                  "No offense",
+                  "Didn't mean offense"
+                ]
+              },
+              {
+                question: "How did she react?",
+                answers: [
+                  "Took offense",
+                  "Was offended",
+                  "Caused offense"
+                ]
+              },
+              {
+                question: "What's the charge?",
+                answers: [
+                  "Criminal offense",
+                  "Minor offense",
+                  "Offense committed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "overlook",
+            phonetic: "/ˌoʊvərˈlʊk/",
+            examples: [
+              "The room overlooks the garden",
+              "Don't overlook important details",
+              "The balcony overlooks the ocean",
+              "Easy to overlook small mistakes",
+              "We can't overlook this problem",
+              "The house overlooks the valley",
+              "He tends to overlook her faults",
+              "Overlooked for promotion again",
+              "Don't overlook the obvious solution",
+              "The mistake was overlooked initially"
+            ],
+            questions: [
+              {
+                question: "What's the view?",
+                answers: [
+                  "Overlooks the garden",
+                  "Overlooks ocean",
+                  "Room overlooks"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "We overlooked it",
+                  "Was overlooked",
+                  "Overlooked details"
+                ]
+              },
+              {
+                question: "What shouldn't we do?",
+                answers: [
+                  "Don't overlook",
+                  "Can't overlook",
+                  "Overlook problem"
+                ]
+              }
+            ]
+          },
+          {
+            word: "repay",
+            phonetic: "/rɪˈpeɪ/",
+            examples: [
+              "I'll repay you next week",
+              "How can I repay your kindness",
+              "Repay the loan in installments",
+              "She repaid the debt promptly",
+              "They repaid evil with good",
+              "Repay attention with loyalty",
+              "Hard work will repay eventually",
+              "He promised to repay the favor",
+              "Repay trust with honesty",
+              "The investment will repay well"
+            ],
+            questions: [
+              {
+                question: "When will you pay?",
+                answers: [
+                  "I'll repay soon",
+                  "Repay next week",
+                  "Will repay"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Repay the loan",
+                  "Repay debt",
+                  "Must repay"
+                ]
+              },
+              {
+                question: "How can I thank you?",
+                answers: [
+                  "Repay kindness",
+                  "Can't repay",
+                  "Repay favor"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ridiculous",
+            phonetic: "/rɪˈdɪkjələs/",
+            examples: [
+              "That's absolutely ridiculous",
+              "The price is ridiculous",
+              "Don't be ridiculous about it",
+              "He looked ridiculous in that outfit",
+              "A ridiculous suggestion was made",
+              "The idea seems ridiculous to me",
+              "Ridiculous excuses won't work",
+              "The situation became ridiculous",
+              "That's a ridiculous amount of money",
+              "Stop being so ridiculous"
+            ],
+            questions: [
+              {
+                question: "What do you think?",
+                answers: [
+                  "That's ridiculous",
+                  "Absolutely ridiculous",
+                  "Seems ridiculous"
+                ]
+              },
+              {
+                question: "How did he look?",
+                answers: [
+                  "Looked ridiculous",
+                  "Ridiculous outfit",
+                  "So ridiculous"
+                ]
+              },
+              {
+                question: "What about the price?",
+                answers: [
+                  "Price is ridiculous",
+                  "Ridiculous cost",
+                  "Ridiculously expensive"
+                ]
+              }
+            ]
+          },
+          {
+            word: "satisfactory",
+            phonetic: "/ˌsætɪsˈfæktəri/",
+            examples: [
+              "The results were satisfactory",
+              "Her performance was satisfactory",
+              "We need a satisfactory explanation",
+              "The outcome was less than satisfactory",
+              "Satisfactory progress has been made",
+              "The quality is barely satisfactory",
+              "A satisfactory solution was found",
+              "The answer was satisfactory",
+              "His work is always satisfactory",
+              "Satisfactory conditions must be met"
+            ],
+            questions: [
+              {
+                question: "How were the results?",
+                answers: [
+                  "Results satisfactory",
+                  "Were satisfactory",
+                  "Satisfactory outcome"
+                ]
+              },
+              {
+                question: "What do we need?",
+                answers: [
+                  "Satisfactory explanation",
+                  "Satisfactory answer",
+                  "Satisfactory solution"
+                ]
+              },
+              {
+                question: "How's the progress?",
+                answers: [
+                  "Progress satisfactory",
+                  "Satisfactory so far",
+                  "Making satisfactory"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shepherd",
+            phonetic: "/ˈʃepərd/",
+            examples: [
+              "The shepherd watches his flock",
+              "German shepherd is a dog breed",
+              "The shepherd guided the sheep",
+              "Shepherds lived in the fields",
+              "She shepherded the children safely",
+              "The shepherd's hut was simple",
+              "Good shepherd knows his sheep",
+              "He works as a shepherd",
+              "Shepherd's pie is a traditional dish",
+              "The shepherd played his flute"
+            ],
+            questions: [
+              {
+                question: "Who watches the sheep?",
+                answers: [
+                  "The shepherd does",
+                  "A shepherd",
+                  "Good shepherd"
+                ]
+              },
+              {
+                question: "What kind of dog?",
+                answers: [
+                  "German shepherd",
+                  "Shepherd breed",
+                  "Shepherd dog"
+                ]
+              },
+              {
+                question: "What's his job?",
+                answers: [
+                  "He's a shepherd",
+                  "Works as shepherd",
+                  "Shepherd occupation"
+                ]
+              }
+            ]
+          },
+          {
+            word: "venture",
+            phonetic: "/ˈventʃər/",
+            examples: [
+              "They started a new business venture",
+              "Don't venture into the forest alone",
+              "A risky venture requires courage",
+              "The venture was very successful",
+              "Joint venture between two companies",
+              "He ventured an opinion cautiously",
+              "Venture capital funded the startup",
+              "Nothing ventured nothing gained",
+              "She ventured out in the storm",
+              "The venture proved profitable"
+            ],
+            questions: [
+              {
+                question: "What did they start?",
+                answers: [
+                  "A new venture",
+                  "Business venture",
+                  "Joint venture"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't venture alone",
+                  "Venture into forest",
+                  "Venture out"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Nothing ventured",
+                  "Nothing gained",
+                  "Venture forward"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wheat",
+            phonetic: "/wiːt/",
+            examples: [
+              "Wheat is a staple grain",
+              "The wheat fields are golden",
+              "Wheat flour makes bread",
+              "They grow wheat on the farm",
+              "Wheat prices rose significantly",
+              "Separate wheat from chaff",
+              "Wheat harvest begins in summer",
+              "Whole wheat is healthier",
+              "The wheat crop failed",
+              "Wheat allergies are common"
+            ],
+            questions: [
+              {
+                question: "What do they grow?",
+                answers: [
+                  "They grow wheat",
+                  "Wheat crops",
+                  "Wheat fields"
+                ]
+              },
+              {
+                question: "What makes bread?",
+                answers: [
+                  "Wheat flour",
+                  "Wheat makes",
+                  "From wheat"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Wheat from chaff",
+                  "Separate wheat",
+                  "Wheat sorting"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit4",
+        words: [
+          {
+            word: "alley",
+            phonetic: "/ˈæli/",
+            examples: [
+              "The dark alley was empty tonight",
+              "They walked through the narrow alley",
+              "Bowling alley opens at ten",
+              "The alley connects two main streets",
+              "Cats roam the alley at night",
+              "A back alley shortcut saves time",
+              "The alley was lined with dumpsters",
+              "Right up my alley means perfect",
+              "Blind alley leads nowhere",
+              "The alley smelled terrible"
+            ],
+            questions: [
+              {
+                question: "Where did they walk?",
+                answers: [
+                  "Through the alley",
+                  "Dark alley",
+                  "Narrow alley"
+                ]
+              },
+              {
+                question: "What opens at ten?",
+                answers: [
+                  "Bowling alley",
+                  "The alley",
+                  "Alley opens"
+                ]
+              },
+              {
+                question: "What's perfect for you?",
+                answers: [
+                  "Right up my alley",
+                  "My alley",
+                  "Perfect alley"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ax",
+            phonetic: "/æks/",
+            examples: [
+              "He chopped wood with an ax",
+              "The ax was very sharp",
+              "Get the ax means get fired",
+              "The company will ax jobs",
+              "An ax fell from the tree",
+              "Battle ax is a weapon",
+              "He has an ax to grind",
+              "The ax handle broke off",
+              "Ax the unnecessary expenses",
+              "The ax blade needs sharpening"
+            ],
+            questions: [
+              {
+                question: "What did he use?",
+                answers: [
+                  "Used an ax",
+                  "Chopped with ax",
+                  "Sharp ax"
+                ]
+              },
+              {
+                question: "What does that mean?",
+                answers: [
+                  "Get the ax",
+                  "Ax means fired",
+                  "Got axed"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Ax the expenses",
+                  "Ax unnecessary",
+                  "Ax the budget"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bunch",
+            phonetic: "/bʌntʃ/",
+            examples: [
+              "I bought a bunch of flowers",
+              "Thanks a bunch for your help",
+              "A bunch of people gathered outside",
+              "The bunch of grapes was fresh",
+              "They're a great bunch of kids",
+              "A whole bunch of problems arose",
+              "Bunch the papers together neatly",
+              "The bunch of keys was heavy",
+              "A bunch of us went together",
+              "Pick the best of the bunch"
+            ],
+            questions: [
+              {
+                question: "What did you buy?",
+                answers: [
+                  "A bunch of flowers",
+                  "Bunch of grapes",
+                  "Fresh bunch"
+                ]
+              },
+              {
+                question: "Who gathered?",
+                answers: [
+                  "A bunch of people",
+                  "Bunch gathered",
+                  "Whole bunch"
+                ]
+              },
+              {
+                question: "How do you feel?",
+                answers: [
+                  "Thanks a bunch",
+                  "Great bunch",
+                  "Bunch of kids"
+                ]
+              }
+            ]
+          },
+          {
+            word: "chore",
+            phonetic: "/tʃɔːr/",
+            examples: [
+              "Doing dishes is a daily chore",
+              "The chore took longer than expected",
+              "Household chores must be done",
+              "Children should help with chores",
+              "That's such a chore to do",
+              "Divide the chores equally",
+              "The chore was tedious and boring",
+              "He avoids doing his chores",
+              "Chores build responsibility in kids",
+              "The chore list is very long"
+            ],
+            questions: [
+              {
+                question: "What needs doing?",
+                answers: [
+                  "Daily chore",
+                  "Household chores",
+                  "The chores"
+                ]
+              },
+              {
+                question: "How do you feel about it?",
+                answers: [
+                  "Such a chore",
+                  "Chore to do",
+                  "Tedious chore"
+                ]
+              },
+              {
+                question: "What should children do?",
+                answers: [
+                  "Help with chores",
+                  "Do chores",
+                  "Chore duties"
+                ]
+              }
+            ]
+          },
+          {
+            word: "decent",
+            phonetic: "/ˈdiːsnt/",
+            examples: [
+              "He's a decent human being",
+              "The salary is decent enough",
+              "That was decent of you",
+              "A decent meal would be nice",
+              "She did a decent job",
+              "Decent people help others",
+              "The weather is decent today",
+              "Decent behavior is expected always",
+              "A decent amount of time passed",
+              "The hotel was clean and decent"
+            ],
+            questions: [
+              {
+                question: "What kind of person?",
+                answers: [
+                  "A decent person",
+                  "Decent human",
+                  "Decent being"
+                ]
+              },
+              {
+                question: "How's the salary?",
+                answers: [
+                  "It's decent",
+                  "Decent enough",
+                  "Decent pay"
+                ]
+              },
+              {
+                question: "How did she do?",
+                answers: [
+                  "Decent job",
+                  "Did decent",
+                  "Decent work"
+                ]
+              }
+            ]
+          },
+          {
+            word: "disgraceful",
+            phonetic: "/dɪsˈɡreɪsfəl/",
+            examples: [
+              "His behavior was absolutely disgraceful",
+              "That's a disgraceful way to act",
+              "The conditions were disgraceful",
+              "A disgraceful display of rudeness",
+              "The scandal was disgraceful",
+              "Disgraceful treatment of employees",
+              "The performance was disgraceful",
+              "Such disgraceful conduct is unacceptable",
+              "A disgraceful abuse of power",
+              "The situation is disgraceful"
+            ],
+            questions: [
+              {
+                question: "How was his behavior?",
+                answers: [
+                  "Absolutely disgraceful",
+                  "Disgraceful behavior",
+                  "Was disgraceful"
+                ]
+              },
+              {
+                question: "What about the conditions?",
+                answers: [
+                  "Conditions disgraceful",
+                  "Were disgraceful",
+                  "Disgraceful situation"
+                ]
+              },
+              {
+                question: "What's your opinion?",
+                answers: [
+                  "It's disgraceful",
+                  "Disgraceful display",
+                  "Disgraceful conduct"
+                ]
+              }
+            ]
+          },
+          {
+            word: "elbow",
+            phonetic: "/ˈelboʊ/",
+            examples: [
+              "I bumped my elbow on the table",
+              "She elbowed her way through the crowd",
+              "Tennis elbow is a painful condition",
+              "He rested his elbow on the armrest",
+              "Don't elbow people rudely",
+              "The pipe has a sharp elbow",
+              "Elbow grease means hard work",
+              "My elbow hurts from the fall",
+              "Elbow room means enough space",
+              "She gave him an elbow nudge"
+            ],
+            questions: [
+              {
+                question: "What did you bump?",
+                answers: [
+                  "My elbow",
+                  "Bumped elbow",
+                  "Elbow hurt"
+                ]
+              },
+              {
+                question: "How did she get through?",
+                answers: [
+                  "Elbowed through",
+                  "Used elbows",
+                  "Elbowed way"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Elbow grease",
+                  "Elbow room",
+                  "More elbow"
+                ]
+              }
+            ]
+          },
+          {
+            word: "grateful",
+            phonetic: "/ˈɡreɪtfəl/",
+            examples: [
+              "I'm very grateful for your help",
+              "She felt grateful to be alive",
+              "We're grateful for this opportunity",
+              "He was grateful for her support",
+              "Grateful people are happier",
+              "I'd be grateful if you could help",
+              "They were deeply grateful",
+              "Be grateful for what you have",
+              "She expressed her grateful thanks",
+              "Grateful dead is a band name"
+            ],
+            questions: [
+              {
+                question: "How do you feel?",
+                answers: [
+                  "I'm grateful",
+                  "Very grateful",
+                  "Feel grateful"
+                ]
+              },
+              {
+                question: "What should we be?",
+                answers: [
+                  "Be grateful",
+                  "Stay grateful",
+                  "Remain grateful"
+                ]
+              },
+              {
+                question: "Would you help?",
+                answers: [
+                  "I'd be grateful",
+                  "Be grateful if",
+                  "Grateful for help"
+                ]
+              }
+            ]
+          },
+          {
+            word: "irritate",
+            phonetic: "/ˈɪrɪteɪt/",
+            examples: [
+              "That noise really irritates me",
+              "Don't irritate your skin",
+              "His behavior irritates everyone",
+              "The smoke irritated my eyes",
+              "She's easily irritated by noise",
+              "Chlorine can irritate the eyes",
+              "Constant questions irritate teachers",
+              "The fabric irritates sensitive skin",
+              "Don't irritate the wound",
+              "He seems irritated today"
+            ],
+            questions: [
+              {
+                question: "How does it affect you?",
+                answers: [
+                  "It irritates me",
+                  "Really irritates",
+                  "Gets irritated"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Smoke irritated eyes",
+                  "Irritated skin",
+                  "Became irritated"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Easily irritated",
+                  "Gets irritated",
+                  "Irritated by noise"
+                ]
+              }
+            ]
+          },
+          {
+            word: "kid",
+            phonetic: "/kɪd/",
+            examples: [
+              "The kids are playing outside",
+              "When I was a kid",
+              "Don't kid yourself about that",
+              "Are you kidding me right now",
+              "She has three kids",
+              "No kidding that's amazing",
+              "Just kidding I didn't mean it",
+              "Kids say the funniest things",
+              "He's just a kid still",
+              "Kid gloves means gentle treatment"
+            ],
+            questions: [
+              {
+                question: "Who's outside?",
+                answers: [
+                  "The kids are",
+                  "Kids playing",
+                  "All the kids"
+                ]
+              },
+              {
+                question: "Are you serious?",
+                answers: [
+                  "Just kidding",
+                  "No kidding",
+                  "You're kidding"
+                ]
+              },
+              {
+                question: "How many children?",
+                answers: [
+                  "Three kids",
+                  "Has kids",
+                  "Several kids"
+                ]
+              }
+            ]
+          },
+          {
+            word: "loose",
+            phonetic: "/luːs/",
+            examples: [
+              "The screw is loose",
+              "She wore loose clothing",
+              "My tooth is loose",
+              "Don't let the dog loose",
+              "Loose ends need tying up",
+              "The knot came loose",
+              "He has a loose tongue",
+              "Cut loose and have fun",
+              "Loose change in my pocket",
+              "The rope was hanging loose"
+            ],
+            questions: [
+              {
+                question: "What's the problem?",
+                answers: [
+                  "The screw's loose",
+                  "It's loose",
+                  "Came loose"
+                ]
+              },
+              {
+                question: "What kind of clothes?",
+                answers: [
+                  "Loose clothing",
+                  "Wore loose",
+                  "Loose fitting"
+                ]
+              },
+              {
+                question: "What about the dog?",
+                answers: [
+                  "Don't let loose",
+                  "Dog loose",
+                  "Running loose"
+                ]
+              }
+            ]
+          },
+          {
+            word: "offend",
+            phonetic: "/əˈfend/",
+            examples: [
+              "I didn't mean to offend you",
+              "His comments offended many people",
+              "Don't offend the guests",
+              "She was easily offended",
+              "The joke might offend someone",
+              "He offends people without trying",
+              "No one wants to offend",
+              "The smell offended their senses",
+              "Offend against the law",
+              "Try not to offend anyone"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "Didn't mean to offend",
+                  "Comments offended",
+                  "Was offended"
+                ]
+              },
+              {
+                question: "What should we avoid?",
+                answers: [
+                  "Don't offend",
+                  "Not offend",
+                  "Avoid offending"
+                ]
+              },
+              {
+                question: "What's her nature?",
+                answers: [
+                  "Easily offended",
+                  "Gets offended",
+                  "Offends easily"
+                ]
+              }
+            ]
+          },
+          {
+            word: "overnight",
+            phonetic: "/ˌoʊvərˈnaɪt/",
+            examples: [
+              "They stayed overnight at the hotel",
+              "Success doesn't happen overnight",
+              "Overnight delivery is available",
+              "The situation changed overnight",
+              "Pack an overnight bag",
+              "He became famous overnight",
+              "Overnight guests are welcome",
+              "The storm hit overnight",
+              "Overnight parking is prohibited",
+              "Things won't improve overnight"
+            ],
+            questions: [
+              {
+                question: "Where did they stay?",
+                answers: [
+                  "Stayed overnight",
+                  "Overnight stay",
+                  "Overnight hotel"
+                ]
+              },
+              {
+                question: "How fast did it happen?",
+                answers: [
+                  "Happened overnight",
+                  "Changed overnight",
+                  "Overnight success"
+                ]
+              },
+              {
+                question: "What kind of delivery?",
+                answers: [
+                  "Overnight delivery",
+                  "Send overnight",
+                  "Overnight shipping"
+                ]
+              }
+            ]
+          },
+          {
+            word: "persist",
+            phonetic: "/pərˈsɪst/",
+            examples: [
+              "If symptoms persist see a doctor",
+              "She persisted despite the difficulties",
+              "The problem persists to this day",
+              "Don't persist in bad behavior",
+              "He persisted with his questions",
+              "The rain persisted all day",
+              "Persist in your efforts always",
+              "The odor persisted for weeks",
+              "They persisted against all odds",
+              "Old habits persist unfortunately"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "If symptoms persist",
+                  "Problems persist",
+                  "Persist with efforts"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She persisted",
+                  "Persisted despite",
+                  "Continued to persist"
+                ]
+              },
+              {
+                question: "How long did it last?",
+                answers: [
+                  "Rain persisted",
+                  "Persisted all day",
+                  "Still persists"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pine",
+            phonetic: "/paɪn/",
+            examples: [
+              "The pine tree is evergreen",
+              "Pine wood is commonly used",
+              "She pines for her homeland",
+              "The pine forest smells wonderful",
+              "Pine needles cover the ground",
+              "Don't pine away with sadness",
+              "Pine cones fell from the tree",
+              "He pines for his lost love",
+              "Pine furniture is affordable",
+              "The pine scent is refreshing"
+            ],
+            questions: [
+              {
+                question: "What kind of tree?",
+                answers: [
+                  "A pine tree",
+                  "Pine forest",
+                  "Tall pine"
+                ]
+              },
+              {
+                question: "How does she feel?",
+                answers: [
+                  "She pines for",
+                  "Pines away",
+                  "Pining for homeland"
+                ]
+              },
+              {
+                question: "What's it made of?",
+                answers: [
+                  "Made of pine",
+                  "Pine wood",
+                  "Pine furniture"
+                ]
+              }
+            ]
+          },
+          {
+            word: "scar",
+            phonetic: "/skɑːr/",
+            examples: [
+              "The accident left a scar",
+              "Emotional scars take time to heal",
+              "He has a scar on his face",
+              "The experience scarred her deeply",
+              "Scars tell stories of survival",
+              "Chicken pox left scars",
+              "The scar tissue is permanent",
+              "Psychological scars are invisible",
+              "The scar faded over time",
+              "Battle scars show courage"
+            ],
+            questions: [
+              {
+                question: "What did it leave?",
+                answers: [
+                  "Left a scar",
+                  "Scar remains",
+                  "Permanent scar"
+                ]
+              },
+              {
+                question: "What takes time?",
+                answers: [
+                  "Emotional scars",
+                  "Scars heal",
+                  "Healing scars"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "It scarred her",
+                  "Left scarred",
+                  "Deeply scarred"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sensation",
+            phonetic: "/senˈseɪʃn/",
+            examples: [
+              "I felt a tingling sensation",
+              "The movie was a sensation",
+              "She caused a sensation at the party",
+              "A burning sensation in my throat",
+              "The news created a sensation",
+              "He's an overnight sensation",
+              "A strange sensation came over me",
+              "The sensation faded quickly",
+              "Loss of sensation is concerning",
+              "The sensation spread through my body"
+            ],
+            questions: [
+              {
+                question: "What did you feel?",
+                answers: [
+                  "Felt a sensation",
+                  "Tingling sensation",
+                  "Strange sensation"
+                ]
+              },
+              {
+                question: "How was the movie?",
+                answers: [
+                  "Was a sensation",
+                  "Caused sensation",
+                  "Big sensation"
+                ]
+              },
+              {
+                question: "What's the symptom?",
+                answers: [
+                  "Burning sensation",
+                  "Loss of sensation",
+                  "Sensation spreads"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sled",
+            phonetic: "/sled/",
+            examples: [
+              "The kids rode their sled downhill",
+              "We went sledding yesterday",
+              "The sled glided on the snow",
+              "Dog sled racing is exciting",
+              "A wooden sled is traditional",
+              "The sled tracks were visible",
+              "They pulled the sled uphill",
+              "The sled ride was thrilling",
+              "Santa's sled carries presents",
+              "The sled went very fast"
+            ],
+            questions: [
+              {
+                question: "What did they ride?",
+                answers: [
+                  "Rode their sled",
+                  "A sled",
+                  "Sled downhill"
+                ]
+              },
+              {
+                question: "What did you do?",
+                answers: [
+                  "Went sledding",
+                  "Sled riding",
+                  "Used sled"
+                ]
+              },
+              {
+                question: "What kind of racing?",
+                answers: [
+                  "Dog sled racing",
+                  "Sled race",
+                  "Sled competition"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tease",
+            phonetic: "/tiːz/",
+            examples: [
+              "Don't tease your little brother",
+              "They teased her about her hair",
+              "It's just a tease don't worry",
+              "He loves to tease people",
+              "Stop teasing the dog",
+              "She can't take being teased",
+              "Gentle teasing is okay",
+              "The preview was just a tease",
+              "Tease out the meaning carefully",
+              "Hair teasing creates volume"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't tease",
+                  "Stop teasing",
+                  "No teasing"
+                ]
+              },
+              {
+                question: "What did they do?",
+                answers: [
+                  "They teased her",
+                  "Teased about",
+                  "Teasing happened"
+                ]
+              },
+              {
+                question: "What's his habit?",
+                answers: [
+                  "Loves to tease",
+                  "Always teasing",
+                  "Tease people"
+                ]
+              }
+            ]
+          },
+          {
+            word: "valentine",
+            phonetic: "/ˈvæləntaɪn/",
+            examples: [
+              "Be my valentine this year",
+              "Valentine's Day is February fourteenth",
+              "She received many valentines",
+              "Send a valentine card",
+              "My valentine bought me flowers",
+              "Valentine gifts are popular",
+              "Who's your valentine",
+              "Valentine's dinner was romantic",
+              "Children exchange valentines at school",
+              "A valentine heart is red"
+            ],
+            questions: [
+              {
+                question: "What's the request?",
+                answers: [
+                  "Be my valentine",
+                  "My valentine",
+                  "Valentine request"
+                ]
+              },
+              {
+                question: "When is the holiday?",
+                answers: [
+                  "Valentine's Day",
+                  "Valentine celebration",
+                  "Valentine date"
+                ]
+              },
+              {
+                question: "What did she get?",
+                answers: [
+                  "Received valentines",
+                  "Valentine cards",
+                  "Many valentines"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit5",
+        words: [
+          {
+            word: "acquaint",
+            phonetic: "/əˈkweɪnt/",
+            examples: [
+              "Let me acquaint you with the rules",
+              "I'm acquainted with the neighborhood",
+              "She acquainted herself with the system",
+              "We're not well acquainted yet",
+              "Acquaint yourself with the facts",
+              "He's acquainted with the situation",
+              "They became acquainted at the party",
+              "I'm acquainted with his work",
+              "Acquaint me with the details",
+              "She's an old acquaintance of mine"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Acquaint yourself",
+                  "Get acquainted",
+                  "Become acquainted"
+                ]
+              },
+              {
+                question: "Do you know each other?",
+                answers: [
+                  "We're acquainted",
+                  "Not acquainted",
+                  "Well acquainted"
+                ]
+              },
+              {
+                question: "How did they meet?",
+                answers: [
+                  "Became acquainted",
+                  "Got acquainted",
+                  "Made acquaintance"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cemetery",
+            phonetic: "/ˈseməteri/",
+            examples: [
+              "The cemetery is very old",
+              "They visited the cemetery today",
+              "A peaceful cemetery on the hill",
+              "The cemetery has beautiful monuments",
+              "She works at the cemetery",
+              "Pet cemetery is nearby",
+              "The cemetery gates close at dusk",
+              "Historic cemetery attracts tourists",
+              "Flowers decorate the cemetery",
+              "The cemetery overlooks the valley"
+            ],
+            questions: [
+              {
+                question: "Where did they go?",
+                answers: [
+                  "To the cemetery",
+                  "Visited cemetery",
+                  "Cemetery visit"
+                ]
+              },
+              {
+                question: "What's on the hill?",
+                answers: [
+                  "A cemetery",
+                  "Peaceful cemetery",
+                  "Old cemetery"
+                ]
+              },
+              {
+                question: "Where does she work?",
+                answers: [
+                  "At the cemetery",
+                  "Cemetery worker",
+                  "Works cemetery"
+                ]
+              }
+            ]
+          },
+          {
+            word: "creature",
+            phonetic: "/ˈkriːtʃər/",
+            examples: [
+              "Every living creature needs water",
+              "The creature emerged from the shadows",
+              "Sea creatures are fascinating",
+              "A strange creature appeared",
+              "Creatures of the night are active",
+              "The creature had large eyes",
+              "Mythical creatures don't exist",
+              "She's a creature of habit",
+              "The creature moved slowly",
+              "Forest creatures hide from humans"
+            ],
+            questions: [
+              {
+                question: "What needs water?",
+                answers: [
+                  "Every creature",
+                  "Living creatures",
+                  "All creatures"
+                ]
+              },
+              {
+                question: "What appeared?",
+                answers: [
+                  "A strange creature",
+                  "The creature",
+                  "Creature emerged"
+                ]
+              },
+              {
+                question: "What's her nature?",
+                answers: [
+                  "Creature of habit",
+                  "Habitual creature",
+                  "Routine creature"
+                ]
+              }
+            ]
+          },
+          {
+            word: "curse",
+            phonetic: "/kɜːrs/",
+            examples: [
+              "The witch cast a curse",
+              "He cursed under his breath",
+              "The curse was finally broken",
+              "Don't curse in front of children",
+              "A family curse haunted them",
+              "The curse of knowledge is real",
+              "She cursed her bad luck",
+              "Ancient curse on the tomb",
+              "Curse words are inappropriate",
+              "The curse seemed never ending"
+            ],
+            questions: [
+              {
+                question: "What did the witch do?",
+                answers: [
+                  "Cast a curse",
+                  "Made curse",
+                  "Cursed them"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't curse",
+                  "No cursing",
+                  "Stop cursing"
+                ]
+              },
+              {
+                question: "What was broken?",
+                answers: [
+                  "The curse",
+                  "Curse broken",
+                  "Ancient curse"
+                ]
+              }
+            ]
+          },
+          {
+            word: "disguise",
+            phonetic: "/dɪsˈɡaɪz/",
+            examples: [
+              "She wore a disguise to hide",
+              "The spy used a clever disguise",
+              "He disguised his true feelings",
+              "A blessing in disguise it was",
+              "The disguise fooled everyone",
+              "Disguise yourself as a guard",
+              "Her anger was thinly disguised",
+              "The disguise was very convincing",
+              "He couldn't disguise his disappointment",
+              "Perfect disguise for the mission"
+            ],
+            questions: [
+              {
+                question: "What did she wear?",
+                answers: [
+                  "Wore a disguise",
+                  "A disguise",
+                  "Clever disguise"
+                ]
+              },
+              {
+                question: "What did he hide?",
+                answers: [
+                  "Disguised his feelings",
+                  "Disguised emotions",
+                  "Couldn't disguise"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Blessing in disguise",
+                  "Hidden blessing",
+                  "Disguised blessing"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fancy",
+            phonetic: "/ˈfænsi/",
+            examples: [
+              "That's a fancy restaurant",
+              "I fancy a cup of tea",
+              "She wore fancy clothes",
+              "Fancy meeting you here",
+              "Don't get too fancy with it",
+              "He has a fancy car",
+              "Fancy dress party tonight",
+              "I don't fancy going out",
+              "The hotel is very fancy",
+              "Fancy that what a surprise"
+            ],
+            questions: [
+              {
+                question: "What kind of restaurant?",
+                answers: [
+                  "A fancy restaurant",
+                  "Very fancy",
+                  "Fancy place"
+                ]
+              },
+              {
+                question: "What do you want?",
+                answers: [
+                  "I fancy tea",
+                  "Fancy going",
+                  "Don't fancy"
+                ]
+              },
+              {
+                question: "What a surprise!",
+                answers: [
+                  "Fancy meeting you",
+                  "Fancy that",
+                  "Fancy seeing"
+                ]
+              }
+            ]
+          },
+          {
+            word: "flashlight",
+            phonetic: "/ˈflæʃlaɪt/",
+            examples: [
+              "Grab a flashlight it's dark",
+              "The flashlight batteries are dead",
+              "She shined the flashlight ahead",
+              "Keep a flashlight handy always",
+              "The flashlight beam was bright",
+              "Flashlight in hand he searched",
+              "The flashlight flickered and died",
+              "A powerful flashlight is useful",
+              "Turn on your flashlight please",
+              "The flashlight illuminated the path"
+            ],
+            questions: [
+              {
+                question: "What do you need?",
+                answers: [
+                  "Grab a flashlight",
+                  "Need flashlight",
+                  "Get flashlight"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Flashlight batteries dead",
+                  "Flashlight died",
+                  "Flashlight broken"
+                ]
+              },
+              {
+                question: "What did she use?",
+                answers: [
+                  "Shined flashlight",
+                  "Used flashlight",
+                  "Flashlight beam"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hood",
+            phonetic: "/hʊd/",
+            examples: [
+              "Pull up your hood it's raining",
+              "The car hood was open",
+              "Red Riding Hood is a fairy tale",
+              "He wore a black hood",
+              "The hood keeps you warm",
+              "Check under the hood for problems",
+              "Robin Hood was a legendary figure",
+              "The hood covered his face",
+              "Neighborhood is shortened to hood",
+              "The hood ornament sparkled"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Pull up hood",
+                  "Wear hood",
+                  "Hood up"
+                ]
+              },
+              {
+                question: "What was open?",
+                answers: [
+                  "The car hood",
+                  "Hood open",
+                  "Under hood"
+                ]
+              },
+              {
+                question: "Who was he?",
+                answers: [
+                  "Robin Hood",
+                  "Hood character",
+                  "Hood legend"
+                ]
+              }
+            ]
+          },
+          {
+            word: "inhabitant",
+            phonetic: "/ɪnˈhæbɪtənt/",
+            examples: [
+              "The island has few inhabitants",
+              "Local inhabitants were friendly",
+              "Original inhabitants left long ago",
+              "City inhabitants face pollution",
+              "The inhabitants welcomed visitors",
+              "Forest inhabitants are diverse",
+              "Ancient inhabitants built this",
+              "The inhabitants spoke different languages",
+              "Few inhabitants remain today",
+              "The inhabitants adapted to climate"
+            ],
+            questions: [
+              {
+                question: "Who lives there?",
+                answers: [
+                  "The inhabitants",
+                  "Few inhabitants",
+                  "Local inhabitants"
+                ]
+              },
+              {
+                question: "Who built this?",
+                answers: [
+                  "Ancient inhabitants",
+                  "Original inhabitants",
+                  "Inhabitants built"
+                ]
+              },
+              {
+                question: "Who were friendly?",
+                answers: [
+                  "Local inhabitants",
+                  "The inhabitants",
+                  "Inhabitants welcomed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "nourish",
+            phonetic: "/ˈnɜːrɪʃ/",
+            examples: [
+              "Good food nourishes the body",
+              "Nourish your mind with reading",
+              "The soil nourishes the plants",
+              "She nourished her creativity",
+              "Nourishing meals are important",
+              "Love nourishes the soul",
+              "The mother nourished her baby",
+              "Nourish relationships with care",
+              "Education nourishes the mind",
+              "Well nourished children grow better"
+            ],
+            questions: [
+              {
+                question: "What does food do?",
+                answers: [
+                  "Nourishes body",
+                  "Nourishes us",
+                  "Provides nourishment"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Nourish your mind",
+                  "Nourish creativity",
+                  "Nourish relationships"
+                ]
+              },
+              {
+                question: "What helps plants?",
+                answers: [
+                  "Soil nourishes",
+                  "Nourishes plants",
+                  "Provides nourishment"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pirate",
+            phonetic: "/ˈpaɪrət/",
+            examples: [
+              "The pirate ship sailed the seas",
+              "Pirates searched for treasure",
+              "Don't pirate movies illegally",
+              "The pirate flag had a skull",
+              "Software piracy is a crime",
+              "Famous pirates in history",
+              "The pirate wore an eye patch",
+              "Pirate of the Caribbean movie",
+              "Music piracy costs artists money",
+              "The pirate buried his treasure"
+            ],
+            questions: [
+              {
+                question: "What sailed the seas?",
+                answers: [
+                  "The pirate ship",
+                  "Pirate vessel",
+                  "Pirates sailed"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't pirate movies",
+                  "No piracy",
+                  "Stop pirating"
+                ]
+              },
+              {
+                question: "What did pirates want?",
+                answers: [
+                  "Searched for treasure",
+                  "Pirate treasure",
+                  "Find treasure"
+                ]
+              }
+            ]
+          },
+          {
+            word: "publication",
+            phonetic: "/ˌpʌblɪˈkeɪʃn/",
+            examples: [
+              "The publication came out yesterday",
+              "Scientific publication is important",
+              "The publication was well received",
+              "Publication date is next month",
+              "A prestigious publication featured her",
+              "Online publications are popular",
+              "The publication has many readers",
+              "Publication of the book was delayed",
+              "Academic publications require peer review",
+              "The publication covers local news"
+            ],
+            questions: [
+              {
+                question: "When did it come out?",
+                answers: [
+                  "Publication yesterday",
+                  "Publication came out",
+                  "Recent publication"
+                ]
+              },
+              {
+                question: "When is it released?",
+                answers: [
+                  "Publication date",
+                  "Publication next month",
+                  "Publication soon"
+                ]
+              },
+              {
+                question: "What was delayed?",
+                answers: [
+                  "Publication delayed",
+                  "Book publication",
+                  "Publication postponed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "riddle",
+            phonetic: "/ˈrɪdl/",
+            examples: [
+              "Can you solve this riddle",
+              "The riddle was very difficult",
+              "Sphinx asked a famous riddle",
+              "Children love riddles and puzzles",
+              "The answer to the riddle is",
+              "A riddle wrapped in a mystery",
+              "The bullet riddled the wall",
+              "He posed a riddle to students",
+              "The riddle stumped everyone",
+              "Riddle me this question"
+            ],
+            questions: [
+              {
+                question: "Can you figure it out?",
+                answers: [
+                  "Solve the riddle",
+                  "Answer riddle",
+                  "Riddle solution"
+                ]
+              },
+              {
+                question: "What did children love?",
+                answers: [
+                  "Love riddles",
+                  "Riddles and puzzles",
+                  "Enjoy riddles"
+                ]
+              },
+              {
+                question: "What stumped everyone?",
+                answers: [
+                  "The riddle did",
+                  "Riddle stumped",
+                  "Difficult riddle"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rot",
+            phonetic: "/rɑːt/",
+            examples: [
+              "The wood began to rot",
+              "Food will rot if left out",
+              "Tooth decay is also called rot",
+              "The vegetables are rotting",
+              "Stop the rot before it spreads",
+              "The building is rotting away",
+              "Rot can damage the structure",
+              "The fruit rotted in the heat",
+              "What rot that's nonsense",
+              "Dry rot affects wooden beams"
+            ],
+            questions: [
+              {
+                question: "What happened to the wood?",
+                answers: [
+                  "Began to rot",
+                  "Wood rotting",
+                  "Started rotting"
+                ]
+              },
+              {
+                question: "What happens if left out?",
+                answers: [
+                  "Food will rot",
+                  "Will rot",
+                  "Starts rotting"
+                ]
+              },
+              {
+                question: "What should we stop?",
+                answers: [
+                  "Stop the rot",
+                  "Prevent rot",
+                  "Rot spreading"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shortly",
+            phonetic: "/ˈʃɔːrtli/",
+            examples: [
+              "The meeting will begin shortly",
+              "I'll be there shortly",
+              "She left shortly after dinner",
+              "Shortly before midnight it happened",
+              "The train arrives shortly",
+              "Shortly thereafter he resigned",
+              "Coming shortly to a theater",
+              "He spoke shortly and rudely",
+              "Shortly after they met",
+              "The doctor will see you shortly"
+            ],
+            questions: [
+              {
+                question: "When will it start?",
+                answers: [
+                  "Begin shortly",
+                  "Shortly",
+                  "Starting shortly"
+                ]
+              },
+              {
+                question: "When are you coming?",
+                answers: [
+                  "Be there shortly",
+                  "Shortly",
+                  "Arriving shortly"
+                ]
+              },
+              {
+                question: "When did she leave?",
+                answers: [
+                  "Shortly after",
+                  "Left shortly",
+                  "Shortly thereafter"
+                ]
+              }
+            ]
+          },
+          {
+            word: "skeleton",
+            phonetic: "/ˈskelɪtn/",
+            examples: [
+              "The skeleton was found in the cave",
+              "Human skeleton has two hundred six bones",
+              "Skeleton in the closet means secret",
+              "The skeleton key opens all doors",
+              "A skeleton crew ran the ship",
+              "The dinosaur skeleton was huge",
+              "Skeleton staff on holidays",
+              "The skeleton structure is complete",
+              "X-ray shows the skeleton clearly",
+              "Skeleton outline of the plan"
+            ],
+            questions: [
+              {
+                question: "What was found?",
+                answers: [
+                  "The skeleton",
+                  "Found skeleton",
+                  "Skeleton discovered"
+                ]
+              },
+              {
+                question: "What's the idiom?",
+                answers: [
+                  "Skeleton in closet",
+                  "Hidden skeleton",
+                  "Skeleton secret"
+                ]
+              },
+              {
+                question: "What kind of crew?",
+                answers: [
+                  "Skeleton crew",
+                  "Skeleton staff",
+                  "Minimal crew"
+                ]
+              }
+            ]
+          },
+          {
+            word: "spoil",
+            phonetic: "/spɔɪl/",
+            examples: [
+              "Don't spoil the surprise please",
+              "The food will spoil quickly",
+              "She spoils her grandchildren",
+              "Too many cooks spoil the broth",
+              "Don't spoil the ending for me",
+              "The rain spoiled our picnic",
+              "Spoiled children are difficult",
+              "The milk has spoiled",
+              "Victory spoils went to the winner",
+              "Don't let this spoil your day"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't spoil surprise",
+                  "Don't spoil ending",
+                  "Not spoil"
+                ]
+              },
+              {
+                question: "What happened to food?",
+                answers: [
+                  "Food will spoil",
+                  "Milk spoiled",
+                  "Has spoiled"
+                ]
+              },
+              {
+                question: "What does she do?",
+                answers: [
+                  "Spoils grandchildren",
+                  "She spoils",
+                  "Spoils them"
+                ]
+              }
+            ]
+          },
+          {
+            word: "starve",
+            phonetic: "/stɑːrv/",
+            examples: [
+              "People starve without food",
+              "I'm starving let's eat",
+              "Don't starve yourself",
+              "Many children starve daily",
+              "The prisoners were starved",
+              "Starve the fire of oxygen",
+              "He nearly starved to death",
+              "Plants starve without nutrients",
+              "Starving for attention",
+              "The siege starved the city"
+            ],
+            questions: [
+              {
+                question: "How do you feel?",
+                answers: [
+                  "I'm starving",
+                  "Starving hungry",
+                  "Really starving"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't starve yourself",
+                  "Not starve",
+                  "Avoid starving"
+                ]
+              },
+              {
+                question: "What happens without food?",
+                answers: [
+                  "People starve",
+                  "Will starve",
+                  "Starve to death"
+                ]
+              }
+            ]
+          },
+          {
+            word: "thrill",
+            phonetic: "/θrɪl/",
+            examples: [
+              "The roller coaster was a thrill",
+              "She thrilled at the news",
+              "What a thrill to meet you",
+              "The thrill of victory is amazing",
+              "Thrilling adventure awaits",
+              "The concert thrilled the audience",
+              "Cheap thrills are temporary",
+              "The thrill wore off quickly",
+              "I'm thrilled to be here",
+              "Thrill seekers love danger"
+            ],
+            questions: [
+              {
+                question: "How was the ride?",
+                answers: [
+                  "Was a thrill",
+                  "Very thrilling",
+                  "Big thrill"
+                ]
+              },
+              {
+                question: "How do you feel?",
+                answers: [
+                  "I'm thrilled",
+                  "So thrilled",
+                  "Really thrilled"
+                ]
+              },
+              {
+                question: "What do they love?",
+                answers: [
+                  "Love thrills",
+                  "Thrill seekers",
+                  "Seeking thrills"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wicked",
+            phonetic: "/ˈwɪkɪd/",
+            examples: [
+              "The wicked witch was evil",
+              "That's a wicked sense of humor",
+              "Wicked problems are complex",
+              "No rest for the wicked",
+              "She has a wicked smile",
+              "Wicked awesome means really great",
+              "The wicked stepmother was cruel",
+              "Wicked weather hit the coast",
+              "A wicked curve in the road",
+              "Wicked can mean very good"
+            ],
+            questions: [
+              {
+                question: "What kind of witch?",
+                answers: [
+                  "Wicked witch",
+                  "The wicked one",
+                  "Very wicked"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "No rest for wicked",
+                  "Wicked saying",
+                  "Rest wicked"
+                ]
+              },
+              {
+                question: "How's the weather?",
+                answers: [
+                  "Wicked weather",
+                  "Wicked storm",
+                  "Wicked conditions"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit6",
+        words: [
+          {
+            word: "alert",
+            phonetic: "/əˈlɜːrt/",
+            examples: [
+              "Stay alert at all times",
+              "The security alert was issued",
+              "She's very alert in class",
+              "Alert the authorities immediately",
+              "The system sent an alert",
+              "Be on high alert tonight",
+              "Alert passengers about the delay",
+              "He remained alert despite tiredness",
+              "Weather alert in effect",
+              "The alert dog heard everything"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Stay alert",
+                  "Remain alert",
+                  "Be alert"
+                ]
+              },
+              {
+                question: "What was issued?",
+                answers: [
+                  "Security alert",
+                  "Alert issued",
+                  "Weather alert"
+                ]
+              },
+              {
+                question: "Who should we tell?",
+                answers: [
+                  "Alert the authorities",
+                  "Alert them",
+                  "Alert passengers"
+                ]
+              }
+            ]
+          },
+          {
+            word: "broadcast",
+            phonetic: "/ˈbrɔːdkæst/",
+            examples: [
+              "The news broadcast starts at six",
+              "They broadcast live from the stadium",
+              "Radio broadcasts reach millions",
+              "The broadcast was interrupted",
+              "Live broadcast of the event",
+              "Don't broadcast personal information",
+              "The station broadcasts twenty four hours",
+              "Television broadcast began in the thirties",
+              "Broadcast the message widely",
+              "The broadcast quality was excellent"
+            ],
+            questions: [
+              {
+                question: "When does it start?",
+                answers: [
+                  "Broadcast starts at six",
+                  "News broadcast",
+                  "Broadcast begins"
+                ]
+              },
+              {
+                question: "What do they do?",
+                answers: [
+                  "They broadcast live",
+                  "Broadcast from stadium",
+                  "Broadcasting live"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't broadcast information",
+                  "Not broadcast",
+                  "Avoid broadcasting"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bulletin",
+            phonetic: "/ˈbʊlətɪn/",
+            examples: [
+              "Check the bulletin board daily",
+              "News bulletin interrupted the program",
+              "The bulletin was posted yesterday",
+              "Weather bulletin warns of storms",
+              "Church bulletin lists weekly events",
+              "Emergency bulletin was broadcast",
+              "The bulletin contains important information",
+              "School bulletin announces schedule changes",
+              "Medical bulletin updated his condition",
+              "Company bulletin keeps employees informed"
+            ],
+            questions: [
+              {
+                question: "What should you check?",
+                answers: [
+                  "Check bulletin board",
+                  "The bulletin",
+                  "Bulletin daily"
+                ]
+              },
+              {
+                question: "What interrupted?",
+                answers: [
+                  "News bulletin",
+                  "Bulletin interrupted",
+                  "Emergency bulletin"
+                ]
+              },
+              {
+                question: "What warns of storms?",
+                answers: [
+                  "Weather bulletin",
+                  "Bulletin warns",
+                  "Storm bulletin"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bump",
+            phonetic: "/bʌmp/",
+            examples: [
+              "I felt a bump on the road",
+              "She bumped her head on the door",
+              "Speed bumps slow down traffic",
+              "The plane hit an air bump",
+              "Bump into old friends sometimes",
+              "He has a bump on his forehead",
+              "Don't bump the table",
+              "The bump caused the car to shake",
+              "Baby bump means pregnant",
+              "Bump up the volume please"
+            ],
+            questions: [
+              {
+                question: "What did you feel?",
+                answers: [
+                  "Felt a bump",
+                  "Road bump",
+                  "Big bump"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Bumped her head",
+                  "She bumped",
+                  "Bumped into"
+                ]
+              },
+              {
+                question: "What slows traffic?",
+                answers: [
+                  "Speed bumps",
+                  "Bumps slow",
+                  "Road bumps"
+                ]
+              }
+            ]
+          },
+          {
+            word: "chop",
+            phonetic: "/tʃɑːp/",
+            examples: [
+              "Chop the vegetables into pieces",
+              "He chopped wood for the fire",
+              "Pork chop is a meat cut",
+              "Chop chop means hurry up",
+              "The chef chopped the onions",
+              "Karate chop is a strike",
+              "Chop down the old tree",
+              "She got the chop means fired",
+              "Lamb chops are delicious",
+              "Chop and change means indecisive"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Chop the vegetables",
+                  "Chop them up",
+                  "Start chopping"
+                ]
+              },
+              {
+                question: "What did he do?",
+                answers: [
+                  "Chopped wood",
+                  "He chopped",
+                  "Chopping wood"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "Chop chop hurry",
+                  "Got the chop",
+                  "Chop down"
+                ]
+              }
+            ]
+          },
+          {
+            word: "closet",
+            phonetic: "/ˈklɑːzɪt/",
+            examples: [
+              "Hang your coat in the closet",
+              "The closet is full of clothes",
+              "Come out of the closet means reveal",
+              "Walk in closet is spacious",
+              "She's a closet romantic",
+              "Skeleton in the closet means secret",
+              "The closet door is stuck",
+              "Linen closet holds towels",
+              "Closet space is limited",
+              "He's a closet fan of the show"
+            ],
+            questions: [
+              {
+                question: "Where should I put it?",
+                answers: [
+                  "In the closet",
+                  "Hang in closet",
+                  "Closet space"
+                ]
+              },
+              {
+                question: "What's full?",
+                answers: [
+                  "The closet is",
+                  "Closet full",
+                  "Full closet"
+                ]
+              },
+              {
+                question: "What kind of fan?",
+                answers: [
+                  "Closet fan",
+                  "Closet romantic",
+                  "Secret closet"
+                ]
+              }
+            ]
+          },
+          {
+            word: "console",
+            phonetic: "/kənˈsoʊl/",
+            examples: [
+              "Try to console the crying child",
+              "Gaming console is very popular",
+              "She consoled her friend",
+              "The console displays all controls",
+              "Console yourself with happy thoughts",
+              "Center console in the car",
+              "He needed consolation after the loss",
+              "Video game console costs money",
+              "Console table holds decorations",
+              "Words of consolation helped"
+            ],
+            questions: [
+              {
+                question: "What should we do?",
+                answers: [
+                  "Console the child",
+                  "Try to console",
+                  "Offer consolation"
+                ]
+              },
+              {
+                question: "What's popular?",
+                answers: [
+                  "Gaming console",
+                  "Video console",
+                  "Console games"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She consoled friend",
+                  "Consoled her",
+                  "Offered consolation"
+                ]
+              }
+            ]
+          },
+          {
+            word: "district",
+            phonetic: "/ˈdɪstrɪkt/",
+            examples: [
+              "The financial district is downtown",
+              "School district covers many schools",
+              "Shopping district has many stores",
+              "Historic district attracts tourists",
+              "The district attorney prosecutes cases",
+              "Voting district boundaries changed",
+              "Lake District is beautiful",
+              "Business district is busy",
+              "District court handles cases",
+              "Each district has a representative"
+            ],
+            questions: [
+              {
+                question: "Where is it?",
+                answers: [
+                  "Financial district",
+                  "In the district",
+                  "Downtown district"
+                ]
+              },
+              {
+                question: "What covers many schools?",
+                answers: [
+                  "School district",
+                  "The district",
+                  "District covers"
+                ]
+              },
+              {
+                question: "Who prosecutes?",
+                answers: [
+                  "District attorney",
+                  "District prosecutor",
+                  "DA prosecutes"
+                ]
+              }
+            ]
+          },
+          {
+            word: "drawer",
+            phonetic: "/drɔːr/",
+            examples: [
+              "Put it in the top drawer",
+              "The drawer is stuck closed",
+              "Open the drawer carefully",
+              "Sock drawer is messy",
+              "Bottom drawer of the dresser",
+              "Kitchen drawer holds utensils",
+              "The drawer slides smoothly",
+              "Top drawer means excellent quality",
+              "File drawer contains documents",
+              "Lock the drawer securely"
+            ],
+            questions: [
+              {
+                question: "Where should I put it?",
+                answers: [
+                  "In the drawer",
+                  "Top drawer",
+                  "Drawer space"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Drawer is stuck",
+                  "Drawer won't open",
+                  "Stuck drawer"
+                ]
+              },
+              {
+                question: "What holds utensils?",
+                answers: [
+                  "Kitchen drawer",
+                  "The drawer",
+                  "Drawer holds"
+                ]
+              }
+            ]
+          },
+          {
+            word: "endure",
+            phonetic: "/ɪnˈdʊr/",
+            examples: [
+              "She had to endure great pain",
+              "Can you endure the cold",
+              "The building endured for centuries",
+              "Endure hardship with courage",
+              "He couldn't endure the noise",
+              "Their love will endure forever",
+              "Endure the test of time",
+              "Athletes endure rigorous training",
+              "The bridge endured the storm",
+              "Some things are hard to endure"
+            ],
+            questions: [
+              {
+                question: "What did she experience?",
+                answers: [
+                  "Had to endure pain",
+                  "Endured suffering",
+                  "Must endure"
+                ]
+              },
+              {
+                question: "Can you handle it?",
+                answers: [
+                  "Can you endure",
+                  "Endure the cold",
+                  "Must endure"
+                ]
+              },
+              {
+                question: "How long will it last?",
+                answers: [
+                  "Will endure forever",
+                  "Endure centuries",
+                  "Endures time"
+                ]
+              }
+            ]
+          },
+          {
+            word: "execute",
+            phonetic: "/ˈeksɪkjuːt/",
+            examples: [
+              "Execute the plan immediately",
+              "The prisoner was executed",
+              "Execute the program to start",
+              "Well executed performance",
+              "Execute your duties properly",
+              "The dancer executed perfect moves",
+              "Execute a difficult maneuver",
+              "The company executes many projects",
+              "Execute the strategy carefully",
+              "Chief executive executes decisions"
+            ],
+            questions: [
+              {
+                question: "What should we do?",
+                answers: [
+                  "Execute the plan",
+                  "Execute immediately",
+                  "Execute strategy"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Prisoner was executed",
+                  "Was executed",
+                  "Execution occurred"
+                ]
+              },
+              {
+                question: "How was the performance?",
+                answers: [
+                  "Well executed",
+                  "Executed perfectly",
+                  "Executed well"
+                ]
+              }
+            ]
+          },
+          {
+            word: "grasp",
+            phonetic: "/ɡræsp/",
+            examples: [
+              "Grasp the handle tightly",
+              "She has a good grasp of math",
+              "The concept is beyond my grasp",
+              "Grasp the opportunity now",
+              "He grasped the situation quickly",
+              "Within grasp means achievable",
+              "Don't let it slip from your grasp",
+              "Grasp at straws means desperate",
+              "She grasped his hand firmly",
+              "Full grasp of the subject"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Grasp the handle",
+                  "Grasp tightly",
+                  "Hold grasp"
+                ]
+              },
+              {
+                question: "How's her understanding?",
+                answers: [
+                  "Good grasp of math",
+                  "Has grasp",
+                  "Full grasp"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Grasp the opportunity",
+                  "Grasp it now",
+                  "Grasp chance"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rear",
+            phonetic: "/rɪr/",
+            examples: [
+              "The rear of the building",
+              "She sat in the rear seat",
+              "Rear view mirror shows behind",
+              "The rear door is locked",
+              "Rear end collision occurred",
+              "They rear cattle on the farm",
+              "Bring up the rear means last",
+              "The rear entrance is open",
+              "Rear guard protects from behind",
+              "Rear window was broken"
+            ],
+            questions: [
+              {
+                question: "Where is it?",
+                answers: [
+                  "In the rear",
+                  "Rear of building",
+                  "At rear"
+                ]
+              },
+              {
+                question: "Where did she sit?",
+                answers: [
+                  "Rear seat",
+                  "In rear",
+                  "Rear position"
+                ]
+              },
+              {
+                question: "What do they do?",
+                answers: [
+                  "Rear cattle",
+                  "They rear",
+                  "Rear animals"
+                ]
+              }
+            ]
+          },
+          {
+            word: "senator",
+            phonetic: "/ˈsenətər/",
+            examples: [
+              "The senator gave a speech",
+              "She's running for senator",
+              "Senator Smith voted yes",
+              "State senator represents the district",
+              "The senator proposed new legislation",
+              "US senator serves six years",
+              "The senator addressed the crowd",
+              "Contact your senator about this",
+              "The senator's office is downtown",
+              "Junior senator is newly elected"
+            ],
+            questions: [
+              {
+                question: "Who gave the speech?",
+                answers: [
+                  "The senator did",
+                  "Senator spoke",
+                  "Senator gave"
+                ]
+              },
+              {
+                question: "What's she doing?",
+                answers: [
+                  "Running for senator",
+                  "Becoming senator",
+                  "Senator candidate"
+                ]
+              },
+              {
+                question: "Who should I contact?",
+                answers: [
+                  "Contact your senator",
+                  "The senator",
+                  "Your senator"
+                ]
+              }
+            ]
+          },
+          {
+            word: "skull",
+            phonetic: "/skʌl/",
+            examples: [
+              "The skull protects the brain",
+              "Pirate flag has a skull",
+              "He fractured his skull",
+              "Skull and crossbones means danger",
+              "The skull was discovered buried",
+              "Crystal skull is mysterious",
+              "Thick skull means stubborn",
+              "The skull structure is complex",
+              "Human skull has many bones",
+              "Skull cap covers the head"
+            ],
+            questions: [
+              {
+                question: "What protects the brain?",
+                answers: [
+                  "The skull does",
+                  "Skull protects",
+                  "Brain skull"
+                ]
+              },
+              {
+                question: "What's on the flag?",
+                answers: [
+                  "Skull and crossbones",
+                  "A skull",
+                  "Pirate skull"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Fractured his skull",
+                  "Skull fracture",
+                  "Skull injury"
+                ]
+              }
+            ]
+          },
+          {
+            word: "stir",
+            phonetic: "/stɜːr/",
+            examples: [
+              "Stir the soup while cooking",
+              "The news caused a stir",
+              "Don't stir up trouble",
+              "She began to stir from sleep",
+              "Stir the paint before using",
+              "The speech stirred emotions",
+              "Stir crazy means restless from confinement",
+              "Stir fry is a cooking method",
+              "The wind stirred the leaves",
+              "Stir things up means cause excitement"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Stir the soup",
+                  "Stir it up",
+                  "Keep stirring"
+                ]
+              },
+              {
+                question: "What did the news do?",
+                answers: [
+                  "Caused a stir",
+                  "Created stir",
+                  "Made stir"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't stir trouble",
+                  "Not stir up",
+                  "Avoid stirring"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tap",
+            phonetic: "/tæp/",
+            examples: [
+              "Tap on the door gently",
+              "Water tap is leaking",
+              "She tapped her foot impatiently",
+              "Tap dance is entertaining",
+              "Phone tap means surveillance",
+              "Tap into resources available",
+              "The tap water is safe",
+              "He gave a tap on the shoulder",
+              "Beer on tap at the bar",
+              "Tap the screen to continue"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Tap on door",
+                  "Tap gently",
+                  "Tap screen"
+                ]
+              },
+              {
+                question: "What's leaking?",
+                answers: [
+                  "Water tap",
+                  "The tap",
+                  "Tap leaking"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "Tapped her foot",
+                  "She tapped",
+                  "Tapped impatiently"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tremendous",
+            phonetic: "/trɪˈmendəs/",
+            examples: [
+              "That's a tremendous achievement",
+              "Tremendous pressure was applied",
+              "She has tremendous talent",
+              "The explosion was tremendous",
+              "Tremendous effort went into this",
+              "They made tremendous progress",
+              "A tremendous opportunity arose",
+              "Tremendous speed is required",
+              "The cost was tremendous",
+              "Tremendous support from everyone"
+            ],
+            questions: [
+              {
+                question: "How's the achievement?",
+                answers: [
+                  "It's tremendous",
+                  "Tremendous achievement",
+                  "Really tremendous"
+                ]
+              },
+              {
+                question: "What kind of talent?",
+                answers: [
+                  "Tremendous talent",
+                  "Has tremendous",
+                  "Tremendous ability"
+                ]
+              },
+              {
+                question: "How much effort?",
+                answers: [
+                  "Tremendous effort",
+                  "Tremendous work",
+                  "Tremendous energy"
+                ]
+              }
+            ]
+          },
+          {
+            word: "underneath",
+            phonetic: "/ˌʌndərˈniːθ/",
+            examples: [
+              "Look underneath the table",
+              "Underneath the surface lies truth",
+              "The cat hid underneath the bed",
+              "Underneath it all he cares",
+              "Check underneath the car",
+              "Underneath the bridge is shelter",
+              "What lies underneath remains hidden",
+              "Underneath her smile was sadness",
+              "The key is underneath the mat",
+              "Underneath the ground are tunnels"
+            ],
+            questions: [
+              {
+                question: "Where should I look?",
+                answers: [
+                  "Underneath the table",
+                  "Look underneath",
+                  "Check underneath"
+                ]
+              },
+              {
+                question: "Where's the cat?",
+                answers: [
+                  "Underneath the bed",
+                  "Hid underneath",
+                  "Under bed"
+                ]
+              },
+              {
+                question: "Where's the key?",
+                answers: [
+                  "Underneath the mat",
+                  "Key underneath",
+                  "Under mat"
+                ]
+              }
+            ]
+          },
+          {
+            word: "worm",
+            phonetic: "/wɜːrm/",
+            examples: [
+              "The early bird catches the worm",
+              "Earthworms help the soil",
+              "The worm wiggled in the dirt",
+              "Computer worm spread rapidly",
+              "Can of worms means problems",
+              "She wormed her way through",
+              "Bookworm reads constantly",
+              "Worm your way out means escape",
+              "The worm turned means fought back",
+              "Worming medicine for pets"
+            ],
+            questions: [
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Early bird catches worm",
+                  "Can of worms",
+                  "Worm turned"
+                ]
+              },
+              {
+                question: "What helps soil?",
+                answers: [
+                  "Earthworms do",
+                  "Worms help",
+                  "The worm"
+                ]
+              },
+              {
+                question: "What kind of reader?",
+                answers: [
+                  "A bookworm",
+                  "Bookworm reads",
+                  "Worm reader"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit7",
+        words: [
+          {
+            word: "abandon",
+            phonetic: "/əˈbændən/",
+            examples: [
+              "Don't abandon hope in difficult times",
+              "The sailors abandoned the sinking ship",
+              "Abandon all worry and relax",
+              "She abandoned her career for family",
+              "The building was abandoned years ago",
+              "They abandoned the project halfway",
+              "Never abandon your dreams completely",
+              "The dog was abandoned by owner",
+              "Abandon ship the captain ordered",
+              "With reckless abandon means carelessly"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't abandon hope",
+                  "Never abandon",
+                  "Not abandon dreams"
+                ]
+              },
+              {
+                question: "What did the sailors do?",
+                answers: [
+                  "Abandoned the ship",
+                  "They abandoned",
+                  "Abandon ship"
+                ]
+              },
+              {
+                question: "What happened to the building?",
+                answers: [
+                  "Was abandoned",
+                  "Building abandoned",
+                  "Abandoned years ago"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ambitious",
+            phonetic: "/æmˈbɪʃəs/",
+            examples: [
+              "She's very ambitious about her career",
+              "That's an ambitious goal to achieve",
+              "Ambitious people work harder",
+              "The plan is too ambitious",
+              "He has ambitious dreams",
+              "Ambitious project requires dedication",
+              "Young and ambitious entrepreneurs",
+              "The ambitious student excelled",
+              "Overly ambitious plans often fail",
+              "Ambitious targets were set"
+            ],
+            questions: [
+              {
+                question: "What's she like?",
+                answers: [
+                  "Very ambitious",
+                  "She's ambitious",
+                  "Ambitious person"
+                ]
+              },
+              {
+                question: "What kind of goal?",
+                answers: [
+                  "Ambitious goal",
+                  "Too ambitious",
+                  "Very ambitious"
+                ]
+              },
+              {
+                question: "Who works harder?",
+                answers: [
+                  "Ambitious people",
+                  "Ambitious workers",
+                  "The ambitious"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bark",
+            phonetic: "/bɑːrk/",
+            examples: [
+              "The dog barks at strangers",
+              "Tree bark protects the trunk",
+              "His bark is worse than bite",
+              "Don't bark orders at people",
+              "She barked angrily at him",
+              "The bark felt rough",
+              "Stop barking up the wrong tree",
+              "Dogs bark to communicate",
+              "The sergeant barked commands",
+              "Bark cloth is made from trees"
+            ],
+            questions: [
+              {
+                question: "What does the dog do?",
+                answers: [
+                  "The dog barks",
+                  "Barks at strangers",
+                  "Dog barking"
+                ]
+              },
+              {
+                question: "What protects the tree?",
+                answers: [
+                  "Tree bark",
+                  "The bark",
+                  "Bark protects"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Bark worse than bite",
+                  "Barking wrong tree",
+                  "His bark"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bay",
+            phonetic: "/beɪ/",
+            examples: [
+              "The ship sailed into the bay",
+              "San Francisco Bay is beautiful",
+              "Keep problems at bay means prevent",
+              "Bay window overlooks the garden",
+              "The wolf bayed at the moon",
+              "Bay leaves add flavor",
+              "Loading bay for trucks",
+              "The bay horse was brown",
+              "Bring to bay means corner",
+              "The bay area is growing"
+            ],
+            questions: [
+              {
+                question: "Where did the ship go?",
+                answers: [
+                  "Into the bay",
+                  "The bay",
+                  "Sailed bay"
+                ]
+              },
+              {
+                question: "What does the phrase mean?",
+                answers: [
+                  "Keep at bay",
+                  "At bay means prevent",
+                  "Bay prevents"
+                ]
+              },
+              {
+                question: "What kind of window?",
+                answers: [
+                  "Bay window",
+                  "A bay",
+                  "Window bay"
+                ]
+              }
+            ]
+          },
+          {
+            word: "brilliant",
+            phonetic: "/ˈbrɪliənt/",
+            examples: [
+              "That's a brilliant idea",
+              "She's a brilliant scientist",
+              "Brilliant sunshine lit the room",
+              "His performance was brilliant",
+              "Brilliant colors in the painting",
+              "What a brilliant solution",
+              "The diamond was brilliant",
+              "Brilliant mind solves problems",
+              "Brilliant white snow covered everything",
+              "Absolutely brilliant work"
+            ],
+            questions: [
+              {
+                question: "What kind of idea?",
+                answers: [
+                  "Brilliant idea",
+                  "A brilliant one",
+                  "Really brilliant"
+                ]
+              },
+              {
+                question: "What's she like?",
+                answers: [
+                  "Brilliant scientist",
+                  "She's brilliant",
+                  "Brilliant mind"
+                ]
+              },
+              {
+                question: "How was the performance?",
+                answers: [
+                  "Was brilliant",
+                  "Brilliant performance",
+                  "Absolutely brilliant"
+                ]
+              }
+            ]
+          },
+          {
+            word: "chin",
+            phonetic: "/tʃɪn/",
+            examples: [
+              "He stroked his chin thoughtfully",
+              "Keep your chin up means stay positive",
+              "She has a dimple on her chin",
+              "Chin up exercise strengthens arms",
+              "Take it on the chin means accept",
+              "His chin was covered with stubble",
+              "Lead with your chin means vulnerable",
+              "The chin strap keeps helmet secure",
+              "Double chin shows weight gain",
+              "Wag one's chin means talk"
+            ],
+            questions: [
+              {
+                question: "What did he stroke?",
+                answers: [
+                  "His chin",
+                  "Stroked chin",
+                  "The chin"
+                ]
+              },
+              {
+                question: "What's the advice?",
+                answers: [
+                  "Keep chin up",
+                  "Chin up",
+                  "Stay positive"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "Take on chin",
+                  "Accept it",
+                  "Chin means accept"
+                ]
+              }
+            ]
+          },
+          {
+            word: "complaint",
+            phonetic: "/kəmˈpleɪnt/",
+            examples: [
+              "File a complaint with management",
+              "She has no complaints about service",
+              "The complaint was investigated",
+              "Customer complaints are taken seriously",
+              "He filed a formal complaint",
+              "Common complaint is long wait times",
+              "Medical complaint means symptom",
+              "The complaint department handles issues",
+              "Lodge a complaint immediately",
+              "Complaint procedure is clear"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "File a complaint",
+                  "Lodge complaint",
+                  "Make complaint"
+                ]
+              },
+              {
+                question: "How does she feel?",
+                answers: [
+                  "No complaints",
+                  "Has complaints",
+                  "Without complaint"
+                ]
+              },
+              {
+                question: "What was investigated?",
+                answers: [
+                  "The complaint",
+                  "Complaint investigated",
+                  "Customer complaint"
+                ]
+              }
+            ]
+          },
+          {
+            word: "deaf",
+            phonetic: "/def/",
+            examples: [
+              "He is deaf in one ear",
+              "Deaf people use sign language",
+              "Turn a deaf ear means ignore",
+              "She's deaf to criticism",
+              "Deaf as a post means very deaf",
+              "The deaf community is strong",
+              "Deaf and dumb is outdated term",
+              "Falling on deaf ears means ignored",
+              "Partially deaf requires hearing aid",
+              "Deaf culture is rich"
+            ],
+            questions: [
+              {
+                question: "What's his condition?",
+                answers: [
+                  "He is deaf",
+                  "Deaf in ear",
+                  "Partially deaf"
+                ]
+              },
+              {
+                question: "What does the phrase mean?",
+                answers: [
+                  "Turn deaf ear",
+                  "Deaf ear means ignore",
+                  "Falling deaf ears"
+                ]
+              },
+              {
+                question: "Who uses sign language?",
+                answers: [
+                  "Deaf people",
+                  "The deaf",
+                  "Deaf community"
+                ]
+              }
+            ]
+          },
+          {
+            word: "enthusiastic",
+            phonetic: "/ɪnˌθuːziˈæstɪk/",
+            examples: [
+              "She's very enthusiastic about the project",
+              "The audience was enthusiastic",
+              "Enthusiastic response exceeded expectations",
+              "He gave an enthusiastic yes",
+              "Enthusiastic fans cheered loudly",
+              "Not very enthusiastic about the idea",
+              "Enthusiastic greeting welcomed us",
+              "The teacher was enthusiastic",
+              "Enthusiastic support from everyone",
+              "Less than enthusiastic reaction"
+            ],
+            questions: [
+              {
+                question: "How is she?",
+                answers: [
+                  "Very enthusiastic",
+                  "She's enthusiastic",
+                  "Enthusiastic about"
+                ]
+              },
+              {
+                question: "How was the audience?",
+                answers: [
+                  "Was enthusiastic",
+                  "Enthusiastic audience",
+                  "Very enthusiastic"
+                ]
+              },
+              {
+                question: "What kind of response?",
+                answers: [
+                  "Enthusiastic response",
+                  "Enthusiastic support",
+                  "Enthusiastic greeting"
+                ]
+              }
+            ]
+          },
+          {
+            word: "horizon",
+            phonetic: "/həˈraɪzn/",
+            examples: [
+              "The sun set below the horizon",
+              "New opportunities on the horizon",
+              "The horizon stretched endlessly",
+              "Broaden your horizons means expand knowledge",
+              "On the horizon means coming soon",
+              "The ship disappeared over the horizon",
+              "Horizon line divides sky and earth",
+              "Expand your horizons through travel",
+              "The horizon was clear",
+              "Trouble on the horizon"
+            ],
+            questions: [
+              {
+                question: "Where did the sun set?",
+                answers: [
+                  "Below the horizon",
+                  "The horizon",
+                  "At horizon"
+                ]
+              },
+              {
+                question: "What's coming?",
+                answers: [
+                  "On the horizon",
+                  "Horizon shows",
+                  "Trouble horizon"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Broaden horizons",
+                  "Expand horizons",
+                  "Widen horizon"
+                ]
+              }
+            ]
+          },
+          {
+            word: "loyal",
+            phonetic: "/ˈlɔɪəl/",
+            examples: [
+              "Dogs are loyal companions",
+              "She's a loyal friend",
+              "Loyal customers return often",
+              "He remained loyal throughout",
+              "Loyal to the end",
+              "Loyal employees are valuable",
+              "The loyal fans never left",
+              "Loyal following of supporters",
+              "Loyal service for years",
+              "Stay loyal to your values"
+            ],
+            questions: [
+              {
+                question: "What are dogs?",
+                answers: [
+                  "Loyal companions",
+                  "Dogs loyal",
+                  "Very loyal"
+                ]
+              },
+              {
+                question: "What kind of friend?",
+                answers: [
+                  "A loyal friend",
+                  "Loyal one",
+                  "She's loyal"
+                ]
+              },
+              {
+                question: "Who returns often?",
+                answers: [
+                  "Loyal customers",
+                  "Loyal clients",
+                  "The loyal"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mayor",
+            phonetic: "/meɪər/",
+            examples: [
+              "The mayor addressed the crowd",
+              "She's running for mayor",
+              "Mayor's office is downtown",
+              "The mayor cut the ribbon",
+              "Mayor Smith was elected",
+              "Contact the mayor about this",
+              "The mayor proposed new laws",
+              "Deputy mayor assists the mayor",
+              "The mayor's term ends soon",
+              "Former mayor attended the event"
+            ],
+            questions: [
+              {
+                question: "Who addressed the crowd?",
+                answers: [
+                  "The mayor did",
+                  "Mayor spoke",
+                  "Mayor addressed"
+                ]
+              },
+              {
+                question: "What's she doing?",
+                answers: [
+                  "Running for mayor",
+                  "Becoming mayor",
+                  "Mayor candidate"
+                ]
+              },
+              {
+                question: "Who should I contact?",
+                answers: [
+                  "Contact the mayor",
+                  "The mayor",
+                  "Mayor's office"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mutual",
+            phonetic: "/ˈmjuːtʃuəl/",
+            examples: [
+              "The feeling is mutual between us",
+              "Mutual respect is important",
+              "They have mutual friends",
+              "Mutual agreement was reached",
+              "Mutual fund invests money",
+              "Mutual understanding helps relationships",
+              "The attraction was mutual",
+              "Mutual benefit for both parties",
+              "Mutual interests brought them together",
+              "By mutual consent they separated"
+            ],
+            questions: [
+              {
+                question: "How's the feeling?",
+                answers: [
+                  "Feeling is mutual",
+                  "It's mutual",
+                  "Mutual feeling"
+                ]
+              },
+              {
+                question: "What's important?",
+                answers: [
+                  "Mutual respect",
+                  "Mutual understanding",
+                  "Mutual trust"
+                ]
+              },
+              {
+                question: "What did they reach?",
+                answers: [
+                  "Mutual agreement",
+                  "Mutual consent",
+                  "Agreement mutual"
+                ]
+              }
+            ]
+          },
+          {
+            word: "overweight",
+            phonetic: "/ˌoʊvərˈweɪt/",
+            examples: [
+              "The doctor said I'm overweight",
+              "Overweight luggage costs extra",
+              "Many people struggle with being overweight",
+              "The truck was overweight",
+              "Overweight children face health risks",
+              "She's slightly overweight",
+              "Overweight patients need diet changes",
+              "The package is overweight",
+              "Being overweight affects health",
+              "Overweight by ten pounds"
+            ],
+            questions: [
+              {
+                question: "What did the doctor say?",
+                answers: [
+                  "You're overweight",
+                  "I'm overweight",
+                  "Said overweight"
+                ]
+              },
+              {
+                question: "What costs extra?",
+                answers: [
+                  "Overweight luggage",
+                  "Overweight bags",
+                  "Luggage overweight"
+                ]
+              },
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Being overweight",
+                  "Overweight issue",
+                  "Overweight affects"
+                ]
+              }
+            ]
+          },
+          {
+            word: "refuge",
+            phonetic: "/ˈrefjuːdʒ/",
+            examples: [
+              "They sought refuge from the storm",
+              "Wildlife refuge protects animals",
+              "The library was her refuge",
+              "Take refuge in the shelter",
+              "Refugee seeks refuge in safety",
+              "Mountain refuge provides shelter",
+              "Last refuge means final option",
+              "Refuge from the heat",
+              "The cave offered refuge",
+              "Seek refuge immediately"
+            ],
+            questions: [
+              {
+                question: "What did they seek?",
+                answers: [
+                  "Sought refuge",
+                  "Needed refuge",
+                  "Refuge from storm"
+                ]
+              },
+              {
+                question: "What protects animals?",
+                answers: [
+                  "Wildlife refuge",
+                  "Animal refuge",
+                  "Refuge protects"
+                ]
+              },
+              {
+                question: "Where should I go?",
+                answers: [
+                  "Take refuge",
+                  "Seek refuge",
+                  "Find refuge"
+                ]
+              }
+            ]
+          },
+          {
+            word: "restore",
+            phonetic: "/rɪˈstɔːr/",
+            examples: [
+              "Restore the old building carefully",
+              "The medicine restored his health",
+              "Restore peace and order",
+              "They restored the painting",
+              "Restore power to the grid",
+              "Restore your energy with rest",
+              "The restoration took years",
+              "Restore files from backup",
+              "Restore trust in relationships",
+              "Restore confidence in the system"
+            ],
+            questions: [
+              {
+                question: "What should we do?",
+                answers: [
+                  "Restore the building",
+                  "Restore it",
+                  "Need restoration"
+                ]
+              },
+              {
+                question: "What did the medicine do?",
+                answers: [
+                  "Restored his health",
+                  "Restored him",
+                  "Medicine restored"
+                ]
+              },
+              {
+                question: "What needs restoring?",
+                answers: [
+                  "Restore peace",
+                  "Restore trust",
+                  "Restore power"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rub",
+            phonetic: "/rʌb/",
+            examples: [
+              "Rub your hands together",
+              "Don't rub salt in the wound",
+              "She rubbed her sore muscles",
+              "Rub it in means emphasize failure",
+              "The cat rubbed against my leg",
+              "Rub out means erase",
+              "Therein lies the rub means problem",
+              "Rub shoulders with famous people",
+              "He rubbed his eyes tiredly",
+              "Rub the lamp three times"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Rub your hands",
+                  "Rub together",
+                  "Start rubbing"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't rub salt",
+                  "Not rub in",
+                  "Don't rub it"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "Rub it in",
+                  "Rub out",
+                  "The rub"
+                ]
+              }
+            ]
+          },
+          {
+            word: "senses",
+            phonetic: "/ˈsensɪz/",
+            examples: [
+              "We have five basic senses",
+              "Come to your senses means be reasonable",
+              "She lost her senses momentarily",
+              "The smell overwhelmed her senses",
+              "In his right senses means rational",
+              "Take leave of your senses means crazy",
+              "The senses include sight and hearing",
+              "His senses were heightened",
+              "Bring someone to their senses",
+              "Out of his senses with worry"
+            ],
+            questions: [
+              {
+                question: "How many do we have?",
+                answers: [
+                  "Five senses",
+                  "Basic senses",
+                  "All senses"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Come to senses",
+                  "Use senses",
+                  "Keep senses"
+                ]
+              },
+              {
+                question: "What includes sight?",
+                answers: [
+                  "The senses",
+                  "Five senses",
+                  "Our senses"
+                ]
+              }
+            ]
+          },
+          {
+            word: "veterinarian",
+            phonetic: "/ˌvetərɪˈneriən/",
+            examples: [
+              "The veterinarian examined the dog",
+              "She wants to become a veterinarian",
+              "Veterinarian treats sick animals",
+              "Take your pet to the veterinarian",
+              "The veterinarian gave vaccinations",
+              "Veterinarian clinic opens at eight",
+              "He's a skilled veterinarian",
+              "Emergency veterinarian available",
+              "The veterinarian performed surgery",
+              "Veterinarian school is difficult"
+            ],
+            questions: [
+              {
+                question: "Who examined the dog?",
+                answers: [
+                  "The veterinarian",
+                  "Veterinarian did",
+                  "Vet examined"
+                ]
+              },
+              {
+                question: "What does she want?",
+                answers: [
+                  "Become veterinarian",
+                  "Be veterinarian",
+                  "Veterinarian career"
+                ]
+              },
+              {
+                question: "Who treats animals?",
+                answers: [
+                  "Veterinarian does",
+                  "The veterinarian",
+                  "Vet treats"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit8",
+        words: [
+          {
+            word: "anniversary",
+            phonetic: "/ˌænɪˈvɜːrsəri/",
+            examples: [
+              "Today is our wedding anniversary",
+              "The company celebrated its anniversary",
+              "Happy anniversary to both of you",
+              "Their tenth anniversary is tomorrow",
+              "Anniversary gift should be special",
+              "The anniversary party was wonderful",
+              "Anniversary of independence is celebrated",
+              "Silver anniversary means twenty five years",
+              "Anniversary dinner at restaurant",
+              "Death anniversary is remembered annually"
+            ],
+            questions: [
+              {
+                question: "What's today?",
+                answers: [
+                  "Our anniversary",
+                  "Wedding anniversary",
+                  "Anniversary day"
+                ]
+              },
+              {
+                question: "What did they celebrate?",
+                answers: [
+                  "Their anniversary",
+                  "Company anniversary",
+                  "Anniversary celebration"
+                ]
+              },
+              {
+                question: "What should it be?",
+                answers: [
+                  "Anniversary gift special",
+                  "Special anniversary",
+                  "Anniversary present"
+                ]
+              }
+            ]
+          },
+          {
+            word: "arithmetic",
+            phonetic: "/əˈrɪθmətɪk/",
+            examples: [
+              "She's good at arithmetic",
+              "Mental arithmetic is useful",
+              "Basic arithmetic includes addition",
+              "Arithmetic operations are fundamental",
+              "Children learn arithmetic early",
+              "The arithmetic was correct",
+              "Simple arithmetic shows the answer",
+              "Arithmetic progression increases steadily",
+              "He struggles with arithmetic",
+              "Arithmetic skills are essential"
+            ],
+            questions: [
+              {
+                question: "What's she good at?",
+                answers: [
+                  "Good at arithmetic",
+                  "Arithmetic skills",
+                  "She's arithmetic"
+                ]
+              },
+              {
+                question: "What's useful?",
+                answers: [
+                  "Mental arithmetic",
+                  "Arithmetic useful",
+                  "Arithmetic calculations"
+                ]
+              },
+              {
+                question: "What do children learn?",
+                answers: [
+                  "Learn arithmetic",
+                  "Arithmetic early",
+                  "Basic arithmetic"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ashamed",
+            phonetic: "/əˈʃeɪmd/",
+            examples: [
+              "She felt ashamed of her behavior",
+              "Don't be ashamed to ask questions",
+              "He was ashamed to admit it",
+              "I'm ashamed of what I said",
+              "Nothing to be ashamed of",
+              "Ashamed to show his face",
+              "She looked down ashamed",
+              "Deeply ashamed of his actions",
+              "You should be ashamed",
+              "Ashamed to tell the truth"
+            ],
+            questions: [
+              {
+                question: "How did she feel?",
+                answers: [
+                  "Felt ashamed",
+                  "She's ashamed",
+                  "Very ashamed"
+                ]
+              },
+              {
+                question: "What shouldn't you be?",
+                answers: [
+                  "Don't be ashamed",
+                  "Not ashamed",
+                  "Never ashamed"
+                ]
+              },
+              {
+                question: "What's his feeling?",
+                answers: [
+                  "He's ashamed",
+                  "Was ashamed",
+                  "Deeply ashamed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "burst",
+            phonetic: "/bɜːrst/",
+            examples: [
+              "The balloon burst with a pop",
+              "She burst into tears suddenly",
+              "The pipe burst from pressure",
+              "Burst of laughter filled the room",
+              "He burst through the door",
+              "The dam burst after heavy rain",
+              "Burst into flames immediately",
+              "A burst of energy came",
+              "The bubble burst unexpectedly",
+              "Burst out laughing loudly"
+            ],
+            questions: [
+              {
+                question: "What happened to the balloon?",
+                answers: [
+                  "The balloon burst",
+                  "It burst",
+                  "Burst with pop"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "Burst into tears",
+                  "She burst",
+                  "Burst crying"
+                ]
+              },
+              {
+                question: "What filled the room?",
+                answers: [
+                  "Burst of laughter",
+                  "Laughter burst",
+                  "Burst laughing"
+                ]
+              }
+            ]
+          },
+          {
+            word: "carpenter",
+            phonetic: "/ˈkɑːrpəntər/",
+            examples: [
+              "The carpenter built the cabinets",
+              "She works as a skilled carpenter",
+              "Carpenter tools include hammers",
+              "The carpenter measured carefully",
+              "Hire a carpenter for repairs",
+              "Master carpenter has years of experience",
+              "The carpenter fixed the door",
+              "Carpenter's workshop is organized",
+              "Jesus was a carpenter by trade",
+              "The carpenter crafted furniture"
+            ],
+            questions: [
+              {
+                question: "Who built the cabinets?",
+                answers: [
+                  "The carpenter did",
+                  "Carpenter built",
+                  "A carpenter"
+                ]
+              },
+              {
+                question: "What's her job?",
+                answers: [
+                  "She's a carpenter",
+                  "Works as carpenter",
+                  "Carpenter profession"
+                ]
+              },
+              {
+                question: "Who should we hire?",
+                answers: [
+                  "Hire a carpenter",
+                  "Get carpenter",
+                  "The carpenter"
+                ]
+              }
+            ]
+          },
+          {
+            word: "coal",
+            phonetic: "/koʊl/",
+            examples: [
+              "Coal is a fossil fuel",
+              "They mined coal underground",
+              "Coal power plant generates electricity",
+              "Burning coal creates pollution",
+              "Coal miners work in difficult conditions",
+              "Rake someone over the coals means criticize",
+              "Coal black hair was striking",
+              "The coal industry is declining",
+              "Coal heats many homes",
+              "Carry coals to Newcastle means unnecessary"
+            ],
+            questions: [
+              {
+                question: "What is it?",
+                answers: [
+                  "Coal is fuel",
+                  "Fossil fuel",
+                  "Coal resource"
+                ]
+              },
+              {
+                question: "What did they mine?",
+                answers: [
+                  "Mined coal",
+                  "They mined coal",
+                  "Coal underground"
+                ]
+              },
+              {
+                question: "What generates electricity?",
+                answers: [
+                  "Coal power plant",
+                  "Coal generates",
+                  "Coal energy"
+                ]
+              }
+            ]
+          },
+          {
+            word: "couch",
+            phonetic: "/kaʊtʃ/",
+            examples: [
+              "Sit on the couch comfortably",
+              "The couch is very soft",
+              "Couch potato watches too much TV",
+              "New couch was delivered today",
+              "Sleep on the couch tonight",
+              "The couch needs reupholstering",
+              "Couch surfing means staying with friends",
+              "Leather couch is expensive",
+              "The couch in the living room",
+              "Casting couch is inappropriate"
+            ],
+            questions: [
+              {
+                question: "Where should I sit?",
+                answers: [
+                  "On the couch",
+                  "Sit on couch",
+                  "The couch"
+                ]
+              },
+              {
+                question: "What's a couch potato?",
+                answers: [
+                  "Watches TV",
+                  "Couch potato lazy",
+                  "On couch always"
+                ]
+              },
+              {
+                question: "Where will you sleep?",
+                answers: [
+                  "On the couch",
+                  "Sleep on couch",
+                  "Couch tonight"
+                ]
+              }
+            ]
+          },
+          {
+            word: "drip",
+            phonetic: "/drɪp/",
+            examples: [
+              "The faucet has a slow drip",
+              "Water dripped from the ceiling",
+              "Fix the drip immediately",
+              "Drip coffee is brewing",
+              "The drip became a stream",
+              "Intravenous drip delivers medicine",
+              "Drip by drip it filled",
+              "The paint dripped on the floor",
+              "Drip irrigation saves water",
+              "Stop that annoying drip"
+            ],
+            questions: [
+              {
+                question: "What's the problem?",
+                answers: [
+                  "Faucet has drip",
+                  "There's a drip",
+                  "Dripping water"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Water dripped",
+                  "It dripped",
+                  "Drip occurred"
+                ]
+              },
+              {
+                question: "What should I fix?",
+                answers: [
+                  "Fix the drip",
+                  "Stop drip",
+                  "Drip repair"
+                ]
+              }
+            ]
+          },
+          {
+            word: "elegant",
+            phonetic: "/ˈelɪɡənt/",
+            examples: [
+              "She wore an elegant dress",
+              "The solution was elegant",
+              "Elegant design is simple",
+              "The restaurant is very elegant",
+              "An elegant way to solve it",
+              "Elegant manners impressed everyone",
+              "The dance was elegant",
+              "Elegant furniture decorated the room",
+              "Elegant speech moved the audience",
+              "Simple yet elegant approach"
+            ],
+            questions: [
+              {
+                question: "What did she wear?",
+                answers: [
+                  "Elegant dress",
+                  "An elegant one",
+                  "Elegant clothing"
+                ]
+              },
+              {
+                question: "How was the solution?",
+                answers: [
+                  "Solution elegant",
+                  "Was elegant",
+                  "Elegant approach"
+                ]
+              },
+              {
+                question: "How's the restaurant?",
+                answers: [
+                  "Very elegant",
+                  "Restaurant elegant",
+                  "Elegant place"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fabric",
+            phonetic: "/ˈfæbrɪk/",
+            examples: [
+              "The fabric feels soft",
+              "Cotton fabric breathes well",
+              "Social fabric means community bonds",
+              "Choose the right fabric",
+              "The fabric of society",
+              "Fabric store sells materials",
+              "Synthetic fabric dries quickly",
+              "The fabric tore easily",
+              "Fabric softener reduces stiffness",
+              "The fabric was imported"
+            ],
+            questions: [
+              {
+                question: "How does it feel?",
+                answers: [
+                  "Fabric feels soft",
+                  "The fabric",
+                  "Soft fabric"
+                ]
+              },
+              {
+                question: "What breathes well?",
+                answers: [
+                  "Cotton fabric",
+                  "Fabric breathes",
+                  "Cotton breathes"
+                ]
+              },
+              {
+                question: "What should I choose?",
+                answers: [
+                  "Right fabric",
+                  "Choose fabric",
+                  "The fabric"
+                ]
+              }
+            ]
+          },
+          {
+            word: "highlands",
+            phonetic: "/ˈhaɪləndz/",
+            examples: [
+              "The Scottish Highlands are beautiful",
+              "Highlands have cooler temperatures",
+              "People live in the highlands",
+              "Highland cattle have long hair",
+              "The highlands are mountainous",
+              "Highland games celebrate culture",
+              "Travel to the highlands",
+              "Highlands receive more rainfall",
+              "Highland tribes are traditional",
+              "The highlands stretch for miles"
+            ],
+            questions: [
+              {
+                question: "What are beautiful?",
+                answers: [
+                  "Scottish Highlands",
+                  "The highlands",
+                  "Highlands beautiful"
+                ]
+              },
+              {
+                question: "What are mountainous?",
+                answers: [
+                  "The highlands",
+                  "Highlands are",
+                  "Highland region"
+                ]
+              },
+              {
+                question: "Where should we travel?",
+                answers: [
+                  "To the highlands",
+                  "Highlands trip",
+                  "Visit highlands"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ivory",
+            phonetic: "/ˈaɪvəri/",
+            examples: [
+              "Ivory comes from elephant tusks",
+              "Ivory trade is now illegal",
+              "Piano keys were made of ivory",
+              "Ivory tower means isolated",
+              "The ivory color is cream",
+              "Ivory carvings are valuable",
+              "Ivory poaching threatens elephants",
+              "Ivory Coast is a country",
+              "Synthetic ivory is alternative",
+              "Ivory white wedding dress"
+            ],
+            questions: [
+              {
+                question: "Where does it come from?",
+                answers: [
+                  "From elephant tusks",
+                  "Ivory comes from",
+                  "Elephant ivory"
+                ]
+              },
+              {
+                question: "What's illegal?",
+                answers: [
+                  "Ivory trade",
+                  "Trade ivory",
+                  "Ivory illegal"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "Ivory tower isolated",
+                  "Tower means",
+                  "Ivory tower"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mill",
+            phonetic: "/mɪl/",
+            examples: [
+              "The water mill ground grain",
+              "Mill around means wander aimlessly",
+              "Textile mill produces fabric",
+              "The mill was built centuries ago",
+              "Run of the mill means ordinary",
+              "Coffee mill grinds beans",
+              "Steel mill produces metal",
+              "Paper mill manufactures paper",
+              "The mill wheel turned slowly",
+              "Put through the mill means tested"
+            ],
+            questions: [
+              {
+                question: "What ground grain?",
+                answers: [
+                  "The water mill",
+                  "Mill ground",
+                  "A mill"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "Run of mill",
+                  "Mill around",
+                  "Through mill"
+                ]
+              },
+              {
+                question: "What produces fabric?",
+                answers: [
+                  "Textile mill",
+                  "The mill",
+                  "Mill produces"
+                ]
+              }
+            ]
+          },
+          {
+            word: "needle",
+            phonetic: "/ˈniːdl/",
+            examples: [
+              "Thread the needle carefully",
+              "Needle in a haystack means impossible",
+              "The nurse gave an injection needle",
+              "Sewing needle is sharp",
+              "Pine needles covered the ground",
+              "Needle him means provoke",
+              "Knitting needles click together",
+              "The needle pointed north",
+              "Needle exchange program helps addicts",
+              "Eye of the needle is small"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Thread the needle",
+                  "Use needle",
+                  "Needle carefully"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Needle in haystack",
+                  "Needle haystack",
+                  "Impossible needle"
+                ]
+              },
+              {
+                question: "What's sharp?",
+                answers: [
+                  "Sewing needle",
+                  "The needle",
+                  "Needle sharp"
+                ]
+              }
+            ]
+          },
+          {
+            word: "polish",
+            phonetic: "/ˈpɑːlɪʃ/",
+            examples: [
+              "Polish the silver until shiny",
+              "Shoe polish protects leather",
+              "Polish language is spoken",
+              "The floor needs polishing",
+              "Nail polish comes in colors",
+              "Polish your skills constantly",
+              "Furniture polish prevents dust",
+              "The polish wore off",
+              "Polish manners are refined",
+              "Polish the presentation thoroughly"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Polish the silver",
+                  "Polish it",
+                  "Start polishing"
+                ]
+              },
+              {
+                question: "What protects leather?",
+                answers: [
+                  "Shoe polish",
+                  "Polish protects",
+                  "Leather polish"
+                ]
+              },
+              {
+                question: "What needs doing?",
+                answers: [
+                  "Floor needs polishing",
+                  "Needs polish",
+                  "Polish floor"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sew",
+            phonetic: "/soʊ/",
+            examples: [
+              "Can you sew a button",
+              "She learned to sew clothes",
+              "Sew the torn fabric",
+              "Sewing machine makes it easier",
+              "He can't sew at all",
+              "Sew up means complete",
+              "Sew seeds of doubt means create",
+              "Sew the hem carefully",
+              "Tailor can sew anything",
+              "Sew by hand takes time"
+            ],
+            questions: [
+              {
+                question: "Can you do it?",
+                answers: [
+                  "Can you sew",
+                  "Sew button",
+                  "Know how to sew"
+                ]
+              },
+              {
+                question: "What did she learn?",
+                answers: [
+                  "Learned to sew",
+                  "Sew clothes",
+                  "Sewing skills"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Sew the fabric",
+                  "Sew hem",
+                  "Start sewing"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shed",
+            phonetic: "/ʃed/",
+            examples: [
+              "The tools are in the shed",
+              "Trees shed their leaves",
+              "Snake sheds its skin",
+              "Shed light on means explain",
+              "The dog sheds hair everywhere",
+              "Garden shed stores equipment",
+              "Shed tears means cry",
+              "The building was a large shed",
+              "Shed pounds means lose weight",
+              "Shed blood in battle"
+            ],
+            questions: [
+              {
+                question: "Where are the tools?",
+                answers: [
+                  "In the shed",
+                  "The shed",
+                  "Shed location"
+                ]
+              },
+              {
+                question: "What do trees do?",
+                answers: [
+                  "Shed their leaves",
+                  "Trees shed",
+                  "Shed leaves"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "Shed light on",
+                  "Shed tears",
+                  "Shed explains"
+                ]
+              }
+            ]
+          },
+          {
+            word: "thread",
+            phonetic: "/θred/",
+            examples: [
+              "The thread broke while sewing",
+              "Thread the needle first",
+              "Common thread connects them",
+              "Thread through the holes",
+              "Lose the thread means confused",
+              "Cotton thread is strong",
+              "Thread of conversation continued",
+              "Thread your way through crowd",
+              "The thread wore thin",
+              "Thread count affects quality"
+            ],
+            questions: [
+              {
+                question: "What broke?",
+                answers: [
+                  "The thread broke",
+                  "Thread snapped",
+                  "Thread broke"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Thread the needle",
+                  "Thread through",
+                  "Thread it"
+                ]
+              },
+              {
+                question: "What connects them?",
+                answers: [
+                  "Common thread",
+                  "Thread connects",
+                  "Thread links"
+                ]
+              }
+            ]
+          },
+          {
+            word: "trim",
+            phonetic: "/trɪm/",
+            examples: [
+              "Trim the hedges regularly",
+              "She needs a hair trim",
+              "Trim excess fat from meat",
+              "The house has white trim",
+              "Trim means in good shape",
+              "Trim the budget carefully",
+              "Christmas tree trim is beautiful",
+              "Trim your nails please",
+              "Trim figure means slim",
+              "Trim the edges straight"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Trim the hedges",
+                  "Trim it",
+                  "Start trimming"
+                ]
+              },
+              {
+                question: "What does she need?",
+                answers: [
+                  "Hair trim",
+                  "Needs trim",
+                  "A trim"
+                ]
+              },
+              {
+                question: "What's on the house?",
+                answers: [
+                  "White trim",
+                  "The trim",
+                  "House trim"
+                ]
+              }
+            ]
+          },
+          {
+            word: "upwards",
+            phonetic: "/ˈʌpwərdz/",
+            examples: [
+              "The arrow points upwards",
+              "Prices are moving upwards",
+              "Look upwards at the sky",
+              "Upwards of one hundred people came",
+              "The trend is upwards",
+              "Climb upwards slowly",
+              "Upwards mobility means progress",
+              "Face upwards when lying down",
+              "The balloon floated upwards",
+              "Upwards of ten thousand dollars"
+            ],
+            questions: [
+              {
+                question: "Which way does it point?",
+                answers: [
+                  "Points upwards",
+                  "Arrow upwards",
+                  "Goes upwards"
+                ]
+              },
+              {
+                question: "Where are prices going?",
+                answers: [
+                  "Moving upwards",
+                  "Upwards trend",
+                  "Going upwards"
+                ]
+              },
+              {
+                question: "Where should I look?",
+                answers: [
+                  "Look upwards",
+                  "Upwards at sky",
+                  "Face upwards"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit9",
+        words: [
+          {
+            word: "ally",
+            phonetic: "/ˈælaɪ/",
+            examples: [
+              "France is an ally of America",
+              "She became his strongest ally",
+              "The two countries are allies",
+              "Ally yourself with good people",
+              "He found an unexpected ally",
+              "Business allies help each other",
+              "The allies won the war",
+              "Political ally supported the campaign",
+              "Natural ally in the fight",
+              "Ally with those who share values"
+            ],
+            questions: [
+              {
+                question: "What is France?",
+                answers: [
+                  "An ally",
+                  "America's ally",
+                  "Allied country"
+                ]
+              },
+              {
+                question: "Who supports him?",
+                answers: [
+                  "His ally",
+                  "Strongest ally",
+                  "The ally"
+                ]
+              },
+              {
+                question: "Who won the war?",
+                answers: [
+                  "The allies",
+                  "Allied forces",
+                  "Allies won"
+                ]
+              }
+            ]
+          },
+          {
+            word: "boast",
+            phonetic: "/boʊst/",
+            examples: [
+              "Don't boast about your achievements",
+              "He boasts of his success",
+              "She made an empty boast",
+              "The city boasts many museums",
+              "Without boasting I can say",
+              "His boast was justified",
+              "Boast too much and people dislike you",
+              "The hotel boasts excellent service",
+              "Stop boasting about your grades",
+              "Proud boast of the team"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't boast",
+                  "Not boast",
+                  "Stop boasting"
+                ]
+              },
+              {
+                question: "What does the city have?",
+                answers: [
+                  "City boasts museums",
+                  "Boasts many",
+                  "Can boast"
+                ]
+              },
+              {
+                question: "What did he do?",
+                answers: [
+                  "He boasts",
+                  "Made boast",
+                  "Boasts success"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bounce",
+            phonetic: "/baʊns/",
+            examples: [
+              "The ball bounced high",
+              "She bounced back from illness",
+              "The check bounced from insufficient funds",
+              "Children bounce on the bed",
+              "Bounce ideas off each other",
+              "The email bounced back",
+              "He has a bounce in his step",
+              "Bounce house at the party",
+              "The ball lost its bounce",
+              "Bounce back means recover"
+            ],
+            questions: [
+              {
+                question: "What did the ball do?",
+                answers: [
+                  "Ball bounced",
+                  "Bounced high",
+                  "It bounced"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "She bounced back",
+                  "Bounced from illness",
+                  "Recovered bounce"
+                ]
+              },
+              {
+                question: "What's wrong with the check?",
+                answers: [
+                  "Check bounced",
+                  "It bounced",
+                  "Bounced back"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bully",
+            phonetic: "/ˈbʊli/",
+            examples: [
+              "The bully picked on smaller kids",
+              "Don't let anyone bully you",
+              "School bully was expelled",
+              "He bullied his way through",
+              "Workplace bully creates problems",
+              "Stand up to the bully",
+              "Bully for you means good for you",
+              "She was bullied online",
+              "The bully apologized eventually",
+              "Anti-bullying campaign at school"
+            ],
+            questions: [
+              {
+                question: "Who picked on kids?",
+                answers: [
+                  "The bully did",
+                  "School bully",
+                  "A bully"
+                ]
+              },
+              {
+                question: "What shouldn't happen?",
+                answers: [
+                  "Don't let bully",
+                  "No bullying",
+                  "Stop bully"
+                ]
+              },
+              {
+                question: "What happened to her?",
+                answers: [
+                  "She was bullied",
+                  "Got bullied",
+                  "Bullied online"
+                ]
+              }
+            ]
+          },
+          {
+            word: "carbohydrate",
+            phonetic: "/ˌkɑːrboʊˈhaɪdreɪt/",
+            examples: [
+              "Bread contains many carbohydrates",
+              "Carbohydrates provide energy quickly",
+              "Low carbohydrate diet is popular",
+              "Complex carbohydrates are healthier",
+              "Athletes need carbohydrates for fuel",
+              "Simple carbohydrates digest fast",
+              "Reduce carbohydrate intake to lose weight",
+              "Carbohydrates turn into sugar",
+              "Pasta is high in carbohydrates",
+              "Carbohydrate loading before marathons"
+            ],
+            questions: [
+              {
+                question: "What does bread contain?",
+                answers: [
+                  "Many carbohydrates",
+                  "Carbohydrates",
+                  "Contains carbs"
+                ]
+              },
+              {
+                question: "What provides energy?",
+                answers: [
+                  "Carbohydrates do",
+                  "Carbohydrates provide",
+                  "Carbs provide"
+                ]
+              },
+              {
+                question: "What do athletes need?",
+                answers: [
+                  "Need carbohydrates",
+                  "Carbohydrates fuel",
+                  "Carbs needed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "crawl",
+            phonetic: "/krɔːl/",
+            examples: [
+              "The baby is learning to crawl",
+              "Traffic crawled along slowly",
+              "Crawl before you walk",
+              "The snake crawled through grass",
+              "Pub crawl means visiting bars",
+              "She had to crawl through tunnel",
+              "Time crawled by slowly",
+              "The website is slow to crawl",
+              "Crawl into bed exhausted",
+              "Make your skin crawl means disgust"
+            ],
+            questions: [
+              {
+                question: "What's the baby doing?",
+                answers: [
+                  "Learning to crawl",
+                  "Baby crawling",
+                  "Crawl now"
+                ]
+              },
+              {
+                question: "How was traffic?",
+                answers: [
+                  "Traffic crawled",
+                  "Crawled slowly",
+                  "Crawling along"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Crawl before walk",
+                  "Must crawl first",
+                  "Crawl then walk"
+                ]
+              }
+            ]
+          },
+          {
+            word: "defeat",
+            phonetic: "/dɪˈfiːt/",
+            examples: [
+              "Our team suffered a defeat",
+              "They defeated the enemy completely",
+              "Defeat is not an option",
+              "The defeat was unexpected",
+              "She defeated him in chess",
+              "Admit defeat and move on",
+              "The bill was defeated in senate",
+              "Defeat the purpose means undermine",
+              "Crushing defeat for the team",
+              "Never accept defeat easily"
+            ],
+            questions: [
+              {
+                question: "What happened to the team?",
+                answers: [
+                  "Suffered defeat",
+                  "Team defeated",
+                  "Got defeat"
+                ]
+              },
+              {
+                question: "What did they do?",
+                answers: [
+                  "Defeated enemy",
+                  "They defeated",
+                  "Victory defeat"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Admit defeat",
+                  "Accept defeat",
+                  "Never defeat"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dial",
+            phonetic: "/ˈdaɪəl/",
+            examples: [
+              "Dial the number carefully",
+              "The clock has a large dial",
+              "Dial nine one one for emergency",
+              "Turn the dial to adjust",
+              "Speed dial saves time",
+              "The dial tone indicates ready",
+              "Sundial tells time by shadow",
+              "Dial back means reduce",
+              "He dialed the wrong number",
+              "Temperature dial on the oven"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Dial the number",
+                  "Dial carefully",
+                  "Start dialing"
+                ]
+              },
+              {
+                question: "What's on the clock?",
+                answers: [
+                  "A large dial",
+                  "Clock dial",
+                  "The dial"
+                ]
+              },
+              {
+                question: "What for emergency?",
+                answers: [
+                  "Dial nine one one",
+                  "Dial emergency",
+                  "Emergency dial"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dominant",
+            phonetic: "/ˈdɑːmɪnənt/",
+            examples: [
+              "The dominant team won easily",
+              "She has a dominant personality",
+              "Dominant hand is usually right",
+              "The dominant color is blue",
+              "Dominant gene determines traits",
+              "Dominant position in the market",
+              "Alpha male is dominant",
+              "Dominant culture influences others",
+              "The dominant player scored most",
+              "Dominant force in the industry"
+            ],
+            questions: [
+              {
+                question: "What kind of team?",
+                answers: [
+                  "Dominant team",
+                  "The dominant",
+                  "Team dominant"
+                ]
+              },
+              {
+                question: "What's her personality?",
+                answers: [
+                  "Dominant personality",
+                  "She's dominant",
+                  "Dominant nature"
+                ]
+              },
+              {
+                question: "Which hand?",
+                answers: [
+                  "Dominant hand",
+                  "The dominant",
+                  "Dominant right"
+                ]
+              }
+            ]
+          },
+          {
+            word: "entire",
+            phonetic: "/ɪnˈtaɪər/",
+            examples: [
+              "The entire class was present",
+              "She ate the entire pizza",
+              "Entire country celebrated together",
+              "The entire building collapsed",
+              "Entire family gathered for dinner",
+              "Read the entire book",
+              "Entire life devoted to science",
+              "The entire truth was revealed",
+              "Entire team worked hard",
+              "Spend entire day at beach"
+            ],
+            questions: [
+              {
+                question: "Who was present?",
+                answers: [
+                  "Entire class",
+                  "The entire",
+                  "Entire group"
+                ]
+              },
+              {
+                question: "How much did she eat?",
+                answers: [
+                  "Entire pizza",
+                  "The entire",
+                  "Entire thing"
+                ]
+              },
+              {
+                question: "Who celebrated?",
+                answers: [
+                  "Entire country",
+                  "Entire nation",
+                  "The entire"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mercy",
+            phonetic: "/ˈmɜːrsi/",
+            examples: [
+              "Show mercy to your enemies",
+              "At the mercy of the weather",
+              "He begged for mercy",
+              "Mercy killing is controversial",
+              "Have mercy on the poor",
+              "Without mercy they attacked",
+              "Thank mercy for that",
+              "Mercy mission to help victims",
+              "The judge showed no mercy",
+              "Mercy prevailed over justice"
+            ],
+            questions: [
+              {
+                question: "What should you show?",
+                answers: [
+                  "Show mercy",
+                  "Have mercy",
+                  "Give mercy"
+                ]
+              },
+              {
+                question: "What did he beg for?",
+                answers: [
+                  "Begged for mercy",
+                  "Asked mercy",
+                  "Mercy please"
+                ]
+              },
+              {
+                question: "What did the judge show?",
+                answers: [
+                  "No mercy",
+                  "Showed mercy",
+                  "Without mercy"
+                ]
+              }
+            ]
+          },
+          {
+            word: "nod",
+            phonetic: "/nɑːd/",
+            examples: [
+              "She nodded her head in agreement",
+              "He gave a quick nod",
+              "Nod off means fall asleep",
+              "The land of Nod means sleep",
+              "Nod to someone across room",
+              "Give the nod means approve",
+              "He nodded sagely",
+              "Nod yes or shake no",
+              "On the nod means credit",
+              "The audience nodded along"
+            ],
+            questions: [
+              {
+                question: "What did she do?",
+                answers: [
+                  "Nodded her head",
+                  "She nodded",
+                  "Gave nod"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "Nod off sleep",
+                  "Give nod approve",
+                  "Nod means yes"
+                ]
+              },
+              {
+                question: "What did he give?",
+                answers: [
+                  "A quick nod",
+                  "He nodded",
+                  "Gave nod"
+                ]
+              }
+            ]
+          },
+          {
+            word: "opponent",
+            phonetic: "/əˈpoʊnənt/",
+            examples: [
+              "His opponent was very strong",
+              "The opponents shook hands",
+              "Political opponent criticized the policy",
+              "She defeated her opponent easily",
+              "Respect your opponent always",
+              "Formidable opponent in debate",
+              "The opponent scored first",
+              "Face your opponents with courage",
+              "Worthy opponent makes you better",
+              "The opponent conceded defeat"
+            ],
+            questions: [
+              {
+                question: "Who was strong?",
+                answers: [
+                  "His opponent",
+                  "The opponent",
+                  "Opponent strong"
+                ]
+              },
+              {
+                question: "Who shook hands?",
+                answers: [
+                  "The opponents",
+                  "Opponents did",
+                  "Both opponents"
+                ]
+              },
+              {
+                question: "Who should you respect?",
+                answers: [
+                  "Your opponent",
+                  "Respect opponent",
+                  "The opponent"
+                ]
+              }
+            ]
+          },
+          {
+            word: "quarrel",
+            phonetic: "/ˈkwɔːrəl/",
+            examples: [
+              "They had a quarrel yesterday",
+              "Don't quarrel with your friends",
+              "The quarrel was about money",
+              "Lovers' quarrel is temporary",
+              "No quarrel with that decision",
+              "The quarrel escalated quickly",
+              "Pick a quarrel means start fight",
+              "The quarrel was resolved",
+              "Petty quarrel over nothing",
+              "They quarrel constantly"
+            ],
+            questions: [
+              {
+                question: "What did they have?",
+                answers: [
+                  "Had a quarrel",
+                  "A quarrel",
+                  "They quarreled"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't quarrel",
+                  "Not quarrel",
+                  "Stop quarreling"
+                ]
+              },
+              {
+                question: "What was it about?",
+                answers: [
+                  "Quarrel about money",
+                  "Money quarrel",
+                  "Quarrel over"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rival",
+            phonetic: "/ˈraɪvl/",
+            examples: [
+              "His rival beat him in race",
+              "Business rivals compete fiercely",
+              "The rival team won",
+              "She has no rivals in talent",
+              "Rival companies merged together",
+              "Political rivals debated issues",
+              "The rivals became friends",
+              "Arch rival means main competitor",
+              "Nothing rivals home cooking",
+              "The rival bid was higher"
+            ],
+            questions: [
+              {
+                question: "Who beat him?",
+                answers: [
+                  "His rival",
+                  "The rival",
+                  "Rival beat"
+                ]
+              },
+              {
+                question: "Who competes fiercely?",
+                answers: [
+                  "Business rivals",
+                  "Rivals compete",
+                  "The rivals"
+                ]
+              },
+              {
+                question: "Who won?",
+                answers: [
+                  "Rival team",
+                  "The rival",
+                  "Rivals won"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sore",
+            phonetic: "/sɔːr/",
+            examples: [
+              "My muscles are very sore",
+              "Sore throat makes swallowing hard",
+              "Don't be a sore loser",
+              "The wound is still sore",
+              "Sore point means sensitive topic",
+              "She has sore feet",
+              "Sight for sore eyes means welcome",
+              "Sore subject to avoid",
+              "Cold sore on her lip",
+              "Sore from yesterday's workout"
+            ],
+            questions: [
+              {
+                question: "How are your muscles?",
+                answers: [
+                  "Very sore",
+                  "Muscles sore",
+                  "They're sore"
+                ]
+              },
+              {
+                question: "What shouldn't you be?",
+                answers: [
+                  "Sore loser",
+                  "Don't be sore",
+                  "Not sore"
+                ]
+              },
+              {
+                question: "What's sensitive?",
+                answers: [
+                  "Sore point",
+                  "Sore subject",
+                  "Sore topic"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sting",
+            phonetic: "/stɪŋ/",
+            examples: [
+              "The bee sting hurts badly",
+              "Jellyfish sting is painful",
+              "That comment really stung",
+              "Eyes sting from the smoke",
+              "The sting operation caught criminals",
+              "Take the sting out means reduce pain",
+              "Nettle sting causes irritation",
+              "The criticism stung deeply",
+              "Sting in the tail means surprise",
+              "The medicine stings a bit"
+            ],
+            questions: [
+              {
+                question: "What hurts?",
+                answers: [
+                  "The bee sting",
+                  "Sting hurts",
+                  "It stings"
+                ]
+              },
+              {
+                question: "What's painful?",
+                answers: [
+                  "Jellyfish sting",
+                  "The sting",
+                  "Sting painful"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Comment stung",
+                  "It stung",
+                  "Stung deeply"
+                ]
+              }
+            ]
+          },
+          {
+            word: "strain",
+            phonetic: "/streɪn/",
+            examples: [
+              "Don't strain your eyes reading",
+              "He strained his back lifting",
+              "Financial strain affected them",
+              "The strain was too much",
+              "Strain the pasta water",
+              "Muscle strain needs rest",
+              "Under great strain at work",
+              "The strain showed on his face",
+              "Strain relations between countries",
+              "Eye strain from computer"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't strain eyes",
+                  "Not strain",
+                  "Avoid strain"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Strained his back",
+                  "He strained",
+                  "Back strain"
+                ]
+              },
+              {
+                question: "What affected them?",
+                answers: [
+                  "Financial strain",
+                  "The strain",
+                  "Strain affected"
+                ]
+              }
+            ]
+          },
+          {
+            word: "torture",
+            phonetic: "/ˈtɔːrtʃər/",
+            examples: [
+              "Torture is illegal everywhere",
+              "The wait was pure torture",
+              "Don't torture yourself with guilt",
+              "Medieval torture methods were cruel",
+              "The suspense is torture",
+              "Torture chamber held prisoners",
+              "Mental torture can be worse",
+              "He was tortured for information",
+              "Torture test means extreme conditions",
+              "Slow torture waiting for results"
+            ],
+            questions: [
+              {
+                question: "What's illegal?",
+                answers: [
+                  "Torture is",
+                  "Torture illegal",
+                  "All torture"
+                ]
+              },
+              {
+                question: "How was the wait?",
+                answers: [
+                  "Pure torture",
+                  "Was torture",
+                  "Torture waiting"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't torture yourself",
+                  "Not torture",
+                  "Stop torture"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wrestle",
+            phonetic: "/ˈresl/",
+            examples: [
+              "The boys wrestle in the yard",
+              "Wrestle with a difficult problem",
+              "Professional wrestlers perform",
+              "He wrestled the thief down",
+              "Wrestle control from someone",
+              "They wrestle for the championship",
+              "Wrestle with your conscience",
+              "Arm wrestle to decide",
+              "She wrestles with the decision",
+              "Wrestle free from the grip"
+            ],
+            questions: [
+              {
+                question: "What do the boys do?",
+                answers: [
+                  "Boys wrestle",
+                  "They wrestle",
+                  "Wrestle together"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Wrestle with problem",
+                  "Wrestle it",
+                  "Wrestle decision"
+                ]
+              },
+              {
+                question: "What did he do?",
+                answers: [
+                  "Wrestled thief down",
+                  "He wrestled",
+                  "Wrestled him"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit10",
+        words: [
+          {
+            word: "absence",
+            phonetic: "/ˈæbsəns/",
+            examples: [
+              "His absence was noticed immediately",
+              "In the absence of evidence",
+              "Absence makes the heart grow fonder",
+              "The teacher marked her absence",
+              "Absence from work requires notice",
+              "Notable absence at the meeting",
+              "Absence of proof is not proof",
+              "Long absence from home",
+              "Conspicuous by your absence",
+              "Absence without leave is serious"
+            ],
+            questions: [
+              {
+                question: "What was noticed?",
+                answers: [
+                  "His absence",
+                  "The absence",
+                  "Absence noticed"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Absence grows fonder",
+                  "Absence heart",
+                  "Fonder absence"
+                ]
+              },
+              {
+                question: "What did the teacher mark?",
+                answers: [
+                  "Her absence",
+                  "Marked absence",
+                  "Absence marked"
+                ]
+              }
+            ]
+          },
+          {
+            word: "aloud",
+            phonetic: "/əˈlaʊd/",
+            examples: [
+              "Read the passage aloud please",
+              "She thought aloud during the meeting",
+              "Laugh out aloud at the joke",
+              "Speak aloud so everyone hears",
+              "Reading aloud helps comprehension",
+              "He said his thoughts aloud",
+              "Not allowed to talk aloud",
+              "Cry aloud for help",
+              "Think aloud when problem solving",
+              "The teacher read aloud to class"
+            ],
+            questions: [
+              {
+                question: "How should I read?",
+                answers: [
+                  "Read aloud",
+                  "Aloud please",
+                  "Out aloud"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "Thought aloud",
+                  "Said aloud",
+                  "Spoke aloud"
+                ]
+              },
+              {
+                question: "How should you speak?",
+                answers: [
+                  "Speak aloud",
+                  "Talk aloud",
+                  "Say aloud"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bald",
+            phonetic: "/bɔːld/",
+            examples: [
+              "He went bald at thirty",
+              "The bald eagle is majestic",
+              "Bald statement of the facts",
+              "Bald tires need replacing",
+              "Bald head shines in sunlight",
+              "Going bald runs in families",
+              "Bald faced lie means obvious",
+              "The mountain top is bald",
+              "Bald patch on his head",
+              "Bald truth is hard to hear"
+            ],
+            questions: [
+              {
+                question: "What happened to him?",
+                answers: [
+                  "Went bald",
+                  "He's bald",
+                  "Going bald"
+                ]
+              },
+              {
+                question: "What kind of eagle?",
+                answers: [
+                  "Bald eagle",
+                  "The bald",
+                  "Eagle bald"
+                ]
+              },
+              {
+                question: "What needs replacing?",
+                answers: [
+                  "Bald tires",
+                  "Tires bald",
+                  "Bald worn"
+                ]
+              }
+            ]
+          },
+          {
+            word: "blanket",
+            phonetic: "/ˈblæŋkɪt/",
+            examples: [
+              "The blanket keeps you warm",
+              "Snow formed a white blanket",
+              "Blanket statement covers everything",
+              "Security blanket provides comfort",
+              "Electric blanket heats the bed",
+              "Blanket ban means total prohibition",
+              "Wet blanket means spoilsport",
+              "The blanket of fog covered city",
+              "Blanket coverage of the event",
+              "Pull the blanket over yourself"
+            ],
+            questions: [
+              {
+                question: "What keeps you warm?",
+                answers: [
+                  "The blanket",
+                  "Blanket does",
+                  "Warm blanket"
+                ]
+              },
+              {
+                question: "What covered everything?",
+                answers: [
+                  "Blanket of snow",
+                  "White blanket",
+                  "Blanket covered"
+                ]
+              },
+              {
+                question: "What kind of statement?",
+                answers: [
+                  "Blanket statement",
+                  "Blanket covers",
+                  "General blanket"
+                ]
+              }
+            ]
+          },
+          {
+            word: "creep",
+            phonetic: "/kriːp/",
+            examples: [
+              "Don't creep up on me",
+              "The ivy creeps up the wall",
+              "Time creeps by slowly",
+              "That guy gives me the creeps",
+              "Creep into bed quietly",
+              "Prices creep upward gradually",
+              "Mission creep means expanding scope",
+              "The cat crept toward the mouse",
+              "Creep around the house",
+              "Makes my skin creep"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't creep up",
+                  "Not creep",
+                  "Stop creeping"
+                ]
+              },
+              {
+                question: "What does the ivy do?",
+                answers: [
+                  "Creeps up wall",
+                  "Ivy creeps",
+                  "Creeps upward"
+                ]
+              },
+              {
+                question: "How does he make you feel?",
+                answers: [
+                  "Gives me creeps",
+                  "The creeps",
+                  "Creeps me out"
+                ]
+              }
+            ]
+          },
+          {
+            word: "divorce",
+            phonetic: "/dɪˈvɔːrs/",
+            examples: [
+              "They got divorced last year",
+              "Divorce rate is increasing",
+              "The divorce was finalized",
+              "Divorce yourself from negative thoughts",
+              "Messy divorce took years",
+              "Divorce proceedings are difficult",
+              "Divorce settlement was fair",
+              "She filed for divorce",
+              "Divorce papers were signed",
+              "Amicable divorce is rare"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "They got divorced",
+                  "Got divorce",
+                  "Divorced last year"
+                ]
+              },
+              {
+                question: "What's increasing?",
+                answers: [
+                  "Divorce rate",
+                  "Rate divorce",
+                  "Divorces increasing"
+                ]
+              },
+              {
+                question: "What did she file?",
+                answers: [
+                  "Filed for divorce",
+                  "Divorce papers",
+                  "Divorce filed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "imitate",
+            phonetic: "/ˈɪmɪteɪt/",
+            examples: [
+              "Children imitate their parents",
+              "He can imitate any accent",
+              "Don't imitate bad behavior",
+              "Imitation is the sincerest flattery",
+              "She imitates celebrities perfectly",
+              "Birds imitate human speech",
+              "Imitate the teacher's movements",
+              "The painting imitates real life",
+              "Try to imitate this sound",
+              "Products that imitate the original"
+            ],
+            questions: [
+              {
+                question: "What do children do?",
+                answers: [
+                  "Imitate parents",
+                  "Children imitate",
+                  "They imitate"
+                ]
+              },
+              {
+                question: "What can he do?",
+                answers: [
+                  "Imitate any accent",
+                  "He imitates",
+                  "Can imitate"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't imitate bad",
+                  "Not imitate",
+                  "Avoid imitating"
+                ]
+              }
+            ]
+          },
+          {
+            word: "infant",
+            phonetic: "/ˈɪnfənt/",
+            examples: [
+              "The infant is sleeping peacefully",
+              "Infant mortality rate has decreased",
+              "Infant formula provides nutrition",
+              "Care for infants requires patience",
+              "Infant stage lasts one year",
+              "The infant cried loudly",
+              "Infant development is rapid",
+              "Infant seat in the car",
+              "Premature infant needs special care",
+              "Infant clothes are tiny"
+            ],
+            questions: [
+              {
+                question: "Who's sleeping?",
+                answers: [
+                  "The infant is",
+                  "Infant sleeping",
+                  "Baby infant"
+                ]
+              },
+              {
+                question: "What has decreased?",
+                answers: [
+                  "Infant mortality",
+                  "Infant death rate",
+                  "Mortality infant"
+                ]
+              },
+              {
+                question: "What provides nutrition?",
+                answers: [
+                  "Infant formula",
+                  "Formula infant",
+                  "Infant food"
+                ]
+              }
+            ]
+          },
+          {
+            word: "kidnap",
+            phonetic: "/ˈkɪdnæp/",
+            examples: [
+              "The child was kidnapped yesterday",
+              "Kidnapping is a serious crime",
+              "They kidnapped him for ransom",
+              "The kidnap victim was found",
+              "Attempted kidnap was thwarted",
+              "Kidnap plot was discovered",
+              "The kidnappers demanded money",
+              "Fear of kidnapping is real",
+              "Kidnap insurance is available",
+              "The kidnap took place at night"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "Child was kidnapped",
+                  "Kidnapped yesterday",
+                  "Got kidnapped"
+                ]
+              },
+              {
+                question: "What's serious?",
+                answers: [
+                  "Kidnapping is",
+                  "Kidnap crime",
+                  "Kidnapping serious"
+                ]
+              },
+              {
+                question: "Why did they kidnap?",
+                answers: [
+                  "For ransom",
+                  "Kidnapped ransom",
+                  "Ransom kidnap"
+                ]
+              }
+            ]
+          },
+          {
+            word: "nap",
+            phonetic: "/næp/",
+            examples: [
+              "Take a short nap after lunch",
+              "The baby needs a nap",
+              "Power nap boosts energy",
+              "He napped on the couch",
+              "Afternoon nap is refreshing",
+              "Cat nap means brief sleep",
+              "She naps every day",
+              "Caught napping means unprepared",
+              "The nap lasted an hour",
+              "Nap time at kindergarten"
+            ],
+            questions: [
+              {
+                question: "What should I take?",
+                answers: [
+                  "Take a nap",
+                  "Short nap",
+                  "Quick nap"
+                ]
+              },
+              {
+                question: "What does the baby need?",
+                answers: [
+                  "Needs a nap",
+                  "Baby nap",
+                  "Nap time"
+                ]
+              },
+              {
+                question: "What boosts energy?",
+                answers: [
+                  "Power nap",
+                  "Nap boosts",
+                  "Quick nap"
+                ]
+              }
+            ]
+          },
+          {
+            word: "nowhere",
+            phonetic: "/ˈnoʊwer/",
+            examples: [
+              "We're going nowhere fast",
+              "The house is in the middle of nowhere",
+              "Nowhere to be found",
+              "Nowhere near finished yet",
+              "Get nowhere with this approach",
+              "Nowhere else to go",
+              "Come out of nowhere suddenly",
+              "Leading nowhere productive",
+              "Nowhere close to the answer",
+              "Road to nowhere"
+            ],
+            questions: [
+              {
+                question: "Where are we going?",
+                answers: [
+                  "Going nowhere",
+                  "Nowhere fast",
+                  "Not nowhere"
+                ]
+              },
+              {
+                question: "Where's the house?",
+                answers: [
+                  "Middle of nowhere",
+                  "Nowhere place",
+                  "Nowhere location"
+                ]
+              },
+              {
+                question: "Where can they be found?",
+                answers: [
+                  "Nowhere found",
+                  "Nowhere to find",
+                  "Not nowhere"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pat",
+            phonetic: "/pæt/",
+            examples: [
+              "Pat the dog gently",
+              "She gave him a pat on back",
+              "Pat answer sounds rehearsed",
+              "Pat yourself on the back",
+              "He patted her shoulder reassuringly",
+              "Stand pat means stay firm",
+              "Pat of butter on toast",
+              "Pat dry with a towel",
+              "Got it down pat means mastered",
+              "Pat on the head"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Pat the dog",
+                  "Pat gently",
+                  "Give pat"
+                ]
+              },
+              {
+                question: "What did she give?",
+                answers: [
+                  "Pat on back",
+                  "A pat",
+                  "Gave pat"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "Got down pat",
+                  "Pat mastered",
+                  "Stand pat"
+                ]
+              }
+            ]
+          },
+          {
+            word: "relief",
+            phonetic: "/rɪˈliːf/",
+            examples: [
+              "What a relief that's over",
+              "Pain relief medication helps",
+              "Relief from stress is needed",
+              "The relief was visible",
+              "Disaster relief efforts began",
+              "Relief pitcher entered the game",
+              "Tax relief for families",
+              "Breathe a sigh of relief",
+              "Comic relief lightens mood",
+              "Relief map shows elevation"
+            ],
+            questions: [
+              {
+                question: "How do you feel?",
+                answers: [
+                  "What a relief",
+                  "Such relief",
+                  "Feel relief"
+                ]
+              },
+              {
+                question: "What helps?",
+                answers: [
+                  "Pain relief",
+                  "Relief medication",
+                  "Relief helps"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Relief from stress",
+                  "Need relief",
+                  "Relief needed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "reproduce",
+            phonetic: "/ˌriːprəˈduːs/",
+            examples: [
+              "Animals reproduce to survive",
+              "Reproduce the results exactly",
+              "The painting was reproduced",
+              "Reproduce the experiment carefully",
+              "Cannot reproduce without permission",
+              "The printer reproduces colors well",
+              "Cells reproduce constantly",
+              "Reproduce copyrighted material is illegal",
+              "The sound reproduces faithfully",
+              "Reproduce conditions in the lab"
+            ],
+            questions: [
+              {
+                question: "Why do animals do it?",
+                answers: [
+                  "Animals reproduce",
+                  "To survive reproduce",
+                  "Reproduce survive"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Reproduce results",
+                  "Reproduce exactly",
+                  "Reproduce experiment"
+                ]
+              },
+              {
+                question: "What's illegal?",
+                answers: [
+                  "Reproduce copyrighted",
+                  "Reproduce material",
+                  "Cannot reproduce"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rhyme",
+            phonetic: "/raɪm/",
+            examples: [
+              "The words rhyme perfectly",
+              "Nursery rhymes are traditional",
+              "Without rhyme or reason means senseless",
+              "The poem has a rhyme scheme",
+              "Orange doesn't rhyme with anything",
+              "Rhyme and rhythm together",
+              "Make up a rhyme",
+              "The rhyme is catchy",
+              "Rhyme time at kindergarten",
+              "Rhyming couplets end lines"
+            ],
+            questions: [
+              {
+                question: "What do the words do?",
+                answers: [
+                  "Words rhyme",
+                  "They rhyme",
+                  "Rhyme perfectly"
+                ]
+              },
+              {
+                question: "What are traditional?",
+                answers: [
+                  "Nursery rhymes",
+                  "Rhymes traditional",
+                  "Traditional rhymes"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Without rhyme reason",
+                  "Rhyme or reason",
+                  "No rhyme"
+                ]
+              }
+            ]
+          },
+          {
+            word: "suck",
+            phonetic: "/sʌk/",
+            examples: [
+              "The baby sucks his thumb",
+              "Vacuum cleaner sucks up dirt",
+              "That movie really sucks",
+              "Suck it up means endure",
+              "The drain sucks water down",
+              "Don't get sucked into drama",
+              "Suck the juice through straw",
+              "Leeches suck blood",
+              "The job sucks all my energy",
+              "Suck up to the boss"
+            ],
+            questions: [
+              {
+                question: "What does the baby do?",
+                answers: [
+                  "Sucks his thumb",
+                  "Baby sucks",
+                  "Sucks thumb"
+                ]
+              },
+              {
+                question: "What does the vacuum do?",
+                answers: [
+                  "Sucks up dirt",
+                  "Vacuum sucks",
+                  "Sucks dirt"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Suck it up",
+                  "Suck up",
+                  "Just suck"
+                ]
+              }
+            ]
+          },
+          {
+            word: "urgent",
+            phonetic: "/ˈɜːrdʒənt/",
+            examples: [
+              "This is an urgent matter",
+              "Urgent care center treats emergencies",
+              "The message was urgent",
+              "Urgent need for action",
+              "Urgent meeting called immediately",
+              "The situation is urgent",
+              "Urgent delivery required",
+              "Urgent tone in her voice",
+              "Most urgent priority first",
+              "Urgent request for help"
+            ],
+            questions: [
+              {
+                question: "What kind of matter?",
+                answers: [
+                  "Urgent matter",
+                  "It's urgent",
+                  "Very urgent"
+                ]
+              },
+              {
+                question: "What was the message?",
+                answers: [
+                  "Message urgent",
+                  "Was urgent",
+                  "Urgent message"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Urgent need",
+                  "Urgent action",
+                  "Need urgent"
+                ]
+              }
+            ]
+          },
+          {
+            word: "vanish",
+            phonetic: "/ˈvænɪʃ/",
+            examples: [
+              "The magician made it vanish",
+              "My keys vanished into thin air",
+              "The pain vanished immediately",
+              "Species vanish every year",
+              "He vanished without a trace",
+              "The crowd vanished quickly",
+              "Her smile vanished instantly",
+              "The opportunity vanished",
+              "Vanishing point in perspective drawing",
+              "The ship vanished over horizon"
+            ],
+            questions: [
+              {
+                question: "What did the magician do?",
+                answers: [
+                  "Made it vanish",
+                  "Vanished it",
+                  "Made vanish"
+                ]
+              },
+              {
+                question: "What happened to the keys?",
+                answers: [
+                  "Keys vanished",
+                  "Vanished away",
+                  "They vanished"
+                ]
+              },
+              {
+                question: "What happened to the pain?",
+                answers: [
+                  "Pain vanished",
+                  "Vanished immediately",
+                  "It vanished"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wagon",
+            phonetic: "/ˈwæɡən/",
+            examples: [
+              "The wagon carried supplies",
+              "Circle the wagons means defend",
+              "Red wagon for pulling kids",
+              "Station wagon is a car type",
+              "On the wagon means not drinking",
+              "Covered wagon crossed the plains",
+              "Bandwagon means popular trend",
+              "Wagon train headed west",
+              "Fall off the wagon means relapse",
+              "The wagon wheel broke"
+            ],
+            questions: [
+              {
+                question: "What carried supplies?",
+                answers: [
+                  "The wagon",
+                  "Wagon carried",
+                  "Supply wagon"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Circle wagons",
+                  "On wagon",
+                  "Wagon means"
+                ]
+              },
+              {
+                question: "What crossed the plains?",
+                answers: [
+                  "Covered wagon",
+                  "Wagon train",
+                  "Wagons crossed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wrinkle",
+            phonetic: "/ˈrɪŋkl/",
+            examples: [
+              "Iron out the wrinkles",
+              "Wrinkles appear with age",
+              "Don't wrinkle the paper",
+              "Face cream reduces wrinkles",
+              "A new wrinkle means complication",
+              "Her dress had wrinkles",
+              "Wrinkle free fabric is convenient",
+              "Wrinkle your nose in disgust",
+              "The wrinkles smoothed out",
+              "Time wrinkles the skin"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Iron wrinkles",
+                  "Remove wrinkles",
+                  "Smooth wrinkles"
+                ]
+              },
+              {
+                question: "What appears with age?",
+                answers: [
+                  "Wrinkles appear",
+                  "Wrinkles come",
+                  "Get wrinkles"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't wrinkle paper",
+                  "Not wrinkle",
+                  "Avoid wrinkling"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit11",
+        words: [
+          {
+            word: "architecture",
+            phonetic: "/ˈɑːrkɪtektʃər/",
+            examples: [
+              "The architecture of the building is stunning",
+              "She studies architecture at university",
+              "Gothic architecture is magnificent",
+              "Modern architecture uses glass and steel",
+              "Computer architecture refers to design",
+              "The city has beautiful architecture",
+              "Architecture combines art and engineering",
+              "Roman architecture influenced many styles",
+              "Green architecture is environmentally friendly",
+              "Architecture degree takes five years"
+            ],
+            questions: [
+              {
+                question: "What's stunning?",
+                answers: [
+                  "The architecture",
+                  "Building architecture",
+                  "Architecture stunning"
+                ]
+              },
+              {
+                question: "What does she study?",
+                answers: [
+                  "Studies architecture",
+                  "Architecture major",
+                  "Architecture student"
+                ]
+              },
+              {
+                question: "What's magnificent?",
+                answers: [
+                  "Gothic architecture",
+                  "Architecture magnificent",
+                  "Gothic style"
+                ]
+              }
+            ]
+          },
+          {
+            word: "basket",
+            phonetic: "/ˈbæskɪt/",
+            examples: [
+              "Put the fruit in the basket",
+              "Basketball goes through the basket",
+              "Shopping basket is full",
+              "Picnic basket holds food",
+              "Laundry basket needs emptying",
+              "Easter basket has eggs",
+              "Don't put all eggs in one basket",
+              "Waste basket is for trash",
+              "Gift basket is a nice present",
+              "Basket weaving is traditional craft"
+            ],
+            questions: [
+              {
+                question: "Where should I put it?",
+                answers: [
+                  "In the basket",
+                  "Put in basket",
+                  "Basket place"
+                ]
+              },
+              {
+                question: "What's full?",
+                answers: [
+                  "Shopping basket",
+                  "Basket full",
+                  "The basket"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Eggs one basket",
+                  "Basket saying",
+                  "Don't basket"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bloom",
+            phonetic: "/bluːm/",
+            examples: [
+              "The flowers bloom in spring",
+              "She's in the bloom of youth",
+              "Late bloomer develops slowly",
+              "The roses are in full bloom",
+              "Bloom where you're planted",
+              "Cherry blossoms bloom beautifully",
+              "The bloom faded quickly",
+              "Business is blooming successfully",
+              "Take the bloom off means spoil",
+              "The garden blooms every year"
+            ],
+            questions: [
+              {
+                question: "When do flowers bloom?",
+                answers: [
+                  "Bloom in spring",
+                  "Flowers bloom",
+                  "Spring bloom"
+                ]
+              },
+              {
+                question: "What's she in?",
+                answers: [
+                  "Bloom of youth",
+                  "Youth bloom",
+                  "In bloom"
+                ]
+              },
+              {
+                question: "What's the advice?",
+                answers: [
+                  "Bloom where planted",
+                  "Bloom planted",
+                  "Where bloom"
+                ]
+              }
+            ]
+          },
+          {
+            word: "canoe",
+            phonetic: "/kəˈnuː/",
+            examples: [
+              "They paddled the canoe across lake",
+              "Canoe trip down the river",
+              "Birch bark canoe is traditional",
+              "Learn to canoe at camp",
+              "The canoe tipped over",
+              "Canoe racing is competitive",
+              "Paddle your own canoe means independent",
+              "Two person canoe is stable",
+              "Canoe through calm waters",
+              "The canoe glided smoothly"
+            ],
+            questions: [
+              {
+                question: "What did they paddle?",
+                answers: [
+                  "Paddled the canoe",
+                  "The canoe",
+                  "Canoe across"
+                ]
+              },
+              {
+                question: "What kind of trip?",
+                answers: [
+                  "Canoe trip",
+                  "Trip canoe",
+                  "Canoe down"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Paddle own canoe",
+                  "Canoe independent",
+                  "Own canoe"
+                ]
+              }
+            ]
+          },
+          {
+            word: "carpet",
+            phonetic: "/ˈkɑːrpɪt/",
+            examples: [
+              "The carpet needs cleaning",
+              "Red carpet for celebrities",
+              "Sweep under the carpet means hide",
+              "Wall to wall carpet covers floor",
+              "Magic carpet flies in stories",
+              "Carpet matches the curtains",
+              "Roll out the red carpet",
+              "Carpet burn from friction",
+              "Persian carpet is valuable",
+              "Carpet bombing is military term"
+            ],
+            questions: [
+              {
+                question: "What needs cleaning?",
+                answers: [
+                  "The carpet",
+                  "Carpet needs",
+                  "Needs carpet"
+                ]
+              },
+              {
+                question: "What's for celebrities?",
+                answers: [
+                  "Red carpet",
+                  "Carpet red",
+                  "Celebrity carpet"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Sweep under carpet",
+                  "Carpet sweep",
+                  "Under carpet"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cousin",
+            phonetic: "/ˈkʌzn/",
+            examples: [
+              "My cousin lives in another city",
+              "First cousin shares grandparents",
+              "Cousin relationship is family",
+              "Second cousin is more distant",
+              "Her cousin visited last week",
+              "Cousin by marriage is related",
+              "Country cousin means rural person",
+              "Kissing cousin means close relative",
+              "Meet your cousins at reunion",
+              "Cousin once removed means generation"
+            ],
+            questions: [
+              {
+                question: "Who lives there?",
+                answers: [
+                  "My cousin",
+                  "The cousin",
+                  "Cousin lives"
+                ]
+              },
+              {
+                question: "What shares grandparents?",
+                answers: [
+                  "First cousin",
+                  "Cousin shares",
+                  "Cousin relationship"
+                ]
+              },
+              {
+                question: "Who visited?",
+                answers: [
+                  "Her cousin",
+                  "Cousin visited",
+                  "The cousin"
+                ]
+              }
+            ]
+          },
+          {
+            word: "desk",
+            phonetic: "/desk/",
+            examples: [
+              "Sit at your desk and study",
+              "The desk is cluttered with papers",
+              "Front desk handles check in",
+              "Desk job means office work",
+              "Organize your desk space",
+              "Help desk assists customers",
+              "Writing desk has drawers",
+              "Desk lamp provides light",
+              "Clear your desk before leaving",
+              "Standing desk is healthier"
+            ],
+            questions: [
+              {
+                question: "Where should I sit?",
+                answers: [
+                  "At your desk",
+                  "Desk sit",
+                  "Your desk"
+                ]
+              },
+              {
+                question: "What's cluttered?",
+                answers: [
+                  "The desk",
+                  "Desk cluttered",
+                  "Desk messy"
+                ]
+              },
+              {
+                question: "What handles check in?",
+                answers: [
+                  "Front desk",
+                  "Desk front",
+                  "Reception desk"
+                ]
+              }
+            ]
+          },
+          {
+            word: "gallery",
+            phonetic: "/ˈɡæləri/",
+            examples: [
+              "The art gallery opens at ten",
+              "Visit the gallery this weekend",
+              "Play to the gallery means showoff",
+              "Gallery seats are in balcony",
+              "Shooting gallery has targets",
+              "Online gallery displays photos",
+              "National gallery has masterpieces",
+              "Gallery opening attracts crowds",
+              "Rogues gallery shows criminals",
+              "Gallery wall displays many pictures"
+            ],
+            questions: [
+              {
+                question: "When does it open?",
+                answers: [
+                  "Gallery opens ten",
+                  "Art gallery",
+                  "Opens ten"
+                ]
+              },
+              {
+                question: "What should we visit?",
+                answers: [
+                  "Visit gallery",
+                  "The gallery",
+                  "Gallery weekend"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Play to gallery",
+                  "Gallery showoff",
+                  "Play gallery"
+                ]
+              }
+            ]
+          },
+          {
+            word: "guest",
+            phonetic: "/ɡest/",
+            examples: [
+              "The guest arrived early",
+              "Be my guest means go ahead",
+              "Guest room has extra bed",
+              "Guest of honor at party",
+              "Guest speaker gave lecture",
+              "Hotel guest checked in",
+              "Paying guest stays temporarily",
+              "Guest list includes everyone invited",
+              "Unwelcome guest should leave",
+              "Guest appearance on TV show"
+            ],
+            questions: [
+              {
+                question: "Who arrived early?",
+                answers: [
+                  "The guest",
+                  "Guest arrived",
+                  "Our guest"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Be my guest",
+                  "Guest go ahead",
+                  "My guest"
+                ]
+              },
+              {
+                question: "What has extra bed?",
+                answers: [
+                  "Guest room",
+                  "Room guest",
+                  "Guest bedroom"
+                ]
+              }
+            ]
+          },
+          {
+            word: "host",
+            phonetic: "/hoʊst/",
+            examples: [
+              "The host welcomed everyone warmly",
+              "Host the party at my house",
+              "TV host interviews guests",
+              "Host city for the Olympics",
+              "Host of problems arose",
+              "Web host provides server space",
+              "Host plant supports parasites",
+              "Host family welcomes students",
+              "Host defense protects body",
+              "Host country provides venue"
+            ],
+            questions: [
+              {
+                question: "Who welcomed everyone?",
+                answers: [
+                  "The host",
+                  "Host welcomed",
+                  "Our host"
+                ]
+              },
+              {
+                question: "Where should we party?",
+                answers: [
+                  "Host at house",
+                  "Host party",
+                  "My house host"
+                ]
+              },
+              {
+                question: "Who interviews guests?",
+                answers: [
+                  "TV host",
+                  "The host",
+                  "Host interviews"
+                ]
+              }
+            ]
+          },
+          {
+            word: "July",
+            phonetic: "/dʒuˈlaɪ/",
+            examples: [
+              "July is the seventh month",
+              "Independence Day is in July",
+              "July weather is very hot",
+              "Summer vacation begins in July",
+              "Fourth of July celebrates America",
+              "July comes after June",
+              "Born in July makes you Cancer",
+              "July has thirty one days",
+              "Mid July is peak summer",
+              "July temperatures soar high"
+            ],
+            questions: [
+              {
+                question: "What month is it?",
+                answers: [
+                  "It's July",
+                  "Seventh month",
+                  "July month"
+                ]
+              },
+              {
+                question: "When is Independence Day?",
+                answers: [
+                  "In July",
+                  "July fourth",
+                  "July holiday"
+                ]
+              },
+              {
+                question: "How's the weather?",
+                answers: [
+                  "July very hot",
+                  "July weather hot",
+                  "Hot July"
+                ]
+              }
+            ]
+          },
+          {
+            word: "modern",
+            phonetic: "/ˈmɑːdərn/",
+            examples: [
+              "Modern technology changes constantly",
+              "Modern art is controversial",
+              "Modern times are different",
+              "Modern conveniences make life easier",
+              "Modern architecture uses new materials",
+              "Modern medicine saves lives",
+              "Modern world moves fast",
+              "Ultra modern design is sleek",
+              "Modern history begins recently",
+              "Modern lifestyle is busy"
+            ],
+            questions: [
+              {
+                question: "What changes constantly?",
+                answers: [
+                  "Modern technology",
+                  "Technology modern",
+                  "Modern tech"
+                ]
+              },
+              {
+                question: "What's controversial?",
+                answers: [
+                  "Modern art",
+                  "Art modern",
+                  "Modern style"
+                ]
+              },
+              {
+                question: "What saves lives?",
+                answers: [
+                  "Modern medicine",
+                  "Medicine modern",
+                  "Modern medical"
+                ]
+              }
+            ]
+          },
+          {
+            word: "museum",
+            phonetic: "/mjuˈziːəm/",
+            examples: [
+              "The museum displays ancient artifacts",
+              "Visit the museum on weekends",
+              "Natural history museum has dinosaurs",
+              "Museum admission is free today",
+              "Art museum has famous paintings",
+              "Museum curator organizes exhibits",
+              "Science museum is interactive",
+              "Museum hours are limited",
+              "Museum gift shop sells souvenirs",
+              "Museum tour lasts two hours"
+            ],
+            questions: [
+              {
+                question: "What displays artifacts?",
+                answers: [
+                  "The museum",
+                  "Museum displays",
+                  "Museum shows"
+                ]
+              },
+              {
+                question: "What should we visit?",
+                answers: [
+                  "Visit museum",
+                  "The museum",
+                  "Museum visit"
+                ]
+              },
+              {
+                question: "What has dinosaurs?",
+                answers: [
+                  "Natural history museum",
+                  "Museum has",
+                  "History museum"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pink",
+            phonetic: "/pɪŋk/",
+            examples: [
+              "She wore a pink dress",
+              "Pink is a light red color",
+              "In the pink means healthy",
+              "Pink slip means fired",
+              "Pink ribbon supports breast cancer",
+              "Tickled pink means very pleased",
+              "Pink eye is an infection",
+              "Pink flamingos are beautiful",
+              "Pretty in pink outfit",
+              "Pink sunset was gorgeous"
+            ],
+            questions: [
+              {
+                question: "What did she wear?",
+                answers: [
+                  "Pink dress",
+                  "Wore pink",
+                  "A pink"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "In pink healthy",
+                  "Pink slip fired",
+                  "Tickled pink"
+                ]
+              },
+              {
+                question: "What color is it?",
+                answers: [
+                  "It's pink",
+                  "Pink color",
+                  "Light pink"
+                ]
+              }
+            ]
+          },
+          {
+            word: "plane",
+            phonetic: "/pleɪn/",
+            examples: [
+              "The plane took off on time",
+              "Catch a plane to New York",
+              "Paper plane flies through air",
+              "Plane geometry is two dimensional",
+              "Carpenter's plane smooths wood",
+              "Plane of existence is metaphysical",
+              "Fighter plane is military aircraft",
+              "Plane ticket was expensive",
+              "Plane crash investigation ongoing",
+              "Plane lands at airport"
+            ],
+            questions: [
+              {
+                question: "What took off?",
+                answers: [
+                  "The plane",
+                  "Plane took off",
+                  "Airplane plane"
+                ]
+              },
+              {
+                question: "What should I catch?",
+                answers: [
+                  "Catch plane",
+                  "A plane",
+                  "Plane flight"
+                ]
+              },
+              {
+                question: "What smooths wood?",
+                answers: [
+                  "Carpenter's plane",
+                  "Plane smooths",
+                  "Wood plane"
+                ]
+              }
+            ]
+          },
+          {
+            word: "refrigerator",
+            phonetic: "/rɪˈfrɪdʒəreɪtər/",
+            examples: [
+              "Put the milk in the refrigerator",
+              "The refrigerator keeps food cold",
+              "Refrigerator broke down yesterday",
+              "Clean the refrigerator weekly",
+              "Refrigerator magnet holds notes",
+              "Refrigerator door stays open",
+              "New refrigerator is energy efficient",
+              "Refrigerator temperature should be cold",
+              "Refrigerator light comes on",
+              "Refrigerator makes noise"
+            ],
+            questions: [
+              {
+                question: "Where should I put it?",
+                answers: [
+                  "In refrigerator",
+                  "Put refrigerator",
+                  "Refrigerator inside"
+                ]
+              },
+              {
+                question: "What keeps food cold?",
+                answers: [
+                  "The refrigerator",
+                  "Refrigerator keeps",
+                  "Refrigerator does"
+                ]
+              },
+              {
+                question: "What broke down?",
+                answers: [
+                  "Refrigerator broke",
+                  "The refrigerator",
+                  "Refrigerator down"
+                ]
+              }
+            ]
+          },
+          {
+            word: "temperature",
+            phonetic: "/ˈtemprətʃər/",
+            examples: [
+              "Check the temperature outside",
+              "Body temperature is ninety eight point six",
+              "Temperature rises in summer",
+              "Take your temperature with thermometer",
+              "Room temperature is comfortable",
+              "Temperature drops at night",
+              "Running a temperature means fever",
+              "Temperature control is automatic",
+              "Global temperature is increasing",
+              "Temperature gauge shows reading"
+            ],
+            questions: [
+              {
+                question: "What should I check?",
+                answers: [
+                  "Check temperature",
+                  "The temperature",
+                  "Temperature outside"
+                ]
+              },
+              {
+                question: "What's normal?",
+                answers: [
+                  "Body temperature",
+                  "Temperature normal",
+                  "Ninety eight"
+                ]
+              },
+              {
+                question: "What rises in summer?",
+                answers: [
+                  "Temperature rises",
+                  "Temperature increases",
+                  "Temperature up"
+                ]
+              }
+            ]
+          },
+          {
+            word: "theater",
+            phonetic: "/ˈθiːətər/",
+            examples: [
+              "The theater shows movies nightly",
+              "Theater performance was excellent",
+              "Operating theater is for surgery",
+              "Movie theater has big screen",
+              "Theater tickets sold out",
+              "Community theater involves locals",
+              "Theater district has many venues",
+              "Theater arts include acting",
+              "Drive in theater is outdoors",
+              "Theater seats are comfortable"
+            ],
+            questions: [
+              {
+                question: "What shows movies?",
+                answers: [
+                  "The theater",
+                  "Theater shows",
+                  "Movie theater"
+                ]
+              },
+              {
+                question: "How was the performance?",
+                answers: [
+                  "Theater performance excellent",
+                  "Was excellent",
+                  "Performance excellent"
+                ]
+              },
+              {
+                question: "What sold out?",
+                answers: [
+                  "Theater tickets",
+                  "Tickets sold",
+                  "Theater seats"
+                ]
+              }
+            ]
+          },
+          {
+            word: "upper",
+            phonetic: "/ˈʌpər/",
+            examples: [
+              "The upper floor has bedrooms",
+              "Upper class is wealthy",
+              "Upper hand means advantage",
+              "Upper lip should be stiff",
+              "Upper limit is maximum",
+              "Shoe upper is top part",
+              "Upper deck has better view",
+              "Upper case letters are capitals",
+              "Upper management makes decisions",
+              "Upper body strength matters"
+            ],
+            questions: [
+              {
+                question: "What has bedrooms?",
+                answers: [
+                  "Upper floor",
+                  "The upper",
+                  "Upper level"
+                ]
+              },
+              {
+                question: "What means advantage?",
+                answers: [
+                  "Upper hand",
+                  "Hand upper",
+                  "Have upper"
+                ]
+              },
+              {
+                question: "Who makes decisions?",
+                answers: [
+                  "Upper management",
+                  "Management upper",
+                  "Upper decides"
+                ]
+              }
+            ]
+          },
+          {
+            word: "welcome",
+            phonetic: "/ˈwelkəm/",
+            examples: [
+              "Welcome to our home",
+              "You're welcome for the help",
+              "Warm welcome awaited them",
+              "Welcome mat says hello",
+              "Welcome news indeed",
+              "Overstay your welcome means too long",
+              "Welcome change from routine",
+              "Welcome aboard the team",
+              "Welcome party for newcomers",
+              "Welcome sign greets visitors"
+            ],
+            questions: [
+              {
+                question: "What do you say?",
+                answers: [
+                  "Welcome home",
+                  "You're welcome",
+                  "Welcome here"
+                ]
+              },
+              {
+                question: "What awaited them?",
+                answers: [
+                  "Warm welcome",
+                  "Welcome awaited",
+                  "A welcome"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Overstay welcome",
+                  "Welcome too long",
+                  "Stay welcome"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit12",
+        words: [
+          {
+            word: "anticipate",
+            phonetic: "/ænˈtɪsɪpeɪt/",
+            examples: [
+              "We anticipate problems ahead",
+              "Anticipate customer needs in advance",
+              "I anticipate seeing you soon",
+              "They anticipate good results",
+              "Anticipate the worst and prepare",
+              "The crowd anticipates the announcement",
+              "Hard to anticipate what happens",
+              "We anticipate your arrival tomorrow",
+              "Anticipate future trends carefully",
+              "She anticipated his reaction perfectly"
+            ],
+            questions: [
+              {
+                question: "What do we expect?",
+                answers: [
+                  "Anticipate problems",
+                  "We anticipate",
+                  "Anticipate ahead"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Anticipate needs",
+                  "Anticipate worst",
+                  "Anticipate future"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "Anticipated reaction",
+                  "She anticipated",
+                  "Anticipated perfectly"
+                ]
+              }
+            ]
+          },
+          {
+            word: "barrel",
+            phonetic: "/ˈbærəl/",
+            examples: [
+              "The barrel holds fifty gallons",
+              "Wine ages in oak barrels",
+              "Over a barrel means helpless",
+              "Gun barrel must be clean",
+              "Pork barrel spending is wasteful",
+              "Barrel of laughs means fun",
+              "Barrel racing is a rodeo event",
+              "Bottom of the barrel means worst",
+              "The barrel rolled down hill",
+              "Lock stock and barrel means everything"
+            ],
+            questions: [
+              {
+                question: "What holds liquid?",
+                answers: [
+                  "The barrel",
+                  "Barrel holds",
+                  "Wine barrel"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Over a barrel",
+                  "Barrel laughs",
+                  "Bottom barrel"
+                ]
+              },
+              {
+                question: "What must be clean?",
+                answers: [
+                  "Gun barrel",
+                  "Barrel clean",
+                  "The barrel"
+                ]
+              }
+            ]
+          },
+          {
+            word: "beam",
+            phonetic: "/biːm/",
+            examples: [
+              "The beam supports the roof",
+              "Sunlight beams through the window",
+              "She beamed with pride and joy",
+              "Laser beam is concentrated light",
+              "Balance beam requires skill",
+              "Off the beam means wrong",
+              "Light beam travels in straight line",
+              "Wooden beam is structural support",
+              "He beamed a smile broadly",
+              "Beam me up is from Star Trek"
+            ],
+            questions: [
+              {
+                question: "What supports the roof?",
+                answers: [
+                  "The beam",
+                  "Beam supports",
+                  "Wooden beam"
+                ]
+              },
+              {
+                question: "How did she look?",
+                answers: [
+                  "She beamed",
+                  "Beamed pride",
+                  "Beamed with"
+                ]
+              },
+              {
+                question: "What's concentrated light?",
+                answers: [
+                  "Laser beam",
+                  "Light beam",
+                  "Beam light"
+                ]
+              }
+            ]
+          },
+          {
+            word: "casual",
+            phonetic: "/ˈkæʒuəl/",
+            examples: [
+              "Dress code is casual today",
+              "Casual conversation about weather",
+              "Casual relationship is not serious",
+              "Casual Friday allows jeans",
+              "Casual observer wouldn't notice",
+              "Casual acquaintance not close friend",
+              "Casual dining is informal",
+              "Casual attitude about work",
+              "Casual glance at the paper",
+              "Casual wear is comfortable"
+            ],
+            questions: [
+              {
+                question: "What's the dress code?",
+                answers: [
+                  "Dress casual",
+                  "Casual today",
+                  "Casual code"
+                ]
+              },
+              {
+                question: "What kind of conversation?",
+                answers: [
+                  "Casual conversation",
+                  "Casual talk",
+                  "Casual chat"
+                ]
+              },
+              {
+                question: "What's Friday?",
+                answers: [
+                  "Casual Friday",
+                  "Friday casual",
+                  "Casual day"
+                ]
+              }
+            ]
+          },
+          {
+            word: "caution",
+            phonetic: "/ˈkɔːʃn/",
+            examples: [
+              "Proceed with caution carefully",
+              "Caution sign warns of danger",
+              "Exercise caution when driving",
+              "Caution to the wind means reckless",
+              "The officer cautioned him",
+              "Word of caution before starting",
+              "Caution tape blocks area",
+              "Err on the side of caution",
+              "Caution is advisable here",
+              "Police caution is a warning"
+            ],
+            questions: [
+              {
+                question: "How should we proceed?",
+                answers: [
+                  "With caution",
+                  "Proceed caution",
+                  "Use caution"
+                ]
+              },
+              {
+                question: "What warns of danger?",
+                answers: [
+                  "Caution sign",
+                  "Sign caution",
+                  "Caution warning"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Caution to wind",
+                  "Err side caution",
+                  "Exercise caution"
+                ]
+              }
+            ]
+          },
+          {
+            word: "contrary",
+            phonetic: "/ˈkɑːntreri/",
+            examples: [
+              "On the contrary I agree",
+              "Contrary to popular belief",
+              "Contrary winds slowed the ship",
+              "She has a contrary nature",
+              "Evidence to the contrary exists",
+              "Contrary opinions are welcome",
+              "Quite the contrary actually",
+              "Contrary to expectations it succeeded",
+              "His actions were contrary",
+              "Contrary evidence was presented"
+            ],
+            questions: [
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "On the contrary",
+                  "Quite contrary",
+                  "Contrary to"
+                ]
+              },
+              {
+                question: "What's her nature?",
+                answers: [
+                  "Contrary nature",
+                  "She's contrary",
+                  "Contrary person"
+                ]
+              },
+              {
+                question: "What exists?",
+                answers: [
+                  "Evidence contrary",
+                  "Contrary evidence",
+                  "To contrary"
+                ]
+              }
+            ]
+          },
+          {
+            word: "deliberate",
+            phonetic: "/dɪˈlɪbərət/",
+            examples: [
+              "It was a deliberate choice",
+              "The jury will deliberate today",
+              "Deliberate actions have consequences",
+              "Speak in a deliberate manner",
+              "Deliberate pace is slow",
+              "Deliberate effort was made",
+              "They deliberated for hours",
+              "Deliberate attempt to mislead",
+              "Deliberate and careful planning",
+              "Deliberate sabotage was suspected"
+            ],
+            questions: [
+              {
+                question: "What kind of choice?",
+                answers: [
+                  "Deliberate choice",
+                  "Was deliberate",
+                  "Deliberate decision"
+                ]
+              },
+              {
+                question: "What will the jury do?",
+                answers: [
+                  "Jury deliberate",
+                  "Will deliberate",
+                  "Deliberate today"
+                ]
+              },
+              {
+                question: "How should you speak?",
+                answers: [
+                  "Deliberate manner",
+                  "Speak deliberate",
+                  "Deliberate way"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dissolve",
+            phonetic: "/dɪˈzɑːlv/",
+            examples: [
+              "Sugar dissolves in water",
+              "The company dissolved last year",
+              "Dissolve the tablet completely",
+              "Their partnership dissolved",
+              "Dissolve into tears means cry",
+              "The marriage was dissolved",
+              "Dissolve parliament and call election",
+              "The pill dissolves quickly",
+              "Problems dissolved over time",
+              "Dissolve the mixture thoroughly"
+            ],
+            questions: [
+              {
+                question: "What happens to sugar?",
+                answers: [
+                  "Sugar dissolves",
+                  "Dissolves water",
+                  "It dissolves"
+                ]
+              },
+              {
+                question: "What happened to the company?",
+                answers: [
+                  "Company dissolved",
+                  "It dissolved",
+                  "Dissolved last year"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Dissolve tablet",
+                  "Dissolve completely",
+                  "Dissolve mixture"
+                ]
+              }
+            ]
+          },
+          {
+            word: "explode",
+            phonetic: "/ɪkˈsploʊd/",
+            examples: [
+              "The bomb could explode anytime",
+              "The population exploded rapidly",
+              "Don't let anger explode",
+              "The myth was exploded",
+              "Explode with laughter loudly",
+              "The fireworks exploded beautifully",
+              "His temper exploded suddenly",
+              "The theory was exploded",
+              "Exploding star is a supernova",
+              "The gas tank might explode"
+            ],
+            questions: [
+              {
+                question: "What could happen?",
+                answers: [
+                  "Bomb could explode",
+                  "Might explode",
+                  "Could explode"
+                ]
+              },
+              {
+                question: "What happened rapidly?",
+                answers: [
+                  "Population exploded",
+                  "Exploded rapidly",
+                  "It exploded"
+                ]
+              },
+              {
+                question: "What shouldn't you let happen?",
+                answers: [
+                  "Anger explode",
+                  "Don't explode",
+                  "Let explode"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fasten",
+            phonetic: "/ˈfæsn/",
+            examples: [
+              "Fasten your seatbelt immediately",
+              "Fasten the buttons on shirt",
+              "Fasten the door securely",
+              "Fasten blame on someone means accuse",
+              "The clasp won't fasten",
+              "Fasten attention on the speaker",
+              "Fasten the rope tightly",
+              "Fasten down the cargo",
+              "The buckle fastens easily",
+              "Fasten your eyes on this"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Fasten seatbelt",
+                  "Fasten it",
+                  "Fasten buttons"
+                ]
+              },
+              {
+                question: "What won't work?",
+                answers: [
+                  "Clasp won't fasten",
+                  "Won't fasten",
+                  "Can't fasten"
+                ]
+              },
+              {
+                question: "What does it mean?",
+                answers: [
+                  "Fasten blame",
+                  "Fasten attention",
+                  "Fasten on"
+                ]
+              }
+            ]
+          },
+          {
+            word: "germ",
+            phonetic: "/dʒɜːrm/",
+            examples: [
+              "Germs cause disease and illness",
+              "Wash hands to kill germs",
+              "Germ of an idea means beginning",
+              "Wheat germ is nutritious",
+              "The germ spreads quickly",
+              "Germ theory revolutionized medicine",
+              "Germ free environment is sterile",
+              "The germ of truth exists",
+              "Germs multiply rapidly",
+              "Kill germs with disinfectant"
+            ],
+            questions: [
+              {
+                question: "What causes disease?",
+                answers: [
+                  "Germs cause",
+                  "Germs do",
+                  "Disease germs"
+                ]
+              },
+              {
+                question: "Why wash hands?",
+                answers: [
+                  "Kill germs",
+                  "Remove germs",
+                  "Germs wash"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Germ of idea",
+                  "Germ beginning",
+                  "Germ truth"
+                ]
+              }
+            ]
+          },
+          {
+            word: "kit",
+            phonetic: "/kɪt/",
+            examples: [
+              "First aid kit has bandages",
+              "Tool kit contains everything needed",
+              "Kit and caboodle means everything",
+              "Model kit requires assembly",
+              "Drum kit has many pieces",
+              "Survival kit is essential",
+              "The whole kit means all",
+              "Sewing kit has thread",
+              "Emergency kit in car",
+              "Kit form means unassembled"
+            ],
+            questions: [
+              {
+                question: "What has bandages?",
+                answers: [
+                  "First aid kit",
+                  "Aid kit",
+                  "The kit"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Kit and caboodle",
+                  "Whole kit",
+                  "Kit everything"
+                ]
+              },
+              {
+                question: "What requires assembly?",
+                answers: [
+                  "Model kit",
+                  "Kit form",
+                  "Kit unassembled"
+                ]
+              }
+            ]
+          },
+          {
+            word: "puff",
+            phonetic: "/pʌf/",
+            examples: [
+              "Take a puff of the cigarette",
+              "Puff pastry is light and flaky",
+              "Huff and puff means breathe hard",
+              "Powder puff applies makeup",
+              "The dragon puffed smoke",
+              "Puff up with pride",
+              "Cream puff is a dessert",
+              "Puff of wind moved curtain",
+              "He puffed out his chest",
+              "Puff piece means flattering article"
+            ],
+            questions: [
+              {
+                question: "What's the pastry?",
+                answers: [
+                  "Puff pastry",
+                  "Pastry puff",
+                  "Puff flaky"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Huff and puff",
+                  "Puff breathe",
+                  "Puff hard"
+                ]
+              },
+              {
+                question: "What did the dragon do?",
+                answers: [
+                  "Puffed smoke",
+                  "Dragon puffed",
+                  "Puffed out"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rag",
+            phonetic: "/ræɡ/",
+            examples: [
+              "Use a rag to clean",
+              "From rags to riches story",
+              "Don't rag on me constantly",
+              "Old rag for wiping",
+              "Rag doll is soft toy",
+              "Red rag to a bull means provocation",
+              "The rag was dirty",
+              "Lose your rag means angry",
+              "Glad rags means fancy clothes",
+              "Rag and bone man collects"
+            ],
+            questions: [
+              {
+                question: "What should I use?",
+                answers: [
+                  "Use a rag",
+                  "Rag clean",
+                  "Cleaning rag"
+                ]
+              },
+              {
+                question: "What's the story?",
+                answers: [
+                  "Rags to riches",
+                  "Rag riches",
+                  "Rags story"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't rag on",
+                  "Not rag",
+                  "Stop ragging"
+                ]
+              }
+            ]
+          },
+          {
+            word: "scatter",
+            phonetic: "/ˈskætər/",
+            examples: [
+              "Scatter the seeds on ground",
+              "The crowd scattered quickly",
+              "Scatter cushions on the sofa",
+              "Papers scattered everywhere",
+              "Scatter brain forgets things",
+              "Wind scattered the leaves",
+              "Scatter shot approach is random",
+              "They scattered in all directions",
+              "Scatter the ashes at sea",
+              "The birds scattered suddenly"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Scatter seeds",
+                  "Scatter them",
+                  "Scatter ground"
+                ]
+              },
+              {
+                question: "What did the crowd do?",
+                answers: [
+                  "Crowd scattered",
+                  "Scattered quickly",
+                  "They scattered"
+                ]
+              },
+              {
+                question: "What did the wind do?",
+                answers: [
+                  "Wind scattered",
+                  "Scattered leaves",
+                  "Scattered them"
+                ]
+              }
+            ]
+          },
+          {
+            word: "scent",
+            phonetic: "/sent/",
+            examples: [
+              "The scent of roses filled air",
+              "Dogs follow the scent",
+              "Put someone off the scent means mislead",
+              "Perfume has a pleasant scent",
+              "The scent was overpowering",
+              "Scent of danger in the air",
+              "Pick up the scent means detect",
+              "Fresh scent of pine",
+              "The scent trail was cold",
+              "Scent of success motivates"
+            ],
+            questions: [
+              {
+                question: "What filled the air?",
+                answers: [
+                  "Scent of roses",
+                  "The scent",
+                  "Rose scent"
+                ]
+              },
+              {
+                question: "What do dogs follow?",
+                answers: [
+                  "Follow scent",
+                  "The scent",
+                  "Scent trail"
+                ]
+              },
+              {
+                question: "What was pleasant?",
+                answers: [
+                  "Pleasant scent",
+                  "Perfume scent",
+                  "The scent"
+                ]
+              }
+            ]
+          },
+          {
+            word: "steel",
+            phonetic: "/stiːl/",
+            examples: [
+              "Steel is a strong metal",
+              "Steel yourself for bad news",
+              "Nerves of steel means brave",
+              "Steel industry is important",
+              "The bridge is made of steel",
+              "Steel wool cleans surfaces",
+              "Cold steel means knife or sword",
+              "Steel gray color is dark",
+              "Steel determination showed",
+              "Stainless steel doesn't rust"
+            ],
+            questions: [
+              {
+                question: "What's strong?",
+                answers: [
+                  "Steel is",
+                  "Steel metal",
+                  "Strong steel"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Steel yourself",
+                  "Steel for news",
+                  "Steel prepare"
+                ]
+              },
+              {
+                question: "What means brave?",
+                answers: [
+                  "Nerves of steel",
+                  "Steel nerves",
+                  "Steel brave"
+                ]
+              }
+            ]
+          },
+          {
+            word: "swift",
+            phonetic: "/swɪft/",
+            examples: [
+              "Swift response was appreciated",
+              "The bird flew swift and sure",
+              "Swift action prevented disaster",
+              "Swift as an arrow",
+              "Swift current pulled them",
+              "Swift justice was delivered",
+              "Swift changes occurred suddenly",
+              "Swift runner won the race",
+              "Swift to anger means quick temper",
+              "The punishment was swift"
+            ],
+            questions: [
+              {
+                question: "What was appreciated?",
+                answers: [
+                  "Swift response",
+                  "Response swift",
+                  "Swift reply"
+                ]
+              },
+              {
+                question: "How did the bird fly?",
+                answers: [
+                  "Flew swift",
+                  "Swift sure",
+                  "Swift flight"
+                ]
+              },
+              {
+                question: "What prevented disaster?",
+                answers: [
+                  "Swift action",
+                  "Action swift",
+                  "Swift move"
+                ]
+              }
+            ]
+          },
+          {
+            word: "toss",
+            phonetic: "/tɔːs/",
+            examples: [
+              "Toss the ball to me",
+              "Toss and turn at night",
+              "Toss a coin to decide",
+              "Toss the salad well",
+              "Don't toss it away yet",
+              "Toss up means uncertain",
+              "The waves tossed the boat",
+              "Toss your hat in ring means compete",
+              "He tossed the keys",
+              "Toss out means throw away"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Toss the ball",
+                  "Toss it",
+                  "Toss to me"
+                ]
+              },
+              {
+                question: "What happens at night?",
+                answers: [
+                  "Toss and turn",
+                  "Toss turn",
+                  "Tossing turning"
+                ]
+              },
+              {
+                question: "How to decide?",
+                answers: [
+                  "Toss a coin",
+                  "Coin toss",
+                  "Toss coin"
+                ]
+              }
+            ]
+          },
+          {
+            word: "triumph",
+            phonetic: "/ˈtraɪʌmf/",
+            examples: [
+              "The victory was a triumph",
+              "Triumph over adversity inspires",
+              "She triumphed against the odds",
+              "Triumph of good over evil",
+              "The triumph was well deserved",
+              "Triumph arch celebrates victory",
+              "Personal triumph feels great",
+              "Triumph in the face of defeat",
+              "The team's triumph was unexpected",
+              "Ultimate triumph requires effort"
+            ],
+            questions: [
+              {
+                question: "What was the victory?",
+                answers: [
+                  "Was a triumph",
+                  "A triumph",
+                  "Great triumph"
+                ]
+              },
+              {
+                question: "What inspires?",
+                answers: [
+                  "Triumph over adversity",
+                  "Triumph inspires",
+                  "Over adversity"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She triumphed",
+                  "Triumphed against",
+                  "Triumphed odds"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit13",
+        words: [
+          {
+            word: "abroad",
+            phonetic: "/əˈbrɔːd/",
+            examples: [
+              "She's studying abroad this year",
+              "Travel abroad requires a passport",
+              "Living abroad is an adventure",
+              "News from abroad arrived late",
+              "Working abroad builds experience",
+              "Friends abroad send postcards",
+              "Study abroad program is popular",
+              "He moved abroad for work",
+              "Abroad means in foreign countries",
+              "Invest abroad for diversification"
+            ],
+            questions: [
+              {
+                question: "Where is she studying?",
+                answers: [
+                  "Studying abroad",
+                  "Abroad this year",
+                  "She's abroad"
+                ]
+              },
+              {
+                question: "What requires a passport?",
+                answers: [
+                  "Travel abroad",
+                  "Going abroad",
+                  "Abroad travel"
+                ]
+              },
+              {
+                question: "Where did he move?",
+                answers: [
+                  "Moved abroad",
+                  "Abroad work",
+                  "He's abroad"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bitter",
+            phonetic: "/ˈbɪtər/",
+            examples: [
+              "The coffee tastes bitter",
+              "Bitter cold froze everything",
+              "Bitter enemies for years",
+              "Bitter disappointment showed",
+              "Bitter pill to swallow means difficult",
+              "Bitter end means very end",
+              "She felt bitter about it",
+              "Bitter truth is hard",
+              "Bitter experience taught lessons",
+              "Bitter sweet memories remain"
+            ],
+            questions: [
+              {
+                question: "How does it taste?",
+                answers: [
+                  "Tastes bitter",
+                  "Coffee bitter",
+                  "Very bitter"
+                ]
+              },
+              {
+                question: "What kind of cold?",
+                answers: [
+                  "Bitter cold",
+                  "Cold bitter",
+                  "Bitter freeze"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Bitter pill",
+                  "Bitter end",
+                  "Bitter sweet"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bullet",
+            phonetic: "/ˈbʊlɪt/",
+            examples: [
+              "The bullet missed the target",
+              "Dodge a bullet means avoid danger",
+              "Bullet point lists items",
+              "Bullet train is very fast",
+              "Bite the bullet means endure",
+              "Silver bullet means perfect solution",
+              "The bullet pierced the wall",
+              "Bullet proof vest protects",
+              "Magic bullet doesn't exist",
+              "Bullet wound needs treatment"
+            ],
+            questions: [
+              {
+                question: "What missed?",
+                answers: [
+                  "The bullet",
+                  "Bullet missed",
+                  "Bullet target"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Dodge bullet",
+                  "Bite bullet",
+                  "Silver bullet"
+                ]
+              },
+              {
+                question: "What's very fast?",
+                answers: [
+                  "Bullet train",
+                  "Train bullet",
+                  "Bullet fast"
+                ]
+              }
+            ]
+          },
+          {
+            word: "devil",
+            phonetic: "/ˈdevl/",
+            examples: [
+              "The devil is in the details",
+              "Speak of the devil he appears",
+              "Devil's advocate questions everything",
+              "Better the devil you know",
+              "Devil may care attitude is reckless",
+              "Between the devil and deep sea",
+              "Play devil's advocate in debate",
+              "Give the devil his due",
+              "Devil to pay means trouble",
+              "Little devil means mischievous child"
+            ],
+            questions: [
+              {
+                question: "Where is the devil?",
+                answers: [
+                  "In the details",
+                  "Devil details",
+                  "Details devil"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Speak of devil",
+                  "Devil advocate",
+                  "Better devil know"
+                ]
+              },
+              {
+                question: "What means trouble?",
+                answers: [
+                  "Devil to pay",
+                  "Pay devil",
+                  "Devil trouble"
+                ]
+              }
+            ]
+          },
+          {
+            word: "drift",
+            phonetic: "/drɪft/",
+            examples: [
+              "The boat drifted out to sea",
+              "Snow drift blocked the road",
+              "Catch my drift means understand",
+              "Drift apart from old friends",
+              "Continental drift moves plates",
+              "The drift of conversation changed",
+              "Drift off to sleep peacefully",
+              "Get the drift of meaning",
+              "The car drifted sideways",
+              "Drift wood washed ashore"
+            ],
+            questions: [
+              {
+                question: "What happened to the boat?",
+                answers: [
+                  "Boat drifted",
+                  "Drifted out",
+                  "Drifted sea"
+                ]
+              },
+              {
+                question: "What blocked the road?",
+                answers: [
+                  "Snow drift",
+                  "Drift blocked",
+                  "Drift road"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Catch drift",
+                  "Get drift",
+                  "Drift apart"
+                ]
+              }
+            ]
+          },
+          {
+            word: "enforce",
+            phonetic: "/ɪnˈfɔːrs/",
+            examples: [
+              "Police enforce the law",
+              "Enforce the rules strictly",
+              "Difficult to enforce remotely",
+              "Enforce discipline in class",
+              "Enforce a contract legally",
+              "Enforcement agencies work together",
+              "Enforce safety regulations",
+              "The law is enforced",
+              "Enforce your rights properly",
+              "Enforce standards consistently"
+            ],
+            questions: [
+              {
+                question: "What do police do?",
+                answers: [
+                  "Enforce law",
+                  "Police enforce",
+                  "Enforce rules"
+                ]
+              },
+              {
+                question: "What should be strict?",
+                answers: [
+                  "Enforce rules",
+                  "Enforce strictly",
+                  "Strict enforcement"
+                ]
+              },
+              {
+                question: "What's difficult remotely?",
+                answers: [
+                  "Difficult enforce",
+                  "Enforce remotely",
+                  "Remote enforcement"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fountain",
+            phonetic: "/ˈfaʊntn/",
+            examples: [
+              "The fountain sprays water high",
+              "Fountain of youth is mythical",
+              "Drink from the water fountain",
+              "Fountain pen uses ink",
+              "The fountain is in the plaza",
+              "Fountain of knowledge means expert",
+              "Chocolate fountain at party",
+              "Fountain head means source",
+              "The fountain flows constantly",
+              "Soda fountain serves drinks"
+            ],
+            questions: [
+              {
+                question: "What sprays water?",
+                answers: [
+                  "The fountain",
+                  "Fountain sprays",
+                  "Water fountain"
+                ]
+              },
+              {
+                question: "What's mythical?",
+                answers: [
+                  "Fountain of youth",
+                  "Youth fountain",
+                  "Fountain youth"
+                ]
+              },
+              {
+                question: "What uses ink?",
+                answers: [
+                  "Fountain pen",
+                  "Pen fountain",
+                  "Fountain ink"
+                ]
+              }
+            ]
+          },
+          {
+            word: "harbor",
+            phonetic: "/ˈhɑːrbər/",
+            examples: [
+              "Ships anchor in the harbor",
+              "Safe harbor protects boats",
+              "Harbor resentment means hold grudge",
+              "Harbor suspicions about someone",
+              "Pearl Harbor was attacked",
+              "The harbor is busy today",
+              "Harbor a criminal is illegal",
+              "Harbor master controls port",
+              "Harbor seals live nearby",
+              "Harbor no ill will"
+            ],
+            questions: [
+              {
+                question: "Where do ships anchor?",
+                answers: [
+                  "In the harbor",
+                  "Harbor anchor",
+                  "Ships harbor"
+                ]
+              },
+              {
+                question: "What protects boats?",
+                answers: [
+                  "Safe harbor",
+                  "Harbor protects",
+                  "Harbor safe"
+                ]
+              },
+              {
+                question: "What means hold grudge?",
+                answers: [
+                  "Harbor resentment",
+                  "Harbor grudge",
+                  "Harbor ill"
+                ]
+              }
+            ]
+          },
+          {
+            word: "inhabit",
+            phonetic: "/ɪnˈhæbɪt/",
+            examples: [
+              "Animals inhabit the forest",
+              "People inhabit every continent",
+              "Fish inhabit the ocean",
+              "The house is inhabited",
+              "Inhabit a fantasy world",
+              "Creatures inhabit the cave",
+              "Tribes inhabit the island",
+              "Birds inhabit the trees",
+              "Inhabit hostile environments",
+              "Spirits inhabit the place"
+            ],
+            questions: [
+              {
+                question: "What do animals do?",
+                answers: [
+                  "Inhabit forest",
+                  "Animals inhabit",
+                  "Inhabit woods"
+                ]
+              },
+              {
+                question: "What do people do?",
+                answers: [
+                  "People inhabit",
+                  "Inhabit continents",
+                  "Inhabit everywhere"
+                ]
+              },
+              {
+                question: "What's the house?",
+                answers: [
+                  "House inhabited",
+                  "Is inhabited",
+                  "Inhabited house"
+                ]
+              }
+            ]
+          },
+          {
+            word: "march",
+            phonetic: "/mɑːrtʃ/",
+            examples: [
+              "March is the third month",
+              "Soldiers march in formation",
+              "March to a different drummer",
+              "Protest march through streets",
+              "On the march means advancing",
+              "March orders came suddenly",
+              "Steal a march means gain advantage",
+              "March of time continues",
+              "March into the room",
+              "Long march tested endurance"
+            ],
+            questions: [
+              {
+                question: "What month is it?",
+                answers: [
+                  "It's March",
+                  "March month",
+                  "Third March"
+                ]
+              },
+              {
+                question: "What do soldiers do?",
+                answers: [
+                  "Soldiers march",
+                  "March formation",
+                  "They march"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "March different drummer",
+                  "Steal march",
+                  "On march"
+                ]
+              }
+            ]
+          },
+          {
+            word: "millionaire",
+            phonetic: "/ˌmɪljəˈner/",
+            examples: [
+              "He became a millionaire young",
+              "Millionaire lifestyle is luxurious",
+              "Self made millionaire inspires",
+              "Millionaire next door lives modestly",
+              "The millionaire donated generously",
+              "Millionaire's row has mansions",
+              "Overnight millionaire from lottery",
+              "Millionaire mindset is important",
+              "Slumdog millionaire won awards",
+              "Paper millionaire means theoretical wealth"
+            ],
+            questions: [
+              {
+                question: "What did he become?",
+                answers: [
+                  "Became millionaire",
+                  "A millionaire",
+                  "Millionaire young"
+                ]
+              },
+              {
+                question: "What's luxurious?",
+                answers: [
+                  "Millionaire lifestyle",
+                  "Lifestyle millionaire",
+                  "Millionaire life"
+                ]
+              },
+              {
+                question: "Who inspires?",
+                answers: [
+                  "Self made millionaire",
+                  "Millionaire inspires",
+                  "Self millionaire"
+                ]
+              }
+            ]
+          },
+          {
+            word: "port",
+            phonetic: "/pɔːrt/",
+            examples: [
+              "The ship arrived at port",
+              "Port wine is red and sweet",
+              "Any port in a storm",
+              "USB port connects devices",
+              "Port side is left side",
+              "Airport has many flights",
+              "Port city handles cargo",
+              "Port authority manages harbor",
+              "Computer port for cable",
+              "Home port is where based"
+            ],
+            questions: [
+              {
+                question: "Where did the ship arrive?",
+                answers: [
+                  "At port",
+                  "Ship port",
+                  "Arrived port"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Any port storm",
+                  "Port storm",
+                  "Port any"
+                ]
+              },
+              {
+                question: "What connects devices?",
+                answers: [
+                  "USB port",
+                  "Port connects",
+                  "Computer port"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sheriff",
+            phonetic: "/ˈʃerɪf/",
+            examples: [
+              "The sheriff enforces local laws",
+              "Sheriff's department investigated",
+              "Sheriff badge is a star",
+              "County sheriff was elected",
+              "Sheriff posse tracked criminals",
+              "High sheriff is ceremonial",
+              "Sheriff's office downtown",
+              "Wild West sheriff kept order",
+              "Sheriff arrested the suspect",
+              "Deputy sheriff assists"
+            ],
+            questions: [
+              {
+                question: "Who enforces laws?",
+                answers: [
+                  "The sheriff",
+                  "Sheriff enforces",
+                  "Sheriff laws"
+                ]
+              },
+              {
+                question: "What investigated?",
+                answers: [
+                  "Sheriff's department",
+                  "Sheriff investigated",
+                  "Department sheriff"
+                ]
+              },
+              {
+                question: "Who was elected?",
+                answers: [
+                  "County sheriff",
+                  "Sheriff elected",
+                  "Sheriff county"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sweat",
+            phonetic: "/swet/",
+            examples: [
+              "Exercise makes you sweat heavily",
+              "Don't sweat the small stuff",
+              "Sweat equity builds value",
+              "Cold sweat from fear",
+              "Sweat shop has poor conditions",
+              "Sweat it out means endure",
+              "The sweat dripped down",
+              "Sweat blood means work hard",
+              "No sweat means easy",
+              "Sweat shirt is casual wear"
+            ],
+            questions: [
+              {
+                question: "What does exercise do?",
+                answers: [
+                  "Makes you sweat",
+                  "You sweat",
+                  "Exercise sweat"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Don't sweat small",
+                  "Sweat small stuff",
+                  "No sweat"
+                ]
+              },
+              {
+                question: "What builds value?",
+                answers: [
+                  "Sweat equity",
+                  "Equity sweat",
+                  "Sweat value"
+                ]
+              }
+            ]
+          },
+          {
+            word: "trigger",
+            phonetic: "/ˈtrɪɡər/",
+            examples: [
+              "Pull the trigger to fire",
+              "Trigger warning alerts readers",
+              "The event triggered memories",
+              "Hair trigger means sensitive",
+              "Trigger happy means too eager",
+              "Trigger mechanism activates",
+              "Emotional trigger causes reaction",
+              "Quick on the trigger",
+              "The smell triggered nostalgia",
+              "Trigger point causes pain"
+            ],
+            questions: [
+              {
+                question: "What do you pull?",
+                answers: [
+                  "Pull trigger",
+                  "The trigger",
+                  "Trigger fire"
+                ]
+              },
+              {
+                question: "What alerts readers?",
+                answers: [
+                  "Trigger warning",
+                  "Warning trigger",
+                  "Trigger alerts"
+                ]
+              },
+              {
+                question: "What did the event do?",
+                answers: [
+                  "Triggered memories",
+                  "Event triggered",
+                  "Triggered reaction"
+                ]
+              }
+            ]
+          },
+          {
+            word: "unify",
+            phonetic: "/ˈjuːnɪfaɪ/",
+            examples: [
+              "Unify the country under leadership",
+              "Common goal can unify people",
+              "Unify different groups together",
+              "The movement unified citizens",
+              "Unify opposing factions",
+              "Unified theory explains everything",
+              "Unify the design elements",
+              "Germany unified in 1990",
+              "Unify behind a cause",
+              "Unified front shows strength"
+            ],
+            questions: [
+              {
+                question: "What should we do?",
+                answers: [
+                  "Unify country",
+                  "Unify people",
+                  "Unify groups"
+                ]
+              },
+              {
+                question: "What can unify?",
+                answers: [
+                  "Common goal unify",
+                  "Can unify",
+                  "Goal unifies"
+                ]
+              },
+              {
+                question: "When did Germany unify?",
+                answers: [
+                  "Unified 1990",
+                  "Germany unified",
+                  "1990 unified"
+                ]
+              }
+            ]
+          },
+          {
+            word: "vessel",
+            phonetic: "/ˈvesl/",
+            examples: [
+              "The vessel sailed across ocean",
+              "Blood vessel carries blood",
+              "Drinking vessel holds liquid",
+              "Naval vessel is military ship",
+              "The vessel was seaworthy",
+              "Pressure vessel contains gas",
+              "Ancient vessel was discovered",
+              "Vessel traffic in harbor",
+              "Chosen vessel means selected person",
+              "Vessel sank in storm"
+            ],
+            questions: [
+              {
+                question: "What sailed?",
+                answers: [
+                  "The vessel",
+                  "Vessel sailed",
+                  "Ship vessel"
+                ]
+              },
+              {
+                question: "What carries blood?",
+                answers: [
+                  "Blood vessel",
+                  "Vessel carries",
+                  "Vessel blood"
+                ]
+              },
+              {
+                question: "What's a military ship?",
+                answers: [
+                  "Naval vessel",
+                  "Vessel naval",
+                  "Military vessel"
+                ]
+              }
+            ]
+          },
+          {
+            word: "voyage",
+            phonetic: "/ˈvɔɪɪdʒ/",
+            examples: [
+              "The voyage lasted six months",
+              "Maiden voyage is first trip",
+              "Bon voyage means good journey",
+              "Long voyage across seas",
+              "Voyage of discovery began",
+              "The voyage was perilous",
+              "Space voyage to Mars",
+              "Voyage home took weeks",
+              "Epic voyage through history",
+              "Voyage charter rents ship"
+            ],
+            questions: [
+              {
+                question: "How long was it?",
+                answers: [
+                  "Voyage lasted months",
+                  "Six months",
+                  "Long voyage"
+                ]
+              },
+              {
+                question: "What's the first trip?",
+                answers: [
+                  "Maiden voyage",
+                  "First voyage",
+                  "Voyage maiden"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Bon voyage",
+                  "Good journey",
+                  "Voyage bon"
+                ]
+              }
+            ]
+          },
+          {
+            word: "worship",
+            phonetic: "/ˈwɜːrʃɪp/",
+            examples: [
+              "People worship in different ways",
+              "Place of worship is sacred",
+              "Hero worship is common",
+              "Worship the ground walks on",
+              "Religious worship on Sundays",
+              "Worship service at church",
+              "Ancestor worship is traditional",
+              "False idol worship is forbidden",
+              "Worship music inspires",
+              "Freedom of worship is protected"
+            ],
+            questions: [
+              {
+                question: "What do people do?",
+                answers: [
+                  "People worship",
+                  "Worship differently",
+                  "They worship"
+                ]
+              },
+              {
+                question: "What's sacred?",
+                answers: [
+                  "Place of worship",
+                  "Worship place",
+                  "Sacred worship"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Hero worship",
+                  "Worship ground",
+                  "Worship idol"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit14",
+        words: [
+          {
+            word: "apprentice",
+            phonetic: "/əˈprentɪs/",
+            examples: [
+              "He works as an apprentice electrician",
+              "The apprentice learns from master",
+              "Apprenticeship program lasts four years",
+              "She apprenticed with a chef",
+              "Sorcerer's apprentice is a story",
+              "Apprentice carpenter builds skills",
+              "The apprentice showed great promise",
+              "Apprentice system trains workers",
+              "Young apprentice was eager",
+              "Apprentice to a craftsman"
+            ],
+            questions: [
+              {
+                question: "What does he do?",
+                answers: [
+                  "Works as apprentice",
+                  "He's apprentice",
+                  "Apprentice electrician"
+                ]
+              },
+              {
+                question: "Who learns from master?",
+                answers: [
+                  "The apprentice",
+                  "Apprentice learns",
+                  "Apprentice does"
+                ]
+              },
+              {
+                question: "How long is it?",
+                answers: [
+                  "Apprenticeship four years",
+                  "Four years",
+                  "Apprentice program"
+                ]
+              }
+            ]
+          },
+          {
+            word: "assure",
+            phonetic: "/əˈʃʊr/",
+            examples: [
+              "I can assure you it's safe",
+              "Assure yourself everything is fine",
+              "She assured him of her support",
+              "Rest assured we'll handle it",
+              "Assure quality with testing",
+              "The doctor assured the patient",
+              "Assure success through preparation",
+              "He assured her repeatedly",
+              "Assure compliance with rules",
+              "Be assured of my loyalty"
+            ],
+            questions: [
+              {
+                question: "What can you say?",
+                answers: [
+                  "I assure you",
+                  "Can assure",
+                  "Assure safe"
+                ]
+              },
+              {
+                question: "What did she do?",
+                answers: [
+                  "She assured him",
+                  "Assured support",
+                  "Assured him"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Rest assured",
+                  "Be assured",
+                  "Assure you"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bandage",
+            phonetic: "/ˈbændɪdʒ/",
+            examples: [
+              "Apply a bandage to wound",
+              "The bandage needs changing",
+              "Bandage the cut carefully",
+              "Elastic bandage provides support",
+              "Bandage aid for first aid",
+              "Clean bandage prevents infection",
+              "Adhesive bandage sticks on",
+              "The bandage was too tight",
+              "Bandage wrap around ankle",
+              "Remove the old bandage"
+            ],
+            questions: [
+              {
+                question: "What should I apply?",
+                answers: [
+                  "Apply bandage",
+                  "A bandage",
+                  "Bandage wound"
+                ]
+              },
+              {
+                question: "What needs changing?",
+                answers: [
+                  "The bandage",
+                  "Bandage needs",
+                  "Needs bandage"
+                ]
+              },
+              {
+                question: "What prevents infection?",
+                answers: [
+                  "Clean bandage",
+                  "Bandage prevents",
+                  "Bandage clean"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bleed",
+            phonetic: "/bliːd/",
+            examples: [
+              "The cut started to bleed",
+              "Heart bleeds for the victims",
+              "Bleed the brakes regularly",
+              "Colors bleed together in wash",
+              "Nose bleed can be stopped",
+              "Bleed someone dry means exploit",
+              "The wound continues to bleed",
+              "Radiator needs bleeding",
+              "Internal bleeding is dangerous",
+              "My heart bleeds means sympathize"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "Started to bleed",
+                  "Cut bleed",
+                  "It bleeds"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Heart bleeds",
+                  "Bleed dry",
+                  "Bleed for"
+                ]
+              },
+              {
+                question: "What needs doing?",
+                answers: [
+                  "Bleed brakes",
+                  "Bleed radiator",
+                  "Needs bleeding"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bond",
+            phonetic: "/bɑːnd/",
+            examples: [
+              "Mother child bond is strong",
+              "Bond with your teammates",
+              "James Bond is a spy",
+              "Chemical bond holds atoms",
+              "Bond of friendship lasts",
+              "My word is my bond",
+              "Bond paper is quality paper",
+              "Post bond to get released",
+              "The bond between them deepened",
+              "Bond together as family"
+            ],
+            questions: [
+              {
+                question: "What's strong?",
+                answers: [
+                  "Mother child bond",
+                  "Bond strong",
+                  "Strong bond"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Bond with teammates",
+                  "Bond together",
+                  "Create bond"
+                ]
+              },
+              {
+                question: "What holds atoms?",
+                answers: [
+                  "Chemical bond",
+                  "Bond holds",
+                  "Atom bond"
+                ]
+              }
+            ]
+          },
+          {
+            word: "chef",
+            phonetic: "/ʃef/",
+            examples: [
+              "The chef prepared delicious food",
+              "Chef's special is recommended",
+              "Executive chef manages kitchen",
+              "Too many cooks spoil broth",
+              "Chef hat is tall and white",
+              "Celebrity chef has TV show",
+              "Sous chef assists head chef",
+              "Chef's knife is essential tool",
+              "Pastry chef makes desserts",
+              "Chef trained in France"
+            ],
+            questions: [
+              {
+                question: "Who prepared food?",
+                answers: [
+                  "The chef",
+                  "Chef prepared",
+                  "Chef did"
+                ]
+              },
+              {
+                question: "What's recommended?",
+                answers: [
+                  "Chef's special",
+                  "Special chef",
+                  "Chef special"
+                ]
+              },
+              {
+                question: "Who manages kitchen?",
+                answers: [
+                  "Executive chef",
+                  "Chef manages",
+                  "Head chef"
+                ]
+              }
+            ]
+          },
+          {
+            word: "crown",
+            phonetic: "/kraʊn/",
+            examples: [
+              "The king wore a crown",
+              "Crown jewels are priceless",
+              "Crown of thorns is symbolic",
+              "Dental crown covers tooth",
+              "Crown achievement is greatest success",
+              "Crown prince will inherit throne",
+              "The crown rests heavy",
+              "Crown of head is top",
+              "Triple crown means three victories",
+              "Crown someone king in ceremony"
+            ],
+            questions: [
+              {
+                question: "What did the king wear?",
+                answers: [
+                  "Wore crown",
+                  "A crown",
+                  "King's crown"
+                ]
+              },
+              {
+                question: "What's priceless?",
+                answers: [
+                  "Crown jewels",
+                  "Jewels crown",
+                  "The crown"
+                ]
+              },
+              {
+                question: "What covers tooth?",
+                answers: [
+                  "Dental crown",
+                  "Crown covers",
+                  "Tooth crown"
+                ]
+              }
+            ]
+          },
+          {
+            word: "departure",
+            phonetic: "/dɪˈpɑːrtʃər/",
+            examples: [
+              "Flight departure is at noon",
+              "Departure time was delayed",
+              "Sudden departure surprised everyone",
+              "Departure lounge is crowded",
+              "Point of departure is beginning",
+              "Departure from tradition is bold",
+              "Departure gate is far",
+              "His departure left void",
+              "Departure tax must be paid",
+              "Marked departure from norm"
+            ],
+            questions: [
+              {
+                question: "When is flight?",
+                answers: [
+                  "Departure at noon",
+                  "Flight departure",
+                  "Departure time"
+                ]
+              },
+              {
+                question: "What surprised everyone?",
+                answers: [
+                  "Sudden departure",
+                  "Departure surprised",
+                  "His departure"
+                ]
+              },
+              {
+                question: "What's crowded?",
+                answers: [
+                  "Departure lounge",
+                  "Lounge departure",
+                  "Departure area"
+                ]
+              }
+            ]
+          },
+          {
+            word: "diligent",
+            phonetic: "/ˈdɪlɪdʒənt/",
+            examples: [
+              "She's a diligent student",
+              "Diligent effort pays off",
+              "Diligent worker gets promoted",
+              "Be diligent in your studies",
+              "Diligent search found answer",
+              "Diligent practice improves skills",
+              "The diligent ant works hard",
+              "Diligent attention to detail",
+              "Diligent pursuit of goals",
+              "Remain diligent and focused"
+            ],
+            questions: [
+              {
+                question: "What kind of student?",
+                answers: [
+                  "Diligent student",
+                  "She's diligent",
+                  "Student diligent"
+                ]
+              },
+              {
+                question: "What pays off?",
+                answers: [
+                  "Diligent effort",
+                  "Effort diligent",
+                  "Diligent work"
+                ]
+              },
+              {
+                question: "What should you be?",
+                answers: [
+                  "Be diligent",
+                  "Stay diligent",
+                  "Remain diligent"
+                ]
+              }
+            ]
+          },
+          {
+            word: "emperor",
+            phonetic: "/ˈempərər/",
+            examples: [
+              "The emperor ruled the empire",
+              "Roman emperor was powerful",
+              "Emperor has no clothes story",
+              "Emperor penguin is largest",
+              "Japanese emperor is symbolic",
+              "Holy Roman Emperor reigned",
+              "Emperor's new clothes is tale",
+              "Chinese emperor lived in palace",
+              "Emperor butterfly is beautiful",
+              "Last emperor abdicated throne"
+            ],
+            questions: [
+              {
+                question: "Who ruled?",
+                answers: [
+                  "The emperor",
+                  "Emperor ruled",
+                  "Emperor did"
+                ]
+              },
+              {
+                question: "What's the story?",
+                answers: [
+                  "Emperor no clothes",
+                  "Emperor clothes",
+                  "Emperor new"
+                ]
+              },
+              {
+                question: "What's largest?",
+                answers: [
+                  "Emperor penguin",
+                  "Penguin emperor",
+                  "Emperor bird"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fiber",
+            phonetic: "/ˈfaɪbər/",
+            examples: [
+              "Dietary fiber aids digestion",
+              "Fiber optic cable transmits data",
+              "Cotton fiber makes fabric",
+              "High fiber diet is healthy",
+              "Moral fiber means character",
+              "Fiber glass is strong material",
+              "Natural fiber is organic",
+              "Muscle fiber contracts",
+              "Fiber content varies",
+              "Synthetic fiber is man made"
+            ],
+            questions: [
+              {
+                question: "What aids digestion?",
+                answers: [
+                  "Dietary fiber",
+                  "Fiber aids",
+                  "Fiber helps"
+                ]
+              },
+              {
+                question: "What transmits data?",
+                answers: [
+                  "Fiber optic",
+                  "Fiber cable",
+                  "Optic fiber"
+                ]
+              },
+              {
+                question: "What means character?",
+                answers: [
+                  "Moral fiber",
+                  "Fiber moral",
+                  "Fiber character"
+                ]
+              }
+            ]
+          },
+          {
+            word: "horrible",
+            phonetic: "/ˈhɔːrəbl/",
+            examples: [
+              "That's a horrible idea",
+              "Horrible accident happened yesterday",
+              "The weather is horrible today",
+              "Horrible smell filled the room",
+              "Horrible experience traumatized him",
+              "Horrible nightmare woke me",
+              "What horrible news to hear",
+              "Horrible mistake was made",
+              "Horrible conditions exist there",
+              "Feel horrible about what happened"
+            ],
+            questions: [
+              {
+                question: "What kind of idea?",
+                answers: [
+                  "Horrible idea",
+                  "That's horrible",
+                  "Idea horrible"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Horrible accident",
+                  "Accident horrible",
+                  "Horrible occurred"
+                ]
+              },
+              {
+                question: "How's the weather?",
+                answers: [
+                  "Weather horrible",
+                  "Horrible today",
+                  "It's horrible"
+                ]
+              }
+            ]
+          },
+          {
+            word: "impolite",
+            phonetic: "/ˌɪmpəˈlaɪt/",
+            examples: [
+              "That was very impolite",
+              "Impolite behavior is rude",
+              "Don't be impolite to guests",
+              "Impolite to interrupt others",
+              "His impolite remarks offended",
+              "Impolite to point at people",
+              "Impolite gestures are offensive",
+              "Impolite tone of voice",
+              "It's impolite to stare",
+              "Impolite to ask personal questions"
+            ],
+            questions: [
+              {
+                question: "How was that?",
+                answers: [
+                  "Very impolite",
+                  "Was impolite",
+                  "That's impolite"
+                ]
+              },
+              {
+                question: "What shouldn't you be?",
+                answers: [
+                  "Don't be impolite",
+                  "Not impolite",
+                  "Avoid impolite"
+                ]
+              },
+              {
+                question: "What's wrong?",
+                answers: [
+                  "Impolite to interrupt",
+                  "Impolite stare",
+                  "Impolite behavior"
+                ]
+              }
+            ]
+          },
+          {
+            word: "kneel",
+            phonetic: "/niːl/",
+            examples: [
+              "Kneel down to pray",
+              "He knelt beside the bed",
+              "Kneel before the king",
+              "Bring someone to their knees",
+              "Kneel in respect",
+              "She knelt to tie shoes",
+              "Kneel on one knee",
+              "Kneel down low",
+              "Knights kneel for ceremony",
+              "Kneel and bow head"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Kneel down",
+                  "Kneel pray",
+                  "Kneel here"
+                ]
+              },
+              {
+                question: "What did he do?",
+                answers: [
+                  "He knelt",
+                  "Knelt beside",
+                  "Knelt down"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Bring to knees",
+                  "Kneel before",
+                  "Kneel respect"
+                ]
+              }
+            ]
+          },
+          {
+            word: "luxury",
+            phonetic: "/ˈlʌkʃəri/",
+            examples: [
+              "Luxury car is expensive",
+              "Live in luxury with wealth",
+              "Luxury hotel has amenities",
+              "Small luxury means treat",
+              "Luxury goods are pricey",
+              "Lap of luxury means comfort",
+              "Luxury apartment has view",
+              "Affordable luxury exists",
+              "Luxury vacation to islands",
+              "Luxury brand is exclusive"
+            ],
+            questions: [
+              {
+                question: "What's expensive?",
+                answers: [
+                  "Luxury car",
+                  "Luxury goods",
+                  "Luxury items"
+                ]
+              },
+              {
+                question: "What has amenities?",
+                answers: [
+                  "Luxury hotel",
+                  "Hotel luxury",
+                  "Luxury place"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Lap of luxury",
+                  "Live luxury",
+                  "Luxury comfort"
+                ]
+              }
+            ]
+          },
+          {
+            word: "massive",
+            phonetic: "/ˈmæsɪv/",
+            examples: [
+              "The building is massive",
+              "Massive explosion shook ground",
+              "Massive undertaking requires planning",
+              "Massive heart attack occurred",
+              "Massive amounts of data",
+              "Massive structure towers above",
+              "Massive protest gathered thousands",
+              "Massive investment was made",
+              "Massive wave hit shore",
+              "Massive effort was needed"
+            ],
+            questions: [
+              {
+                question: "How's the building?",
+                answers: [
+                  "It's massive",
+                  "Building massive",
+                  "Massive size"
+                ]
+              },
+              {
+                question: "What shook ground?",
+                answers: [
+                  "Massive explosion",
+                  "Explosion massive",
+                  "Massive blast"
+                ]
+              },
+              {
+                question: "What's required?",
+                answers: [
+                  "Massive undertaking",
+                  "Massive effort",
+                  "Massive planning"
+                ]
+              }
+            ]
+          },
+          {
+            word: "panic",
+            phonetic: "/ˈpænɪk/",
+            examples: [
+              "Don't panic stay calm",
+              "Panic attack causes anxiety",
+              "The crowd began to panic",
+              "Panic button triggers alarm",
+              "Panic buying cleared shelves",
+              "Panic stations means emergency",
+              "Hit the panic button",
+              "Panic mode at work",
+              "Mass panic ensued",
+              "Panic over nothing really"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't panic",
+                  "Not panic",
+                  "Stay calm"
+                ]
+              },
+              {
+                question: "What causes anxiety?",
+                answers: [
+                  "Panic attack",
+                  "Attack panic",
+                  "Panic anxiety"
+                ]
+              },
+              {
+                question: "What did the crowd do?",
+                answers: [
+                  "Began to panic",
+                  "Crowd panic",
+                  "Started panic"
+                ]
+              }
+            ]
+          },
+          {
+            word: "priority",
+            phonetic: "/praɪˈɔːrəti/",
+            examples: [
+              "Safety is top priority",
+              "Set your priorities straight",
+              "Priority mail arrives faster",
+              "Give priority to urgent tasks",
+              "High priority item first",
+              "Priority boarding for passengers",
+              "Low priority can wait",
+              "Priority list needs updating",
+              "Make it a priority",
+              "Priority seating available"
+            ],
+            questions: [
+              {
+                question: "What's most important?",
+                answers: [
+                  "Top priority",
+                  "Priority one",
+                  "High priority"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Set priorities",
+                  "Make priority",
+                  "Give priority"
+                ]
+              },
+              {
+                question: "What arrives faster?",
+                answers: [
+                  "Priority mail",
+                  "Mail priority",
+                  "Priority delivery"
+                ]
+              }
+            ]
+          },
+          {
+            word: "robe",
+            phonetic: "/roʊb/",
+            examples: [
+              "Wear a robe after shower",
+              "Judge's robe is black",
+              "Bathrobe keeps you warm",
+              "Ceremonial robes are traditional",
+              "Wizard's robe has stars",
+              "Graduation robe is worn",
+              "Silk robe is luxurious",
+              "Robe and slippers comfort",
+              "Choir robe for singing",
+              "Royal robes are ornate"
+            ],
+            questions: [
+              {
+                question: "What should you wear?",
+                answers: [
+                  "Wear robe",
+                  "A robe",
+                  "Bathrobe"
+                ]
+              },
+              {
+                question: "What's black?",
+                answers: [
+                  "Judge's robe",
+                  "Robe black",
+                  "Judge robe"
+                ]
+              },
+              {
+                question: "What's worn at graduation?",
+                answers: [
+                  "Graduation robe",
+                  "Robe graduation",
+                  "Ceremonial robe"
+                ]
+              }
+            ]
+          },
+          {
+            word: "scold",
+            phonetic: "/skoʊld/",
+            examples: [
+              "The teacher scolded the student",
+              "Don't scold the child harshly",
+              "She scolded him for being late",
+              "Scolding tone in her voice",
+              "He got scolded by boss",
+              "Scold someone means reprimand",
+              "Mother scolded gently",
+              "Severe scolding was given",
+              "Deserved to be scolded",
+              "Scold in private not public"
+            ],
+            questions: [
+              {
+                question: "What did the teacher do?",
+                answers: [
+                  "Scolded student",
+                  "Teacher scolded",
+                  "Scolded him"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't scold",
+                  "Not scold",
+                  "Scold harshly"
+                ]
+              },
+              {
+                question: "Why did she scold?",
+                answers: [
+                  "For being late",
+                  "Scolded late",
+                  "Late scolded"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit15",
+        words: [
+          {
+            word: "affair",
+            phonetic: "/əˈfer/",
+            examples: [
+              "Mind your own affairs",
+              "Love affair ended badly",
+              "Foreign affairs minister speaks",
+              "Current affairs are discussed",
+              "Business affairs need attention",
+              "State of affairs is serious",
+              "Family affair means private matter",
+              "Public affairs office handles media",
+              "The affair was kept secret",
+              "Personal affairs are confidential"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Mind own affairs",
+                  "Your affairs",
+                  "Own business"
+                ]
+              },
+              {
+                question: "What ended badly?",
+                answers: [
+                  "Love affair",
+                  "The affair",
+                  "Affair ended"
+                ]
+              },
+              {
+                question: "What's serious?",
+                answers: [
+                  "State of affairs",
+                  "Affairs serious",
+                  "Current affairs"
+                ]
+              }
+            ]
+          },
+          {
+            word: "assembly",
+            phonetic: "/əˈsembli/",
+            examples: [
+              "School assembly starts at nine",
+              "Assembly line produces cars",
+              "Freedom of assembly is protected",
+              "Assembly instructions are included",
+              "General assembly meets annually",
+              "Assembly hall is large",
+              "Assembly required for furniture",
+              "National assembly votes today",
+              "Assembly point for emergencies",
+              "Assembly process takes time"
+            ],
+            questions: [
+              {
+                question: "When does it start?",
+                answers: [
+                  "Assembly starts nine",
+                  "Assembly nine",
+                  "School assembly"
+                ]
+              },
+              {
+                question: "What produces cars?",
+                answers: [
+                  "Assembly line",
+                  "Line assembly",
+                  "Assembly produces"
+                ]
+              },
+              {
+                question: "What's protected?",
+                answers: [
+                  "Freedom assembly",
+                  "Assembly freedom",
+                  "Assembly right"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bless",
+            phonetic: "/bles/",
+            examples: [
+              "God bless you after sneeze",
+              "Bless this food we eat",
+              "Count your blessings daily",
+              "Blessed with good health",
+              "Bless her heart she tried",
+              "Mixed blessing has both sides",
+              "Blessing in disguise occurred",
+              "Bless the children always",
+              "Blessed are the peacemakers",
+              "Bless your soul for helping"
+            ],
+            questions: [
+              {
+                question: "What do you say?",
+                answers: [
+                  "God bless you",
+                  "Bless you",
+                  "Bless sneeze"
+                ]
+              },
+              {
+                question: "What should you count?",
+                answers: [
+                  "Count blessings",
+                  "Your blessings",
+                  "Blessings daily"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Bless heart",
+                  "Mixed blessing",
+                  "Blessing disguise"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cereal",
+            phonetic: "/ˈsɪriəl/",
+            examples: [
+              "Eat cereal for breakfast",
+              "Cereal box has prizes",
+              "Cereal grains include wheat",
+              "Hot cereal is oatmeal",
+              "Cereal killer is a pun",
+              "Cold cereal with milk",
+              "Cereal crops are harvested",
+              "Breakfast cereal is convenient",
+              "Cereal aisle in store",
+              "Whole grain cereal is healthy"
+            ],
+            questions: [
+              {
+                question: "What do you eat?",
+                answers: [
+                  "Eat cereal",
+                  "Cereal breakfast",
+                  "Morning cereal"
+                ]
+              },
+              {
+                question: "What has prizes?",
+                answers: [
+                  "Cereal box",
+                  "Box cereal",
+                  "Cereal prizes"
+                ]
+              },
+              {
+                question: "What includes wheat?",
+                answers: [
+                  "Cereal grains",
+                  "Grains cereal",
+                  "Cereal crops"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cheerful",
+            phonetic: "/ˈtʃɪrfəl/",
+            examples: [
+              "She has a cheerful personality",
+              "Cheerful greeting welcomed us",
+              "Stay cheerful despite problems",
+              "Cheerful colors brighten room",
+              "Cheerful smile lights face",
+              "Cheerful disposition is contagious",
+              "Cheerful song lifted spirits",
+              "Cheerful news arrived today",
+              "Cheerful attitude helps",
+              "Bright and cheerful morning"
+            ],
+            questions: [
+              {
+                question: "What's her personality?",
+                answers: [
+                  "Cheerful personality",
+                  "She's cheerful",
+                  "Very cheerful"
+                ]
+              },
+              {
+                question: "What welcomed us?",
+                answers: [
+                  "Cheerful greeting",
+                  "Greeting cheerful",
+                  "Cheerful welcome"
+                ]
+              },
+              {
+                question: "What should you stay?",
+                answers: [
+                  "Stay cheerful",
+                  "Remain cheerful",
+                  "Be cheerful"
+                ]
+              }
+            ]
+          },
+          {
+            word: "diameter",
+            phonetic: "/daɪˈæmɪtər/",
+            examples: [
+              "The circle's diameter is ten inches",
+              "Measure the diameter carefully",
+              "Diameter equals twice the radius",
+              "Pipe diameter matters for flow",
+              "Diameter of Earth is large",
+              "Tree diameter shows age",
+              "Wheel diameter affects speed",
+              "Diameter across the middle",
+              "Calculate diameter from circumference",
+              "Diameter measurement is important"
+            ],
+            questions: [
+              {
+                question: "What's the measurement?",
+                answers: [
+                  "Diameter ten inches",
+                  "Circle diameter",
+                  "The diameter"
+                ]
+              },
+              {
+                question: "What should you measure?",
+                answers: [
+                  "Measure diameter",
+                  "The diameter",
+                  "Diameter carefully"
+                ]
+              },
+              {
+                question: "What equals twice radius?",
+                answers: [
+                  "Diameter equals",
+                  "Diameter twice",
+                  "The diameter"
+                ]
+              }
+            ]
+          },
+          {
+            word: "exploit",
+            phonetic: "/ɪkˈsplɔɪt/",
+            examples: [
+              "Don't exploit workers unfairly",
+              "Exploit natural resources carefully",
+              "His exploits were legendary",
+              "Exploit the opportunity fully",
+              "Exploit weakness in defense",
+              "Exploit advantage when possible",
+              "The exploit was discovered",
+              "Exploit system vulnerabilities",
+              "Famous exploits of heroes",
+              "Exploit talents and abilities"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't exploit workers",
+                  "Not exploit",
+                  "Exploit unfairly"
+                ]
+              },
+              {
+                question: "What were legendary?",
+                answers: [
+                  "His exploits",
+                  "Exploits legendary",
+                  "The exploits"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Exploit opportunity",
+                  "Exploit advantage",
+                  "Exploit talents"
+                ]
+              }
+            ]
+          },
+          {
+            word: "famine",
+            phonetic: "/ˈfæmɪn/",
+            examples: [
+              "Famine struck the region",
+              "Famine relief efforts began",
+              "Drought caused the famine",
+              "Famine victims need aid",
+              "Prevent famine through planning",
+              "Great famine killed millions",
+              "Famine conditions are severe",
+              "Fight famine with food",
+              "Famine or feast means extremes",
+              "Famine ravaged the country"
+            ],
+            questions: [
+              {
+                question: "What struck?",
+                answers: [
+                  "Famine struck",
+                  "Famine hit",
+                  "The famine"
+                ]
+              },
+              {
+                question: "What began?",
+                answers: [
+                  "Famine relief",
+                  "Relief efforts",
+                  "Famine aid"
+                ]
+              },
+              {
+                question: "What caused it?",
+                answers: [
+                  "Drought caused famine",
+                  "Caused famine",
+                  "Famine drought"
+                ]
+              }
+            ]
+          },
+          {
+            word: "harvest",
+            phonetic: "/ˈhɑːrvɪst/",
+            examples: [
+              "Harvest time is in autumn",
+              "Farmers harvest the crops",
+              "Good harvest this year",
+              "Harvest festival celebrates",
+              "Harvest moon is bright",
+              "Reap what you harvest",
+              "Harvest yields are high",
+              "Harvest season is busy",
+              "Harvest the wheat now",
+              "Bumper harvest means abundant"
+            ],
+            questions: [
+              {
+                question: "When is harvest?",
+                answers: [
+                  "Harvest time autumn",
+                  "In autumn",
+                  "Harvest season"
+                ]
+              },
+              {
+                question: "What do farmers do?",
+                answers: [
+                  "Farmers harvest",
+                  "Harvest crops",
+                  "They harvest"
+                ]
+              },
+              {
+                question: "What celebrates?",
+                answers: [
+                  "Harvest festival",
+                  "Festival harvest",
+                  "Harvest celebration"
+                ]
+              }
+            ]
+          },
+          {
+            word: "merry",
+            phonetic: "/ˈmeri/",
+            examples: [
+              "Merry Christmas to everyone",
+              "Merry laughter filled room",
+              "Lead a merry chase",
+              "Merry band of friends",
+              "Make merry at party",
+              "Merry mood today",
+              "Merry old England",
+              "Merry go round spins",
+              "Eat drink and be merry",
+              "Merry gathering of family"
+            ],
+            questions: [
+              {
+                question: "What do you say?",
+                answers: [
+                  "Merry Christmas",
+                  "Merry holiday",
+                  "Merry wishes"
+                ]
+              },
+              {
+                question: "What filled room?",
+                answers: [
+                  "Merry laughter",
+                  "Laughter merry",
+                  "Merry sounds"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Eat drink merry",
+                  "Be merry",
+                  "Make merry"
+                ]
+              }
+            ]
+          },
+          {
+            word: "nut",
+            phonetic: "/nʌt/",
+            examples: [
+              "Crack the nut open",
+              "Tough nut to crack means difficult",
+              "Nut allergy is serious",
+              "Go nuts means crazy",
+              "Nuts and bolts means basics",
+              "Cashew nut is tasty",
+              "Nut case means crazy person",
+              "Hard nut means stubborn",
+              "Nut shell summary is brief",
+              "Nut brown color is dark"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Crack nut",
+                  "Open nut",
+                  "Crack open"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Tough nut crack",
+                  "Go nuts",
+                  "Nuts bolts"
+                ]
+              },
+              {
+                question: "What's serious?",
+                answers: [
+                  "Nut allergy",
+                  "Allergy nut",
+                  "Nut reaction"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pardon",
+            phonetic: "/ˈpɑːrdn/",
+            examples: [
+              "Pardon me I didn't hear",
+              "Beg your pardon for interrupting",
+              "Presidential pardon frees prisoner",
+              "Pardon my French means excuse language",
+              "Pardon the interruption please",
+              "Grant a pardon to criminal",
+              "Pardon me for asking",
+              "I beg your pardon repeat",
+              "Pardon my ignorance about this",
+              "Full pardon was granted"
+            ],
+            questions: [
+              {
+                question: "What do you say?",
+                answers: [
+                  "Pardon me",
+                  "Beg pardon",
+                  "Pardon please"
+                ]
+              },
+              {
+                question: "What frees prisoner?",
+                answers: [
+                  "Presidential pardon",
+                  "Pardon frees",
+                  "Pardon granted"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Pardon French",
+                  "Pardon interruption",
+                  "Beg pardon"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pharaoh",
+            phonetic: "/ˈferoʊ/",
+            examples: [
+              "The pharaoh ruled ancient Egypt",
+              "Pharaoh's tomb was discovered",
+              "Pharaoh wore a crown",
+              "Great pharaoh built pyramids",
+              "Pharaoh was considered divine",
+              "Tutankhamun was a young pharaoh",
+              "Pharaoh's curse is legendary",
+              "Pharaoh commanded great power",
+              "The pharaoh had many wives",
+              "Pharaoh's treasure was buried"
+            ],
+            questions: [
+              {
+                question: "Who ruled Egypt?",
+                answers: [
+                  "The pharaoh",
+                  "Pharaoh ruled",
+                  "Pharaoh did"
+                ]
+              },
+              {
+                question: "What was discovered?",
+                answers: [
+                  "Pharaoh's tomb",
+                  "Tomb pharaoh",
+                  "Pharaoh tomb"
+                ]
+              },
+              {
+                question: "What built pyramids?",
+                answers: [
+                  "Great pharaoh",
+                  "Pharaoh built",
+                  "The pharaoh"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ripe",
+            phonetic: "/raɪp/",
+            examples: [
+              "The fruit is ripe now",
+              "Ripe old age is elderly",
+              "Time is ripe for change",
+              "Ripe for the picking",
+              "Ripe banana is yellow",
+              "Ripe cheese smells strong",
+              "Ripe tomatoes are red",
+              "Ripe opportunity arose",
+              "Ripe with possibility",
+              "Wait until ripe"
+            ],
+            questions: [
+              {
+                question: "How's the fruit?",
+                answers: [
+                  "Fruit is ripe",
+                  "It's ripe",
+                  "Ripe now"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Ripe old age",
+                  "Time ripe",
+                  "Ripe picking"
+                ]
+              },
+              {
+                question: "What color is ripe banana?",
+                answers: [
+                  "Ripe banana yellow",
+                  "Yellow ripe",
+                  "Banana ripe"
+                ]
+              }
+            ]
+          },
+          {
+            word: "roast",
+            phonetic: "/roʊst/",
+            examples: [
+              "Roast the chicken for dinner",
+              "Coffee beans are roasted",
+              "Roast beef is delicious",
+              "Roast someone means mock",
+              "Roast in the oven",
+              "Pot roast cooks slowly",
+              "Roast vegetables with oil",
+              "Comedy roast is entertaining",
+              "Roast turkey for Thanksgiving",
+              "Roast over open fire"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Roast chicken",
+                  "Roast dinner",
+                  "Roast it"
+                ]
+              },
+              {
+                question: "What are roasted?",
+                answers: [
+                  "Coffee beans roasted",
+                  "Beans roasted",
+                  "Roasted beans"
+                ]
+              },
+              {
+                question: "What means mock?",
+                answers: [
+                  "Roast someone",
+                  "Roast means",
+                  "Comedy roast"
+                ]
+              }
+            ]
+          },
+          {
+            word: "routine",
+            phonetic: "/ruːˈtiːn/",
+            examples: [
+              "Daily routine never changes",
+              "Routine checkup at doctor",
+              "Exercise routine keeps fit",
+              "Routine maintenance is needed",
+              "Morning routine starts early",
+              "Routine procedure is standard",
+              "Break the routine sometimes",
+              "Routine work is boring",
+              "Dance routine was practiced",
+              "Routine tasks must be done"
+            ],
+            questions: [
+              {
+                question: "What never changes?",
+                answers: [
+                  "Daily routine",
+                  "The routine",
+                  "Routine stays"
+                ]
+              },
+              {
+                question: "What's at doctor?",
+                answers: [
+                  "Routine checkup",
+                  "Checkup routine",
+                  "Routine visit"
+                ]
+              },
+              {
+                question: "What keeps fit?",
+                answers: [
+                  "Exercise routine",
+                  "Routine exercise",
+                  "Fitness routine"
+                ]
+              }
+            ]
+          },
+          {
+            word: "schema",
+            phonetic: "/ˈskiːmə/",
+            examples: [
+              "Database schema defines structure",
+              "Schema theory explains learning",
+              "Mental schema organizes knowledge",
+              "Schema diagram shows relationships",
+              "XML schema validates data",
+              "Schema development in childhood",
+              "Database schema was updated",
+              "Schema helps process information",
+              "Cognitive schema shapes perception",
+              "Schema changes with experience"
+            ],
+            questions: [
+              {
+                question: "What defines structure?",
+                answers: [
+                  "Database schema",
+                  "Schema defines",
+                  "Schema structure"
+                ]
+              },
+              {
+                question: "What explains learning?",
+                answers: [
+                  "Schema theory",
+                  "Theory schema",
+                  "Schema explains"
+                ]
+              },
+              {
+                question: "What organizes knowledge?",
+                answers: [
+                  "Mental schema",
+                  "Schema organizes",
+                  "Schema mental"
+                ]
+              }
+            ]
+          },
+          {
+            word: "slim",
+            phonetic: "/slɪm/",
+            examples: [
+              "She has a slim figure",
+              "Slim chance of success",
+              "Slim down to lose weight",
+              "Slim margin of victory",
+              "Slim pickings means few options",
+              "Slim volume of poetry",
+              "Slim and tall person",
+              "Slim majority won election",
+              "Slim hope remains",
+              "Slim waist is desirable"
+            ],
+            questions: [
+              {
+                question: "What does she have?",
+                answers: [
+                  "Slim figure",
+                  "She's slim",
+                  "Slim body"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Slim chance",
+                  "Slim pickings",
+                  "Slim margin"
+                ]
+              },
+              {
+                question: "What means lose weight?",
+                answers: [
+                  "Slim down",
+                  "Slim reduce",
+                  "Get slim"
+                ]
+              }
+            ]
+          },
+          {
+            word: "stove",
+            phonetic: "/stoʊv/",
+            examples: [
+              "Cook on the stove",
+              "Gas stove heats quickly",
+              "Stove top has burners",
+              "Wood stove heats house",
+              "Clean the stove regularly",
+              "Electric stove is modern",
+              "Stove pipe carries smoke",
+              "Pot belly stove is traditional",
+              "Stove burner is hot",
+              "Kitchen stove is essential"
+            ],
+            questions: [
+              {
+                question: "Where should I cook?",
+                answers: [
+                  "On the stove",
+                  "Cook stove",
+                  "Use stove"
+                ]
+              },
+              {
+                question: "What heats quickly?",
+                answers: [
+                  "Gas stove",
+                  "Stove heats",
+                  "Stove gas"
+                ]
+              },
+              {
+                question: "What heats house?",
+                answers: [
+                  "Wood stove",
+                  "Stove heats",
+                  "Stove wood"
+                ]
+              }
+            ]
+          },
+          {
+            word: "theft",
+            phonetic: "/θeft/",
+            examples: [
+              "Theft is a serious crime",
+              "Report the theft to police",
+              "Identity theft is common",
+              "Grand theft auto means car theft",
+              "Theft prevention is important",
+              "Auto theft increased lately",
+              "Theft of property occurred",
+              "Petty theft is minor crime",
+              "Theft insurance covers loss",
+              "Theft charges were filed"
+            ],
+            questions: [
+              {
+                question: "What's serious?",
+                answers: [
+                  "Theft is crime",
+                  "Theft serious",
+                  "Crime theft"
+                ]
+              },
+              {
+                question: "What should you report?",
+                answers: [
+                  "Report theft",
+                  "The theft",
+                  "Theft police"
+                ]
+              },
+              {
+                question: "What's common?",
+                answers: [
+                  "Identity theft",
+                  "Theft identity",
+                  "Theft common"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit16",
+        words: [
+          {
+            word: "adolescent",
+            phonetic: "/ˌædəˈlesnt/",
+            examples: [
+              "The adolescent is going through changes",
+              "Adolescent years are challenging",
+              "Adolescent behavior can be difficult",
+              "Pre adolescent stage comes before",
+              "Adolescent development is complex",
+              "Adolescent psychology studies teenagers",
+              "Adolescent rebellion is common",
+              "Early adolescent around thirteen",
+              "Adolescent growth spurt occurs",
+              "Adolescent health is important"
+            ],
+            questions: [
+              {
+                question: "Who's going through changes?",
+                answers: [
+                  "The adolescent",
+                  "Adolescent is",
+                  "Teenager adolescent"
+                ]
+              },
+              {
+                question: "What years are challenging?",
+                answers: [
+                  "Adolescent years",
+                  "Years adolescent",
+                  "Adolescent period"
+                ]
+              },
+              {
+                question: "What's common?",
+                answers: [
+                  "Adolescent rebellion",
+                  "Rebellion adolescent",
+                  "Adolescent behavior"
+                ]
+              }
+            ]
+          },
+          {
+            word: "aptitude",
+            phonetic: "/ˈæptɪtuːd/",
+            examples: [
+              "She has aptitude for music",
+              "Aptitude test measures abilities",
+              "Natural aptitude is a gift",
+              "Aptitude for mathematics shown",
+              "Show aptitude in languages",
+              "Aptitude and interest combined",
+              "Limited aptitude in sports",
+              "Aptitude develops over time",
+              "Strong aptitude for teaching",
+              "Aptitude assessment helps choose"
+            ],
+            questions: [
+              {
+                question: "What does she have?",
+                answers: [
+                  "Aptitude for music",
+                  "Has aptitude",
+                  "Musical aptitude"
+                ]
+              },
+              {
+                question: "What measures abilities?",
+                answers: [
+                  "Aptitude test",
+                  "Test aptitude",
+                  "Aptitude measures"
+                ]
+              },
+              {
+                question: "What's a gift?",
+                answers: [
+                  "Natural aptitude",
+                  "Aptitude natural",
+                  "Aptitude gift"
+                ]
+              }
+            ]
+          },
+          {
+            word: "compliment",
+            phonetic: "/ˈkɑːmplɪmənt/",
+            examples: [
+              "Pay someone a compliment",
+              "Compliment her on her dress",
+              "Fishing for compliments means seeking praise",
+              "Compliment sincerely not flattery",
+              "Backhanded compliment is insult",
+              "Return the compliment graciously",
+              "Compliment chef on meal",
+              "Compliments to the chef",
+              "Accept compliment with thanks",
+              "Give compliment freely"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Pay compliment",
+                  "Give compliment",
+                  "Compliment someone"
+                ]
+              },
+              {
+                question: "What means seeking praise?",
+                answers: [
+                  "Fishing compliments",
+                  "Seek compliment",
+                  "Fishing praise"
+                ]
+              },
+              {
+                question: "What's an insult?",
+                answers: [
+                  "Backhanded compliment",
+                  "Compliment insult",
+                  "Backhanded praise"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hinder",
+            phonetic: "/ˈhɪndər/",
+            examples: [
+              "Don't let fear hinder progress",
+              "Bad weather hindered rescue",
+              "Hinder development of skills",
+              "Nothing can hinder him now",
+              "Hinder someone's efforts deliberately",
+              "Obstacles hinder success",
+              "Hinder growth with neglect",
+              "Laws hinder discrimination",
+              "Hinder movement forward",
+              "Hinder investigation of crime"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you let happen?",
+                answers: [
+                  "Fear hinder progress",
+                  "Don't hinder",
+                  "Hinder stopped"
+                ]
+              },
+              {
+                question: "What did weather do?",
+                answers: [
+                  "Weather hindered",
+                  "Hindered rescue",
+                  "Hinder rescue"
+                ]
+              },
+              {
+                question: "What hinders success?",
+                answers: [
+                  "Obstacles hinder",
+                  "Hinder success",
+                  "Obstacles hinder"
+                ]
+              }
+            ]
+          },
+          {
+            word: "journalism",
+            phonetic: "/ˈdʒɜːrnəlɪzəm/",
+            examples: [
+              "Study journalism at university",
+              "Journalism career is exciting",
+              "Investigative journalism reveals truth",
+              "Journalism ethics are important",
+              "Yellow journalism is sensational",
+              "Journalism degree opens doors",
+              "Broadcast journalism on TV",
+              "Print journalism is traditional",
+              "Journalism awards recognize excellence",
+              "Citizen journalism is growing"
+            ],
+            questions: [
+              {
+                question: "What should you study?",
+                answers: [
+                  "Study journalism",
+                  "Journalism major",
+                  "Journalism university"
+                ]
+              },
+              {
+                question: "What reveals truth?",
+                answers: [
+                  "Investigative journalism",
+                  "Journalism reveals",
+                  "Journalism truth"
+                ]
+              },
+              {
+                question: "What's sensational?",
+                answers: [
+                  "Yellow journalism",
+                  "Journalism yellow",
+                  "Sensational journalism"
+                ]
+              }
+            ]
+          },
+          {
+            word: "jury",
+            phonetic: "/ˈdʒʊri/",
+            examples: [
+              "The jury reached a verdict",
+              "Jury duty is civic responsibility",
+              "Grand jury investigates crimes",
+              "Jury of peers decides case",
+              "Jury selection takes time",
+              "Hung jury cannot decide",
+              "Jury deliberates in private",
+              "Trial by jury is constitutional",
+              "Jury foreman announces verdict",
+              "Jury still out means undecided"
+            ],
+            questions: [
+              {
+                question: "What reached verdict?",
+                answers: [
+                  "The jury",
+                  "Jury reached",
+                  "Jury decided"
+                ]
+              },
+              {
+                question: "What's civic responsibility?",
+                answers: [
+                  "Jury duty",
+                  "Duty jury",
+                  "Jury service"
+                ]
+              },
+              {
+                question: "What means undecided?",
+                answers: [
+                  "Jury still out",
+                  "Hung jury",
+                  "Jury undecided"
+                ]
+              }
+            ]
+          },
+          {
+            word: "justice",
+            phonetic: "/ˈdʒʌstɪs/",
+            examples: [
+              "Justice must be served",
+              "Justice system needs reform",
+              "Do justice to the meal",
+              "Chief justice presides over court",
+              "Justice delayed is justice denied",
+              "Social justice movement grows",
+              "Justice prevailed in end",
+              "Miscarriage of justice occurred",
+              "Justice for all is ideal",
+              "Criminal justice system prosecutes"
+            ],
+            questions: [
+              {
+                question: "What must be served?",
+                answers: [
+                  "Justice served",
+                  "Justice must",
+                  "Serve justice"
+                ]
+              },
+              {
+                question: "What needs reform?",
+                answers: [
+                  "Justice system",
+                  "System justice",
+                  "Justice reform"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Justice delayed denied",
+                  "Justice prevailed",
+                  "Justice all"
+                ]
+              }
+            ]
+          },
+          {
+            word: "liberty",
+            phonetic: "/ˈlɪbərti/",
+            examples: [
+              "Liberty means freedom",
+              "Statue of Liberty symbolizes freedom",
+              "Liberty and justice for all",
+              "Take liberty with facts means distort",
+              "Civil liberties are protected",
+              "Liberty Bell is historic",
+              "Personal liberty is precious",
+              "Liberty at stake here",
+              "Liberty or death was cried",
+              "Religious liberty is fundamental"
+            ],
+            questions: [
+              {
+                question: "What means freedom?",
+                answers: [
+                  "Liberty means",
+                  "Liberty freedom",
+                  "Freedom liberty"
+                ]
+              },
+              {
+                question: "What symbolizes freedom?",
+                answers: [
+                  "Statue Liberty",
+                  "Liberty statue",
+                  "Liberty symbolizes"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Liberty justice all",
+                  "Liberty death",
+                  "Take liberty"
+                ]
+              }
+            ]
+          },
+          {
+            word: "literary",
+            phonetic: "/ˈlɪtəreri/",
+            examples: [
+              "Literary works include novels",
+              "Literary criticism analyzes texts",
+              "Literary agent represents authors",
+              "Literary magazine publishes stories",
+              "Literary devices enhance writing",
+              "Literary world celebrates books",
+              "Literary merit is recognized",
+              "Literary fiction is serious",
+              "Literary award honors excellence",
+              "Literary tradition continues"
+            ],
+            questions: [
+              {
+                question: "What includes novels?",
+                answers: [
+                  "Literary works",
+                  "Works literary",
+                  "Literary includes"
+                ]
+              },
+              {
+                question: "What analyzes texts?",
+                answers: [
+                  "Literary criticism",
+                  "Criticism literary",
+                  "Literary analyzes"
+                ]
+              },
+              {
+                question: "Who represents authors?",
+                answers: [
+                  "Literary agent",
+                  "Agent literary",
+                  "Literary represents"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pharmacy",
+            phonetic: "/ˈfɑːrməsi/",
+            examples: [
+              "Pick up prescription at pharmacy",
+              "Pharmacy technician assists pharmacist",
+              "Pharmacy school is challenging",
+              "Online pharmacy delivers medications",
+              "Pharmacy counter is busy",
+              "Pharmacy hours are posted",
+              "Pharmacy degree takes years",
+              "Retail pharmacy serves customers",
+              "Pharmacy benefit covers costs",
+              "Hospital pharmacy operates"
+            ],
+            questions: [
+              {
+                question: "Where should I go?",
+                answers: [
+                  "To pharmacy",
+                  "At pharmacy",
+                  "Pharmacy pick"
+                ]
+              },
+              {
+                question: "Who assists pharmacist?",
+                answers: [
+                  "Pharmacy technician",
+                  "Technician pharmacy",
+                  "Pharmacy assists"
+                ]
+              },
+              {
+                question: "What's challenging?",
+                answers: [
+                  "Pharmacy school",
+                  "School pharmacy",
+                  "Pharmacy education"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pill",
+            phonetic: "/pɪl/",
+            examples: [
+              "Take a pill for headache",
+              "Birth control pill prevents pregnancy",
+              "Sugar pill is placebo",
+              "Bitter pill to swallow means difficult",
+              "Pill box organizes medication",
+              "Morning after pill emergency",
+              "Pill popper takes too many",
+              "Sleeping pill helps rest",
+              "Diet pill claims are false",
+              "Pill form is convenient"
+            ],
+            questions: [
+              {
+                question: "What should I take?",
+                answers: [
+                  "Take pill",
+                  "A pill",
+                  "Pill headache"
+                ]
+              },
+              {
+                question: "What prevents pregnancy?",
+                answers: [
+                  "Birth control pill",
+                  "Pill prevents",
+                  "Control pill"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Bitter pill swallow",
+                  "Sugar pill",
+                  "Pill difficult"
+                ]
+              }
+            ]
+          },
+          {
+            word: "presume",
+            phonetic: "/prɪˈzuːm/",
+            examples: [
+              "Don't presume to know everything",
+              "Presume innocence until proven guilty",
+              "I presume you're coming",
+              "Presume too much about situation",
+              "Presumed dead after accident",
+              "Presume permission wasn't granted",
+              "Living heir presumptive",
+              "Presume facts not in evidence",
+              "Don't presume on friendship",
+              "Presume authority you don't have"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't presume",
+                  "Not presume",
+                  "Presume know"
+                ]
+              },
+              {
+                question: "What's the legal phrase?",
+                answers: [
+                  "Presume innocence",
+                  "Innocence presume",
+                  "Presume guilty"
+                ]
+              },
+              {
+                question: "What do you think?",
+                answers: [
+                  "I presume",
+                  "Presume you're",
+                  "Presume coming"
+                ]
+              }
+            ]
+          },
+          {
+            word: "privacy",
+            phonetic: "/ˈpraɪvəsi/",
+            examples: [
+              "Privacy is a basic right",
+              "Privacy settings protect data",
+              "Invasion of privacy is illegal",
+              "Privacy concerns are growing",
+              "Privacy policy explains terms",
+              "Respect someone's privacy always",
+              "Privacy screen blocks view",
+              "Privacy fence surrounds yard",
+              "Privacy laws protect citizens",
+              "Privacy in the digital age"
+            ],
+            questions: [
+              {
+                question: "What's a basic right?",
+                answers: [
+                  "Privacy is",
+                  "Privacy right",
+                  "Right privacy"
+                ]
+              },
+              {
+                question: "What protects data?",
+                answers: [
+                  "Privacy settings",
+                  "Settings privacy",
+                  "Privacy protects"
+                ]
+              },
+              {
+                question: "What's illegal?",
+                answers: [
+                  "Invasion privacy",
+                  "Privacy invasion",
+                  "Invade privacy"
+                ]
+              }
+            ]
+          },
+          {
+            word: "punishment",
+            phonetic: "/ˈpʌnɪʃmənt/",
+            examples: [
+              "The punishment fit the crime",
+              "Capital punishment is controversial",
+              "Punishment for breaking rules",
+              "Cruel and unusual punishment banned",
+              "Punishment deters bad behavior",
+              "Corporal punishment is spanking",
+              "Punishment was too harsh",
+              "Punishment phase follows trial",
+              "Glutton for punishment means masochist",
+              "Punishment must be fair"
+            ],
+            questions: [
+              {
+                question: "What fit the crime?",
+                answers: [
+                  "The punishment",
+                  "Punishment fit",
+                  "Punishment crime"
+                ]
+              },
+              {
+                question: "What's controversial?",
+                answers: [
+                  "Capital punishment",
+                  "Punishment capital",
+                  "Death punishment"
+                ]
+              },
+              {
+                question: "What's banned?",
+                answers: [
+                  "Cruel unusual punishment",
+                  "Unusual punishment",
+                  "Punishment cruel"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sensible",
+            phonetic: "/ˈsensəbl/",
+            examples: [
+              "Make a sensible decision",
+              "Sensible shoes are comfortable",
+              "That's very sensible advice",
+              "Sensible person thinks clearly",
+              "Sensible approach to problem",
+              "Sensible eating habits matter",
+              "Be sensible about risks",
+              "Sensible precautions were taken",
+              "Sensible choice was made",
+              "Sensible solution found"
+            ],
+            questions: [
+              {
+                question: "What kind of decision?",
+                answers: [
+                  "Sensible decision",
+                  "Make sensible",
+                  "Decision sensible"
+                ]
+              },
+              {
+                question: "What are comfortable?",
+                answers: [
+                  "Sensible shoes",
+                  "Shoes sensible",
+                  "Sensible comfortable"
+                ]
+              },
+              {
+                question: "What's good advice?",
+                answers: [
+                  "Sensible advice",
+                  "Very sensible",
+                  "Advice sensible"
+                ]
+              }
+            ]
+          },
+          {
+            word: "slice",
+            phonetic: "/slaɪs/",
+            examples: [
+              "Cut a slice of bread",
+              "Slice of life means realistic",
+              "Slice the cake evenly",
+              "Any way you slice it means regardless",
+              "Slice of pizza for lunch",
+              "Slice and dice means analyze",
+              "Thin slice is preferred",
+              "Slice through the air",
+              "Slice of the pie means share",
+              "Slice off a piece"
+            ],
+            questions: [
+              {
+                question: "What should I cut?",
+                answers: [
+                  "Cut slice",
+                  "Slice bread",
+                  "A slice"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Slice of life",
+                  "Any way slice",
+                  "Slice pie"
+                ]
+              },
+              {
+                question: "What for lunch?",
+                answers: [
+                  "Slice pizza",
+                  "Pizza slice",
+                  "Slice lunch"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sorrow",
+            phonetic: "/ˈsɑːroʊ/",
+            examples: [
+              "Feel sorrow for the loss",
+              "Drown your sorrows means drink",
+              "Sorrow and joy mixed",
+              "Deep sorrow filled heart",
+              "Express sorrow sincerely",
+              "Sorrow over mistakes made",
+              "Share your sorrows with friends",
+              "Man of sorrows means suffering",
+              "Sorrow turned to hope",
+              "Great sorrow was felt"
+            ],
+            questions: [
+              {
+                question: "What do you feel?",
+                answers: [
+                  "Feel sorrow",
+                  "Sorrow loss",
+                  "Sorrow for"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Drown sorrows",
+                  "Man sorrows",
+                  "Share sorrows"
+                ]
+              },
+              {
+                question: "What filled heart?",
+                answers: [
+                  "Deep sorrow",
+                  "Sorrow filled",
+                  "Sorrow heart"
+                ]
+              }
+            ]
+          },
+          {
+            word: "straw",
+            phonetic: "/strɔː/",
+            examples: [
+              "Drink through a straw",
+              "Last straw means final thing",
+              "Straw hat protects from sun",
+              "Grasp at straws means desperate",
+              "Straw man argument is weak",
+              "Draw straws to decide",
+              "Straw poll is informal",
+              "Make bricks without straw impossible",
+              "Straw colored hair is blonde",
+              "That's the last straw"
+            ],
+            questions: [
+              {
+                question: "What do you use?",
+                answers: [
+                  "Drink through straw",
+                  "Use straw",
+                  "A straw"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Last straw",
+                  "Grasp straws",
+                  "Draw straws"
+                ]
+              },
+              {
+                question: "What protects from sun?",
+                answers: [
+                  "Straw hat",
+                  "Hat straw",
+                  "Straw protects"
+                ]
+              }
+            ]
+          },
+          {
+            word: "swell",
+            phonetic: "/swel/",
+            examples: [
+              "The ankle started to swell",
+              "Swell with pride feels good",
+              "Ocean swell is large wave",
+              "Swell guy means nice person",
+              "The crowd began to swell",
+              "Swell up from allergic reaction",
+              "Ground swell of support grows",
+              "The music swelled dramatically",
+              "Swell time at party",
+              "Numbers swell to thousands"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "Ankle started swell",
+                  "Started to swell",
+                  "It swells"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Swell with pride",
+                  "Swell guy",
+                  "Swell time"
+                ]
+              },
+              {
+                question: "What's a large wave?",
+                answers: [
+                  "Ocean swell",
+                  "Swell wave",
+                  "Swell ocean"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tidy",
+            phonetic: "/ˈtaɪdi/",
+            examples: [
+              "Keep your room tidy",
+              "Tidy up before guests arrive",
+              "Tidy sum means large amount",
+              "Tidy person is organized",
+              "Tidy appearance matters",
+              "Tidy desk reflects mind",
+              "Tidy profit was made",
+              "Tidy arrangement looks nice",
+              "Tidy habits save time",
+              "Everything neat and tidy"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Keep room tidy",
+                  "Tidy up",
+                  "Make tidy"
+                ]
+              },
+              {
+                question: "What means large amount?",
+                answers: [
+                  "Tidy sum",
+                  "Sum tidy",
+                  "Tidy amount"
+                ]
+              },
+              {
+                question: "What kind of person?",
+                answers: [
+                  "Tidy person",
+                  "Person tidy",
+                  "Tidy organized"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit17",
+        words: [
+          {
+            word: "affection",
+            phonetic: "/əˈfekʃn/",
+            examples: [
+              "Show affection to loved ones",
+              "Affection between them is obvious",
+              "Public display of affection is PDA",
+              "Affection grows over time",
+              "Deep affection for family",
+              "Win someone's affection carefully",
+              "Affection and respect together",
+              "Mutual affection is important",
+              "Terms of affection are sweet",
+              "Affection cannot be forced"
+            ],
+            questions: [
+              {
+                question: "What should you show?",
+                answers: [
+                  "Show affection",
+                  "Display affection",
+                  "Give affection"
+                ]
+              },
+              {
+                question: "What's obvious?",
+                answers: [
+                  "Affection between them",
+                  "Their affection",
+                  "Affection obvious"
+                ]
+              },
+              {
+                question: "What grows over time?",
+                answers: [
+                  "Affection grows",
+                  "Affection over time",
+                  "Growing affection"
+                ]
+              }
+            ]
+          },
+          {
+            word: "agency",
+            phonetic: "/ˈeɪdʒənsi/",
+            examples: [
+              "Government agency regulates business",
+              "Travel agency books trips",
+              "Agency fee was paid",
+              "Human agency means free will",
+              "Advertising agency creates campaigns",
+              "Agency represents actors",
+              "Real estate agency sells homes",
+              "News agency reports stories",
+              "Agency worker is temporary",
+              "Employment agency finds jobs"
+            ],
+            questions: [
+              {
+                question: "What regulates business?",
+                answers: [
+                  "Government agency",
+                  "Agency regulates",
+                  "Agency controls"
+                ]
+              },
+              {
+                question: "What books trips?",
+                answers: [
+                  "Travel agency",
+                  "Agency books",
+                  "Agency travel"
+                ]
+              },
+              {
+                question: "What means free will?",
+                answers: [
+                  "Human agency",
+                  "Agency free will",
+                  "Agency means"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ash",
+            phonetic: "/æʃ/",
+            examples: [
+              "Cigarette ash fell on floor",
+              "Rise from the ashes means recovery",
+              "Volcanic ash covered town",
+              "Ash tree is common",
+              "Ash Wednesday starts Lent",
+              "Ash tray holds cigarettes",
+              "Ash blonde hair color",
+              "Burn to ashes completely",
+              "Ash cloud from volcano",
+              "Rake the ashes out"
+            ],
+            questions: [
+              {
+                question: "What fell?",
+                answers: [
+                  "Cigarette ash",
+                  "Ash fell",
+                  "The ash"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Rise from ashes",
+                  "Burn ashes",
+                  "Ashes recovery"
+                ]
+              },
+              {
+                question: "What covered town?",
+                answers: [
+                  "Volcanic ash",
+                  "Ash covered",
+                  "Ash cloud"
+                ]
+              }
+            ]
+          },
+          {
+            word: "confine",
+            phonetic: "/kənˈfaɪn/",
+            examples: [
+              "Confine prisoners to cells",
+              "Confine yourself to facts",
+              "Confine discussion to topic",
+              "Confined space is dangerous",
+              "Confine the fire quickly",
+              "Confine animals in zoo",
+              "Confined to bed with illness",
+              "Confine within city limits",
+              "The confines of rules",
+              "Narrow confines of room"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Confine prisoners",
+                  "Confine yourself",
+                  "Confine discussion"
+                ]
+              },
+              {
+                question: "What's dangerous?",
+                answers: [
+                  "Confined space",
+                  "Space confined",
+                  "Confine dangerous"
+                ]
+              },
+              {
+                question: "Where are you?",
+                answers: [
+                  "Confined to bed",
+                  "Confined illness",
+                  "Bed confined"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dismiss",
+            phonetic: "/dɪsˈmɪs/",
+            examples: [
+              "Dismiss the class early today",
+              "Don't dismiss the idea quickly",
+              "Judge dismissed the case",
+              "Dismiss someone from their job",
+              "Dismiss concerns as unimportant",
+              "Dismiss charges against defendant",
+              "Dismiss the notion completely",
+              "Class is dismissed now",
+              "Dismiss troops after inspection",
+              "Dismiss fears and move forward"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Dismiss class",
+                  "Dismiss early",
+                  "Dismiss now"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't dismiss idea",
+                  "Not dismiss",
+                  "Dismiss quickly"
+                ]
+              },
+              {
+                question: "What did the judge do?",
+                answers: [
+                  "Dismissed case",
+                  "Judge dismissed",
+                  "Dismissed charges"
+                ]
+              }
+            ]
+          },
+          {
+            word: "erupt",
+            phonetic: "/ɪˈrʌpt/",
+            examples: [
+              "The volcano could erupt anytime",
+              "Violence erupted in the streets",
+              "Laughter erupted from crowd",
+              "Erupt in anger suddenly",
+              "Teeth erupt through gums",
+              "Conflict erupted between nations",
+              "Applause erupted after speech",
+              "Rash erupted on skin",
+              "Controversy erupted online",
+              "Cheers erupted when team won"
+            ],
+            questions: [
+              {
+                question: "What could happen?",
+                answers: [
+                  "Volcano could erupt",
+                  "Could erupt",
+                  "Erupt anytime"
+                ]
+              },
+              {
+                question: "What happened in streets?",
+                answers: [
+                  "Violence erupted",
+                  "Erupted streets",
+                  "Erupted violence"
+                ]
+              },
+              {
+                question: "What came from crowd?",
+                answers: [
+                  "Laughter erupted",
+                  "Erupted laughter",
+                  "Erupted from"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fate",
+            phonetic: "/feɪt/",
+            examples: [
+              "Leave it to fate",
+              "Fate brought them together",
+              "Seal someone's fate means determine",
+              "Tempt fate by taking risks",
+              "Fate worse than death",
+              "Fate of the world",
+              "Accept your fate gracefully",
+              "Twist of fate changed everything",
+              "Fate dealt cruel blow",
+              "Masters of their own fate"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Leave to fate",
+                  "Accept fate",
+                  "Fate decides"
+                ]
+              },
+              {
+                question: "What brought them together?",
+                answers: [
+                  "Fate brought",
+                  "Fate together",
+                  "Brought fate"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Seal fate",
+                  "Tempt fate",
+                  "Twist fate"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lava",
+            phonetic: "/ˈlɑːvə/",
+            examples: [
+              "Lava flows from volcano",
+              "Hot lava destroys everything",
+              "Lava rock is porous",
+              "Lava lamp is decorative",
+              "Lava hardens into rock",
+              "Lava tube is cave",
+              "Molten lava is extremely hot",
+              "Lava field stretches far",
+              "Lava flow reached ocean",
+              "Lava cooled slowly"
+            ],
+            questions: [
+              {
+                question: "What flows from volcano?",
+                answers: [
+                  "Lava flows",
+                  "Lava from",
+                  "Hot lava"
+                ]
+              },
+              {
+                question: "What destroys everything?",
+                answers: [
+                  "Hot lava",
+                  "Lava destroys",
+                  "Lava everything"
+                ]
+              },
+              {
+                question: "What's porous?",
+                answers: [
+                  "Lava rock",
+                  "Rock lava",
+                  "Lava porous"
+                ]
+              }
+            ]
+          },
+          {
+            word: "miserable",
+            phonetic: "/ˈmɪzərəbl/",
+            examples: [
+              "Feel miserable with the flu",
+              "Miserable weather ruined plans",
+              "Miserable conditions at work",
+              "Miserable failure disappointed all",
+              "Miserable existence without joy",
+              "Make someone miserable deliberately",
+              "Miserable day at school",
+              "Les Miserables is famous",
+              "Miserable performance was booed",
+              "Absolutely miserable experience"
+            ],
+            questions: [
+              {
+                question: "How do you feel?",
+                answers: [
+                  "Feel miserable",
+                  "Miserable flu",
+                  "So miserable"
+                ]
+              },
+              {
+                question: "What ruined plans?",
+                answers: [
+                  "Miserable weather",
+                  "Weather miserable",
+                  "Miserable conditions"
+                ]
+              },
+              {
+                question: "What disappointed all?",
+                answers: [
+                  "Miserable failure",
+                  "Failure miserable",
+                  "Miserable disappointed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "navigate",
+            phonetic: "/ˈnævɪɡeɪt/",
+            examples: [
+              "Navigate through heavy traffic",
+              "Navigate by the stars",
+              "Navigate website easily",
+              "Navigate difficult situation carefully",
+              "Navigate using GPS device",
+              "Navigate choppy waters",
+              "Navigate complex regulations",
+              "Navigate social situations well",
+              "Navigate the maze successfully",
+              "Navigate career path wisely"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Navigate through",
+                  "Navigate traffic",
+                  "Navigate carefully"
+                ]
+              },
+              {
+                question: "How to navigate?",
+                answers: [
+                  "Navigate stars",
+                  "By stars",
+                  "Navigate GPS"
+                ]
+              },
+              {
+                question: "What's easy?",
+                answers: [
+                  "Navigate website",
+                  "Website navigate",
+                  "Navigate easily"
+                ]
+              }
+            ]
+          },
+          {
+            word: "originate",
+            phonetic: "/əˈrɪdʒɪneɪt/",
+            examples: [
+              "The tradition originated in China",
+              "Where did this originate",
+              "Originate new ideas constantly",
+              "The fire originated in kitchen",
+              "Originate from humble beginnings",
+              "Species originated millions ago",
+              "Originate call from office",
+              "Custom originated centuries back",
+              "Originate fresh approaches",
+              "The rumor originated online"
+            ],
+            questions: [
+              {
+                question: "Where did it start?",
+                answers: [
+                  "Originated China",
+                  "Originate from",
+                  "Originated there"
+                ]
+              },
+              {
+                question: "Where did fire start?",
+                answers: [
+                  "Originated kitchen",
+                  "Fire originated",
+                  "Originated in"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Originate ideas",
+                  "Originate new",
+                  "Originate approaches"
+                ]
+              }
+            ]
+          },
+          {
+            word: "reminder",
+            phonetic: "/rɪˈmaɪndər/",
+            examples: [
+              "Set a reminder for meeting",
+              "Gentle reminder to pay bill",
+              "Reminder of past mistakes",
+              "Calendar reminder pops up",
+              "Constant reminder of failure",
+              "Reminder alarm went off",
+              "Send reminder email tomorrow",
+              "Stark reminder of mortality",
+              "Reminder notice was sent",
+              "Friendly reminder about deadline"
+            ],
+            questions: [
+              {
+                question: "What should I set?",
+                answers: [
+                  "Set reminder",
+                  "A reminder",
+                  "Reminder meeting"
+                ]
+              },
+              {
+                question: "What to pay bill?",
+                answers: [
+                  "Gentle reminder",
+                  "Reminder pay",
+                  "Pay reminder"
+                ]
+              },
+              {
+                question: "What pops up?",
+                answers: [
+                  "Calendar reminder",
+                  "Reminder pops",
+                  "Reminder alarm"
+                ]
+              }
+            ]
+          },
+          {
+            word: "retrieve",
+            phonetic: "/rɪˈtriːv/",
+            examples: [
+              "Retrieve the ball from yard",
+              "Retrieve data from backup",
+              "Dog retrieves thrown stick",
+              "Retrieve lost items quickly",
+              "Retrieve information from memory",
+              "Retrieve files from computer",
+              "Beyond retrieve means lost forever",
+              "Retrieve the situation somehow",
+              "Retrieve password if forgotten",
+              "Retrieve baggage at airport"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Retrieve ball",
+                  "Retrieve data",
+                  "Retrieve items"
+                ]
+              },
+              {
+                question: "What does dog do?",
+                answers: [
+                  "Dog retrieves",
+                  "Retrieves stick",
+                  "Retrieves thrown"
+                ]
+              },
+              {
+                question: "What means lost forever?",
+                answers: [
+                  "Beyond retrieve",
+                  "Retrieve beyond",
+                  "Lost retrieve"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shallow",
+            phonetic: "/ˈʃæloʊ/",
+            examples: [
+              "The water is shallow here",
+              "Shallow end of pool",
+              "Shallow breathing is rapid",
+              "Shallow person lacks depth",
+              "Shallow grave was dug",
+              "Shallow understanding of topic",
+              "Shallow dish holds food",
+              "Shallow conversation is boring",
+              "Shallow roots don't anchor",
+              "Shallow minded and superficial"
+            ],
+            questions: [
+              {
+                question: "How's the water?",
+                answers: [
+                  "Water shallow",
+                  "It's shallow",
+                  "Shallow here"
+                ]
+              },
+              {
+                question: "What's the pool end?",
+                answers: [
+                  "Shallow end",
+                  "End shallow",
+                  "Shallow pool"
+                ]
+              },
+              {
+                question: "What kind of person?",
+                answers: [
+                  "Shallow person",
+                  "Person shallow",
+                  "Shallow lacks"
+                ]
+              }
+            ]
+          },
+          {
+            word: "slope",
+            phonetic: "/sloʊp/",
+            examples: [
+              "The hill has steep slope",
+              "Ski slope is challenging",
+              "Slippery slope means dangerous path",
+              "Slope downward gradually",
+              "Gentle slope is easy",
+              "Slope of the roof",
+              "Calculate the slope mathematically",
+              "Slope upward toward peak",
+              "Southern slope gets sun",
+              "Slope off means leave early"
+            ],
+            questions: [
+              {
+                question: "What does hill have?",
+                answers: [
+                  "Steep slope",
+                  "Hill slope",
+                  "Slope steep"
+                ]
+              },
+              {
+                question: "What's challenging?",
+                answers: [
+                  "Ski slope",
+                  "Slope challenging",
+                  "Slope ski"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Slippery slope",
+                  "Slope dangerous",
+                  "Slope path"
+                ]
+              }
+            ]
+          },
+          {
+            word: "span",
+            phonetic: "/spæn/",
+            examples: [
+              "Life span is increasing",
+              "Bridge spans the river",
+              "Attention span is short",
+              "Time span of years",
+              "Wing span of bird",
+              "Span generations of family",
+              "Short span of time",
+              "Span continents and oceans",
+              "The span between posts",
+              "Career spanned four decades"
+            ],
+            questions: [
+              {
+                question: "What's increasing?",
+                answers: [
+                  "Life span",
+                  "Span increasing",
+                  "Span life"
+                ]
+              },
+              {
+                question: "What does bridge do?",
+                answers: [
+                  "Bridge spans",
+                  "Spans river",
+                  "Spans across"
+                ]
+              },
+              {
+                question: "What's short?",
+                answers: [
+                  "Attention span",
+                  "Span short",
+                  "Short span"
+                ]
+              }
+            ]
+          },
+          {
+            word: "superstition",
+            phonetic: "/ˌsuːpərˈstɪʃn/",
+            examples: [
+              "Breaking mirror brings superstition",
+              "Superstition says black cats unlucky",
+              "Common superstition about number thirteen",
+              "Superstition persists in culture",
+              "Old superstition still believed",
+              "Superstition has no basis",
+              "Religious superstition was challenged",
+              "Superstition influences behavior",
+              "Mere superstition not fact",
+              "Superstition about walking ladders"
+            ],
+            questions: [
+              {
+                question: "What brings bad luck?",
+                answers: [
+                  "Breaking mirror superstition",
+                  "Superstition says",
+                  "Mirror superstition"
+                ]
+              },
+              {
+                question: "What about black cats?",
+                answers: [
+                  "Superstition unlucky",
+                  "Black cat superstition",
+                  "Cats superstition"
+                ]
+              },
+              {
+                question: "What persists?",
+                answers: [
+                  "Superstition persists",
+                  "Persists culture",
+                  "Old superstition"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sympathy",
+            phonetic: "/ˈsɪmpəθi/",
+            examples: [
+              "Express sympathy for loss",
+              "Sympathy card was sent",
+              "Feel sympathy for victims",
+              "Sympathy strike supports workers",
+              "Deepest sympathy to family",
+              "Sympathy and empathy differ",
+              "Show sympathy and understanding",
+              "Sympathy vote helped win",
+              "Little sympathy for criminals",
+              "Sympathy flowers were delivered"
+            ],
+            questions: [
+              {
+                question: "What should you express?",
+                answers: [
+                  "Express sympathy",
+                  "Show sympathy",
+                  "Sympathy loss"
+                ]
+              },
+              {
+                question: "What was sent?",
+                answers: [
+                  "Sympathy card",
+                  "Card sympathy",
+                  "Sympathy sent"
+                ]
+              },
+              {
+                question: "What do you feel?",
+                answers: [
+                  "Feel sympathy",
+                  "Sympathy victims",
+                  "Sympathy for"
+                ]
+              }
+            ]
+          },
+          {
+            word: "vibrate",
+            phonetic: "/ˈvaɪbreɪt/",
+            examples: [
+              "Phone vibrates with message",
+              "Strings vibrate to make sound",
+              "The building began to vibrate",
+              "Vibrate with excitement",
+              "Vocal cords vibrate when speaking",
+              "Vibrate mode is silent",
+              "Engine vibrates at idle",
+              "Atoms vibrate constantly",
+              "Floor vibrates from music",
+              "Vibrate with energy"
+            ],
+            questions: [
+              {
+                question: "What does phone do?",
+                answers: [
+                  "Phone vibrates",
+                  "Vibrates message",
+                  "Vibrate phone"
+                ]
+              },
+              {
+                question: "What makes sound?",
+                answers: [
+                  "Strings vibrate",
+                  "Vibrate sound",
+                  "Vibrate make"
+                ]
+              },
+              {
+                question: "What's silent?",
+                answers: [
+                  "Vibrate mode",
+                  "Mode vibrate",
+                  "Vibrate silent"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wander",
+            phonetic: "/ˈwɑːndər/",
+            examples: [
+              "Wander through the streets",
+              "Mind tends to wander",
+              "Wander off the path",
+              "Let thoughts wander freely",
+              "Wander aimlessly around",
+              "Wander from the topic",
+              "Wander in the wilderness",
+              "Eyes wander during lecture",
+              "Wander far from home",
+              "Not all who wander lost"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Wander through",
+                  "Wander streets",
+                  "Wander around"
+                ]
+              },
+              {
+                question: "What tends to happen?",
+                answers: [
+                  "Mind wanders",
+                  "Wander mind",
+                  "Tends wander"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Not all wander lost",
+                  "Who wander",
+                  "Wander lost"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit18",
+        words: [
+          {
+            word: "armor",
+            phonetic: "/ˈɑːrmər/",
+            examples: [
+              "Knights wore heavy armor",
+              "Armor protects in battle",
+              "Suit of armor displayed",
+              "Body armor stops bullets",
+              "Armor plating on tanks",
+              "Chink in armor means weakness",
+              "Armor bearer carried equipment",
+              "Full armor weighs much",
+              "Armor piercing rounds used",
+              "Medieval armor was expensive"
+            ],
+            questions: [
+              {
+                question: "What did knights wear?",
+                answers: [
+                  "Wore armor",
+                  "Heavy armor",
+                  "Knights armor"
+                ]
+              },
+              {
+                question: "What protects in battle?",
+                answers: [
+                  "Armor protects",
+                  "Armor battle",
+                  "Body armor"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Chink armor",
+                  "Armor weakness",
+                  "Armor chink"
+                ]
+              }
+            ]
+          },
+          {
+            word: "blaze",
+            phonetic: "/bleɪz/",
+            examples: [
+              "The fire blazed brightly",
+              "Blaze a trail means pioneer",
+              "Blaze of glory is fame",
+              "Guns blazed during battle",
+              "Eyes blazed with anger",
+              "Blaze through work quickly",
+              "Forest fire blazed wildly",
+              "Blaze marks on trees",
+              "Blaze with color everywhere",
+              "The sun blazed overhead"
+            ],
+            questions: [
+              {
+                question: "What did fire do?",
+                answers: [
+                  "Fire blazed",
+                  "Blazed brightly",
+                  "Blazed hot"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Blaze trail",
+                  "Blaze glory",
+                  "Trail blaze"
+                ]
+              },
+              {
+                question: "What blazed?",
+                answers: [
+                  "Guns blazed",
+                  "Eyes blazed",
+                  "Sun blazed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "boom",
+            phonetic: "/buːm/",
+            examples: [
+              "Thunder made loud boom",
+              "Economic boom brought prosperity",
+              "Boom box plays music",
+              "Baby boom after war",
+              "Boom or bust cycle",
+              "Sonic boom from jet",
+              "Lower the boom means punish",
+              "Boom times are good",
+              "Boom microphone extends",
+              "Population boom occurred"
+            ],
+            questions: [
+              {
+                question: "What did thunder make?",
+                answers: [
+                  "Loud boom",
+                  "Thunder boom",
+                  "Made boom"
+                ]
+              },
+              {
+                question: "What brought prosperity?",
+                answers: [
+                  "Economic boom",
+                  "Boom prosperity",
+                  "Boom brought"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Baby boom",
+                  "Lower boom",
+                  "Boom bust"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cliff",
+            phonetic: "/klɪf/",
+            examples: [
+              "Stand at edge of cliff",
+              "Cliff face is steep",
+              "Cliff hanger ends suspensefully",
+              "Cliff diving is dangerous",
+              "Climb up the cliff",
+              "Cliff dwellings are ancient",
+              "Drive carefully near cliff",
+              "Cliff top has views",
+              "Fiscal cliff threatens economy",
+              "Jump off cliff into water"
+            ],
+            questions: [
+              {
+                question: "Where should I stand?",
+                answers: [
+                  "At cliff edge",
+                  "Edge cliff",
+                  "Cliff top"
+                ]
+              },
+              {
+                question: "What's steep?",
+                answers: [
+                  "Cliff face",
+                  "Face cliff",
+                  "Cliff steep"
+                ]
+              },
+              {
+                question: "What ends suspensefully?",
+                answers: [
+                  "Cliff hanger",
+                  "Hanger cliff",
+                  "Cliff suspense"
+                ]
+              }
+            ]
+          },
+          {
+            word: "flame",
+            phonetic: "/fleɪm/",
+            examples: [
+              "The flame flickered and danced",
+              "Old flame means former lover",
+              "Fan the flames means worsen",
+              "Flame of passion burns",
+              "Olympic flame is lit",
+              "Burst into flames suddenly",
+              "Flame thrower is weapon",
+              "Internet flame is insult",
+              "Eternal flame never dies",
+              "Flame retardant prevents fire"
+            ],
+            questions: [
+              {
+                question: "What flickered?",
+                answers: [
+                  "The flame",
+                  "Flame flickered",
+                  "Flame danced"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Old flame",
+                  "Fan flames",
+                  "Burst flames"
+                ]
+              },
+              {
+                question: "What's lit?",
+                answers: [
+                  "Olympic flame",
+                  "Flame lit",
+                  "Eternal flame"
+                ]
+              }
+            ]
+          },
+          {
+            word: "independence",
+            phonetic: "/ˌɪndɪˈpendəns/",
+            examples: [
+              "Independence Day celebrates freedom",
+              "Declare independence from Britain",
+              "Financial independence is important",
+              "Independence means self reliance",
+              "Struggle for independence continues",
+              "Independence movement grew stronger",
+              "Gain independence gradually",
+              "War of independence fought",
+              "Independence from parents desired",
+              "Declaration of independence signed"
+            ],
+            questions: [
+              {
+                question: "What celebrates freedom?",
+                answers: [
+                  "Independence Day",
+                  "Day independence",
+                  "Independence celebrates"
+                ]
+              },
+              {
+                question: "What's important?",
+                answers: [
+                  "Financial independence",
+                  "Independence important",
+                  "Independence financial"
+                ]
+              },
+              {
+                question: "What was signed?",
+                answers: [
+                  "Declaration independence",
+                  "Independence declaration",
+                  "Signed independence"
+                ]
+              }
+            ]
+          },
+          {
+            word: "invasion",
+            phonetic: "/ɪnˈveɪʒn/",
+            examples: [
+              "Military invasion was planned",
+              "Invasion of privacy is illegal",
+              "Alien invasion in movies",
+              "Invasion force crossed border",
+              "Home invasion is robbery",
+              "Beach invasion on D Day",
+              "Invasion of species harms ecosystem",
+              "Resist the invasion bravely",
+              "Invasion threatened sovereignty",
+              "Invasion fleet assembled"
+            ],
+            questions: [
+              {
+                question: "What was planned?",
+                answers: [
+                  "Military invasion",
+                  "Invasion planned",
+                  "Invasion military"
+                ]
+              },
+              {
+                question: "What's illegal?",
+                answers: [
+                  "Invasion privacy",
+                  "Privacy invasion",
+                  "Invasion illegal"
+                ]
+              },
+              {
+                question: "What crossed border?",
+                answers: [
+                  "Invasion force",
+                  "Force invasion",
+                  "Invasion crossed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "knight",
+            phonetic: "/naɪt/",
+            examples: [
+              "Medieval knight served king",
+              "Knight in shining armor",
+              "Chess knight moves L shape",
+              "Knight of the round table",
+              "Knight bachelor is title",
+              "Knight errant seeks adventure",
+              "White knight saves company",
+              "Knighted by the queen",
+              "Knight's code of chivalry",
+              "Knight rider was show"
+            ],
+            questions: [
+              {
+                question: "Who served king?",
+                answers: [
+                  "Medieval knight",
+                  "Knight served",
+                  "Knight king"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Knight shining armor",
+                  "White knight",
+                  "Knight round table"
+                ]
+              },
+              {
+                question: "What moves L shape?",
+                answers: [
+                  "Chess knight",
+                  "Knight moves",
+                  "Knight chess"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lightning",
+            phonetic: "/ˈlaɪtnɪŋ/",
+            examples: [
+              "Lightning struck the tree",
+              "Lightning fast means very quick",
+              "Lightning bolt from sky",
+              "Lightning never strikes twice saying",
+              "Lightning rod attracts electricity",
+              "Lightning speed is incredible",
+              "Lightning bug is firefly",
+              "Greased lightning means fast",
+              "Lightning and thunder together",
+              "Lightning illuminated darkness"
+            ],
+            questions: [
+              {
+                question: "What struck tree?",
+                answers: [
+                  "Lightning struck",
+                  "Lightning hit",
+                  "Struck lightning"
+                ]
+              },
+              {
+                question: "What means very quick?",
+                answers: [
+                  "Lightning fast",
+                  "Fast lightning",
+                  "Lightning speed"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Lightning never twice",
+                  "Greased lightning",
+                  "Lightning strikes"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rebel",
+            phonetic: "/ˈrebl/",
+            examples: [
+              "Rebel against authority always",
+              "Rebel forces fought back",
+              "Teenage rebel phases normal",
+              "Rebel without cause is movie",
+              "Rebel alliance in Star Wars",
+              "Rebel yell is cry",
+              "Rebel against rules constantly",
+              "Rebel leader was captured",
+              "Rebel spirit is strong",
+              "Rebel army advanced forward"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Rebel against",
+                  "Rebel authority",
+                  "Don't rebel"
+                ]
+              },
+              {
+                question: "Who fought back?",
+                answers: [
+                  "Rebel forces",
+                  "Forces rebel",
+                  "Rebels fought"
+                ]
+              },
+              {
+                question: "What's the movie?",
+                answers: [
+                  "Rebel without cause",
+                  "Rebel cause",
+                  "Without rebel"
+                ]
+              }
+            ]
+          },
+          {
+            word: "retreat",
+            phonetic: "/rɪˈtriːt/",
+            examples: [
+              "Army ordered to retreat",
+              "Retreat from danger quickly",
+              "Yoga retreat for relaxation",
+              "Beat a hasty retreat",
+              "Retreat into silence",
+              "Strategic retreat is wise",
+              "Retreat center offers peace",
+              "No retreat no surrender",
+              "Winter retreat to cabin",
+              "Retreat from position held"
+            ],
+            questions: [
+              {
+                question: "What was ordered?",
+                answers: [
+                  "Army retreat",
+                  "Ordered retreat",
+                  "To retreat"
+                ]
+              },
+              {
+                question: "What's for relaxation?",
+                answers: [
+                  "Yoga retreat",
+                  "Retreat relaxation",
+                  "Retreat center"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Beat hasty retreat",
+                  "No retreat",
+                  "Strategic retreat"
+                ]
+              }
+            ]
+          },
+          {
+            word: "revolution",
+            phonetic: "/ˌrevəˈluːʃn/",
+            examples: [
+              "French Revolution changed history",
+              "Industrial revolution transformed society",
+              "Revolution means complete change",
+              "Digital revolution continues today",
+              "Revolution per minute measures speed",
+              "Cultural revolution occurred",
+              "Revolution of the earth",
+              "Scientific revolution began",
+              "Revolution overthrew government",
+              "Green revolution improved farming"
+            ],
+            questions: [
+              {
+                question: "What changed history?",
+                answers: [
+                  "French Revolution",
+                  "Revolution changed",
+                  "Revolution history"
+                ]
+              },
+              {
+                question: "What transformed society?",
+                answers: [
+                  "Industrial revolution",
+                  "Revolution transformed",
+                  "Revolution society"
+                ]
+              },
+              {
+                question: "What continues today?",
+                answers: [
+                  "Digital revolution",
+                  "Revolution continues",
+                  "Revolution today"
+                ]
+              }
+            ]
+          },
+          {
+            word: "spear",
+            phonetic: "/spɪr/",
+            examples: [
+              "Spear was ancient weapon",
+              "Spear fishing catches fish",
+              "Spear head led the attack",
+              "Throw the spear accurately",
+              "Spear tip is sharp",
+              "Spear carrier is minor role",
+              "Spear mint is herb",
+              "Spear through the heart",
+              "Spear tackle in rugby",
+              "Britney Spears is singer"
+            ],
+            questions: [
+              {
+                question: "What was ancient weapon?",
+                answers: [
+                  "Spear was",
+                  "Ancient spear",
+                  "Spear weapon"
+                ]
+              },
+              {
+                question: "What catches fish?",
+                answers: [
+                  "Spear fishing",
+                  "Fishing spear",
+                  "Spear catches"
+                ]
+              },
+              {
+                question: "What led attack?",
+                answers: [
+                  "Spear head",
+                  "Head spear",
+                  "Spear led"
+                ]
+              }
+            ]
+          },
+          {
+            word: "steep",
+            phonetic: "/stiːp/",
+            examples: [
+              "The hill is very steep",
+              "Steep price seems too high",
+              "Steep learning curve ahead",
+              "Steep tea in hot water",
+              "Steep decline in sales",
+              "Steep cliff face dangerous",
+              "Steep yourself in literature",
+              "Steep stairs are difficult",
+              "Steep increase in costs",
+              "Steep slope requires caution"
+            ],
+            questions: [
+              {
+                question: "How's the hill?",
+                answers: [
+                  "Very steep",
+                  "Hill steep",
+                  "It's steep"
+                ]
+              },
+              {
+                question: "What seems high?",
+                answers: [
+                  "Steep price",
+                  "Price steep",
+                  "Steep cost"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Steep tea",
+                  "Steep yourself",
+                  "Steep in"
+                ]
+              }
+            ]
+          },
+          {
+            word: "summit",
+            phonetic: "/ˈsʌmɪt/",
+            examples: [
+              "Reach the mountain summit",
+              "Summit meeting of leaders",
+              "Summit is highest point",
+              "Summit talks begin tomorrow",
+              "Summit attempt was successful",
+              "Economic summit discussed trade",
+              "Summit conference concluded",
+              "Climb to the summit",
+              "Summit views are breathtaking",
+              "World leaders summit annually"
+            ],
+            questions: [
+              {
+                question: "What should we reach?",
+                answers: [
+                  "Mountain summit",
+                  "The summit",
+                  "Reach summit"
+                ]
+              },
+              {
+                question: "What's the meeting?",
+                answers: [
+                  "Summit meeting",
+                  "Summit talks",
+                  "Leaders summit"
+                ]
+              },
+              {
+                question: "What's highest point?",
+                answers: [
+                  "Summit is",
+                  "Summit highest",
+                  "Summit top"
+                ]
+              }
+            ]
+          },
+          {
+            word: "thunder",
+            phonetic: "/ˈθʌndər/",
+            examples: [
+              "Thunder roared loudly overhead",
+              "Thunder and lightning together",
+              "Steal someone's thunder means upstage",
+              "Thunder clap startled everyone",
+              "Thunder rumbled in distance",
+              "Thunder storm approached quickly",
+              "Thunder god in mythology",
+              "Thunder struck without warning",
+              "Thunder rolled across sky",
+              "Thunder shook the windows"
+            ],
+            questions: [
+              {
+                question: "What roared?",
+                answers: [
+                  "Thunder roared",
+                  "Thunder loud",
+                  "Thunder overhead"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Steal thunder",
+                  "Thunder lightning",
+                  "Thunder upstage"
+                ]
+              },
+              {
+                question: "What startled everyone?",
+                answers: [
+                  "Thunder clap",
+                  "Clap thunder",
+                  "Thunder startled"
+                ]
+              }
+            ]
+          },
+          {
+            word: "troops",
+            phonetic: "/truːps/",
+            examples: [
+              "Troops marched in formation",
+              "Support our troops overseas",
+              "Troops deployed to region",
+              "Ground troops advanced forward",
+              "Troops need supplies urgently",
+              "Rally the troops together",
+              "Troops returned home safely",
+              "Elite troops were sent",
+              "Troops stationed at base",
+              "Thousands of troops mobilized"
+            ],
+            questions: [
+              {
+                question: "What marched?",
+                answers: [
+                  "Troops marched",
+                  "Troops formation",
+                  "Marched troops"
+                ]
+              },
+              {
+                question: "Who's overseas?",
+                answers: [
+                  "Our troops",
+                  "Troops overseas",
+                  "Support troops"
+                ]
+              },
+              {
+                question: "What were deployed?",
+                answers: [
+                  "Troops deployed",
+                  "Deployed troops",
+                  "Troops region"
+                ]
+              }
+            ]
+          },
+          {
+            word: "warrior",
+            phonetic: "/ˈwɔːriər/",
+            examples: [
+              "Brave warrior fought fearlessly",
+              "Warrior spirit never dies",
+              "Ancient warrior trained daily",
+              "Warrior culture values honor",
+              "Warrior princess was strong",
+              "Weekend warrior exercises occasionally",
+              "Warrior poet combined arts",
+              "Samurai warrior followed code",
+              "Warrior class ruled society",
+              "Warrior mentality is tough"
+            ],
+            questions: [
+              {
+                question: "Who fought fearlessly?",
+                answers: [
+                  "Brave warrior",
+                  "Warrior fought",
+                  "Warrior brave"
+                ]
+              },
+              {
+                question: "What never dies?",
+                answers: [
+                  "Warrior spirit",
+                  "Spirit warrior",
+                  "Warrior never"
+                ]
+              },
+              {
+                question: "Who exercises occasionally?",
+                answers: [
+                  "Weekend warrior",
+                  "Warrior weekend",
+                  "Warrior exercises"
+                ]
+              }
+            ]
+          },
+          {
+            word: "withdraw",
+            phonetic: "/wɪðˈdrɔː/",
+            examples: [
+              "Withdraw money from bank",
+              "Withdraw from competition",
+              "Withdraw troops immediately",
+              "Withdraw support for plan",
+              "Withdraw statement made earlier",
+              "Withdraw into yourself",
+              "Withdraw symptoms are harsh",
+              "Withdraw application completely",
+              "Withdraw consent given",
+              "Withdraw from society"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Withdraw money",
+                  "Withdraw from",
+                  "Withdraw bank"
+                ]
+              },
+              {
+                question: "What immediately?",
+                answers: [
+                  "Withdraw troops",
+                  "Troops withdraw",
+                  "Withdraw immediately"
+                ]
+              },
+              {
+                question: "What are harsh?",
+                answers: [
+                  "Withdraw symptoms",
+                  "Withdrawal symptoms",
+                  "Symptoms withdraw"
+                ]
+              }
+            ]
+          },
+          {
+            word: "yield",
+            phonetic: "/jiːld/",
+            examples: [
+              "Yield to oncoming traffic",
+              "Crop yield increased this year",
+              "Yield sign means slow down",
+              "Investment yield is high",
+              "Yield to pressure reluctantly",
+              "Yield results when tested",
+              "Yield ground to enemy",
+              "Never yield to threats",
+              "Yield to temptation easily",
+              "Bond yield attracts investors"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Yield to traffic",
+                  "Yield sign",
+                  "Yield slow"
+                ]
+              },
+              {
+                question: "What increased?",
+                answers: [
+                  "Crop yield",
+                  "Yield increased",
+                  "Yield high"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Never yield",
+                  "Not yield",
+                  "Yield threats"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit19",
+        words: [
+          {
+            word: "bench",
+            phonetic: "/bentʃ/",
+            examples: [
+              "Sit on the park bench",
+              "Judge sits on the bench",
+              "Bench press builds strength",
+              "Bench player waits to play",
+              "Work bench has tools",
+              "Bench mark is standard",
+              "Bench trial has no jury",
+              "Warming the bench means substitute",
+              "Piano bench holds music",
+              "Bench seat in car"
+            ],
+            questions: [
+              {
+                question: "Where should I sit?",
+                answers: [
+                  "On bench",
+                  "Park bench",
+                  "Sit bench"
+                ]
+              },
+              {
+                question: "Where does judge sit?",
+                answers: [
+                  "On bench",
+                  "Judge bench",
+                  "Bench sits"
+                ]
+              },
+              {
+                question: "What builds strength?",
+                answers: [
+                  "Bench press",
+                  "Press bench",
+                  "Bench strength"
+                ]
+              }
+            ]
+          },
+          {
+            word: "daisy",
+            phonetic: "/ˈdeɪzi/",
+            examples: [
+              "Pick daisies in meadow",
+              "Daisy chain is linked flowers",
+              "Fresh as a daisy means energetic",
+              "Pushing up daisies means dead",
+              "Daisy wheel printer is old",
+              "Daisy Mae was character",
+              "Oops a daisy when falling",
+              "Daisy cutter is bomb",
+              "Lazy Daisy stitch in sewing",
+              "Daisy petals are white"
+            ],
+            questions: [
+              {
+                question: "What should I pick?",
+                answers: [
+                  "Pick daisies",
+                  "Daisies meadow",
+                  "Daisy flowers"
+                ]
+              },
+              {
+                question: "What means energetic?",
+                answers: [
+                  "Fresh as daisy",
+                  "Daisy fresh",
+                  "Fresh daisy"
+                ]
+              },
+              {
+                question: "What means dead?",
+                answers: [
+                  "Pushing daisies",
+                  "Daisies up",
+                  "Daisy dead"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dispute",
+            phonetic: "/dɪˈspjuːt/",
+            examples: [
+              "Settle the dispute peacefully",
+              "Dispute arises between neighbors",
+              "Beyond dispute means certain",
+              "Dispute the facts presented",
+              "Labor dispute halted work",
+              "Border dispute continues",
+              "Dispute resolution is needed",
+              "Don't dispute what's obvious",
+              "Legal dispute in court",
+              "Territorial dispute threatens peace"
+            ],
+            questions: [
+              {
+                question: "What should we settle?",
+                answers: [
+                  "The dispute",
+                  "Settle dispute",
+                  "Dispute peacefully"
+                ]
+              },
+              {
+                question: "What arises?",
+                answers: [
+                  "Dispute arises",
+                  "Dispute between",
+                  "Arises dispute"
+                ]
+              },
+              {
+                question: "What means certain?",
+                answers: [
+                  "Beyond dispute",
+                  "Dispute beyond",
+                  "Certain dispute"
+                ]
+              }
+            ]
+          },
+          {
+            word: "empty",
+            phonetic: "/ˈempti/",
+            examples: [
+              "The glass is empty now",
+              "Empty promises mean nothing",
+              "Empty nest syndrome affects parents",
+              "Empty handed means without anything",
+              "Empty the trash immediately",
+              "Empty threats don't work",
+              "Empty calories have no nutrition",
+              "Empty space seems vast",
+              "Running on empty means exhausted",
+              "Empty vessel makes most noise"
+            ],
+            questions: [
+              {
+                question: "How's the glass?",
+                answers: [
+                  "Glass empty",
+                  "It's empty",
+                  "Empty now"
+                ]
+              },
+              {
+                question: "What means nothing?",
+                answers: [
+                  "Empty promises",
+                  "Promises empty",
+                  "Empty threats"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Empty trash",
+                  "Empty it",
+                  "Empty immediately"
+                ]
+              }
+            ]
+          },
+          {
+            word: "horror",
+            phonetic: "/ˈhɔːrər/",
+            examples: [
+              "Horror movie scared everyone",
+              "Horror struck the crowd",
+              "To my horror I realized",
+              "Horror stories are frightening",
+              "Horror show was terrible",
+              "Chamber of horrors displays",
+              "Horror of war is real",
+              "Horror film industry thrives",
+              "Express horror at news",
+              "Horror vacui means fear emptiness"
+            ],
+            questions: [
+              {
+                question: "What scared everyone?",
+                answers: [
+                  "Horror movie",
+                  "Movie horror",
+                  "Horror scared"
+                ]
+              },
+              {
+                question: "What struck crowd?",
+                answers: [
+                  "Horror struck",
+                  "Struck horror",
+                  "Horror crowd"
+                ]
+              },
+              {
+                question: "What are frightening?",
+                answers: [
+                  "Horror stories",
+                  "Stories horror",
+                  "Horror frightening"
+                ]
+              }
+            ]
+          },
+          {
+            word: "incident",
+            phonetic: "/ˈɪnsɪdənt/",
+            examples: [
+              "Minor incident occurred yesterday",
+              "Report the incident immediately",
+              "Incident free day at work",
+              "Diplomatic incident caused tension",
+              "Incident light hits surface",
+              "Serious incident was investigated",
+              "Incident management is important",
+              "Isolated incident not pattern",
+              "Incident room was established",
+              "Unfortunate incident happened"
+            ],
+            questions: [
+              {
+                question: "What occurred?",
+                answers: [
+                  "Minor incident",
+                  "Incident occurred",
+                  "Incident yesterday"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Report incident",
+                  "Report immediately",
+                  "Incident report"
+                ]
+              },
+              {
+                question: "What was investigated?",
+                answers: [
+                  "Serious incident",
+                  "Incident investigated",
+                  "Incident serious"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mist",
+            phonetic: "/mɪst/",
+            examples: [
+              "Morning mist covered valley",
+              "Mist spray cools face",
+              "Mist over means cry",
+              "Eyes misted with tears",
+              "Mist disappeared with sun",
+              "Lost in the mist",
+              "Mist machine creates effect",
+              "Mist of time obscures",
+              "Heavy mist reduced visibility",
+              "Mist rolling off ocean"
+            ],
+            questions: [
+              {
+                question: "What covered valley?",
+                answers: [
+                  "Morning mist",
+                  "Mist covered",
+                  "Mist valley"
+                ]
+              },
+              {
+                question: "What means cry?",
+                answers: [
+                  "Mist over",
+                  "Eyes mist",
+                  "Mist tears"
+                ]
+              },
+              {
+                question: "What disappeared?",
+                answers: [
+                  "Mist disappeared",
+                  "The mist",
+                  "Mist sun"
+                ]
+              }
+            ]
+          },
+          {
+            word: "object",
+            phonetic: "/ˈɑːbdʒɪkt/",
+            examples: [
+              "Object to the proposal strongly",
+              "Strange object in sky",
+              "Object of affection is love",
+              "Money is no object",
+              "Direct object receives action",
+              "Object lesson teaches clearly",
+              "Object oriented programming",
+              "Unidentified flying object appeared",
+              "Object of the game",
+              "Religious object has meaning"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Object proposal",
+                  "Object strongly",
+                  "Object to"
+                ]
+              },
+              {
+                question: "What's in sky?",
+                answers: [
+                  "Strange object",
+                  "Object sky",
+                  "Flying object"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Money no object",
+                  "Object affection",
+                  "Object lesson"
+                ]
+              }
+            ]
+          },
+          {
+            word: "orphan",
+            phonetic: "/ˈɔːrfn/",
+            examples: [
+              "The child became an orphan",
+              "Orphan Annie is musical",
+              "Orphanage houses orphans",
+              "Orphan drug treats rare disease",
+              "War orphans need help",
+              "Orphan trains moved children",
+              "Adopt an orphan child",
+              "Orphan page in printing",
+              "Orphaned at young age",
+              "Orphan elephant was rescued"
+            ],
+            questions: [
+              {
+                question: "What happened to child?",
+                answers: [
+                  "Became orphan",
+                  "Child orphan",
+                  "Orphaned child"
+                ]
+              },
+              {
+                question: "What's the musical?",
+                answers: [
+                  "Orphan Annie",
+                  "Annie orphan",
+                  "Orphan musical"
+                ]
+              },
+              {
+                question: "What houses orphans?",
+                answers: [
+                  "Orphanage houses",
+                  "Orphanage orphans",
+                  "Houses orphans"
+                ]
+              }
+            ]
+          },
+          {
+            word: "plot",
+            phonetic: "/plɑːt/",
+            examples: [
+              "The plot thickens mysteriously",
+              "Plot of land for sale",
+              "Plot a course carefully",
+              "Story plot was complex",
+              "Plot against the king",
+              "Plot points in narrative",
+              "Plot twist surprised everyone",
+              "Burial plot in cemetery",
+              "Plot revenge carefully",
+              "Plot graph shows data"
+            ],
+            questions: [
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Plot thickens",
+                  "Thickens plot",
+                  "Plot mysterious"
+                ]
+              },
+              {
+                question: "What's for sale?",
+                answers: [
+                  "Plot of land",
+                  "Land plot",
+                  "Plot sale"
+                ]
+              },
+              {
+                question: "What was complex?",
+                answers: [
+                  "Story plot",
+                  "Plot complex",
+                  "Plot story"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pregnant",
+            phonetic: "/ˈpreɡnənt/",
+            examples: [
+              "She is three months pregnant",
+              "Pregnant pause means significant silence",
+              "Pregnant woman needs care",
+              "Pregnant with meaning",
+              "Get pregnant naturally",
+              "Pregnant silence filled room",
+              "Pregnant cat expecting kittens",
+              "Pregnant possibilities exist",
+              "Teenage pregnancy concerns",
+              "Pregnant phrase is meaningful"
+            ],
+            questions: [
+              {
+                question: "How is she?",
+                answers: [
+                  "She's pregnant",
+                  "Three months pregnant",
+                  "Pregnant woman"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Pregnant pause",
+                  "Pregnant silence",
+                  "Pregnant meaning"
+                ]
+              },
+              {
+                question: "Who needs care?",
+                answers: [
+                  "Pregnant woman",
+                  "Woman pregnant",
+                  "Pregnant needs"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rage",
+            phonetic: "/reɪdʒ/",
+            examples: [
+              "Fly into a rage easily",
+              "Road rage is dangerous",
+              "All the rage means popular",
+              "Rage against injustice",
+              "Roid rage from steroids",
+              "Rage quit the game",
+              "Blind rage took over",
+              "Rage burns within",
+              "Storm raged all night",
+              "Rage room for venting"
+            ],
+            questions: [
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Fly into rage",
+                  "Road rage",
+                  "All rage"
+                ]
+              },
+              {
+                question: "What's dangerous?",
+                answers: [
+                  "Road rage",
+                  "Rage dangerous",
+                  "Rage road"
+                ]
+              },
+              {
+                question: "What means popular?",
+                answers: [
+                  "All rage",
+                  "Rage popular",
+                  "Rage means"
+                ]
+              }
+            ]
+          },
+          {
+            word: "revenge",
+            phonetic: "/rɪˈvendʒ/",
+            examples: [
+              "Seek revenge for betrayal",
+              "Revenge is sweet saying",
+              "Best revenge is success",
+              "Revenge plot in movie",
+              "Take revenge carefully",
+              "Revenge tragedy is genre",
+              "Dish served cold is revenge",
+              "Revenge killing occurred",
+              "Living well is best revenge",
+              "Revenge fantasy common"
+            ],
+            questions: [
+              {
+                question: "What should you seek?",
+                answers: [
+                  "Seek revenge",
+                  "Revenge betrayal",
+                  "Take revenge"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Revenge sweet",
+                  "Best revenge",
+                  "Living revenge"
+                ]
+              },
+              {
+                question: "What's in movie?",
+                answers: [
+                  "Revenge plot",
+                  "Plot revenge",
+                  "Revenge movie"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shame",
+            phonetic: "/ʃeɪm/",
+            examples: [
+              "Feel shame for actions",
+              "Shame on you for lying",
+              "What a shame that happened",
+              "Shame spiral is negative",
+              "Crying shame means unfortunate",
+              "Shame someone publicly",
+              "Shame culture values honor",
+              "Put to shame means outdo",
+              "Walk of shame after party",
+              "Shame faced means embarrassed"
+            ],
+            questions: [
+              {
+                question: "What do you feel?",
+                answers: [
+                  "Feel shame",
+                  "Shame actions",
+                  "Shame for"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Shame on you",
+                  "What shame",
+                  "Crying shame"
+                ]
+              },
+              {
+                question: "What means outdo?",
+                answers: [
+                  "Put shame",
+                  "Shame means",
+                  "Shame outdo"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sigh",
+            phonetic: "/saɪ/",
+            examples: [
+              "Let out a heavy sigh",
+              "Sigh of relief escaped",
+              "Sigh and resign yourself",
+              "Sigh deeply with emotion",
+              "Wind sighed through trees",
+              "Sigh for the old days",
+              "Collective sigh from crowd",
+              "Sigh of contentment",
+              "Long suffering sigh",
+              "Breathe a sigh"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Let out sigh",
+                  "Sigh deeply",
+                  "Breathe sigh"
+                ]
+              },
+              {
+                question: "What escaped?",
+                answers: [
+                  "Sigh relief",
+                  "Sigh escaped",
+                  "Relief sigh"
+                ]
+              },
+              {
+                question: "What did wind do?",
+                answers: [
+                  "Wind sighed",
+                  "Sighed through",
+                  "Sigh trees"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sneak",
+            phonetic: "/sniːk/",
+            examples: [
+              "Sneak into the house quietly",
+              "Sneak preview of movie",
+              "Sneak peek at surprise",
+              "Don't sneak around behind",
+              "Sneak attack is unfair",
+              "Sneak thief steals quietly",
+              "Sneak out without permission",
+              "Sneak up on someone",
+              "Sneak a cookie secretly",
+              "Sneak suspicion about truth"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Sneak into",
+                  "Sneak quietly",
+                  "Sneak in"
+                ]
+              },
+              {
+                question: "What's of movie?",
+                answers: [
+                  "Sneak preview",
+                  "Preview sneak",
+                  "Sneak peek"
+                ]
+              },
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't sneak",
+                  "Not sneak",
+                  "Sneak around"
+                ]
+              }
+            ]
+          },
+          {
+            word: "spare",
+            phonetic: "/sper/",
+            examples: [
+              "Spare tire in trunk",
+              "Spare no expense for quality",
+              "Spare time is limited",
+              "Spare someone's feelings",
+              "Spare change for coffee",
+              "Spare room for guests",
+              "Spare the rod spoil child",
+              "Spare parts are needed",
+              "Spare me the details",
+              "Spare key hidden outside"
+            ],
+            questions: [
+              {
+                question: "What's in trunk?",
+                answers: [
+                  "Spare tire",
+                  "Tire spare",
+                  "Spare trunk"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Spare no expense",
+                  "Spare feelings",
+                  "Spare rod"
+                ]
+              },
+              {
+                question: "What's limited?",
+                answers: [
+                  "Spare time",
+                  "Time spare",
+                  "Spare limited"
+                ]
+              }
+            ]
+          },
+          {
+            word: "stem",
+            phonetic: "/stem/",
+            examples: [
+              "Flower stem holds bloom",
+              "Stem the flow of blood",
+              "From stem to stern means completely",
+              "Brain stem controls functions",
+              "Stem cell research advances",
+              "Stem from childhood experiences",
+              "Wine glass stem is thin",
+              "Stem the tide means stop",
+              "Word stem is root",
+              "Stem education is important"
+            ],
+            questions: [
+              {
+                question: "What holds bloom?",
+                answers: [
+                  "Flower stem",
+                  "Stem holds",
+                  "Stem flower"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Stem flow",
+                  "Stem blood",
+                  "Stem tide"
+                ]
+              },
+              {
+                question: "What advances?",
+                answers: [
+                  "Stem cell research",
+                  "Research stem",
+                  "Stem advances"
+                ]
+              }
+            ]
+          },
+          {
+            word: "supper",
+            phonetic: "/ˈsʌpər/",
+            examples: [
+              "Eat supper at six",
+              "Last Supper is painting",
+              "Supper club offers entertainment",
+              "Supper time with family",
+              "Light supper before bed",
+              "Sunday supper tradition",
+              "Supper table conversation",
+              "Pot luck supper event",
+              "Sing for supper means earn",
+              "Supper bell rang"
+            ],
+            questions: [
+              {
+                question: "When should we eat?",
+                answers: [
+                  "Eat supper",
+                  "Supper at six",
+                  "Supper time"
+                ]
+              },
+              {
+                question: "What's the painting?",
+                answers: [
+                  "Last Supper",
+                  "Supper painting",
+                  "Supper last"
+                ]
+              },
+              {
+                question: "What's the tradition?",
+                answers: [
+                  "Sunday supper",
+                  "Supper tradition",
+                  "Supper Sunday"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tender",
+            phonetic: "/ˈtendər/",
+            examples: [
+              "Meat is very tender",
+              "Tender loving care needed",
+              "Legal tender is currency",
+              "Tender age means young",
+              "Tender resignation letter",
+              "Tender spot hurts when touched",
+              "Tender hearted person cries",
+              "Tender offer to buy",
+              "Cook until tender",
+              "Tender moment was shared"
+            ],
+            questions: [
+              {
+                question: "How's the meat?",
+                answers: [
+                  "Very tender",
+                  "Meat tender",
+                  "It's tender"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Tender loving care",
+                  "Tender care",
+                  "TLC tender"
+                ]
+              },
+              {
+                question: "What's currency?",
+                answers: [
+                  "Legal tender",
+                  "Tender currency",
+                  "Tender legal"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit20",
+        words: [
+          {
+            word: "beneath",
+            phonetic: "/bɪˈniːθ/",
+            examples: [
+              "The treasure lies beneath surface",
+              "Beneath contempt means despicable",
+              "Beneath the ground are caves",
+              "Beneath her smile was sadness",
+              "Beneath dignity to complain",
+              "Look beneath the obvious",
+              "Beneath notice means unimportant",
+              "City beneath the city exists",
+              "Beneath the waves are secrets",
+              "Beneath one's station means inferior"
+            ],
+            questions: [
+              {
+                question: "Where's the treasure?",
+                answers: [
+                  "Beneath surface",
+                  "Lies beneath",
+                  "Beneath ground"
+                ]
+              },
+              {
+                question: "What means despicable?",
+                answers: [
+                  "Beneath contempt",
+                  "Contempt beneath",
+                  "Beneath dignity"
+                ]
+              },
+              {
+                question: "Where are caves?",
+                answers: [
+                  "Beneath ground",
+                  "Ground beneath",
+                  "Beneath surface"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cub",
+            phonetic: "/kʌb/",
+            examples: [
+              "Lion cub follows mother",
+              "Bear cub is adorable",
+              "Cub scout joins pack",
+              "Wolf cub learns hunting",
+              "Cub reporter is inexperienced",
+              "Tiger cub plays roughly",
+              "Cub pilot is training",
+              "Chicago Cubs baseball team",
+              "Fox cub explores territory",
+              "Cub cadet is young"
+            ],
+            questions: [
+              {
+                question: "Who follows mother?",
+                answers: [
+                  "Lion cub",
+                  "Cub follows",
+                  "The cub"
+                ]
+              },
+              {
+                question: "What's adorable?",
+                answers: [
+                  "Bear cub",
+                  "Cub adorable",
+                  "Baby cub"
+                ]
+              },
+              {
+                question: "Who's inexperienced?",
+                answers: [
+                  "Cub reporter",
+                  "Reporter cub",
+                  "Cub inexperienced"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dawn",
+            phonetic: "/dɔːn/",
+            examples: [
+              "Wake at dawn every day",
+              "Dawn of civilization began",
+              "Dawn chorus of birds",
+              "Wait until dawn breaks",
+              "Dawn patrol guards early",
+              "Dawn raid by police",
+              "False dawn appears first",
+              "Dawn to dusk work hard",
+              "Dawn on me means realize",
+              "Crack of dawn is earliest"
+            ],
+            questions: [
+              {
+                question: "When should I wake?",
+                answers: [
+                  "At dawn",
+                  "Wake dawn",
+                  "Dawn time"
+                ]
+              },
+              {
+                question: "What began?",
+                answers: [
+                  "Dawn civilization",
+                  "Dawn began",
+                  "Civilization dawn"
+                ]
+              },
+              {
+                question: "What means realize?",
+                answers: [
+                  "Dawn on me",
+                  "Dawn realize",
+                  "Dawn understanding"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dissatisfied",
+            phonetic: "/dɪsˈsætɪsfaɪd/",
+            examples: [
+              "Customer is very dissatisfied",
+              "Dissatisfied with results obtained",
+              "Dissatisfied employees leave jobs",
+              "Feel dissatisfied about outcome",
+              "Dissatisfied look on face",
+              "Dissatisfied with current situation",
+              "Increasingly dissatisfied over time",
+              "Dissatisfied customer complains loudly",
+              "Dissatisfied voters seek change",
+              "Dissatisfied with life choices"
+            ],
+            questions: [
+              {
+                question: "How's the customer?",
+                answers: [
+                  "Very dissatisfied",
+                  "Customer dissatisfied",
+                  "Dissatisfied customer"
+                ]
+              },
+              {
+                question: "What about results?",
+                answers: [
+                  "Dissatisfied with results",
+                  "Dissatisfied results",
+                  "Results dissatisfied"
+                ]
+              },
+              {
+                question: "Who leaves jobs?",
+                answers: [
+                  "Dissatisfied employees",
+                  "Employees dissatisfied",
+                  "Dissatisfied workers"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ease",
+            phonetic: "/iːz/",
+            examples: [
+              "At ease soldiers relax",
+              "Ease the pain with medicine",
+              "Ease into retirement slowly",
+              "Put someone at ease",
+              "Ease of use is important",
+              "Ease off the accelerator",
+              "Ease up on criticism",
+              "Chapel of ease is small",
+              "Ease restrictions gradually",
+              "With great ease he succeeded"
+            ],
+            questions: [
+              {
+                question: "What's the command?",
+                answers: [
+                  "At ease",
+                  "Ease soldiers",
+                  "Stand ease"
+                ]
+              },
+              {
+                question: "What should medicine do?",
+                answers: [
+                  "Ease pain",
+                  "Ease the pain",
+                  "Pain ease"
+                ]
+              },
+              {
+                question: "What's important?",
+                answers: [
+                  "Ease of use",
+                  "Use ease",
+                  "Ease important"
+                ]
+              }
+            ]
+          },
+          {
+            word: "evident",
+            phonetic: "/ˈevɪdənt/",
+            examples: [
+              "It's evident he's lying",
+              "Evident from the start",
+              "Self evident truth requires no proof",
+              "Evident signs of wear",
+              "Evident that she cares",
+              "Evident to everyone present",
+              "Evident improvement was made",
+              "Evident conclusion reached",
+              "Evident damage to property",
+              "Evident lack of interest"
+            ],
+            questions: [
+              {
+                question: "What's clear?",
+                answers: [
+                  "It's evident",
+                  "Evident lying",
+                  "Evident truth"
+                ]
+              },
+              {
+                question: "What requires no proof?",
+                answers: [
+                  "Self evident",
+                  "Evident truth",
+                  "Evident self"
+                ]
+              },
+              {
+                question: "What was made?",
+                answers: [
+                  "Evident improvement",
+                  "Improvement evident",
+                  "Evident made"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hail",
+            phonetic: "/heɪl/",
+            examples: [
+              "Hail storm damaged crops",
+              "Hail a taxi on street",
+              "Hail Mary is prayer",
+              "Hail from another country",
+              "Hail as hero returning",
+              "Hail fellow well met friendly",
+              "Hail stones fell heavily",
+              "Hail the chief when entering",
+              "Hail damage to car",
+              "Within hailing distance close"
+            ],
+            questions: [
+              {
+                question: "What damaged crops?",
+                answers: [
+                  "Hail storm",
+                  "Storm hail",
+                  "Hail damaged"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Hail taxi",
+                  "Hail a cab",
+                  "Hail street"
+                ]
+              },
+              {
+                question: "Where do you come from?",
+                answers: [
+                  "Hail from",
+                  "Hail country",
+                  "Hail another"
+                ]
+              }
+            ]
+          },
+          {
+            word: "howl",
+            phonetic: "/haʊl/",
+            examples: [
+              "Wolf howls at moon",
+              "Howl with laughter loudly",
+              "Howl in pain from injury",
+              "Wind howls through cracks",
+              "Baby howled all night",
+              "Howl of protest arose",
+              "Howling success means popular",
+              "Howl with rage angrily",
+              "Howl down means shout down",
+              "Howling wilderness is desolate"
+            ],
+            questions: [
+              {
+                question: "What does wolf do?",
+                answers: [
+                  "Wolf howls",
+                  "Howls moon",
+                  "Howl wolf"
+                ]
+              },
+              {
+                question: "What with laughter?",
+                answers: [
+                  "Howl laughter",
+                  "Howl with",
+                  "Laugh howl"
+                ]
+              },
+              {
+                question: "What means popular?",
+                answers: [
+                  "Howling success",
+                  "Success howling",
+                  "Howling popular"
+                ]
+              }
+            ]
+          },
+          {
+            word: "leap",
+            phonetic: "/liːp/",
+            examples: [
+              "Leap over the fence quickly",
+              "Leap of faith required",
+              "Look before you leap carefully",
+              "Leap year has extra day",
+              "Quantum leap means big advance",
+              "Leap to conclusions hastily",
+              "Heart leaps with joy",
+              "Leap frog is game",
+              "By leaps and bounds rapidly",
+              "Leap at the opportunity"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Leap over",
+                  "Leap fence",
+                  "Leap quickly"
+                ]
+              },
+              {
+                question: "What's required?",
+                answers: [
+                  "Leap of faith",
+                  "Faith leap",
+                  "Leap required"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Look before leap",
+                  "Leap carefully",
+                  "Before leap"
+                ]
+              }
+            ]
+          },
+          {
+            word: "magnificent",
+            phonetic: "/mæɡˈnɪfɪsənt/",
+            examples: [
+              "The view is magnificent",
+              "Magnificent seven is movie",
+              "Magnificent obsession consumed him",
+              "Magnificent performance by actor",
+              "Magnificent architecture stands tall",
+              "Magnificent gesture was generous",
+              "Magnificent scenery amazed all",
+              "Magnificent creature appeared",
+              "Magnificent achievement celebrated",
+              "Lorenzo the Magnificent ruled"
+            ],
+            questions: [
+              {
+                question: "How's the view?",
+                answers: [
+                  "View magnificent",
+                  "It's magnificent",
+                  "Magnificent view"
+                ]
+              },
+              {
+                question: "What's the movie?",
+                answers: [
+                  "Magnificent seven",
+                  "Seven magnificent",
+                  "Magnificent movie"
+                ]
+              },
+              {
+                question: "What stands tall?",
+                answers: [
+                  "Magnificent architecture",
+                  "Architecture magnificent",
+                  "Magnificent stands"
+                ]
+              }
+            ]
+          },
+          {
+            word: "necessity",
+            phonetic: "/nəˈsesəti/",
+            examples: [
+              "Necessity is mother of invention",
+              "Absolute necessity right now",
+              "Necessity knows no law",
+              "Bare necessities of life",
+              "Make virtue of necessity",
+              "Necessity dictates our actions",
+              "Economic necessity forced decision",
+              "Necessity for survival",
+              "Of necessity we must",
+              "Grim necessity faced them"
+            ],
+            questions: [
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Necessity mother invention",
+                  "Necessity invention",
+                  "Mother necessity"
+                ]
+              },
+              {
+                question: "What are bare?",
+                answers: [
+                  "Bare necessities",
+                  "Necessities life",
+                  "Bare necessity"
+                ]
+              },
+              {
+                question: "What dictates actions?",
+                answers: [
+                  "Necessity dictates",
+                  "Necessity actions",
+                  "Dictates necessity"
+                ]
+              }
+            ]
+          },
+          {
+            word: "outcome",
+            phonetic: "/ˈaʊtkʌm/",
+            examples: [
+              "The outcome was uncertain",
+              "Positive outcome expected",
+              "Outcome depends on effort",
+              "Final outcome announced tomorrow",
+              "Outcome of trial awaited",
+              "Successful outcome achieved",
+              "Outcome based education",
+              "Outcome measures progress",
+              "Uncertain outcome worries",
+              "Outcome exceeded expectations"
+            ],
+            questions: [
+              {
+                question: "What was uncertain?",
+                answers: [
+                  "The outcome",
+                  "Outcome uncertain",
+                  "Uncertain outcome"
+                ]
+              },
+              {
+                question: "What's expected?",
+                answers: [
+                  "Positive outcome",
+                  "Outcome expected",
+                  "Outcome positive"
+                ]
+              },
+              {
+                question: "What depends on effort?",
+                answers: [
+                  "Outcome depends",
+                  "Depends outcome",
+                  "Outcome effort"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pile",
+            phonetic: "/paɪl/",
+            examples: [
+              "Pile of books on desk",
+              "Make your pile means earn money",
+              "Pile on means exaggerate",
+              "Pile up the dishes",
+              "Pile driver pounds posts",
+              "Pile into car quickly",
+              "At bottom of pile",
+              "Pile it high and sell cheap",
+              "Nuclear pile is reactor",
+              "Pile carpet is thick"
+            ],
+            questions: [
+              {
+                question: "What's on desk?",
+                answers: [
+                  "Pile books",
+                  "Pile on desk",
+                  "Books pile"
+                ]
+              },
+              {
+                question: "What means earn money?",
+                answers: [
+                  "Make pile",
+                  "Pile money",
+                  "Make your pile"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Pile up",
+                  "Pile dishes",
+                  "Pile high"
+                ]
+              }
+            ]
+          },
+          {
+            word: "profound",
+            phonetic: "/prəˈfaʊnd/",
+            examples: [
+              "Profound impact on society",
+              "Profound silence filled room",
+              "Profound thinker analyzes deeply",
+              "Profound effect on life",
+              "Profound truth was revealed",
+              "Profound sadness overwhelmed",
+              "Profound respect for elders",
+              "Profound meaning in words",
+              "Profound wisdom shared",
+              "Profound change occurred"
+            ],
+            questions: [
+              {
+                question: "What kind of impact?",
+                answers: [
+                  "Profound impact",
+                  "Impact profound",
+                  "Profound society"
+                ]
+              },
+              {
+                question: "What filled room?",
+                answers: [
+                  "Profound silence",
+                  "Silence profound",
+                  "Profound filled"
+                ]
+              },
+              {
+                question: "What was revealed?",
+                answers: [
+                  "Profound truth",
+                  "Truth profound",
+                  "Profound revealed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "seize",
+            phonetic: "/siːz/",
+            examples: [
+              "Seize the opportunity now",
+              "Seize power through force",
+              "Seize the day means carpe diem",
+              "Police seize illegal goods",
+              "Seize control of situation",
+              "Seize up means stop working",
+              "Seize assets immediately",
+              "Seize moment when it comes",
+              "Seize initiative boldly",
+              "Engine seized from lack oil"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Seize opportunity",
+                  "Seize day",
+                  "Seize moment"
+                ]
+              },
+              {
+                question: "What do police do?",
+                answers: [
+                  "Police seize",
+                  "Seize goods",
+                  "Seize illegal"
+                ]
+              },
+              {
+                question: "What means stop working?",
+                answers: [
+                  "Seize up",
+                  "Seize stop",
+                  "Engine seize"
+                ]
+              }
+            ]
+          },
+          {
+            word: "squeeze",
+            phonetic: "/skwiːz/",
+            examples: [
+              "Squeeze the orange for juice",
+              "Tight squeeze through doorway",
+              "Put the squeeze on means pressure",
+              "Squeeze in one more person",
+              "Credit squeeze limits money",
+              "Squeeze play in baseball",
+              "Main squeeze means partner",
+              "Squeeze out competition",
+              "Squeeze trigger carefully",
+              "Squeeze bottle dispenses product"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Squeeze orange",
+                  "Squeeze juice",
+                  "Squeeze it"
+                ]
+              },
+              {
+                question: "What means pressure?",
+                answers: [
+                  "Put squeeze on",
+                  "Squeeze pressure",
+                  "Squeeze on"
+                ]
+              },
+              {
+                question: "What's tight?",
+                answers: [
+                  "Tight squeeze",
+                  "Squeeze tight",
+                  "Squeeze through"
+                ]
+              }
+            ]
+          },
+          {
+            word: "supreme",
+            phonetic: "/suːˈpriːm/",
+            examples: [
+              "Supreme Court is highest",
+              "Supreme commander leads all",
+              "Supreme sacrifice was made",
+              "Supreme being is God",
+              "Supreme confidence shown",
+              "Reign supreme over others",
+              "Supreme effort required",
+              "Supreme pizza has everything",
+              "Supreme power corrupts",
+              "Supreme moment of glory"
+            ],
+            questions: [
+              {
+                question: "What's highest?",
+                answers: [
+                  "Supreme Court",
+                  "Court supreme",
+                  "Supreme highest"
+                ]
+              },
+              {
+                question: "Who leads all?",
+                answers: [
+                  "Supreme commander",
+                  "Commander supreme",
+                  "Supreme leads"
+                ]
+              },
+              {
+                question: "What was made?",
+                answers: [
+                  "Supreme sacrifice",
+                  "Sacrifice supreme",
+                  "Supreme made"
+                ]
+              }
+            ]
+          },
+          {
+            word: "terrific",
+            phonetic: "/təˈrɪfɪk/",
+            examples: [
+              "That's a terrific idea",
+              "Terrific speed was reached",
+              "Terrific effort by team",
+              "Terrific news arrived today",
+              "Terrific performance on stage",
+              "Terrific amount of work",
+              "Terrific storm hit coast",
+              "Terrific pressure felt",
+              "Terrific value for money",
+              "Terrific job well done"
+            ],
+            questions: [
+              {
+                question: "What kind of idea?",
+                answers: [
+                  "Terrific idea",
+                  "Idea terrific",
+                  "That's terrific"
+                ]
+              },
+              {
+                question: "What was reached?",
+                answers: [
+                  "Terrific speed",
+                  "Speed terrific",
+                  "Terrific reached"
+                ]
+              },
+              {
+                question: "What arrived?",
+                answers: [
+                  "Terrific news",
+                  "News terrific",
+                  "Terrific arrived"
+                ]
+              }
+            ]
+          },
+          {
+            word: "trait",
+            phonetic: "/treɪt/",
+            examples: [
+              "Honesty is admirable trait",
+              "Personality trait defines character",
+              "Genetic trait passed down",
+              "Character trait shows values",
+              "Inherited trait from parents",
+              "Dominant trait appears more",
+              "Negative trait to overcome",
+              "Recessive trait is hidden",
+              "Trait common to all",
+              "Distinguishing trait sets apart"
+            ],
+            questions: [
+              {
+                question: "What's admirable?",
+                answers: [
+                  "Admirable trait",
+                  "Honesty trait",
+                  "Trait admirable"
+                ]
+              },
+              {
+                question: "What defines character?",
+                answers: [
+                  "Personality trait",
+                  "Trait defines",
+                  "Character trait"
+                ]
+              },
+              {
+                question: "What's passed down?",
+                answers: [
+                  "Genetic trait",
+                  "Trait passed",
+                  "Inherited trait"
+                ]
+              }
+            ]
+          },
+          {
+            word: "vital",
+            phonetic: "/ˈvaɪtl/",
+            examples: [
+              "Vital signs are stable",
+              "Vital importance to mission",
+              "Vital organs sustain life",
+              "Vital information was missing",
+              "Vital statistics collected",
+              "Vital role in success",
+              "Vital energy drives action",
+              "Vital part of system",
+              "Vital interests at stake",
+              "Vital force animates"
+            ],
+            questions: [
+              {
+                question: "What are stable?",
+                answers: [
+                  "Vital signs",
+                  "Signs vital",
+                  "Vital stable"
+                ]
+              },
+              {
+                question: "What sustain life?",
+                answers: [
+                  "Vital organs",
+                  "Organs vital",
+                  "Vital life"
+                ]
+              },
+              {
+                question: "What was missing?",
+                answers: [
+                  "Vital information",
+                  "Information vital",
+                  "Vital missing"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit21",
+        words: [
+          {
+            word: "attack",
+            phonetic: "/əˈtæk/",
+            examples: [
+              "The enemy launched an attack",
+              "Heart attack is medical emergency",
+              "Attack on Pearl Harbor happened",
+              "Attack the problem systematically",
+              "Panic attack causes anxiety",
+              "Verbal attack hurt feelings",
+              "Attack is best defense sometimes",
+              "Shark attack is rare",
+              "Attack dog guards property",
+              "Counter attack was swift"
+            ],
+            questions: [
+              {
+                question: "What did enemy do?",
+                answers: [
+                  "Launched attack",
+                  "Enemy attack",
+                  "Attack launched"
+                ]
+              },
+              {
+                question: "What's medical emergency?",
+                answers: [
+                  "Heart attack",
+                  "Attack heart",
+                  "Medical attack"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Attack problem",
+                  "Attack systematically",
+                  "Attack it"
+                ]
+              }
+            ]
+          },
+          {
+            word: "breast",
+            phonetic: "/brest/",
+            examples: [
+              "Breast cancer awareness month",
+              "Make a clean breast confess",
+              "Breast stroke in swimming",
+              "Breast plate protects chest",
+              "Chicken breast for dinner",
+              "Breast feed the baby",
+              "Breast pocket holds items",
+              "Robin red breast bird",
+              "Breast bone is sternum",
+              "Beat breast means show remorse"
+            ],
+            questions: [
+              {
+                question: "What's awareness month?",
+                answers: [
+                  "Breast cancer",
+                  "Cancer breast",
+                  "Breast awareness"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Clean breast",
+                  "Breast confess",
+                  "Make breast"
+                ]
+              },
+              {
+                question: "What's in swimming?",
+                answers: [
+                  "Breast stroke",
+                  "Stroke breast",
+                  "Breast swim"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cancer",
+            phonetic: "/ˈkænsər/",
+            examples: [
+              "Cancer treatment is advancing",
+              "Lung cancer from smoking",
+              "Cancer research saves lives",
+              "Tropic of Cancer is latitude",
+              "Cancer zodiac sign is crab",
+              "Skin cancer prevention important",
+              "Cancer survivor inspires others",
+              "Cancer cells divide rapidly",
+              "Cancer screening detects early",
+              "Fight cancer with treatment"
+            ],
+            questions: [
+              {
+                question: "What's advancing?",
+                answers: [
+                  "Cancer treatment",
+                  "Treatment cancer",
+                  "Cancer advancing"
+                ]
+              },
+              {
+                question: "What from smoking?",
+                answers: [
+                  "Lung cancer",
+                  "Cancer smoking",
+                  "Cancer lung"
+                ]
+              },
+              {
+                question: "What saves lives?",
+                answers: [
+                  "Cancer research",
+                  "Research cancer",
+                  "Cancer saves"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cancerous",
+            phonetic: "/ˈkænsərəs/",
+            examples: [
+              "Cancerous tumor was removed",
+              "Cancerous cells spread quickly",
+              "Cancerous growth detected early",
+              "Cancerous tissue excised",
+              "Non cancerous means benign",
+              "Cancerous lesion identified",
+              "Cancerous mole requires treatment",
+              "Potentially cancerous polyp",
+              "Cancerous condition diagnosed",
+              "Pre cancerous stage monitored"
+            ],
+            questions: [
+              {
+                question: "What was removed?",
+                answers: [
+                  "Cancerous tumor",
+                  "Tumor cancerous",
+                  "Cancerous removed"
+                ]
+              },
+              {
+                question: "What spread quickly?",
+                answers: [
+                  "Cancerous cells",
+                  "Cells cancerous",
+                  "Cancerous spread"
+                ]
+              },
+              {
+                question: "What means benign?",
+                answers: [
+                  "Non cancerous",
+                  "Not cancerous",
+                  "Cancerous benign"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cell",
+            phonetic: "/sel/",
+            examples: [
+              "Cell phone is essential",
+              "Prison cell is small",
+              "Cell division creates life",
+              "Battery cell provides power",
+              "Cell wall protects bacteria",
+              "Terrorist cell operates secretly",
+              "Stem cell research progresses",
+              "Cell mate shares room",
+              "Solar cell generates electricity",
+              "Cell membrane is boundary"
+            ],
+            questions: [
+              {
+                question: "What's essential?",
+                answers: [
+                  "Cell phone",
+                  "Phone cell",
+                  "Cell essential"
+                ]
+              },
+              {
+                question: "What's small?",
+                answers: [
+                  "Prison cell",
+                  "Cell small",
+                  "Cell prison"
+                ]
+              },
+              {
+                question: "What creates life?",
+                answers: [
+                  "Cell division",
+                  "Division cell",
+                  "Cell creates"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cigarette",
+            phonetic: "/ˌsɪɡəˈret/",
+            examples: [
+              "Cigarette smoking causes cancer",
+              "Cigarette butt on ground",
+              "Light a cigarette outside",
+              "Cigarette break at work",
+              "Electronic cigarette is alternative",
+              "Cigarette pack has warnings",
+              "Cigarette holder is vintage",
+              "Cigarette lighter in car",
+              "Cigarette tax increased",
+              "Cigarette smoke is harmful"
+            ],
+            questions: [
+              {
+                question: "What causes cancer?",
+                answers: [
+                  "Cigarette smoking",
+                  "Smoking cigarette",
+                  "Cigarette causes"
+                ]
+              },
+              {
+                question: "What's on ground?",
+                answers: [
+                  "Cigarette butt",
+                  "Butt cigarette",
+                  "Cigarette ground"
+                ]
+              },
+              {
+                question: "What's alternative?",
+                answers: [
+                  "Electronic cigarette",
+                  "Cigarette electronic",
+                  "Alternative cigarette"
+                ]
+              }
+            ]
+          },
+          {
+            word: "code",
+            phonetic: "/koʊd/",
+            examples: [
+              "Crack the secret code",
+              "Dress code must follow",
+              "Morse code uses dots dashes",
+              "Zip code identifies area",
+              "Code of conduct guides behavior",
+              "Building code ensures safety",
+              "Code blue in hospital",
+              "Write computer code",
+              "Code word for operation",
+              "Penal code defines crimes"
+            ],
+            questions: [
+              {
+                question: "What should I crack?",
+                answers: [
+                  "Secret code",
+                  "Crack code",
+                  "The code"
+                ]
+              },
+              {
+                question: "What must follow?",
+                answers: [
+                  "Dress code",
+                  "Code follow",
+                  "Code must"
+                ]
+              },
+              {
+                question: "What identifies area?",
+                answers: [
+                  "Zip code",
+                  "Code identifies",
+                  "Code area"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cure",
+            phonetic: "/kjʊr/",
+            examples: [
+              "Find a cure for disease",
+              "Prevention better than cure",
+              "Cure meat by smoking",
+              "Cure all ailments impossible",
+              "Cure for cancer sought",
+              "Time will cure heartbreak",
+              "Cure the patient completely",
+              "Miracle cure doesn't exist",
+              "Cure concrete properly",
+              "Cure rate has improved"
+            ],
+            questions: [
+              {
+                question: "What should we find?",
+                answers: [
+                  "Find cure",
+                  "Cure disease",
+                  "A cure"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Prevention better cure",
+                  "Cure prevention",
+                  "Better cure"
+                ]
+              },
+              {
+                question: "What's sought?",
+                answers: [
+                  "Cure cancer",
+                  "Cancer cure",
+                  "Cure sought"
+                ]
+              }
+            ]
+          },
+          {
+            word: "destruction",
+            phonetic: "/dɪˈstrʌkʃn/",
+            examples: [
+              "Weapons of mass destruction",
+              "Destruction of property occurred",
+              "Total destruction resulted",
+              "Destruction derby crashes cars",
+              "Wanton destruction is senseless",
+              "Habitat destruction threatens species",
+              "Creative destruction builds new",
+              "Path of destruction visible",
+              "Self destruction is harmful",
+              "Destruction caused by fire"
+            ],
+            questions: [
+              {
+                question: "What are weapons?",
+                answers: [
+                  "Mass destruction",
+                  "Destruction weapons",
+                  "Weapons destruction"
+                ]
+              },
+              {
+                question: "What occurred?",
+                answers: [
+                  "Destruction property",
+                  "Property destruction",
+                  "Destruction occurred"
+                ]
+              },
+              {
+                question: "What threatens species?",
+                answers: [
+                  "Habitat destruction",
+                  "Destruction habitat",
+                  "Destruction threatens"
+                ]
+              }
+            ]
+          },
+          {
+            word: "DNA",
+            phonetic: "/ˌdiː en ˈeɪ/",
+            examples: [
+              "DNA contains genetic information",
+              "DNA test proves paternity",
+              "DNA evidence convicts criminals",
+              "DNA molecule is double helix",
+              "DNA fingerprinting identifies people",
+              "DNA sequence is unique",
+              "DNA analysis takes time",
+              "DNA damage causes mutations",
+              "DNA replication occurs",
+              "Mitochondrial DNA from mother"
+            ],
+            questions: [
+              {
+                question: "What contains information?",
+                answers: [
+                  "DNA contains",
+                  "DNA genetic",
+                  "DNA information"
+                ]
+              },
+              {
+                question: "What proves paternity?",
+                answers: [
+                  "DNA test",
+                  "Test DNA",
+                  "DNA proves"
+                ]
+              },
+              {
+                question: "What convicts criminals?",
+                answers: [
+                  "DNA evidence",
+                  "Evidence DNA",
+                  "DNA convicts"
+                ]
+              }
+            ]
+          },
+          {
+            word: "extensive",
+            phonetic: "/ɪkˈstensɪv/",
+            examples: [
+              "Extensive damage to building",
+              "Extensive research was conducted",
+              "Extensive experience required",
+              "Extensive repairs needed",
+              "Extensive knowledge of subject",
+              "Extensive network of contacts",
+              "Extensive collection of books",
+              "Extensive investigation ongoing",
+              "Extensive training provided",
+              "Extensive use of technology"
+            ],
+            questions: [
+              {
+                question: "What to building?",
+                answers: [
+                  "Extensive damage",
+                  "Damage extensive",
+                  "Extensive building"
+                ]
+              },
+              {
+                question: "What was conducted?",
+                answers: [
+                  "Extensive research",
+                  "Research extensive",
+                  "Extensive conducted"
+                ]
+              },
+              {
+                question: "What's required?",
+                answers: [
+                  "Extensive experience",
+                  "Experience extensive",
+                  "Extensive required"
+                ]
+              }
+            ]
+          },
+          {
+            word: "female",
+            phonetic: "/ˈfiːmeɪl/",
+            examples: [
+              "Female population is larger",
+              "Female athlete excels",
+              "Female hormone estrogen",
+              "Female voice is higher",
+              "Female lion hunts prey",
+              "Female candidate won election",
+              "Female perspective differs",
+              "Female empowerment grows",
+              "Alpha female leads pack",
+              "Female reproductive system"
+            ],
+            questions: [
+              {
+                question: "What's larger?",
+                answers: [
+                  "Female population",
+                  "Population female",
+                  "Female larger"
+                ]
+              },
+              {
+                question: "Who excels?",
+                answers: [
+                  "Female athlete",
+                  "Athlete female",
+                  "Female excels"
+                ]
+              },
+              {
+                question: "Who won election?",
+                answers: [
+                  "Female candidate",
+                  "Candidate female",
+                  "Female won"
+                ]
+              }
+            ]
+          },
+          {
+            word: "furthermore",
+            phonetic: "/ˌfɜːrðərˈmɔːr/",
+            examples: [
+              "Furthermore I must add",
+              "Furthermore the evidence shows",
+              "Furthermore it's too expensive",
+              "Furthermore they agreed completely",
+              "Furthermore research indicates",
+              "Furthermore we should consider",
+              "Furthermore this proves point",
+              "Furthermore there's another issue",
+              "Furthermore conditions worsened",
+              "Furthermore I believe strongly"
+            ],
+            questions: [
+              {
+                question: "What's the transition?",
+                answers: [
+                  "Furthermore add",
+                  "Furthermore must",
+                  "Furthermore shows"
+                ]
+              },
+              {
+                question: "What indicates?",
+                answers: [
+                  "Furthermore research",
+                  "Research furthermore",
+                  "Furthermore indicates"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Furthermore consider",
+                  "Furthermore should",
+                  "Furthermore we"
+                ]
+              }
+            ]
+          },
+          {
+            word: "gene",
+            phonetic: "/dʒiːn/",
+            examples: [
+              "Gene therapy treats diseases",
+              "Gene mutation causes problems",
+              "Gene pool is diverse",
+              "Gene expression varies",
+              "Dominant gene appears first",
+              "Gene editing is controversial",
+              "Gene splicing creates new",
+              "Gene sequence determines traits",
+              "Gene technology advances",
+              "Recessive gene is hidden"
+            ],
+            questions: [
+              {
+                question: "What treats diseases?",
+                answers: [
+                  "Gene therapy",
+                  "Therapy gene",
+                  "Gene treats"
+                ]
+              },
+              {
+                question: "What causes problems?",
+                answers: [
+                  "Gene mutation",
+                  "Mutation gene",
+                  "Gene causes"
+                ]
+              },
+              {
+                question: "What's controversial?",
+                answers: [
+                  "Gene editing",
+                  "Editing gene",
+                  "Gene controversial"
+                ]
+              }
+            ]
+          },
+          {
+            word: "inherit",
+            phonetic: "/ɪnˈherɪt/",
+            examples: [
+              "Inherit money from relatives",
+              "Inherit genetic traits",
+              "Inherit the earth saying",
+              "Inherit property after death",
+              "Children inherit characteristics",
+              "Inherit problems from past",
+              "Inherit the wind is movie",
+              "Inherit throne when crowned",
+              "Inherit fortune unexpectedly",
+              "Inherit debts unfortunately"
+            ],
+            questions: [
+              {
+                question: "What from relatives?",
+                answers: [
+                  "Inherit money",
+                  "Money inherit",
+                  "Inherit from"
+                ]
+              },
+              {
+                question: "What do children do?",
+                answers: [
+                  "Inherit traits",
+                  "Children inherit",
+                  "Inherit characteristics"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Inherit earth",
+                  "Earth inherit",
+                  "Inherit saying"
+                ]
+              }
+            ]
+          },
+          {
+            word: "link",
+            phonetic: "/lɪŋk/",
+            examples: [
+              "Click the web link",
+              "Missing link in chain",
+              "Link between events exists",
+              "Link arms while walking",
+              "Chain link fence surrounds",
+              "Link to website provided",
+              "Weak link breaks chain",
+              "Link up with partners",
+              "Link sausages together",
+              "Golf links are courses"
+            ],
+            questions: [
+              {
+                question: "What should I click?",
+                answers: [
+                  "Click link",
+                  "Web link",
+                  "The link"
+                ]
+              },
+              {
+                question: "What exists?",
+                answers: [
+                  "Link between",
+                  "Link exists",
+                  "Between link"
+                ]
+              },
+              {
+                question: "What breaks chain?",
+                answers: [
+                  "Weak link",
+                  "Link breaks",
+                  "Link weak"
+                ]
+              }
+            ]
+          },
+          {
+            word: "male",
+            phonetic: "/meɪl/",
+            examples: [
+              "Male population is smaller",
+              "Male hormone testosterone",
+              "Male pattern baldness common",
+              "Male dominated industry",
+              "Male voice is deeper",
+              "Male lion has mane",
+              "Alpha male leads group",
+              "Male perspective important",
+              "Male reproductive system",
+              "Male privilege exists"
+            ],
+            questions: [
+              {
+                question: "What's smaller?",
+                answers: [
+                  "Male population",
+                  "Population male",
+                  "Male smaller"
+                ]
+              },
+              {
+                question: "What's testosterone?",
+                answers: [
+                  "Male hormone",
+                  "Hormone male",
+                  "Male testosterone"
+                ]
+              },
+              {
+                question: "What has mane?",
+                answers: [
+                  "Male lion",
+                  "Lion male",
+                  "Male has"
+                ]
+              }
+            ]
+          },
+          {
+            word: "population",
+            phonetic: "/ˌpɑːpjuˈleɪʃn/",
+            examples: [
+              "World population is growing",
+              "Population density varies",
+              "Population control is controversial",
+              "Rural population decreases",
+              "Population explosion occurred",
+              "Target population studied",
+              "Population growth slowing",
+              "Urban population increases",
+              "Population census conducted",
+              "Population aging rapidly"
+            ],
+            questions: [
+              {
+                question: "What's growing?",
+                answers: [
+                  "World population",
+                  "Population growing",
+                  "Population world"
+                ]
+              },
+              {
+                question: "What varies?",
+                answers: [
+                  "Population density",
+                  "Density population",
+                  "Population varies"
+                ]
+              },
+              {
+                question: "What's controversial?",
+                answers: [
+                  "Population control",
+                  "Control population",
+                  "Population controversial"
+                ]
+              }
+            ]
+          },
+          {
+            word: "result",
+            phonetic: "/rɪˈzʌlt/",
+            examples: [
+              "The result was unexpected",
+              "Result from hard work",
+              "Test results came back",
+              "Result in success hopefully",
+              "Final result announced",
+              "Direct result of actions",
+              "Result oriented approach",
+              "End result matters most",
+              "Result of investigation",
+              "Desired result achieved"
+            ],
+            questions: [
+              {
+                question: "What was unexpected?",
+                answers: [
+                  "The result",
+                  "Result unexpected",
+                  "Result was"
+                ]
+              },
+              {
+                question: "What came back?",
+                answers: [
+                  "Test results",
+                  "Results came",
+                  "Results back"
+                ]
+              },
+              {
+                question: "What matters most?",
+                answers: [
+                  "End result",
+                  "Result matters",
+                  "Result most"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sugar",
+            phonetic: "/ˈʃʊɡər/",
+            examples: [
+              "Sugar is sweet substance",
+              "Sugar daddy provides money",
+              "Blood sugar levels matter",
+              "Sugar coat bad news",
+              "Sugar cane grows tall",
+              "Sugar rush from candy",
+              "Sugar free option available",
+              "Sugar bowl holds sweetener",
+              "Sugar plum fairy dances",
+              "Low blood sugar dangerous"
+            ],
+            questions: [
+              {
+                question: "What's sweet?",
+                answers: [
+                  "Sugar is",
+                  "Sugar sweet",
+                  "Sugar substance"
+                ]
+              },
+              {
+                question: "What matters?",
+                answers: [
+                  "Blood sugar",
+                  "Sugar levels",
+                  "Sugar blood"
+                ]
+              },
+              {
+                question: "What means soften?",
+                answers: [
+                  "Sugar coat",
+                  "Coat sugar",
+                  "Sugar news"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit22",
+        words: [
+          {
+            word: "accommodate",
+            phonetic: "/əˈkɑːmədeɪt/",
+            examples: [
+              "Hotel can accommodate fifty guests",
+              "Accommodate special requests please",
+              "Accommodate different learning styles",
+              "Building accommodates wheelchairs",
+              "Accommodate schedule changes flexibly",
+              "Accommodate everyone's needs",
+              "Eyes accommodate to darkness",
+              "Accommodate opposing viewpoints",
+              "Accommodate extra people somehow",
+              "Accommodate religious practices"
+            ],
+            questions: [
+              {
+                question: "What can hotel do?",
+                answers: [
+                  "Accommodate guests",
+                  "Hotel accommodate",
+                  "Accommodate fifty"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Accommodate requests",
+                  "Accommodate needs",
+                  "Accommodate changes"
+                ]
+              },
+              {
+                question: "What do eyes do?",
+                answers: [
+                  "Eyes accommodate",
+                  "Accommodate darkness",
+                  "Accommodate to"
+                ]
+              }
+            ]
+          },
+          {
+            word: "circus",
+            phonetic: "/ˈsɜːrkəs/",
+            examples: [
+              "Circus comes to town yearly",
+              "Three ring circus is chaotic",
+              "Circus animals perform tricks",
+              "Circus tent is colorful",
+              "Flying circus was nickname",
+              "Media circus surrounds trial",
+              "Circus act was dangerous",
+              "Piccadilly Circus in London",
+              "Circus clown makes laugh",
+              "Circus maximus was arena"
+            ],
+            questions: [
+              {
+                question: "What comes to town?",
+                answers: [
+                  "Circus comes",
+                  "The circus",
+                  "Circus yearly"
+                ]
+              },
+              {
+                question: "What's chaotic?",
+                answers: [
+                  "Three ring circus",
+                  "Circus chaotic",
+                  "Ring circus"
+                ]
+              },
+              {
+                question: "What surrounds trial?",
+                answers: [
+                  "Media circus",
+                  "Circus surrounds",
+                  "Circus trial"
+                ]
+              }
+            ]
+          },
+          {
+            word: "coincide",
+            phonetic: "/ˌkoʊɪnˈsaɪd/",
+            examples: [
+              "Dates coincide perfectly",
+              "Our opinions coincide completely",
+              "Events coincide by chance",
+              "Interests coincide nicely",
+              "Schedules coincide this week",
+              "Views coincide on topic",
+              "Timing coincides well",
+              "Goals coincide with mission",
+              "Plans coincide fortunately",
+              "Beliefs coincide largely"
+            ],
+            questions: [
+              {
+                question: "What happens to dates?",
+                answers: [
+                  "Dates coincide",
+                  "Coincide perfectly",
+                  "They coincide"
+                ]
+              },
+              {
+                question: "What about opinions?",
+                answers: [
+                  "Opinions coincide",
+                  "Coincide completely",
+                  "We coincide"
+                ]
+              },
+              {
+                question: "What with mission?",
+                answers: [
+                  "Goals coincide",
+                  "Coincide mission",
+                  "Coincide with"
+                ]
+              }
+            ]
+          },
+          {
+            word: "commission",
+            phonetic: "/kəˈmɪʃn/",
+            examples: [
+              "Sales commission is percentage",
+              "Commission a painting from artist",
+              "Royal commission investigates",
+              "Commission fee charged",
+              "Out of commission means broken",
+              "European commission governs",
+              "Commission officer in military",
+              "Commission work on project",
+              "High commission is embassy",
+              "Commission merchant sells goods"
+            ],
+            questions: [
+              {
+                question: "What's percentage?",
+                answers: [
+                  "Sales commission",
+                  "Commission percentage",
+                  "Commission sales"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Commission painting",
+                  "Commission artist",
+                  "Commission work"
+                ]
+              },
+              {
+                question: "What means broken?",
+                answers: [
+                  "Out commission",
+                  "Commission broken",
+                  "Commission out"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dose",
+            phonetic: "/doʊs/",
+            examples: [
+              "Take correct dose of medicine",
+              "Dose of reality needed",
+              "Lethal dose is dangerous",
+              "Daily dose recommended",
+              "Overdose can kill",
+              "Dose makes the poison",
+              "Small dose at first",
+              "Dose of humor helps",
+              "Dose response relationship",
+              "Double dose by mistake"
+            ],
+            questions: [
+              {
+                question: "What should I take?",
+                answers: [
+                  "Correct dose",
+                  "Take dose",
+                  "Dose medicine"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Dose reality",
+                  "Dose needed",
+                  "Reality dose"
+                ]
+              },
+              {
+                question: "What's dangerous?",
+                answers: [
+                  "Lethal dose",
+                  "Overdose dangerous",
+                  "Dose dangerous"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dye",
+            phonetic: "/daɪ/",
+            examples: [
+              "Dye hair a different color",
+              "Fabric dye stains clothes",
+              "Food dye colors cake",
+              "Dye in the wool means permanent",
+              "Tie dye is colorful",
+              "Natural dye from plants",
+              "Hair dye covers gray",
+              "Dye lot varies slightly",
+              "Dye job looks good",
+              "Easter egg dye tablets"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Dye hair",
+                  "Dye color",
+                  "Dye different"
+                ]
+              },
+              {
+                question: "What stains clothes?",
+                answers: [
+                  "Fabric dye",
+                  "Dye stains",
+                  "Dye clothes"
+                ]
+              },
+              {
+                question: "What means permanent?",
+                answers: [
+                  "Dye wool",
+                  "Dye permanent",
+                  "Wool dye"
+                ]
+              }
+            ]
+          },
+          {
+            word: "extent",
+            phonetic: "/ɪkˈstent/",
+            examples: [
+              "To what extent do you agree",
+              "Full extent of damage unknown",
+              "To some extent it's true",
+              "Extent of injury assessed",
+              "Great extent of territory",
+              "To large extent responsible",
+              "Extent of problem revealed",
+              "Limited extent of knowledge",
+              "Extent of authority questioned",
+              "To certain extent possible"
+            ],
+            questions: [
+              {
+                question: "What's the question?",
+                answers: [
+                  "To what extent",
+                  "Extent agree",
+                  "What extent"
+                ]
+              },
+              {
+                question: "What's unknown?",
+                answers: [
+                  "Full extent",
+                  "Extent damage",
+                  "Extent unknown"
+                ]
+              },
+              {
+                question: "What's true?",
+                answers: [
+                  "To some extent",
+                  "Extent true",
+                  "Some extent"
+                ]
+              }
+            ]
+          },
+          {
+            word: "gender",
+            phonetic: "/ˈdʒendər/",
+            examples: [
+              "Gender equality is important",
+              "Gender identity is personal",
+              "Gender roles are changing",
+              "Gender neutral language used",
+              "Gender pay gap exists",
+              "Gender studies program",
+              "Gender reveal party held",
+              "Gender stereotype is harmful",
+              "Gender discrimination illegal",
+              "Gender fluid means flexible"
+            ],
+            questions: [
+              {
+                question: "What's important?",
+                answers: [
+                  "Gender equality",
+                  "Equality gender",
+                  "Gender important"
+                ]
+              },
+              {
+                question: "What's personal?",
+                answers: [
+                  "Gender identity",
+                  "Identity gender",
+                  "Gender personal"
+                ]
+              },
+              {
+                question: "What exists?",
+                answers: [
+                  "Gender pay gap",
+                  "Pay gap gender",
+                  "Gender gap"
+                ]
+              }
+            ]
+          },
+          {
+            word: "headline",
+            phonetic: "/ˈhedlaɪn/",
+            examples: [
+              "Headline news is shocking",
+              "Read the newspaper headline",
+              "Headline act performs last",
+              "Headline grabbing story",
+              "Front page headline",
+              "Headline makes strong statement",
+              "Sensational headline attracts attention",
+              "Headline writer crafts carefully",
+              "Above the fold headline",
+              "Headline concert sold out"
+            ],
+            questions: [
+              {
+                question: "What's shocking?",
+                answers: [
+                  "Headline news",
+                  "News headline",
+                  "Headline shocking"
+                ]
+              },
+              {
+                question: "What should I read?",
+                answers: [
+                  "Read headline",
+                  "Newspaper headline",
+                  "The headline"
+                ]
+              },
+              {
+                question: "What performs last?",
+                answers: [
+                  "Headline act",
+                  "Act headline",
+                  "Headline performs"
+                ]
+              }
+            ]
+          },
+          {
+            word: "informal",
+            phonetic: "/ɪnˈfɔːrml/",
+            examples: [
+              "Informal meeting was casual",
+              "Informal language is relaxed",
+              "Informal dress code allowed",
+              "Informal setting feels comfortable",
+              "Informal agreement reached",
+              "Informal education happens everywhere",
+              "Informal tone used",
+              "Informal chat over coffee",
+              "Informal gathering of friends",
+              "Informal atmosphere preferred"
+            ],
+            questions: [
+              {
+                question: "What was casual?",
+                answers: [
+                  "Informal meeting",
+                  "Meeting informal",
+                  "Informal casual"
+                ]
+              },
+              {
+                question: "What's relaxed?",
+                answers: [
+                  "Informal language",
+                  "Language informal",
+                  "Informal relaxed"
+                ]
+              },
+              {
+                question: "What's allowed?",
+                answers: [
+                  "Informal dress code",
+                  "Dress informal",
+                  "Informal allowed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "inquire",
+            phonetic: "/ɪnˈkwaɪər/",
+            examples: [
+              "Inquire about job opening",
+              "Inquire within for details",
+              "Inquire into the matter",
+              "Inquiring mind wants to know",
+              "Inquire politely please",
+              "Inquire at reception desk",
+              "Inquire after someone's health",
+              "Inquire about availability",
+              "Official inquiry conducted",
+              "Inquire further if needed"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Inquire about",
+                  "Inquire job",
+                  "Inquire opening"
+                ]
+              },
+              {
+                question: "Where for details?",
+                answers: [
+                  "Inquire within",
+                  "Within inquire",
+                  "Inquire details"
+                ]
+              },
+              {
+                question: "What wants to know?",
+                answers: [
+                  "Inquiring mind",
+                  "Mind inquires",
+                  "Inquiring wants"
+                ]
+              }
+            ]
+          },
+          {
+            word: "messenger",
+            phonetic: "/ˈmesɪndʒər/",
+            examples: [
+              "Messenger delivers packages",
+              "Don't shoot the messenger",
+              "Instant messenger chat online",
+              "Messenger bag carries items",
+              "Courier messenger service",
+              "Messenger RNA carries information",
+              "Messenger pigeon delivers notes",
+              "Facebook Messenger app",
+              "Messenger boy runs errands",
+              "Messenger of God brings news"
+            ],
+            questions: [
+              {
+                question: "Who delivers packages?",
+                answers: [
+                  "Messenger delivers",
+                  "The messenger",
+                  "Messenger packages"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Don't shoot messenger",
+                  "Shoot messenger",
+                  "Messenger saying"
+                ]
+              },
+              {
+                question: "What carries items?",
+                answers: [
+                  "Messenger bag",
+                  "Bag messenger",
+                  "Messenger carries"
+                ]
+              }
+            ]
+          },
+          {
+            word: "peer",
+            phonetic: "/pɪr/",
+            examples: [
+              "Peer through the window",
+              "Peer pressure affects teens",
+              "Jury of peers judges",
+              "Peer review ensures quality",
+              "Peer group influences behavior",
+              "Peer into darkness carefully",
+              "Peer support helps recovery",
+              "Without peer means unequaled",
+              "Peer to peer network",
+              "House of peers in Britain"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Peer through",
+                  "Peer window",
+                  "Peer into"
+                ]
+              },
+              {
+                question: "What affects teens?",
+                answers: [
+                  "Peer pressure",
+                  "Pressure peer",
+                  "Peer affects"
+                ]
+              },
+              {
+                question: "What ensures quality?",
+                answers: [
+                  "Peer review",
+                  "Review peer",
+                  "Peer ensures"
+                ]
+              }
+            ]
+          },
+          {
+            word: "portrait",
+            phonetic: "/ˈpɔːrtrət/",
+            examples: [
+              "Portrait painting is art",
+              "Family portrait hangs on wall",
+              "Portrait mode on camera",
+              "Self portrait by artist",
+              "Portrait orientation is vertical",
+              "Portrait photographer specializes",
+              "Portrait gallery displays paintings",
+              "Full length portrait shows body",
+              "Portrait sitting takes time",
+              "Portrait of a lady"
+            ],
+            questions: [
+              {
+                question: "What's art?",
+                answers: [
+                  "Portrait painting",
+                  "Painting portrait",
+                  "Portrait art"
+                ]
+              },
+              {
+                question: "What hangs on wall?",
+                answers: [
+                  "Family portrait",
+                  "Portrait hangs",
+                  "Portrait wall"
+                ]
+              },
+              {
+                question: "What's on camera?",
+                answers: [
+                  "Portrait mode",
+                  "Mode portrait",
+                  "Portrait camera"
+                ]
+              }
+            ]
+          },
+          {
+            word: "pose",
+            phonetic: "/poʊz/",
+            examples: [
+              "Pose for the camera",
+              "Pose a question to class",
+              "Pose a threat to safety",
+              "Strike a pose dramatically",
+              "Pose as someone else",
+              "Yoga pose stretches muscles",
+              "Pose problems for planners",
+              "Pose challenges daily",
+              "Model holds the pose",
+              "Pose no danger currently"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Pose camera",
+                  "Pose for",
+                  "Strike pose"
+                ]
+              },
+              {
+                question: "What to class?",
+                answers: [
+                  "Pose question",
+                  "Question pose",
+                  "Pose to"
+                ]
+              },
+              {
+                question: "What to safety?",
+                answers: [
+                  "Pose threat",
+                  "Threat pose",
+                  "Pose danger"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ranch",
+            phonetic: "/ræntʃ/",
+            examples: [
+              "Cattle ranch raises livestock",
+              "Ranch dressing on salad",
+              "Ranch house is one story",
+              "Work on a ranch",
+              "Dude ranch for tourists",
+              "Ranch hand tends animals",
+              "Ranch style home popular",
+              "Guest ranch offers activities",
+              "Ranch owner manages property",
+              "King ranch is famous"
+            ],
+            questions: [
+              {
+                question: "What raises livestock?",
+                answers: [
+                  "Cattle ranch",
+                  "Ranch raises",
+                  "Ranch livestock"
+                ]
+              },
+              {
+                question: "What on salad?",
+                answers: [
+                  "Ranch dressing",
+                  "Dressing ranch",
+                  "Ranch salad"
+                ]
+              },
+              {
+                question: "What's one story?",
+                answers: [
+                  "Ranch house",
+                  "House ranch",
+                  "Ranch one"
+                ]
+              }
+            ]
+          },
+          {
+            word: "steer",
+            phonetic: "/stɪr/",
+            examples: [
+              "Steer the car carefully",
+              "Steer clear of trouble",
+              "Steer conversation to topic",
+              "Young steer is castrated bull",
+              "Steer committee in direction",
+              "Steer away from danger",
+              "Steer wheel turns vehicle",
+              "Bum steer is bad advice",
+              "Steer course through waters",
+              "Steer toward better outcome"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Steer car",
+                  "Steer carefully",
+                  "Steer vehicle"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Steer clear",
+                  "Steer trouble",
+                  "Clear steer"
+                ]
+              },
+              {
+                question: "What's bad advice?",
+                answers: [
+                  "Bum steer",
+                  "Steer bum",
+                  "Bad steer"
+                ]
+              }
+            ]
+          },
+          {
+            word: "stripe",
+            phonetic: "/straɪp/",
+            examples: [
+              "Stripe pattern on shirt",
+              "Zebra has black stripes",
+              "Earn your stripes means prove yourself",
+              "Candy cane has stripes",
+              "Military stripes show rank",
+              "Pin stripe suit is formal",
+              "Racing stripe on car",
+              "Tiger stripes are distinctive",
+              "Stripe of different color",
+              "Stars and stripes is flag"
+            ],
+            questions: [
+              {
+                question: "What on shirt?",
+                answers: [
+                  "Stripe pattern",
+                  "Pattern stripe",
+                  "Stripe shirt"
+                ]
+              },
+              {
+                question: "What has stripes?",
+                answers: [
+                  "Zebra stripes",
+                  "Black stripes",
+                  "Stripes zebra"
+                ]
+              },
+              {
+                question: "What means prove yourself?",
+                answers: [
+                  "Earn stripes",
+                  "Stripes earn",
+                  "Earn your"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tame",
+            phonetic: "/teɪm/",
+            examples: [
+              "Tame wild animals carefully",
+              "Tame lion performs tricks",
+              "Tame your temper",
+              "Tame version is mild",
+              "Tame by comparison",
+              "Tame inflation with policy",
+              "Tame party was boring",
+              "Tame the wilderness",
+              "Tame nature of beast",
+              "Tame shrew is play"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Tame animals",
+                  "Tame wild",
+                  "Tame carefully"
+                ]
+              },
+              {
+                question: "What performs tricks?",
+                answers: [
+                  "Tame lion",
+                  "Lion tame",
+                  "Tame performs"
+                ]
+              },
+              {
+                question: "What's boring?",
+                answers: [
+                  "Tame party",
+                  "Party tame",
+                  "Tame boring"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tempt",
+            phonetic: "/tempt/",
+            examples: [
+              "Don't tempt fate unnecessarily",
+              "Tempt me with dessert",
+              "Tempt someone to do wrong",
+              "Tempted to skip work",
+              "Tempting offer made",
+              "Tempt providence means take risks",
+              "Tempt with rewards",
+              "Temptation is strong",
+              "Tempt fortune carelessly",
+              "Resist temptation to cheat"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't tempt fate",
+                  "Tempt fate",
+                  "Not tempt"
+                ]
+              },
+              {
+                question: "What with dessert?",
+                answers: [
+                  "Tempt me",
+                  "Tempt dessert",
+                  "Tempt with"
+                ]
+              },
+              {
+                question: "What's strong?",
+                answers: [
+                  "Temptation strong",
+                  "Temptation is",
+                  "Strong temptation"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit23",
+        words: [
+          {
+            word: "ban",
+            phonetic: "/bæn/",
+            examples: [
+              "Ban smoking in public places",
+              "Lifetime ban from competition",
+              "Ban the use of chemicals",
+              "Travel ban was imposed",
+              "Ban on plastic bags",
+              "Nuclear test ban treaty",
+              "Ban harmful substances",
+              "Social media ban occurred",
+              "Ban lifted after protest",
+              "Driving ban for offense"
+            ],
+            questions: [
+              {
+                question: "What should we do?",
+                answers: [
+                  "Ban smoking",
+                  "Ban use",
+                  "Ban chemicals"
+                ]
+              },
+              {
+                question: "What was imposed?",
+                answers: [
+                  "Travel ban",
+                  "Ban imposed",
+                  "Ban travel"
+                ]
+              },
+              {
+                question: "What was lifted?",
+                answers: [
+                  "Ban lifted",
+                  "Lifted ban",
+                  "Ban protest"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cautious",
+            phonetic: "/ˈkɔːʃəs/",
+            examples: [
+              "Be cautious when driving",
+              "Cautious approach is wise",
+              "Cautious optimism expressed",
+              "Cautious about new ideas",
+              "Cautious investor avoids risks",
+              "Cautious by nature always",
+              "Cautious response given",
+              "Cautious steps forward",
+              "Cautious language used",
+              "Overly cautious sometimes"
+            ],
+            questions: [
+              {
+                question: "What should you be?",
+                answers: [
+                  "Be cautious",
+                  "Cautious driving",
+                  "Stay cautious"
+                ]
+              },
+              {
+                question: "What's wise?",
+                answers: [
+                  "Cautious approach",
+                  "Approach cautious",
+                  "Cautious wise"
+                ]
+              },
+              {
+                question: "What was expressed?",
+                answers: [
+                  "Cautious optimism",
+                  "Optimism cautious",
+                  "Cautious expressed"
+                ]
+              }
+            ]
+          },
+          {
+            word: "confess",
+            phonetic: "/kənˈfes/",
+            examples: [
+              "Confess your sins to priest",
+              "Confess to the crime",
+              "I must confess I was wrong",
+              "Confess feelings honestly",
+              "Confess under pressure",
+              "Confess love for someone",
+              "Confess guilt immediately",
+              "Confess everything truthfully",
+              "Forced to confess",
+              "Confess mistake made"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Confess sins",
+                  "Confess crime",
+                  "Confess feelings"
+                ]
+              },
+              {
+                question: "What must you do?",
+                answers: [
+                  "Must confess",
+                  "Confess wrong",
+                  "I confess"
+                ]
+              },
+              {
+                question: "What immediately?",
+                answers: [
+                  "Confess guilt",
+                  "Guilt confess",
+                  "Confess immediately"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cottage",
+            phonetic: "/ˈkɑːtɪdʒ/",
+            examples: [
+              "Summer cottage by lake",
+              "Cottage cheese is healthy",
+              "Cottage industry at home",
+              "Small cottage in woods",
+              "Cottage garden style",
+              "Thatched cottage is traditional",
+              "Cottage rental for vacation",
+              "Cozy cottage feels warm",
+              "Stone cottage stands strong",
+              "Country cottage retreat"
+            ],
+            questions: [
+              {
+                question: "What by lake?",
+                answers: [
+                  "Summer cottage",
+                  "Cottage lake",
+                  "Cottage by"
+                ]
+              },
+              {
+                question: "What's healthy?",
+                answers: [
+                  "Cottage cheese",
+                  "Cheese cottage",
+                  "Cottage healthy"
+                ]
+              },
+              {
+                question: "What at home?",
+                answers: [
+                  "Cottage industry",
+                  "Industry cottage",
+                  "Cottage home"
+                ]
+              }
+            ]
+          },
+          {
+            word: "daytime",
+            phonetic: "/ˈdeɪtaɪm/",
+            examples: [
+              "During daytime hours only",
+              "Daytime television is different",
+              "Daytime job pays bills",
+              "Daytime activities planned",
+              "Daytime temperature is higher",
+              "Daytime phone number provided",
+              "Daytime running lights on car",
+              "Daytime drama airs daily",
+              "In the daytime visible",
+              "Daytime shift ends early"
+            ],
+            questions: [
+              {
+                question: "When only?",
+                answers: [
+                  "During daytime",
+                  "Daytime hours",
+                  "Daytime only"
+                ]
+              },
+              {
+                question: "What's different?",
+                answers: [
+                  "Daytime television",
+                  "Television daytime",
+                  "Daytime TV"
+                ]
+              },
+              {
+                question: "What's higher?",
+                answers: [
+                  "Daytime temperature",
+                  "Temperature daytime",
+                  "Daytime higher"
+                ]
+              }
+            ]
+          },
+          {
+            word: "desperate",
+            phonetic: "/ˈdespərət/",
+            examples: [
+              "Desperate times require measures",
+              "Desperate need for help",
+              "Desperate attempt to escape",
+              "Desperate situation worsened",
+              "Desperate for attention",
+              "Desperate housewives was show",
+              "Desperate circumstances forced decision",
+              "Desperate plea for mercy",
+              "Desperate measures taken",
+              "Desperate to succeed"
+            ],
+            questions: [
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Desperate times",
+                  "Times desperate",
+                  "Desperate measures"
+                ]
+              },
+              {
+                question: "What for help?",
+                answers: [
+                  "Desperate need",
+                  "Need desperate",
+                  "Desperate for"
+                ]
+              },
+              {
+                question: "What worsened?",
+                answers: [
+                  "Desperate situation",
+                  "Situation desperate",
+                  "Desperate worsened"
+                ]
+              }
+            ]
+          },
+          {
+            word: "exhausting",
+            phonetic: "/ɪɡˈzɔːstɪŋ/",
+            examples: [
+              "Work is physically exhausting",
+              "Exhausting day at office",
+              "Exhausting schedule maintained",
+              "Emotionally exhausting situation",
+              "Exhausting all options available",
+              "Exhausting journey taken",
+              "Marathon is exhausting",
+              "Exhausting conversation lasted hours",
+              "Exhausting process completed",
+              "Mentally exhausting task"
+            ],
+            questions: [
+              {
+                question: "What's physically draining?",
+                answers: [
+                  "Work exhausting",
+                  "Physically exhausting",
+                  "Exhausting work"
+                ]
+              },
+              {
+                question: "What kind of day?",
+                answers: [
+                  "Exhausting day",
+                  "Day exhausting",
+                  "Exhausting office"
+                ]
+              },
+              {
+                question: "What's draining?",
+                answers: [
+                  "Marathon exhausting",
+                  "Exhausting marathon",
+                  "Exhausting run"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fade",
+            phonetic: "/feɪd/",
+            examples: [
+              "Colors fade in sunlight",
+              "Memories fade over time",
+              "Fade to black in movies",
+              "Fade away gradually",
+              "Old glory never fades",
+              "Fade out means disappear",
+              "Jeans fade with washing",
+              "Fade into background quietly",
+              "Hopes began to fade",
+              "Fade in music slowly"
+            ],
+            questions: [
+              {
+                question: "What happens in sunlight?",
+                answers: [
+                  "Colors fade",
+                  "Fade sunlight",
+                  "Fade colors"
+                ]
+              },
+              {
+                question: "What over time?",
+                answers: [
+                  "Memories fade",
+                  "Fade time",
+                  "Fade over"
+                ]
+              },
+              {
+                question: "What in movies?",
+                answers: [
+                  "Fade black",
+                  "Fade to",
+                  "Movies fade"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fierce",
+            phonetic: "/fɪrs/",
+            examples: [
+              "Fierce competition between teams",
+              "Fierce animal attacks prey",
+              "Fierce storm hit coast",
+              "Fierce loyalty to friends",
+              "Fierce debate occurred",
+              "Fierce determination shown",
+              "Fierce warrior fought bravely",
+              "Fierce wind blew hard",
+              "Fierce pride in work",
+              "Fierce independence valued"
+            ],
+            questions: [
+              {
+                question: "What between teams?",
+                answers: [
+                  "Fierce competition",
+                  "Competition fierce",
+                  "Fierce teams"
+                ]
+              },
+              {
+                question: "What attacks prey?",
+                answers: [
+                  "Fierce animal",
+                  "Animal fierce",
+                  "Fierce attacks"
+                ]
+              },
+              {
+                question: "What hit coast?",
+                answers: [
+                  "Fierce storm",
+                  "Storm fierce",
+                  "Fierce hit"
+                ]
+              }
+            ]
+          },
+          {
+            word: "gamble",
+            phonetic: "/ˈɡæmbl/",
+            examples: [
+              "Gamble money at casino",
+              "Take a gamble on investment",
+              "Gamble with your life",
+              "Gambling addiction is serious",
+              "Gamble on future success",
+              "High stakes gamble",
+              "Gamble everything on chance",
+              "Gamble away savings foolishly",
+              "Calculated gamble paid off",
+              "Gamble on weather improving"
+            ],
+            questions: [
+              {
+                question: "What at casino?",
+                answers: [
+                  "Gamble money",
+                  "Gamble casino",
+                  "Money gamble"
+                ]
+              },
+              {
+                question: "What on investment?",
+                answers: [
+                  "Take gamble",
+                  "Gamble investment",
+                  "Gamble on"
+                ]
+              },
+              {
+                question: "What's serious?",
+                answers: [
+                  "Gambling addiction",
+                  "Addiction gambling",
+                  "Gamble addiction"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lawn",
+            phonetic: "/lɔːn/",
+            examples: [
+              "Mow the lawn weekly",
+              "Lawn chair for sitting",
+              "Lawn mower cuts grass",
+              "Green lawn looks nice",
+              "Lawn tennis is sport",
+              "Lawn party held outside",
+              "Lawn care service hired",
+              "Lawn ornament decorates",
+              "Front lawn needs watering",
+              "Lawn bowling is game"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Mow lawn",
+                  "Mow the lawn",
+                  "Lawn weekly"
+                ]
+              },
+              {
+                question: "What for sitting?",
+                answers: [
+                  "Lawn chair",
+                  "Chair lawn",
+                  "Lawn sitting"
+                ]
+              },
+              {
+                question: "What cuts grass?",
+                answers: [
+                  "Lawn mower",
+                  "Mower lawn",
+                  "Lawn cuts"
+                ]
+              }
+            ]
+          },
+          {
+            word: "mow",
+            phonetic: "/moʊ/",
+            examples: [
+              "Mow the grass regularly",
+              "Mow down enemies completely",
+              "Mow hay in field",
+              "Time to mow again",
+              "Mow lawn every week",
+              "Mow in straight lines",
+              "Mow strip of grass",
+              "Mow before it rains",
+              "Mow carefully around flowers",
+              "Mow high in summer"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Mow grass",
+                  "Mow lawn",
+                  "Mow regularly"
+                ]
+              },
+              {
+                question: "What means destroy?",
+                answers: [
+                  "Mow down",
+                  "Mow enemies",
+                  "Mow completely"
+                ]
+              },
+              {
+                question: "When to mow?",
+                answers: [
+                  "Time to mow",
+                  "Mow again",
+                  "Mow before"
+                ]
+              }
+            ]
+          },
+          {
+            word: "outlaw",
+            phonetic: "/ˈaʊtlɔː/",
+            examples: [
+              "Outlaw rides away on horse",
+              "Outlaw the practice immediately",
+              "Jesse James was famous outlaw",
+              "Outlaw motorcycle gang",
+              "Outlaw country music genre",
+              "Outlaw behavior is criminal",
+              "Wanted outlaw captured",
+              "Outlaw weapons completely",
+              "Outlaw discrimination legally",
+              "Modern day outlaw"
+            ],
+            questions: [
+              {
+                question: "Who rides away?",
+                answers: [
+                  "Outlaw rides",
+                  "The outlaw",
+                  "Outlaw horse"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Outlaw practice",
+                  "Outlaw immediately",
+                  "Outlaw weapons"
+                ]
+              },
+              {
+                question: "Who was famous?",
+                answers: [
+                  "Famous outlaw",
+                  "Jesse James",
+                  "Outlaw famous"
+                ]
+              }
+            ]
+          },
+          {
+            word: "prospect",
+            phonetic: "/ˈprɑːspekt/",
+            examples: [
+              "Job prospect looks good",
+              "Prospect for gold in hills",
+              "Future prospects are bright",
+              "Prospect of success motivates",
+              "Sales prospect is customer",
+              "Prospect theory in economics",
+              "Exciting prospect ahead",
+              "Prospect of failure worries",
+              "Baseball prospect shows promise",
+              "Prospect Park in Brooklyn"
+            ],
+            questions: [
+              {
+                question: "What looks good?",
+                answers: [
+                  "Job prospect",
+                  "Prospect good",
+                  "Prospect looks"
+                ]
+              },
+              {
+                question: "What for gold?",
+                answers: [
+                  "Prospect gold",
+                  "Prospect hills",
+                  "Gold prospect"
+                ]
+              },
+              {
+                question: "What are bright?",
+                answers: [
+                  "Future prospects",
+                  "Prospects bright",
+                  "Bright prospects"
+                ]
+              }
+            ]
+          },
+          {
+            word: "purse",
+            phonetic: "/pɜːrs/",
+            examples: [
+              "Purse holds wallet and keys",
+              "Prize purse is large",
+              "Purse strings control spending",
+              "Purse lips in disapproval",
+              "Silk purse from sow's ear",
+              "Clutch purse for evening",
+              "Heavy purse means wealthy",
+              "Public purse is government money",
+              "Purse snatcher is thief",
+              "Purse your mouth tightly"
+            ],
+            questions: [
+              {
+                question: "What holds items?",
+                answers: [
+                  "Purse holds",
+                  "Purse wallet",
+                  "The purse"
+                ]
+              },
+              {
+                question: "What's large?",
+                answers: [
+                  "Prize purse",
+                  "Purse large",
+                  "Purse prize"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Purse strings",
+                  "Purse lips",
+                  "Silk purse"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rod",
+            phonetic: "/rɑːd/",
+            examples: [
+              "Fishing rod catches fish",
+              "Spare the rod spoil child",
+              "Lightning rod protects building",
+              "Curtain rod holds drapes",
+              "Hot rod is fast car",
+              "Iron rod is strong",
+              "Divining rod finds water",
+              "Rod and reel for fishing",
+              "Rod Stewart is singer",
+              "Rule with iron rod"
+            ],
+            questions: [
+              {
+                question: "What catches fish?",
+                answers: [
+                  "Fishing rod",
+                  "Rod catches",
+                  "Rod fish"
+                ]
+              },
+              {
+                question: "What's the saying?",
+                answers: [
+                  "Spare rod",
+                  "Rod spoil",
+                  "Spare the"
+                ]
+              },
+              {
+                question: "What protects building?",
+                answers: [
+                  "Lightning rod",
+                  "Rod protects",
+                  "Rod lightning"
+                ]
+              }
+            ]
+          },
+          {
+            word: "seldom",
+            phonetic: "/ˈseldəm/",
+            examples: [
+              "I seldom eat fast food",
+              "Seldom seen species is rare",
+              "Seldom if ever happens",
+              "Seldom visit that place",
+              "Seldom agree on anything",
+              "Seldom rains in desert",
+              "Seldom does he complain",
+              "Seldom wrong about predictions",
+              "Seldom have time for hobbies",
+              "Seldom used these days"
+            ],
+            questions: [
+              {
+                question: "How often eat?",
+                answers: [
+                  "Seldom eat",
+                  "I seldom",
+                  "Seldom food"
+                ]
+              },
+              {
+                question: "What's rare?",
+                answers: [
+                  "Seldom seen",
+                  "Seen seldom",
+                  "Seldom species"
+                ]
+              },
+              {
+                question: "What happens?",
+                answers: [
+                  "Seldom if ever",
+                  "Seldom happens",
+                  "If ever"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shave",
+            phonetic: "/ʃeɪv/",
+            examples: [
+              "Shave your beard daily",
+              "Close shave means narrow escape",
+              "Shave off hair completely",
+              "Shave wood with plane",
+              "Shave points in sports means cheat",
+              "Shave costs to save money",
+              "Clean shave looks professional",
+              "Shave cream helps razor",
+              "Shave head for charity",
+              "Shave time off record"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Shave beard",
+                  "Shave daily",
+                  "Shave hair"
+                ]
+              },
+              {
+                question: "What means narrow escape?",
+                answers: [
+                  "Close shave",
+                  "Shave close",
+                  "Shave escape"
+                ]
+              },
+              {
+                question: "What to save money?",
+                answers: [
+                  "Shave costs",
+                  "Costs shave",
+                  "Shave save"
+                ]
+              }
+            ]
+          },
+          {
+            word: "terrified",
+            phonetic: "/ˈterɪfaɪd/",
+            examples: [
+              "Terrified of spiders always",
+              "Terrified scream escaped",
+              "Absolutely terrified by news",
+              "Terrified to go alone",
+              "Terrified look on face",
+              "Terrified of heights badly",
+              "Terrified victims fled quickly",
+              "Terrified by loud noise",
+              "Terrified of failing exam",
+              "Terrified expression showed fear"
+            ],
+            questions: [
+              {
+                question: "What of spiders?",
+                answers: [
+                  "Terrified spiders",
+                  "Terrified of",
+                  "Terrified always"
+                ]
+              },
+              {
+                question: "What by news?",
+                answers: [
+                  "Terrified news",
+                  "Absolutely terrified",
+                  "Terrified by"
+                ]
+              },
+              {
+                question: "What of heights?",
+                answers: [
+                  "Terrified heights",
+                  "Terrified of",
+                  "Terrified badly"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wizard",
+            phonetic: "/ˈwɪzərd/",
+            examples: [
+              "Wizard casts magical spells",
+              "Wizard of Oz is movie",
+              "Computer wizard fixes problems",
+              "Financial wizard manages money",
+              "Wizard hat is pointy",
+              "Wizard sleeve is reference",
+              "Math wizard solves quickly",
+              "Wizard staff has power",
+              "Wizard of the Coast company",
+              "Tech wizard creates apps"
+            ],
+            questions: [
+              {
+                question: "What casts spells?",
+                answers: [
+                  "Wizard casts",
+                  "Wizard spells",
+                  "The wizard"
+                ]
+              },
+              {
+                question: "What's the movie?",
+                answers: [
+                  "Wizard Oz",
+                  "Wizard of",
+                  "Oz wizard"
+                ]
+              },
+              {
+                question: "Who fixes problems?",
+                answers: [
+                  "Computer wizard",
+                  "Wizard fixes",
+                  "Tech wizard"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit24",
+        words: [
+          {
+            word: "abroad",
+            phonetic: "/əˈbrɔːd/",
+            examples: [
+              "Study abroad for one year",
+              "Travel abroad frequently",
+              "Living abroad is exciting",
+              "News from abroad arrived",
+              "Working abroad builds experience",
+              "Abroad means foreign countries",
+              "Students go abroad to learn",
+              "Spread news far and abroad",
+              "Invest abroad wisely",
+              "Friends abroad send letters"
+            ],
+            questions: [
+              {
+                question: "Where to study?",
+                answers: [
+                  "Study abroad",
+                  "Abroad year",
+                  "Go abroad"
+                ]
+              },
+              {
+                question: "What's exciting?",
+                answers: [
+                  "Living abroad",
+                  "Abroad exciting",
+                  "Abroad life"
+                ]
+              },
+              {
+                question: "What builds experience?",
+                answers: [
+                  "Working abroad",
+                  "Abroad work",
+                  "Abroad builds"
+                ]
+              }
+            ]
+          },
+          {
+            word: "airline",
+            phonetic: "/ˈerlaɪn/",
+            examples: [
+              "Airline ticket was expensive",
+              "Major airline operates worldwide",
+              "Airline industry is competitive",
+              "Low cost airline saves money",
+              "Airline pilot flies planes",
+              "Airline food is mediocre",
+              "Airline schedule changes frequently",
+              "Airline miles accumulate rewards",
+              "Airline counter checks baggage",
+              "Budget airline offers deals"
+            ],
+            questions: [
+              {
+                question: "What was expensive?",
+                answers: [
+                  "Airline ticket",
+                  "Ticket airline",
+                  "Airline expensive"
+                ]
+              },
+              {
+                question: "What operates worldwide?",
+                answers: [
+                  "Major airline",
+                  "Airline operates",
+                  "Airline worldwide"
+                ]
+              },
+              {
+                question: "What saves money?",
+                answers: [
+                  "Low cost airline",
+                  "Airline saves",
+                  "Budget airline"
+                ]
+              }
+            ]
+          },
+          {
+            word: "audience",
+            phonetic: "/ˈɔːdiəns/",
+            examples: [
+              "Audience applauded loudly",
+              "Target audience is teenagers",
+              "Audience participation encouraged",
+              "Large audience attended show",
+              "Captive audience must listen",
+              "Audience with the king granted",
+              "Studio audience laughs on cue",
+              "Audience reaction was positive",
+              "Global audience watches online",
+              "Audience engagement is important"
+            ],
+            questions: [
+              {
+                question: "Who applauded?",
+                answers: [
+                  "Audience applauded",
+                  "The audience",
+                  "Audience loudly"
+                ]
+              },
+              {
+                question: "Who's the target?",
+                answers: [
+                  "Target audience",
+                  "Audience teenagers",
+                  "Audience target"
+                ]
+              },
+              {
+                question: "What's encouraged?",
+                answers: [
+                  "Audience participation",
+                  "Participation audience",
+                  "Audience encouraged"
+                ]
+              }
+            ]
+          },
+          {
+            word: "bargain",
+            phonetic: "/ˈbɑːrɡɪn/",
+            examples: [
+              "Strike a bargain with seller",
+              "Bargain price is low",
+              "Bargain for better deal",
+              "Bargain basement has sales",
+              "Keep your end of bargain",
+              "Bargain hunter finds deals",
+              "Bargain chip in negotiation",
+              "Drive a hard bargain",
+              "Bargain shopping saves money",
+              "Into the bargain means additionally"
+            ],
+            questions: [
+              {
+                question: "What with seller?",
+                answers: [
+                  "Strike bargain",
+                  "Bargain seller",
+                  "Make bargain"
+                ]
+              },
+              {
+                question: "What's low?",
+                answers: [
+                  "Bargain price",
+                  "Price bargain",
+                  "Bargain low"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Drive hard bargain",
+                  "Keep bargain",
+                  "Into bargain"
+                ]
+              }
+            ]
+          },
+          {
+            word: "brief",
+            phonetic: "/briːf/",
+            examples: [
+              "Brief meeting lasted minutes",
+              "Keep it brief please",
+              "Brief moment of silence",
+              "Brief description provided",
+              "Brief case holds documents",
+              "Brief appearance on stage",
+              "Brief summary of events",
+              "In brief means in short",
+              "Brief encounter changed life",
+              "Brief pause before continuing"
+            ],
+            questions: [
+              {
+                question: "What lasted minutes?",
+                answers: [
+                  "Brief meeting",
+                  "Meeting brief",
+                  "Brief minutes"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Keep brief",
+                  "Brief please",
+                  "Keep it"
+                ]
+              },
+              {
+                question: "What means in short?",
+                answers: [
+                  "In brief",
+                  "Brief means",
+                  "Brief short"
+                ]
+              }
+            ]
+          },
+          {
+            word: "currency",
+            phonetic: "/ˈkɜːrənsi/",
+            examples: [
+              "Foreign currency exchange rates",
+              "Currency fluctuates daily",
+              "Digital currency is growing",
+              "Local currency accepted here",
+              "Currency converter helps travel",
+              "Hard currency is stable",
+              "Currency trader buys sells",
+              "Currency devaluation hurts economy",
+              "Common currency unites countries",
+              "Reserve currency like dollar"
+            ],
+            questions: [
+              {
+                question: "What exchange rates?",
+                answers: [
+                  "Foreign currency",
+                  "Currency exchange",
+                  "Currency rates"
+                ]
+              },
+              {
+                question: "What fluctuates?",
+                answers: [
+                  "Currency fluctuates",
+                  "Currency daily",
+                  "Fluctuates currency"
+                ]
+              },
+              {
+                question: "What's growing?",
+                answers: [
+                  "Digital currency",
+                  "Currency growing",
+                  "Currency digital"
+                ]
+              }
+            ]
+          },
+          {
+            word: "data",
+            phonetic: "/ˈdeɪtə/",
+            examples: [
+              "Data shows clear trends",
+              "Big data analytics important",
+              "Data collection ongoing",
+              "Raw data needs processing",
+              "Data privacy concerns grow",
+              "Data entry job requires accuracy",
+              "Data breach exposed information",
+              "Data driven decisions better",
+              "Data storage costs money",
+              "Meta data describes data"
+            ],
+            questions: [
+              {
+                question: "What shows trends?",
+                answers: [
+                  "Data shows",
+                  "Data trends",
+                  "Shows data"
+                ]
+              },
+              {
+                question: "What's important?",
+                answers: [
+                  "Big data analytics",
+                  "Data analytics",
+                  "Analytics data"
+                ]
+              },
+              {
+                question: "What concerns grow?",
+                answers: [
+                  "Data privacy",
+                  "Privacy data",
+                  "Data concerns"
+                ]
+              }
+            ]
+          },
+          {
+            word: "domestic",
+            phonetic: "/dəˈmestɪk/",
+            examples: [
+              "Domestic flight is shorter",
+              "Domestic violence is crime",
+              "Domestic animals are pets",
+              "Domestic policy affects citizens",
+              "Domestic help cleans house",
+              "Domestic market is local",
+              "Domestic affairs are internal",
+              "Domestic goddess manages home",
+              "Domestic production increases",
+              "Domestic partner shares home"
+            ],
+            questions: [
+              {
+                question: "What's shorter?",
+                answers: [
+                  "Domestic flight",
+                  "Flight domestic",
+                  "Domestic shorter"
+                ]
+              },
+              {
+                question: "What's crime?",
+                answers: [
+                  "Domestic violence",
+                  "Violence domestic",
+                  "Domestic crime"
+                ]
+              },
+              {
+                question: "What are pets?",
+                answers: [
+                  "Domestic animals",
+                  "Animals domestic",
+                  "Domestic pets"
+                ]
+              }
+            ]
+          },
+          {
+            word: "draft",
+            phonetic: "/dræft/",
+            examples: [
+              "Draft version needs editing",
+              "Military draft requires service",
+              "Draft beer from tap",
+              "Bank draft guarantees payment",
+              "Draft pick in sports",
+              "Feel a draft from window",
+              "Draft horse pulls heavy loads",
+              "Draft proposal submitted",
+              "Draft dodger avoids service",
+              "Rough draft comes first"
+            ],
+            questions: [
+              {
+                question: "What needs editing?",
+                answers: [
+                  "Draft version",
+                  "Version draft",
+                  "Draft needs"
+                ]
+              },
+              {
+                question: "What requires service?",
+                answers: [
+                  "Military draft",
+                  "Draft requires",
+                  "Draft service"
+                ]
+              },
+              {
+                question: "What from window?",
+                answers: [
+                  "Feel draft",
+                  "Draft window",
+                  "Draft from"
+                ]
+              }
+            ]
+          },
+          {
+            word: "gather",
+            phonetic: "/ˈɡæðər/",
+            examples: [
+              "Gather information carefully",
+              "Gather around the fire",
+              "Gather strength for battle",
+              "Storm clouds gather overhead",
+              "Gather your belongings quickly",
+              "Gather speed going downhill",
+              "Gather evidence for trial",
+              "Family gathers for holidays",
+              "Gather dust on shelf",
+              "Gather thoughts before speaking"
+            ],
+            questions: [
+              {
+                question: "What should you do?",
+                answers: [
+                  "Gather information",
+                  "Gather around",
+                  "Gather belongings"
+                ]
+              },
+              {
+                question: "What overhead?",
+                answers: [
+                  "Clouds gather",
+                  "Gather overhead",
+                  "Storm gathers"
+                ]
+              },
+              {
+                question: "What for holidays?",
+                answers: [
+                  "Family gathers",
+                  "Gather holidays",
+                  "Gathers family"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hobby",
+            phonetic: "/ˈhɑːbi/",
+            examples: [
+              "Photography is my hobby",
+              "Hobby farm is small",
+              "Expensive hobby costs money",
+              "Hobby horse is toy",
+              "Hobby lobby sells crafts",
+              "Hobby shop has models",
+              "Collecting stamps is hobby",
+              "Hobby becomes passion",
+              "Hobby takes up time",
+              "Hobby knife cuts precisely"
+            ],
+            questions: [
+              {
+                question: "What's yours?",
+                answers: [
+                  "My hobby",
+                  "Photography hobby",
+                  "Hobby mine"
+                ]
+              },
+              {
+                question: "What's small?",
+                answers: [
+                  "Hobby farm",
+                  "Farm hobby",
+                  "Hobby small"
+                ]
+              },
+              {
+                question: "What costs money?",
+                answers: [
+                  "Expensive hobby",
+                  "Hobby costs",
+                  "Hobby expensive"
+                ]
+              }
+            ]
+          },
+          {
+            word: "income",
+            phonetic: "/ˈɪnkʌm/",
+            examples: [
+              "Income tax is mandatory",
+              "Fixed income from pension",
+              "Income level determines eligibility",
+              "Disposable income after taxes",
+              "Low income family struggles",
+              "Income statement shows earnings",
+              "Passive income requires investment",
+              "Income bracket affects rates",
+              "Additional income helps budget",
+              "Income inequality grows"
+            ],
+            questions: [
+              {
+                question: "What's mandatory?",
+                answers: [
+                  "Income tax",
+                  "Tax income",
+                  "Income mandatory"
+                ]
+              },
+              {
+                question: "What from pension?",
+                answers: [
+                  "Fixed income",
+                  "Income pension",
+                  "Income fixed"
+                ]
+              },
+              {
+                question: "What struggles?",
+                answers: [
+                  "Low income family",
+                  "Family income",
+                  "Income struggles"
+                ]
+              }
+            ]
+          },
+          {
+            word: "jet",
+            phonetic: "/dʒet/",
+            examples: [
+              "Jet plane flies fast",
+              "Jet lag after travel",
+              "Jet set lifestyle is luxurious",
+              "Jet black color is dark",
+              "Water jet cleans surfaces",
+              "Jet engine powers aircraft",
+              "Jet ski rides waves",
+              "Private jet for wealthy",
+              "Jet stream affects weather",
+              "Jumbo jet carries passengers"
+            ],
+            questions: [
+              {
+                question: "What flies fast?",
+                answers: [
+                  "Jet plane",
+                  "Jet flies",
+                  "Plane jet"
+                ]
+              },
+              {
+                question: "What after travel?",
+                answers: [
+                  "Jet lag",
+                  "Lag jet",
+                  "Jet after"
+                ]
+              },
+              {
+                question: "What's luxurious?",
+                answers: [
+                  "Jet set lifestyle",
+                  "Lifestyle jet",
+                  "Jet luxurious"
+                ]
+              }
+            ]
+          },
+          {
+            word: "maximum",
+            phonetic: "/ˈmæksɪməm/",
+            examples: [
+              "Maximum speed is limited",
+              "Maximum capacity reached",
+              "Maximum effort required",
+              "Maximum sentence imposed",
+              "Maximum security prison",
+              "Maximum temperature recorded",
+              "Maximum occupancy allowed",
+              "Maximum weight limit",
+              "To the maximum extent",
+              "Maximum value obtained"
+            ],
+            questions: [
+              {
+                question: "What's limited?",
+                answers: [
+                  "Maximum speed",
+                  "Speed maximum",
+                  "Maximum limited"
+                ]
+              },
+              {
+                question: "What reached?",
+                answers: [
+                  "Maximum capacity",
+                  "Capacity maximum",
+                  "Maximum reached"
+                ]
+              },
+              {
+                question: "What required?",
+                answers: [
+                  "Maximum effort",
+                  "Effort maximum",
+                  "Maximum required"
+                ]
+              }
+            ]
+          },
+          {
+            word: "official",
+            phonetic: "/əˈfɪʃl/",
+            examples: [
+              "Official statement was released",
+              "Government official announced policy",
+              "Official capacity represents organization",
+              "Official language is English",
+              "Official business only",
+              "Official record shows facts",
+              "Official channels must use",
+              "Official seal authenticates",
+              "Official visit scheduled",
+              "Official announcement made"
+            ],
+            questions: [
+              {
+                question: "What was released?",
+                answers: [
+                  "Official statement",
+                  "Statement official",
+                  "Official released"
+                ]
+              },
+              {
+                question: "Who announced?",
+                answers: [
+                  "Government official",
+                  "Official announced",
+                  "Official government"
+                ]
+              },
+              {
+                question: "What's English?",
+                answers: [
+                  "Official language",
+                  "Language official",
+                  "Official English"
+                ]
+              }
+            ]
+          },
+          {
+            word: "recommend",
+            phonetic: "/ˌrekəˈmend/",
+            examples: [
+              "Highly recommend this restaurant",
+              "Doctor recommends exercise daily",
+              "Recommend strongly you attend",
+              "Recommend caution when driving",
+              "Recommend against this action",
+              "Recommend best practices",
+              "Recommend letter of reference",
+              "Recommend dosage carefully",
+              "Recommend alternative solution",
+              "Recommend you reconsider"
+            ],
+            questions: [
+              {
+                question: "What about restaurant?",
+                answers: [
+                  "Highly recommend",
+                  "Recommend restaurant",
+                  "Recommend highly"
+                ]
+              },
+              {
+                question: "What does doctor do?",
+                answers: [
+                  "Doctor recommends",
+                  "Recommends exercise",
+                  "Recommend daily"
+                ]
+              },
+              {
+                question: "What when driving?",
+                answers: [
+                  "Recommend caution",
+                  "Caution recommend",
+                  "Recommend driving"
+                ]
+              }
+            ]
+          },
+          {
+            word: "refer",
+            phonetic: "/rɪˈfɜːr/",
+            examples: [
+              "Refer to the manual",
+              "Refer patient to specialist",
+              "Refer back to previous page",
+              "Refer someone for interview",
+              "Refer matter to committee",
+              "Refer to notes frequently",
+              "Refer friend for discount",
+              "Refer question to expert",
+              "Refer reader to appendix",
+              "Refer case to court"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Refer manual",
+                  "Refer to",
+                  "Refer back"
+                ]
+              },
+              {
+                question: "What to specialist?",
+                answers: [
+                  "Refer patient",
+                  "Patient refer",
+                  "Refer specialist"
+                ]
+              },
+              {
+                question: "What to committee?",
+                answers: [
+                  "Refer matter",
+                  "Matter refer",
+                  "Refer committee"
+                ]
+              }
+            ]
+          },
+          {
+            word: "remote",
+            phonetic: "/rɪˈmoʊt/",
+            examples: [
+              "Remote control changes channels",
+              "Remote location is isolated",
+              "Remote possibility exists",
+              "Remote village has no electricity",
+              "Remote work from home",
+              "Remote area lacks services",
+              "Remote chance of success",
+              "Remote ancestors lived here",
+              "Remote sensing technology",
+              "Remote access allowed"
+            ],
+            questions: [
+              {
+                question: "What changes channels?",
+                answers: [
+                  "Remote control",
+                  "Control remote",
+                  "Remote changes"
+                ]
+              },
+              {
+                question: "What's isolated?",
+                answers: [
+                  "Remote location",
+                  "Location remote",
+                  "Remote isolated"
+                ]
+              },
+              {
+                question: "What from home?",
+                answers: [
+                  "Remote work",
+                  "Work remote",
+                  "Remote home"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sleepless",
+            phonetic: "/ˈsliːpləs/",
+            examples: [
+              "Sleepless night worrying",
+              "Sleepless in Seattle movie",
+              "Sleepless baby cries all night",
+              "Sleepless from anxiety",
+              "Sleepless hours tossing turning",
+              "Sleepless watching stars",
+              "Sleepless nights before exam",
+              "Sleepless with excitement",
+              "Sleepless from pain",
+              "Sleepless city never stops"
+            ],
+            questions: [
+              {
+                question: "What worrying?",
+                answers: [
+                  "Sleepless night",
+                  "Night sleepless",
+                  "Sleepless worrying"
+                ]
+              },
+              {
+                question: "What's the movie?",
+                answers: [
+                  "Sleepless Seattle",
+                  "Seattle sleepless",
+                  "Sleepless movie"
+                ]
+              },
+              {
+                question: "What before exam?",
+                answers: [
+                  "Sleepless nights",
+                  "Nights sleepless",
+                  "Sleepless exam"
+                ]
+              }
+            ]
+          },
+          {
+            word: "volume",
+            phonetic: "/ˈvɑːljuːm/",
+            examples: [
+              "Turn up the volume louder",
+              "Volume of sales increased",
+              "Volume one of series",
+              "Volume control adjusts sound",
+              "Large volume of work",
+              "Volume discount saves money",
+              "Volume of water measured",
+              "Speak volumes means reveals much",
+              "Volume of traffic heavy",
+              "Low volume trading"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Turn up volume",
+                  "Volume louder",
+                  "Up volume"
+                ]
+              },
+              {
+                question: "What increased?",
+                answers: [
+                  "Volume sales",
+                  "Sales volume",
+                  "Volume increased"
+                ]
+              },
+              {
+                question: "What means reveals?",
+                answers: [
+                  "Speak volumes",
+                  "Volumes speak",
+                  "Volumes reveals"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit25",
+        words: [
+          {
+            word: "circulate",
+            phonetic: "/ˈsɜːrkjəleɪt/",
+            examples: [
+              "Blood circulates through body",
+              "Rumors circulate quickly online",
+              "Circulate memo to staff",
+              "Air circulates freely here",
+              "Money circulates in economy",
+              "Circulate petition for signatures",
+              "News circulates rapidly",
+              "Circulate among guests mingling",
+              "Water circulates through system",
+              "Ideas circulate in society"
+            ],
+            questions: [
+              {
+                question: "What through body?",
+                answers: [
+                  "Blood circulates",
+                  "Circulates body",
+                  "Blood through"
+                ]
+              },
+              {
+                question: "What quickly?",
+                answers: [
+                  "Rumors circulate",
+                  "Circulate quickly",
+                  "Rumors quickly"
+                ]
+              },
+              {
+                question: "What to staff?",
+                answers: [
+                  "Circulate memo",
+                  "Memo circulate",
+                  "Circulate staff"
+                ]
+              }
+            ]
+          },
+          {
+            word: "consequent",
+            phonetic: "/ˈkɑːnsɪkwənt/",
+            examples: [
+              "Consequent damage was severe",
+              "Consequent upon his actions",
+              "Consequent events followed",
+              "Consequent loss occurred",
+              "Consequent changes implemented",
+              "Consequent to the decision",
+              "Consequent effects observed",
+              "Consequent problems arose",
+              "Consequent improvements made",
+              "Consequent reactions expected"
+            ],
+            questions: [
+              {
+                question: "What was severe?",
+                answers: [
+                  "Consequent damage",
+                  "Damage consequent",
+                  "Consequent severe"
+                ]
+              },
+              {
+                question: "What followed?",
+                answers: [
+                  "Consequent events",
+                  "Events consequent",
+                  "Consequent followed"
+                ]
+              },
+              {
+                question: "What occurred?",
+                answers: [
+                  "Consequent loss",
+                  "Loss consequent",
+                  "Consequent occurred"
+                ]
+              }
+            ]
+          },
+          {
+            word: "derive",
+            phonetic: "/dɪˈraɪv/",
+            examples: [
+              "Derive pleasure from reading",
+              "Word derives from Latin",
+              "Derive income from investments",
+              "Derive benefit from exercise",
+              "Derive meaning from context",
+              "Derive conclusions from data",
+              "Derive satisfaction from work",
+              "Derive power from people",
+              "Derive strength from family",
+              "Derive equations mathematically"
+            ],
+            questions: [
+              {
+                question: "What from reading?",
+                answers: [
+                  "Derive pleasure",
+                  "Pleasure derive",
+                  "Derive from"
+                ]
+              },
+              {
+                question: "What from Latin?",
+                answers: [
+                  "Word derives",
+                  "Derives Latin",
+                  "Derive from"
+                ]
+              },
+              {
+                question: "What from investments?",
+                answers: [
+                  "Derive income",
+                  "Income derive",
+                  "Derive investments"
+                ]
+              }
+            ]
+          },
+          {
+            word: "drown",
+            phonetic: "/draʊn/",
+            examples: [
+              "Don't drown in deep water",
+              "Drown sorrows with drinking",
+              "Drown out noise with music",
+              "Nearly drowned in pool",
+              "Drown in debt means overwhelmed",
+              "Drown your troubles temporarily",
+              "Voice drowned by crowd",
+              "Drown kittens is cruel",
+              "Drowning not waving needs help",
+              "Drown in paperwork buried"
+            ],
+            questions: [
+              {
+                question: "What in deep water?",
+                answers: [
+                  "Don't drown",
+                  "Drown water",
+                  "Drown deep"
+                ]
+              },
+              {
+                question: "What with drinking?",
+                answers: [
+                  "Drown sorrows",
+                  "Sorrows drown",
+                  "Drown drinking"
+                ]
+              },
+              {
+                question: "What noise?",
+                answers: [
+                  "Drown out",
+                  "Drown noise",
+                  "Out drown"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dynasty",
+            phonetic: "/ˈdaɪnəsti/",
+            examples: [
+              "Ming dynasty ruled China",
+              "Dynasty TV show was popular",
+              "Political dynasty controls region",
+              "Dynasty lasted centuries",
+              "Royal dynasty ended",
+              "Dynasty building takes time",
+              "Business dynasty family owned",
+              "Dynasty warrior game series",
+              "Ancient dynasty artifacts",
+              "Dynasty football league"
+            ],
+            questions: [
+              {
+                question: "What ruled China?",
+                answers: [
+                  "Ming dynasty",
+                  "Dynasty ruled",
+                  "Dynasty China"
+                ]
+              },
+              {
+                question: "What was popular?",
+                answers: [
+                  "Dynasty show",
+                  "Show dynasty",
+                  "Dynasty popular"
+                ]
+              },
+              {
+                question: "What controls region?",
+                answers: [
+                  "Political dynasty",
+                  "Dynasty controls",
+                  "Dynasty region"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fraction",
+            phonetic: "/ˈfrækʃn/",
+            examples: [
+              "Fraction of the cost",
+              "Small fraction remains",
+              "Fraction in mathematics",
+              "Fraction of a second",
+              "Only fraction survived",
+              "Fraction represents part",
+              "Tiny fraction of population",
+              "Fraction of time needed",
+              "Fraction shows division",
+              "Fraction improper or proper"
+            ],
+            questions: [
+              {
+                question: "What of cost?",
+                answers: [
+                  "Fraction cost",
+                  "Fraction of",
+                  "Cost fraction"
+                ]
+              },
+              {
+                question: "What remains?",
+                answers: [
+                  "Small fraction",
+                  "Fraction remains",
+                  "Fraction small"
+                ]
+              },
+              {
+                question: "What in mathematics?",
+                answers: [
+                  "Fraction mathematics",
+                  "Fraction math",
+                  "Mathematics fraction"
+                ]
+              }
+            ]
+          },
+          {
+            word: "frost",
+            phonetic: "/frɔːst/",
+            examples: [
+              "Frost covers the ground",
+              "Morning frost is beautiful",
+              "Frost bite damages skin",
+              "Jack Frost personifies winter",
+              "Frost warning issued tonight",
+              "Frost free refrigerator",
+              "Frost on windows",
+              "Robert Frost was poet",
+              "Frost forms at night",
+              "Frost heave damages roads"
+            ],
+            questions: [
+              {
+                question: "What covers ground?",
+                answers: [
+                  "Frost covers",
+                  "Frost ground",
+                  "Covers frost"
+                ]
+              },
+              {
+                question: "What's beautiful?",
+                answers: [
+                  "Morning frost",
+                  "Frost beautiful",
+                  "Frost morning"
+                ]
+              },
+              {
+                question: "What damages skin?",
+                answers: [
+                  "Frost bite",
+                  "Bite frost",
+                  "Frost damages"
+                ]
+              }
+            ]
+          },
+          {
+            word: "illusion",
+            phonetic: "/ɪˈluːʒn/",
+            examples: [
+              "Optical illusion tricks eyes",
+              "Illusion of control felt",
+              "Grand illusion is deception",
+              "Illusion shattered by reality",
+              "Under illusion that worked",
+              "Illusion of safety false",
+              "Magic illusion amazes",
+              "Illusion versus reality",
+              "Harboring illusions about future",
+              "Illusion of depth created"
+            ],
+            questions: [
+              {
+                question: "What tricks eyes?",
+                answers: [
+                  "Optical illusion",
+                  "Illusion tricks",
+                  "Illusion eyes"
+                ]
+              },
+              {
+                question: "What felt?",
+                answers: [
+                  "Illusion control",
+                  "Illusion of",
+                  "Control illusion"
+                ]
+              },
+              {
+                question: "What shattered?",
+                answers: [
+                  "Illusion shattered",
+                  "Shattered illusion",
+                  "Illusion reality"
+                ]
+              }
+            ]
+          },
+          {
+            word: "invade",
+            phonetic: "/ɪnˈveɪd/",
+            examples: [
+              "Army will invade country",
+              "Invade personal space rudely",
+              "Insects invade the house",
+              "Invade privacy illegally",
+              "Normandy invasion D Day",
+              "Invade territory aggressively",
+              "Bacteria invade body",
+              "Invade thoughts constantly",
+              "Invade dreams at night",
+              "Don't invade my space"
+            ],
+            questions: [
+              {
+                question: "What will army do?",
+                answers: [
+                  "Army invade",
+                  "Invade country",
+                  "Will invade"
+                ]
+              },
+              {
+                question: "What rudely?",
+                answers: [
+                  "Invade space",
+                  "Space invade",
+                  "Invade personal"
+                ]
+              },
+              {
+                question: "What the house?",
+                answers: [
+                  "Insects invade",
+                  "Invade house",
+                  "Invade insects"
+                ]
+              }
+            ]
+          },
+          {
+            word: "lieutenant",
+            phonetic: "/luːˈtenənt/",
+            examples: [
+              "Lieutenant colonel ranks high",
+              "Navy lieutenant serves ship",
+              "Lieutenant governor assists",
+              "Police lieutenant commands",
+              "First lieutenant promoted",
+              "Lieutenant Dan from movie",
+              "Lieutenant duties assigned",
+              "Second lieutenant entry rank",
+              "Lieutenant position earned",
+              "Flight lieutenant in RAF"
+            ],
+            questions: [
+              {
+                question: "What ranks high?",
+                answers: [
+                  "Lieutenant colonel",
+                  "Colonel lieutenant",
+                  "Lieutenant ranks"
+                ]
+              },
+              {
+                question: "Who serves ship?",
+                answers: [
+                  "Navy lieutenant",
+                  "Lieutenant serves",
+                  "Lieutenant navy"
+                ]
+              },
+              {
+                question: "Who assists?",
+                answers: [
+                  "Lieutenant governor",
+                  "Governor lieutenant",
+                  "Lieutenant assists"
+                ]
+              }
+            ]
+          },
+          {
+            word: "marine",
+            phonetic: "/məˈriːn/",
+            examples: [
+              "Marine life is diverse",
+              "Marine Corps serves country",
+              "Marine biology studies ocean",
+              "Marine insurance covers ships",
+              "Marine environment protected",
+              "Marine blue color",
+              "Marine engineer designs ships",
+              "Tell it to the marines",
+              "Marine mammals include whales",
+              "Marine forces deployed"
+            ],
+            questions: [
+              {
+                question: "What's diverse?",
+                answers: [
+                  "Marine life",
+                  "Life marine",
+                  "Marine diverse"
+                ]
+              },
+              {
+                question: "What serves country?",
+                answers: [
+                  "Marine Corps",
+                  "Corps marine",
+                  "Marine serves"
+                ]
+              },
+              {
+                question: "What studies ocean?",
+                answers: [
+                  "Marine biology",
+                  "Biology marine",
+                  "Marine studies"
+                ]
+              }
+            ]
+          },
+          {
+            word: "merit",
+            phonetic: "/ˈmerɪt/",
+            examples: [
+              "Merit recognition for achievement",
+              "Merit badge earned in scouts",
+              "Case has no merit",
+              "Merit based system fair",
+              "Merit increase in salary",
+              "Merit attention and consideration",
+              "Order of merit awarded",
+              "Judge on merit alone",
+              "Merit scholarship received",
+              "Merit serious discussion"
+            ],
+            questions: [
+              {
+                question: "What for achievement?",
+                answers: [
+                  "Merit recognition",
+                  "Recognition merit",
+                  "Merit achievement"
+                ]
+              },
+              {
+                question: "What earned?",
+                answers: [
+                  "Merit badge",
+                  "Badge merit",
+                  "Merit earned"
+                ]
+              },
+              {
+                question: "What has no?",
+                answers: [
+                  "Case merit",
+                  "No merit",
+                  "Merit none"
+                ]
+              }
+            ]
+          },
+          {
+            word: "navy",
+            phonetic: "/ˈneɪvi/",
+            examples: [
+              "Navy blue is dark color",
+              "Navy SEAL special forces",
+              "Join the navy see world",
+              "Navy ship at sea",
+              "Navy veteran served country",
+              "Navy bean is food",
+              "Navy yard builds ships",
+              "Merchant navy carries cargo",
+              "Navy officer commands crew",
+              "Royal Navy is British"
+            ],
+            questions: [
+              {
+                question: "What's dark color?",
+                answers: [
+                  "Navy blue",
+                  "Blue navy",
+                  "Navy dark"
+                ]
+              },
+              {
+                question: "What's special forces?",
+                answers: [
+                  "Navy SEAL",
+                  "SEAL navy",
+                  "Navy forces"
+                ]
+              },
+              {
+                question: "What should you do?",
+                answers: [
+                  "Join navy",
+                  "Navy join",
+                  "Navy see"
+                ]
+              }
+            ]
+          },
+          {
+            word: "polar",
+            phonetic: "/ˈpoʊlər/",
+            examples: [
+              "Polar bear lives in Arctic",
+              "Polar opposite of each other",
+              "Polar ice caps melting",
+              "Polar regions are cold",
+              "Polar vortex brings cold",
+              "Polar expedition explored",
+              "Polar coordinates in math",
+              "Bipolar disorder affects mood",
+              "Polar night lasts months",
+              "Polar express is movie"
+            ],
+            questions: [
+              {
+                question: "What lives Arctic?",
+                answers: [
+                  "Polar bear",
+                  "Bear polar",
+                  "Polar Arctic"
+                ]
+              },
+              {
+                question: "What of each other?",
+                answers: [
+                  "Polar opposite",
+                  "Opposite polar",
+                  "Polar each"
+                ]
+              },
+              {
+                question: "What melting?",
+                answers: [
+                  "Polar ice caps",
+                  "Ice polar",
+                  "Polar melting"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ray",
+            phonetic: "/reɪ/",
+            examples: [
+              "Ray of sunshine breaks through",
+              "Ray of hope exists",
+              "X ray shows bones",
+              "Manta ray swims gracefully",
+              "Ray gun is science fiction",
+              "Gamma ray from space",
+              "Ray Charles was musician",
+              "Catch some rays means sunbathe",
+              "Ray of light illuminates",
+              "Sting ray has barb"
+            ],
+            questions: [
+              {
+                question: "What breaks through?",
+                answers: [
+                  "Ray sunshine",
+                  "Ray of",
+                  "Sunshine ray"
+                ]
+              },
+              {
+                question: "What exists?",
+                answers: [
+                  "Ray hope",
+                  "Hope ray",
+                  "Ray exists"
+                ]
+              },
+              {
+                question: "What shows bones?",
+                answers: [
+                  "X ray",
+                  "Ray shows",
+                  "Ray bones"
+                ]
+              }
+            ]
+          },
+          {
+            word: "resign",
+            phonetic: "/rɪˈzaɪn/",
+            examples: [
+              "Resign from job today",
+              "Resign yourself to fate",
+              "Resign position immediately",
+              "Forced to resign office",
+              "Resign membership voluntarily",
+              "Resign in protest loudly",
+              "Resign commission in military",
+              "Resign oneself to reality",
+              "Resign gracefully with dignity",
+              "Refuse to resign position"
+            ],
+            questions: [
+              {
+                question: "What from job?",
+                answers: [
+                  "Resign job",
+                  "Resign from",
+                  "Job resign"
+                ]
+              },
+              {
+                question: "What to fate?",
+                answers: [
+                  "Resign yourself",
+                  "Yourself resign",
+                  "Resign fate"
+                ]
+              },
+              {
+                question: "What immediately?",
+                answers: [
+                  "Resign position",
+                  "Position resign",
+                  "Resign immediately"
+                ]
+              }
+            ]
+          },
+          {
+            word: "suicide",
+            phonetic: "/ˈsuːɪsaɪd/",
+            examples: [
+              "Prevent suicide with support",
+              "Suicide rate is rising",
+              "Assisted suicide is controversial",
+              "Suicide bomber attacks",
+              "Suicide hotline saves lives",
+              "Commit suicide tragically",
+              "Suicide prevention programs",
+              "Suicide note left behind",
+              "Economic suicide means disaster",
+              "Suicide mission is dangerous"
+            ],
+            questions: [
+              {
+                question: "What with support?",
+                answers: [
+                  "Prevent suicide",
+                  "Suicide prevent",
+                  "Suicide support"
+                ]
+              },
+              {
+                question: "What's rising?",
+                answers: [
+                  "Suicide rate",
+                  "Rate suicide",
+                  "Suicide rising"
+                ]
+              },
+              {
+                question: "What saves lives?",
+                answers: [
+                  "Suicide hotline",
+                  "Hotline suicide",
+                  "Suicide saves"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tremble",
+            phonetic: "/ˈtrembl/",
+            examples: [
+              "Hands tremble with fear",
+              "Voice trembles with emotion",
+              "Earth trembles during earthquake",
+              "Tremble at the thought",
+              "Tremble with cold badly",
+              "Tremble with rage angrily",
+              "Tremble like a leaf",
+              "Building trembles slightly",
+              "Tremble in anticipation",
+              "Tremble with excitement"
+            ],
+            questions: [
+              {
+                question: "What with fear?",
+                answers: [
+                  "Hands tremble",
+                  "Tremble fear",
+                  "Tremble with"
+                ]
+              },
+              {
+                question: "What with emotion?",
+                answers: [
+                  "Voice trembles",
+                  "Trembles emotion",
+                  "Voice tremble"
+                ]
+              },
+              {
+                question: "What during earthquake?",
+                answers: [
+                  "Earth trembles",
+                  "Trembles earthquake",
+                  "Earth tremble"
+                ]
+              }
+            ]
+          },
+          {
+            word: "underlying",
+            phonetic: "/ˌʌndərˈlaɪɪŋ/",
+            examples: [
+              "Underlying cause must find",
+              "Underlying problem exists",
+              "Underlying message is clear",
+              "Underlying tension felt",
+              "Underlying assumption questioned",
+              "Underlying structure supports",
+              "Underlying meaning hidden",
+              "Underlying conditions affect",
+              "Underlying principles guide",
+              "Underlying issue unresolved"
+            ],
+            questions: [
+              {
+                question: "What must find?",
+                answers: [
+                  "Underlying cause",
+                  "Cause underlying",
+                  "Underlying find"
+                ]
+              },
+              {
+                question: "What exists?",
+                answers: [
+                  "Underlying problem",
+                  "Problem underlying",
+                  "Underlying exists"
+                ]
+              },
+              {
+                question: "What's clear?",
+                answers: [
+                  "Underlying message",
+                  "Message underlying",
+                  "Underlying clear"
+                ]
+              }
+            ]
+          },
+          {
+            word: "via",
+            phonetic: "/ˈvaɪə/",
+            examples: [
+              "Travel via connecting flight",
+              "Send via email quickly",
+              "Contact via phone number",
+              "Go via shortcut route",
+              "Via satellite transmission",
+              "Order via online website",
+              "Communicate via text message",
+              "Via media means middle way",
+              "Access via login portal",
+              "Via rail means by train"
+            ],
+            questions: [
+              {
+                question: "What connecting flight?",
+                answers: [
+                  "Travel via",
+                  "Via flight",
+                  "Via travel"
+                ]
+              },
+              {
+                question: "What email?",
+                answers: [
+                  "Send via",
+                  "Via email",
+                  "Send email"
+                ]
+              },
+              {
+                question: "What phone?",
+                answers: [
+                  "Contact via",
+                  "Via phone",
+                  "Contact phone"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit26",
+        words: [
+          {
+            word: "alter",
+            phonetic: "/ˈɔːltər/",
+            examples: [
+              "Alter the dress to fit",
+              "Alter plans if necessary",
+              "Alter ego is other self",
+              "Alter course immediately",
+              "Alter appearance with makeup",
+              "Alter slightly for better fit",
+              "Alter document is illegal",
+              "Alter behavior over time",
+              "Alter state of mind",
+              "Alter opinion after hearing"
+            ],
+            questions: [
+              {
+                question: "What to fit?",
+                answers: [
+                  "Alter dress",
+                  "Alter fit",
+                  "Dress alter"
+                ]
+              },
+              {
+                question: "What if necessary?",
+                answers: [
+                  "Alter plans",
+                  "Plans alter",
+                  "Alter if"
+                ]
+              },
+              {
+                question: "What's other self?",
+                answers: [
+                  "Alter ego",
+                  "Ego alter",
+                  "Alter self"
+                ]
+              }
+            ]
+          },
+          {
+            word: "aside",
+            phonetic: "/əˈsaɪd/",
+            examples: [
+              "Step aside please",
+              "Set aside money for savings",
+              "Aside from that everything fine",
+              "Put aside differences cooperate",
+              "Aside remark in theater",
+              "Stand aside let pass",
+              "Joking aside be serious",
+              "Cast aside old habits",
+              "Aside from work no life",
+              "Take aside for conversation"
+            ],
+            questions: [
+              {
+                question: "What should I do?",
+                answers: [
+                  "Step aside",
+                  "Stand aside",
+                  "Put aside"
+                ]
+              },
+              {
+                question: "What for savings?",
+                answers: [
+                  "Set aside",
+                  "Aside money",
+                  "Set money"
+                ]
+              },
+              {
+                question: "What from that?",
+                answers: [
+                  "Aside from",
+                  "From aside",
+                  "Aside that"
+                ]
+              }
+            ]
+          },
+          {
+            word: "autumn",
+            phonetic: "/ˈɔːtəm/",
+            examples: [
+              "Autumn leaves change color",
+              "Autumn season is beautiful",
+              "Autumn harvest brings crops",
+              "In autumn weather cools",
+              "Autumn equinox marks season",
+              "Autumn breeze feels crisp",
+              "Autumn colors are vibrant",
+              "Early autumn still warm",
+              "Late autumn turns cold",
+              "Autumn of life means old age"
+            ],
+            questions: [
+              {
+                question: "What change color?",
+                answers: [
+                  "Autumn leaves",
+                  "Leaves autumn",
+                  "Autumn change"
+                ]
+              },
+              {
+                question: "What's beautiful?",
+                answers: [
+                  "Autumn season",
+                  "Season autumn",
+                  "Autumn beautiful"
+                ]
+              },
+              {
+                question: "What brings crops?",
+                answers: [
+                  "Autumn harvest",
+                  "Harvest autumn",
+                  "Autumn brings"
+                ]
+              }
+            ]
+          },
+          {
+            word: "blend",
+            phonetic: "/blend/",
+            examples: [
+              "Blend ingredients together smoothly",
+              "Colors blend beautifully",
+              "Blend in with crowd",
+              "Blend cultures harmoniously",
+              "Coffee blend tastes good",
+              "Blend voices in harmony",
+              "Blend into background quietly",
+              "Blend spices carefully",
+              "Blend of old and new",
+              "Blend word is portmanteau"
+            ],
+            questions: [
+              {
+                question: "What together?",
+                answers: [
+                  "Blend ingredients",
+                  "Ingredients blend",
+                  "Blend together"
+                ]
+              },
+              {
+                question: "What beautifully?",
+                answers: [
+                  "Colors blend",
+                  "Blend colors",
+                  "Blend beautifully"
+                ]
+              },
+              {
+                question: "What with crowd?",
+                answers: [
+                  "Blend in",
+                  "Blend crowd",
+                  "In blend"
+                ]
+              }
+            ]
+          },
+          {
+            word: "collapse",
+            phonetic: "/kəˈlæps/",
+            examples: [
+              "Building may collapse soon",
+              "Collapse from exhaustion",
+              "Economic collapse feared",
+              "Collapse of government occurred",
+              "Collapse under pressure easily",
+              "Lung collapse is serious",
+              "Collapse in tears suddenly",
+              "Bridge collapse killed many",
+              "Collapse into chair tired",
+              "Total collapse of system"
+            ],
+            questions: [
+              {
+                question: "What may happen?",
+                answers: [
+                  "Building collapse",
+                  "May collapse",
+                  "Collapse soon"
+                ]
+              },
+              {
+                question: "What from exhaustion?",
+                answers: [
+                  "Collapse exhaustion",
+                  "Collapse from",
+                  "From collapse"
+                ]
+              },
+              {
+                question: "What feared?",
+                answers: [
+                  "Economic collapse",
+                  "Collapse feared",
+                  "Collapse economic"
+                ]
+              }
+            ]
+          },
+          {
+            word: "crush",
+            phonetic: "/krʌʃ/",
+            examples: [
+              "Crush the garlic finely",
+              "Have a crush on someone",
+              "Crush dreams cruelly",
+              "Crush can under foot",
+              "Orange crush is drink",
+              "Crush competition completely",
+              "Crush ice for drink",
+              "Crush rebellion forcefully",
+              "Candy crush is game",
+              "Crush velvet fabric soft"
+            ],
+            questions: [
+              {
+                question: "What finely?",
+                answers: [
+                  "Crush garlic",
+                  "Garlic crush",
+                  "Crush finely"
+                ]
+              },
+              {
+                question: "What on someone?",
+                answers: [
+                  "Have crush",
+                  "Crush someone",
+                  "Crush on"
+                ]
+              },
+              {
+                question: "What cruelly?",
+                answers: [
+                  "Crush dreams",
+                  "Dreams crush",
+                  "Crush cruelly"
+                ]
+              }
+            ]
+          },
+          {
+            word: "curve",
+            phonetic: "/kɜːrv/",
+            examples: [
+              "Road curves sharply ahead",
+              "Curve ball in baseball",
+              "Learning curve is steep",
+              "Curve your spine gently",
+              "Bell curve shows distribution",
+              "Ahead of the curve means leading",
+              "Curve grading helps students",
+              "Dangerous curve on road",
+              "Curve of her smile",
+              "Behind the curve means lagging"
+            ],
+            questions: [
+              {
+                question: "What sharply?",
+                answers: [
+                  "Road curves",
+                  "Curves sharply",
+                  "Curves ahead"
+                ]
+              },
+              {
+                question: "What in baseball?",
+                answers: [
+                  "Curve ball",
+                  "Ball curve",
+                  "Curve baseball"
+                ]
+              },
+              {
+                question: "What's steep?",
+                answers: [
+                  "Learning curve",
+                  "Curve steep",
+                  "Curve learning"
+                ]
+              }
+            ]
+          },
+          {
+            word: "disgusting",
+            phonetic: "/dɪsˈɡʌstɪŋ/",
+            examples: [
+              "Disgusting smell filled room",
+              "Disgusting behavior appalled everyone",
+              "Disgusting food couldn't eat",
+              "Absolutely disgusting conditions",
+              "Disgusting habit must stop",
+              "Disgusting mess everywhere",
+              "Disgusting to watch violence",
+              "Find it disgusting honestly",
+              "Disgusting language used",
+              "Disgusting waste of money"
+            ],
+            questions: [
+              {
+                question: "What filled room?",
+                answers: [
+                  "Disgusting smell",
+                  "Smell disgusting",
+                  "Disgusting filled"
+                ]
+              },
+              {
+                question: "What appalled everyone?",
+                answers: [
+                  "Disgusting behavior",
+                  "Behavior disgusting",
+                  "Disgusting appalled"
+                ]
+              },
+              {
+                question: "What couldn't eat?",
+                answers: [
+                  "Disgusting food",
+                  "Food disgusting",
+                  "Disgusting eat"
+                ]
+              }
+            ]
+          },
+          {
+            word: "drain",
+            phonetic: "/dreɪn/",
+            examples: [
+              "Drain the water completely",
+              "Drain on resources heavy",
+              "Brain drain affects countries",
+              "Drain pipe is clogged",
+              "Drain energy quickly",
+              "Down the drain means wasted",
+              "Drain swamp metaphorically",
+              "Drain pasta after cooking",
+              "Emotional drain exhausting",
+              "Drain blood from body"
+            ],
+            questions: [
+              {
+                question: "What completely?",
+                answers: [
+                  "Drain water",
+                  "Drain completely",
+                  "Water drain"
+                ]
+              },
+              {
+                question: "What on resources?",
+                answers: [
+                  "Drain resources",
+                  "Drain on",
+                  "Resources drain"
+                ]
+              },
+              {
+                question: "What affects countries?",
+                answers: [
+                  "Brain drain",
+                  "Drain affects",
+                  "Drain countries"
+                ]
+              }
+            ]
+          },
+          {
+            word: "embrace",
+            phonetic: "/ɪmˈbreɪs/",
+            examples: [
+              "Embrace new opportunities eagerly",
+              "Warm embrace felt comforting",
+              "Embrace change positively",
+              "Embrace diversity in workplace",
+              "Embrace technology advancement",
+              "Embrace challenges courageously",
+              "Embrace loved ones tightly",
+              "Embrace different cultures",
+              "Embrace the future hopefully",
+              "Embrace your true self"
+            ],
+            questions: [
+              {
+                question: "What eagerly?",
+                answers: [
+                  "Embrace opportunities",
+                  "Embrace new",
+                  "Opportunities embrace"
+                ]
+              },
+              {
+                question: "What felt comforting?",
+                answers: [
+                  "Warm embrace",
+                  "Embrace comforting",
+                  "Embrace felt"
+                ]
+              },
+              {
+                question: "What positively?",
+                answers: [
+                  "Embrace change",
+                  "Change embrace",
+                  "Embrace positively"
+                ]
+              }
+            ]
+          },
+          {
+            word: "envy",
+            phonetic: "/ˈenvi/",
+            examples: [
+              "Green with envy jealous",
+              "Envy others' success foolishly",
+              "Object of envy admired",
+              "Envy destroys relationships",
+              "Feel envy toward wealthy",
+              "Envy eats away inside",
+              "Envy is deadly sin",
+              "Penis envy in psychology",
+              "Envy their happiness",
+              "Overcome feelings of envy"
+            ],
+            questions: [
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Green envy",
+                  "Envy jealous",
+                  "Envy green"
+                ]
+              },
+              {
+                question: "What foolishly?",
+                answers: [
+                  "Envy success",
+                  "Envy others",
+                  "Others envy"
+                ]
+              },
+              {
+                question: "What destroys?",
+                answers: [
+                  "Envy destroys",
+                  "Destroys envy",
+                  "Envy relationships"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fireworks",
+            phonetic: "/ˈfaɪərwɜːrks/",
+            examples: [
+              "Fireworks display is spectacular",
+              "Fourth of July fireworks",
+              "Fireworks explode colorfully",
+              "Set off fireworks safely",
+              "Fireworks show at midnight",
+              "Fireworks illuminate sky",
+              "Fireworks between them means argument",
+              "New Year's Eve fireworks",
+              "Fireworks factory dangerous",
+              "Watch fireworks together"
+            ],
+            questions: [
+              {
+                question: "What's spectacular?",
+                answers: [
+                  "Fireworks display",
+                  "Display fireworks",
+                  "Fireworks spectacular"
+                ]
+              },
+              {
+                question: "What on Fourth?",
+                answers: [
+                  "Fourth fireworks",
+                  "Fireworks July",
+                  "July fireworks"
+                ]
+              },
+              {
+                question: "What colorfully?",
+                answers: [
+                  "Fireworks explode",
+                  "Explode fireworks",
+                  "Fireworks colorfully"
+                ]
+              }
+            ]
+          },
+          {
+            word: "flour",
+            phonetic: "/flaʊr/",
+            examples: [
+              "Flour is baking ingredient",
+              "White flour refined",
+              "Wheat flour makes bread",
+              "Flour tortillas are flat",
+              "Flour sack sturdy",
+              "All purpose flour versatile",
+              "Flour mill grinds grain",
+              "Self rising flour convenient",
+              "Flour your hands before kneading",
+              "Flour power hippie slogan"
+            ],
+            questions: [
+              {
+                question: "What's baking ingredient?",
+                answers: [
+                  "Flour is",
+                  "Flour ingredient",
+                  "Flour baking"
+                ]
+              },
+              {
+                question: "What makes bread?",
+                answers: [
+                  "Wheat flour",
+                  "Flour makes",
+                  "Flour bread"
+                ]
+              },
+              {
+                question: "What grinds grain?",
+                answers: [
+                  "Flour mill",
+                  "Mill flour",
+                  "Flour grinds"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fuse",
+            phonetic: "/fjuːz/",
+            examples: [
+              "Fuse blew out suddenly",
+              "Short fuse means quick temper",
+              "Fuse metals together",
+              "Bomb fuse lit carefully",
+              "Fuse box controls electricity",
+              "Fuse into one entity",
+              "Fuse cultures blend",
+              "Light the fuse cautiously",
+              "Fuse ideas creatively",
+              "Blown fuse needs replacing"
+            ],
+            questions: [
+              {
+                question: "What blew out?",
+                answers: [
+                  "Fuse blew",
+                  "Fuse out",
+                  "Blew fuse"
+                ]
+              },
+              {
+                question: "What means quick temper?",
+                answers: [
+                  "Short fuse",
+                  "Fuse short",
+                  "Fuse temper"
+                ]
+              },
+              {
+                question: "What together?",
+                answers: [
+                  "Fuse metals",
+                  "Fuse together",
+                  "Metals fuse"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ginger",
+            phonetic: "/ˈdʒɪndʒər/",
+            examples: [
+              "Ginger root is spicy",
+              "Ginger ale settles stomach",
+              "Ginger hair is red",
+              "Fresh ginger in cooking",
+              "Ginger snap cookie crisp",
+              "Ginger cat is orange",
+              "Ginger tea is warming",
+              "Ginger bread house decorated",
+              "Ginger up means enliven",
+              "Pickled ginger with sushi"
+            ],
+            questions: [
+              {
+                question: "What's spicy?",
+                answers: [
+                  "Ginger root",
+                  "Root ginger",
+                  "Ginger spicy"
+                ]
+              },
+              {
+                question: "What settles stomach?",
+                answers: [
+                  "Ginger ale",
+                  "Ale ginger",
+                  "Ginger settles"
+                ]
+              },
+              {
+                question: "What's red?",
+                answers: [
+                  "Ginger hair",
+                  "Hair ginger",
+                  "Ginger red"
+                ]
+              }
+            ]
+          },
+          {
+            word: "jealous",
+            phonetic: "/ˈdʒeləs/",
+            examples: [
+              "Jealous of her success",
+              "Jealous boyfriend is controlling",
+              "Jealous rage dangerous",
+              "Don't be jealous please",
+              "Jealous feelings hurt",
+              "Jealous God in Bible",
+              "Jealous wife suspects",
+              "Jealous type person",
+              "Jealous over nothing",
+              "Jealous nature causes problems"
+            ],
+            questions: [
+              {
+                question: "What of success?",
+                answers: [
+                  "Jealous success",
+                  "Jealous of",
+                  "Success jealous"
+                ]
+              },
+              {
+                question: "What's controlling?",
+                answers: [
+                  "Jealous boyfriend",
+                  "Boyfriend jealous",
+                  "Jealous controlling"
+                ]
+              },
+              {
+                question: "What's dangerous?",
+                answers: [
+                  "Jealous rage",
+                  "Rage jealous",
+                  "Jealous dangerous"
+                ]
+              }
+            ]
+          },
+          {
+            word: "paste",
+            phonetic: "/peɪst/",
+            examples: [
+              "Paste glue on paper",
+              "Tomato paste is concentrated",
+              "Paste jewelry is fake",
+              "Copy and paste text",
+              "Tooth paste cleans teeth",
+              "Paste together pieces",
+              "Paste wax for floors",
+              "Paste up poster carefully",
+              "Garlic paste adds flavor",
+              "Wallpaper paste sticky"
+            ],
+            questions: [
+              {
+                question: "What on paper?",
+                answers: [
+                  "Paste glue",
+                  "Paste on",
+                  "Glue paste"
+                ]
+              },
+              {
+                question: "What's concentrated?",
+                answers: [
+                  "Tomato paste",
+                  "Paste concentrated",
+                  "Paste tomato"
+                ]
+              },
+              {
+                question: "What text?",
+                answers: [
+                  "Copy paste",
+                  "Paste text",
+                  "Copy and"
+                ]
+              }
+            ]
+          },
+          {
+            word: "receipt",
+            phonetic: "/rɪˈsiːt/",
+            examples: [
+              "Keep the receipt for returns",
+              "Receipt shows proof of purchase",
+              "Receipt printer jammed",
+              "Receipt book records transactions",
+              "Upon receipt of payment",
+              "Acknowledge receipt of letter",
+              "Receipt of goods confirmed",
+              "Receipt paper fades quickly",
+              "Email receipt sent automatically",
+              "Receipt number for reference"
+            ],
+            questions: [
+              {
+                question: "What for returns?",
+                answers: [
+                  "Keep receipt",
+                  "Receipt returns",
+                  "Receipt keep"
+                ]
+              },
+              {
+                question: "What shows proof?",
+                answers: [
+                  "Receipt shows",
+                  "Receipt proof",
+                  "Shows receipt"
+                ]
+              },
+              {
+                question: "What of payment?",
+                answers: [
+                  "Upon receipt",
+                  "Receipt payment",
+                  "Receipt of"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wipe",
+            phonetic: "/waɪp/",
+            examples: [
+              "Wipe the table clean",
+              "Wipe tears from eyes",
+              "Wipe out means destroy",
+              "Wipe off dirt carefully",
+              "Baby wipes are handy",
+              "Wipe slate clean start fresh",
+              "Wipe floor with mop",
+              "Wipe smile off face",
+              "Screen wipe in movies",
+              "Wipe down surfaces daily"
+            ],
+            questions: [
+              {
+                question: "What clean?",
+                answers: [
+                  "Wipe table",
+                  "Wipe clean",
+                  "Table wipe"
+                ]
+              },
+              {
+                question: "What from eyes?",
+                answers: [
+                  "Wipe tears",
+                  "Tears wipe",
+                  "Wipe from"
+                ]
+              },
+              {
+                question: "What means destroy?",
+                answers: [
+                  "Wipe out",
+                  "Wipe destroy",
+                  "Out wipe"
+                ]
+              }
+            ]
+          },
+          {
+            word: "wire",
+            phonetic: "/waɪr/",
+            examples: [
+              "Wire transfers money quickly",
+              "Electrical wire conducts current",
+              "Wire fence surrounds property",
+              "Live wire is dangerous",
+              "Down to the wire means deadline",
+              "Wire tap intercepts communication",
+              "Barbed wire has spikes",
+              "Wire cutters tool needed",
+              "Wire frame shows structure",
+              "Trip wire triggers alarm"
+            ],
+            questions: [
+              {
+                question: "What transfers money?",
+                answers: [
+                  "Wire transfers",
+                  "Wire money",
+                  "Transfers wire"
+                ]
+              },
+              {
+                question: "What conducts current?",
+                answers: [
+                  "Electrical wire",
+                  "Wire conducts",
+                  "Wire current"
+                ]
+              },
+              {
+                question: "What's dangerous?",
+                answers: [
+                  "Live wire",
+                  "Wire dangerous",
+                  "Wire live"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit27",
+        words: [
+          {
+            word: "acknowledge",
+            phonetic: "/əkˈnɑːlɪdʒ/",
+            examples: [
+              "Acknowledge receipt of email",
+              "Acknowledge your mistakes honestly",
+              "Acknowledge contributions of others",
+              "Refuse to acknowledge presence",
+              "Acknowledge the truth finally",
+              "Acknowledge achievements publicly",
+              "Acknowledge feelings are valid",
+              "Acknowledge defeat gracefully",
+              "Acknowledge debt owed",
+              "Acknowledge problem exists"
+            ],
+            questions: [
+              {
+                question: "What of email?",
+                answers: [
+                  "Acknowledge receipt",
+                  "Acknowledge email",
+                  "Receipt acknowledge"
+                ]
+              },
+              {
+                question: "What honestly?",
+                answers: [
+                  "Acknowledge mistakes",
+                  "Mistakes acknowledge",
+                  "Acknowledge honestly"
+                ]
+              },
+              {
+                question: "What of others?",
+                answers: [
+                  "Acknowledge contributions",
+                  "Contributions acknowledge",
+                  "Acknowledge others"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ambassador",
+            phonetic: "/æmˈbæsədər/",
+            examples: [
+              "Ambassador represents country abroad",
+              "Brand ambassador promotes products",
+              "Ambassador extraordinary appointed",
+              "Goodwill ambassador helps causes",
+              "Ambassador residence is embassy",
+              "Former ambassador retired",
+              "Ambassador presents credentials",
+              "Ambassador召回 recalled home",
+              "Student ambassador shows campus",
+              "Ambassador of peace mediates"
+            ],
+            questions: [
+              {
+                question: "Who represents country?",
+                answers: [
+                  "Ambassador represents",
+                  "Ambassador abroad",
+                  "Ambassador country"
+                ]
+              },
+              {
+                question: "What promotes products?",
+                answers: [
+                  "Brand ambassador",
+                  "Ambassador promotes",
+                  "Ambassador brand"
+                ]
+              },
+              {
+                question: "Who helps causes?",
+                answers: [
+                  "Goodwill ambassador",
+                  "Ambassador helps",
+                  "Ambassador causes"
+                ]
+              }
+            ]
+          },
+          {
+            word: "blonde",
+            phonetic: "/blɑːnd/",
+            examples: [
+              "Blonde hair is light colored",
+              "Platinum blonde is very light",
+              "Blonde moment means silly mistake",
+              "Blonde ambition drives success",
+              "Ash blonde has gray tones",
+              "Blonde jokes are stereotypical",
+              "Dirty blonde is darker",
+              "Strawberry blonde is reddish",
+              "Peroxide blonde is artificial",
+              "Blonde bombshell is attractive"
+            ],
+            questions: [
+              {
+                question: "What's light colored?",
+                answers: [
+                  "Blonde hair",
+                  "Hair blonde",
+                  "Blonde light"
+                ]
+              },
+              {
+                question: "What's very light?",
+                answers: [
+                  "Platinum blonde",
+                  "Blonde platinum",
+                  "Very blonde"
+                ]
+              },
+              {
+                question: "What means silly mistake?",
+                answers: [
+                  "Blonde moment",
+                  "Moment blonde",
+                  "Blonde mistake"
+                ]
+              }
+            ]
+          },
+          {
+            word: "conquer",
+            phonetic: "/ˈkɑːŋkər/",
+            examples: [
+              "Conquer your fears bravely",
+              "Army conquered the territory",
+              "Conquer the world ambitious",
+              "Conquer Mount Everest successfully",
+              "Conquer challenges daily",
+              "Divide and conquer strategy",
+              "Conquer hearts with kindness",
+              "Conquer addiction with help",
+              "Conquer market share aggressively",
+              "Conquer obstacles persistently"
+            ],
+            questions: [
+              {
+                question: "What bravely?",
+                answers: [
+                  "Conquer fears",
+                  "Conquer bravely",
+                  "Fears conquer"
+                ]
+              },
+              {
+                question: "What territory?",
+                answers: [
+                  "Army conquered",
+                  "Conquered territory",
+                  "Conquer territory"
+                ]
+              },
+              {
+                question: "What's the strategy?",
+                answers: [
+                  "Divide conquer",
+                  "Conquer strategy",
+                  "Divide and"
+                ]
+              }
+            ]
+          },
+          {
+            word: "drag",
+            phonetic: "/dræɡ/",
+            examples: [
+              "Drag the heavy box",
+              "Drag and drop feature",
+              "Main drag is street",
+              "Drag race cars compete",
+              "Drag on means prolong",
+              "Drag queen performs",
+              "Drag feet means reluctant",
+              "Drag someone's name through mud",
+              "Drag down team performance",
+              "Drag coefficient affects speed"
+            ],
+            questions: [
+              {
+                question: "What heavy box?",
+                answers: [
+                  "Drag box",
+                  "Drag heavy",
+                  "Box drag"
+                ]
+              },
+              {
+                question: "What feature?",
+                answers: [
+                  "Drag drop",
+                  "Drag and drop",
+                  "Drop drag"
+                ]
+              },
+              {
+                question: "What means reluctant?",
+                answers: [
+                  "Drag feet",
+                  "Feet drag",
+                  "Drag reluctant"
+                ]
+              }
+            ]
+          },
+          {
+            word: "exaggerate",
+            phonetic: "/ɪɡˈzædʒəreɪt/",
+            examples: [
+              "Don't exaggerate the problem",
+              "Exaggerate for comic effect",
+              "Exaggerate slightly is okay",
+              "Exaggerate achievements on resume",
+              "Exaggerate importance of event",
+              "Exaggerate features of product",
+              "Tend to exaggerate sometimes",
+              "Exaggerate symptoms to doctor",
+              "Exaggerate danger unnecessarily",
+              "Exaggerate truth stretches facts"
+            ],
+            questions: [
+              {
+                question: "What shouldn't you do?",
+                answers: [
+                  "Don't exaggerate",
+                  "Not exaggerate",
+                  "Exaggerate problem"
+                ]
+              },
+              {
+                question: "What for comic effect?",
+                answers: [
+                  "Exaggerate comic",
+                  "Exaggerate for",
+                  "Comic exaggerate"
+                ]
+              },
+              {
+                question: "What on resume?",
+                answers: [
+                  "Exaggerate achievements",
+                  "Achievements exaggerate",
+                  "Exaggerate resume"
+                ]
+              }
+            ]
+          },
+          {
+            word: "heritage",
+            phonetic: "/ˈherɪtɪdʒ/",
+            examples: [
+              "Cultural heritage is preserved",
+              "Heritage site protected by law",
+              "Proud of my heritage",
+              "Heritage language is ancestral",
+              "World heritage designation important",
+              "Heritage foundation conserves history",
+              "Heritage building is historic",
+              "Heritage tourism attracts visitors",
+              "Heritage breeds are traditional",
+              "National heritage celebrated"
+            ],
+            questions: [
+              {
+                question: "What's preserved?",
+                answers: [
+                  "Cultural heritage",
+                  "Heritage preserved",
+                  "Heritage cultural"
+                ]
+              },
+              {
+                question: "What protected?",
+                answers: [
+                  "Heritage site",
+                  "Site heritage",
+                  "Heritage protected"
+                ]
+              },
+              {
+                question: "What attracts visitors?",
+                answers: [
+                  "Heritage tourism",
+                  "Tourism heritage",
+                  "Heritage attracts"
+                ]
+              }
+            ]
+          },
+          {
+            word: "insult",
+            phonetic: "/ɪnˈsʌlt/",
+            examples: [
+              "Insult someone's intelligence",
+              "Add insult to injury means worsen",
+              "Take as an insult",
+              "Insult hurts feelings deeply",
+              "Hurl insults angrily",
+              "Insult and injury together",
+              "Backhanded insult disguised compliment",
+              "Trading insults verbally",
+              "Insult dignity of person",
+              "Deliberate insult intended"
+            ],
+            questions: [
+              {
+                question: "What someone's?",
+                answers: [
+                  "Insult intelligence",
+                  "Insult someone",
+                  "Intelligence insult"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Add insult injury",
+                  "Insult injury",
+                  "Insult to"
+                ]
+              },
+              {
+                question: "What hurts feelings?",
+                answers: [
+                  "Insult hurts",
+                  "Insult feelings",
+                  "Hurts insult"
+                ]
+              }
+            ]
+          },
+          {
+            word: "meanwhile",
+            phonetic: "/ˈmiːnwaɪl/",
+            examples: [
+              "Meanwhile back at home",
+              "Meanwhile in other news",
+              "Meanwhile time passes quickly",
+              "Meanwhile things changed",
+              "In the meanwhile wait",
+              "Meanwhile life goes on",
+              "Meanwhile elsewhere events unfold",
+              "Meanwhile preparations continue",
+              "Meanwhile situation worsened",
+              "Meanwhile keep working"
+            ],
+            questions: [
+              {
+                question: "What back home?",
+                answers: [
+                  "Meanwhile back",
+                  "Meanwhile home",
+                  "Back meanwhile"
+                ]
+              },
+              {
+                question: "What in news?",
+                answers: [
+                  "Meanwhile news",
+                  "Meanwhile other",
+                  "News meanwhile"
+                ]
+              },
+              {
+                question: "What goes on?",
+                answers: [
+                  "Meanwhile life",
+                  "Life meanwhile",
+                  "Meanwhile goes"
+                ]
+              }
+            ]
+          },
+          {
+            word: "necklace",
+            phonetic: "/ˈnekləs/",
+            examples: [
+              "Diamond necklace is expensive",
+              "Pearl necklace is classic",
+              "Necklace around her neck",
+              "Gold necklace shines brightly",
+              "Choker necklace fits tight",
+              "Pendant necklace has charm",
+              "Necklace chain broke suddenly",
+              "Statement necklace is bold",
+              "Beaded necklace handmade",
+              "Necklace clasp fastens"
+            ],
+            questions: [
+              {
+                question: "What's expensive?",
+                answers: [
+                  "Diamond necklace",
+                  "Necklace expensive",
+                  "Necklace diamond"
+                ]
+              },
+              {
+                question: "What's classic?",
+                answers: [
+                  "Pearl necklace",
+                  "Necklace classic",
+                  "Necklace pearl"
+                ]
+              },
+              {
+                question: "What around neck?",
+                answers: [
+                  "Necklace neck",
+                  "Necklace around",
+                  "Around necklace"
+                ]
+              }
+            ]
+          },
+          {
+            word: "noble",
+            phonetic: "/ˈnoʊbl/",
+            examples: [
+              "Noble cause worth fighting",
+              "Noble birth means aristocratic",
+              "Noble character admired",
+              "Noble gesture appreciated",
+              "Noble metals resist corrosion",
+              "Noble gas is inert",
+              "Noble savage is concept",
+              "Noble deed deserves recognition",
+              "Noble intentions matter",
+              "Noble profession serving others"
+            ],
+            questions: [
+              {
+                question: "What worth fighting?",
+                answers: [
+                  "Noble cause",
+                  "Cause noble",
+                  "Noble fighting"
+                ]
+              },
+              {
+                question: "What means aristocratic?",
+                answers: [
+                  "Noble birth",
+                  "Birth noble",
+                  "Noble aristocratic"
+                ]
+              },
+              {
+                question: "What's admired?",
+                answers: [
+                  "Noble character",
+                  "Character noble",
+                  "Noble admired"
+                ]
+              }
+            ]
+          },
+          {
+            word: "precious",
+            phonetic: "/ˈpreʃəs/",
+            examples: [
+              "Precious time wasted",
+              "Precious metals are valuable",
+              "Precious moments cherished",
+              "Precious little left remaining",
+              "Precious stone is gem",
+              "Precious memories treasured",
+              "Precious cargo handled carefully",
+              "Precious few remain",
+              "My precious Gollum says",
+              "Precious child beloved"
+            ],
+            questions: [
+              {
+                question: "What wasted?",
+                answers: [
+                  "Precious time",
+                  "Time precious",
+                  "Precious wasted"
+                ]
+              },
+              {
+                question: "What are valuable?",
+                answers: [
+                  "Precious metals",
+                  "Metals precious",
+                  "Precious valuable"
+                ]
+              },
+              {
+                question: "What cherished?",
+                answers: [
+                  "Precious moments",
+                  "Moments precious",
+                  "Precious cherished"
+                ]
+              }
+            ]
+          },
+          {
+            word: "prejudice",
+            phonetic: "/ˈpredʒudɪs/",
+            examples: [
+              "Prejudice against minorities wrong",
+              "Pride and Prejudice novel",
+              "Racial prejudice still exists",
+              "Overcome prejudice with education",
+              "Prejudice clouds judgment",
+              "Prejudice based on ignorance",
+              "Gender prejudice in workplace",
+              "Religious prejudice causes conflict",
+              "Prejudice prevents understanding",
+              "Without prejudice legally means"
+            ],
+            questions: [
+              {
+                question: "What against minorities?",
+                answers: [
+                  "Prejudice against",
+                  "Prejudice minorities",
+                  "Against prejudice"
+                ]
+              },
+              {
+                question: "What's the novel?",
+                answers: [
+                  "Pride Prejudice",
+                  "Prejudice novel",
+                  "Pride and"
+                ]
+              },
+              {
+                question: "What clouds judgment?",
+                answers: [
+                  "Prejudice clouds",
+                  "Clouds prejudice",
+                  "Prejudice judgment"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rumor",
+            phonetic: "/ˈruːmər/",
+            examples: [
+              "Rumor has it that",
+              "Spread rumors maliciously",
+              "Rumor mill churns gossip",
+              "Unfounded rumor circulates",
+              "Rumor turned out true",
+              "Squelch rumors immediately",
+              "Rumor control is difficult",
+              "Rumor mongering is harmful",
+              "Rumor and speculation differ",
+              "Dismiss as mere rumor"
+            ],
+            questions: [
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Rumor has it",
+                  "Has rumor",
+                  "Rumor that"
+                ]
+              },
+              {
+                question: "What maliciously?",
+                answers: [
+                  "Spread rumors",
+                  "Rumors spread",
+                  "Spread rumor"
+                ]
+              },
+              {
+                question: "What churns gossip?",
+                answers: [
+                  "Rumor mill",
+                  "Mill rumor",
+                  "Rumor churns"
+                ]
+              }
+            ]
+          },
+          {
+            word: "sin",
+            phonetic: "/sɪn/",
+            examples: [
+              "Sin against God forbidden",
+              "Seven deadly sins listed",
+              "Sin taxes on vice",
+              "Commit sin knowingly",
+              "Sin of omission neglect",
+              "Sin bin in hockey",
+              "Original sin doctrine",
+              "Live in sin unmarried",
+              "Sin city is nickname",
+              "Confess your sins"
+            ],
+            questions: [
+              {
+                question: "What against God?",
+                answers: [
+                  "Sin against",
+                  "Sin God",
+                  "Against sin"
+                ]
+              },
+              {
+                question: "What are listed?",
+                answers: [
+                  "Seven sins",
+                  "Deadly sins",
+                  "Sins listed"
+                ]
+              },
+              {
+                question: "What on vice?",
+                answers: [
+                  "Sin taxes",
+                  "Taxes sin",
+                  "Sin vice"
+                ]
+              }
+            ]
+          },
+          {
+            word: "spectacle",
+            phonetic: "/ˈspektəkl/",
+            examples: [
+              "Spectacle to behold amazing",
+              "Make spectacle of yourself",
+              "Spectacles are eyeglasses",
+              "Public spectacle embarrassing",
+              "Spectacle of nature beautiful",
+              "Grand spectacle staged",
+              "Sad spectacle witnessed",
+              "Spectacle lens correct vision",
+              "Spectacle frame holds glass",
+              "Spectacular spectacle indeed"
+            ],
+            questions: [
+              {
+                question: "What to behold?",
+                answers: [
+                  "Spectacle behold",
+                  "Spectacle amazing",
+                  "Behold spectacle"
+                ]
+              },
+              {
+                question: "What of yourself?",
+                answers: [
+                  "Make spectacle",
+                  "Spectacle yourself",
+                  "Spectacle make"
+                ]
+              },
+              {
+                question: "What are eyeglasses?",
+                answers: [
+                  "Spectacles are",
+                  "Spectacles eyeglasses",
+                  "Eyeglasses spectacles"
+                ]
+              }
+            ]
+          },
+          {
+            word: "stack",
+            phonetic: "/stæk/",
+            examples: [
+              "Stack of books tall",
+              "Stack cards carefully",
+              "Stack deck means cheat",
+              "Smoke stack on building",
+              "Stack up means compare",
+              "Stack against someone unfairly",
+              "Full stack developer knows all",
+              "Stack pancakes high",
+              "Stack chips in poker",
+              "Needle in haystack hard find"
+            ],
+            questions: [
+              {
+                question: "What tall?",
+                answers: [
+                  "Stack books",
+                  "Stack tall",
+                  "Books stack"
+                ]
+              },
+              {
+                question: "What carefully?",
+                answers: [
+                  "Stack cards",
+                  "Cards stack",
+                  "Stack carefully"
+                ]
+              },
+              {
+                question: "What means cheat?",
+                answers: [
+                  "Stack deck",
+                  "Deck stack",
+                  "Stack cheat"
+                ]
+              }
+            ]
+          },
+          {
+            word: "suspicious",
+            phonetic: "/səˈspɪʃəs/",
+            examples: [
+              "Suspicious activity reported",
+              "Suspicious of his motives",
+              "Suspicious circumstances investigated",
+              "Suspicious package found",
+              "Suspicious behavior noticed",
+              "Suspicious mind questions everything",
+              "Suspicious death examined",
+              "Highly suspicious situation",
+              "Suspicious timing coincidental",
+              "Suspicious look given"
+            ],
+            questions: [
+              {
+                question: "What reported?",
+                answers: [
+                  "Suspicious activity",
+                  "Activity suspicious",
+                  "Suspicious reported"
+                ]
+              },
+              {
+                question: "What of motives?",
+                answers: [
+                  "Suspicious motives",
+                  "Suspicious of",
+                  "Motives suspicious"
+                ]
+              },
+              {
+                question: "What found?",
+                answers: [
+                  "Suspicious package",
+                  "Package suspicious",
+                  "Suspicious found"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tin",
+            phonetic: "/tɪn/",
+            examples: [
+              "Tin can holds food",
+              "Tin foil wraps leftovers",
+              "Tin roof rusts over time",
+              "Tin soldier toy figure",
+              "Tin whistle makes music",
+              "Tin pan alley songwriters",
+              "Tin ear cannot distinguish",
+              "Tin plate is coating",
+              "Tin snips cut metal",
+              "Tin anniversary is tenth"
+            ],
+            questions: [
+              {
+                question: "What holds food?",
+                answers: [
+                  "Tin can",
+                  "Can tin",
+                  "Tin holds"
+                ]
+              },
+              {
+                question: "What wraps leftovers?",
+                answers: [
+                  "Tin foil",
+                  "Foil tin",
+                  "Tin wraps"
+                ]
+              },
+              {
+                question: "What makes music?",
+                answers: [
+                  "Tin whistle",
+                  "Whistle tin",
+                  "Tin makes"
+                ]
+              }
+            ]
+          },
+          {
+            word: "vase",
+            phonetic: "/veɪs/",
+            examples: [
+              "Vase holds flowers beautifully",
+              "Crystal vase is expensive",
+              "Vase broke into pieces",
+              "Ceramic vase handmade",
+              "Flower vase on table",
+              "Antique vase is valuable",
+              "Vase arrangement displayed",
+              "Ming vase very rare",
+              "Vase of roses given",
+              "Empty vase needs filling"
+            ],
+            questions: [
+              {
+                question: "What holds flowers?",
+                answers: [
+                  "Vase holds",
+                  "Vase flowers",
+                  "Flowers vase"
+                ]
+              },
+              {
+                question: "What's expensive?",
+                answers: [
+                  "Crystal vase",
+                  "Vase expensive",
+                  "Vase crystal"
+                ]
+              },
+              {
+                question: "What broke?",
+                answers: [
+                  "Vase broke",
+                  "Broke vase",
+                  "Vase pieces"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit28",
+        words: [
+          {
+            word: "ache",
+            phonetic: "/eɪk/",
+            examples: [
+              "Head aches from stress",
+              "Heartache feels painful emotionally",
+              "Muscle aches after exercise",
+              "Stomach ache from food",
+              "Tooth ache needs dentist",
+              "Ache all over body",
+              "Ache for someone means miss",
+              "Back ache from sitting",
+              "Ache and pain everywhere",
+              "Dull ache persists"
+            ],
+            questions: [
+              {
+                question: "What from stress?",
+                answers: [
+                  "Head aches",
+                  "Aches stress",
+                  "Head stress"
+                ]
+              },
+              {
+                question: "What after exercise?",
+                answers: [
+                  "Muscle aches",
+                  "Aches exercise",
+                  "Muscle after"
+                ]
+              },
+              {
+                question: "What means miss?",
+                answers: [
+                  "Ache for",
+                  "Ache someone",
+                  "Ache miss"
+                ]
+              }
+            ]
+          },
+          {
+            word: "arctic",
+            phonetic: "/ˈɑːrktɪk/",
+            examples: [
+              "Arctic region is frozen",
+              "Arctic circle marks latitude",
+              "Arctic animals adapted cold",
+              "Arctic Ocean surrounds pole",
+              "Arctic fox has white fur",
+              "Arctic air mass brings cold",
+              "Arctic exploration dangerous",
+              "Arctic tundra is treeless",
+              "Arctic ice melting rapidly",
+              "Arctic tern migrates far"
+            ],
+            questions: [
+              {
+                question: "What's frozen?",
+                answers: [
+                  "Arctic region",
+                  "Region arctic",
+                  "Arctic frozen"
+                ]
+              },
+              {
+                question: "What marks latitude?",
+                answers: [
+                  "Arctic circle",
+                  "Circle arctic",
+                  "Arctic marks"
+                ]
+              },
+              {
+                question: "What has white fur?",
+                answers: [
+                  "Arctic fox",
+                  "Fox arctic",
+                  "Arctic white"
+                ]
+              }
+            ]
+          },
+          {
+            word: "canal",
+            phonetic: "/kəˈnæl/",
+            examples: [
+              "Panama Canal connects oceans",
+              "Suez Canal shortens route",
+              "Canal boat travels waterway",
+              "Root canal dental procedure",
+              "Canal system for irrigation",
+              "Grand Canal in Venice",
+              "Ear canal leads to drum",
+              "Canal street in city",
+              "Canal lock raises water",
+              "Birth canal during delivery"
+            ],
+            questions: [
+              {
+                question: "What connects oceans?",
+                answers: [
+                  "Panama Canal",
+                  "Canal connects",
+                  "Canal oceans"
+                ]
+              },
+              {
+                question: "What shortens route?",
+                answers: [
+                  "Suez Canal",
+                  "Canal shortens",
+                  "Canal route"
+                ]
+              },
+              {
+                question: "What dental procedure?",
+                answers: [
+                  "Root canal",
+                  "Canal dental",
+                  "Canal procedure"
+                ]
+              }
+            ]
+          },
+          {
+            word: "chemist",
+            phonetic: "/ˈkemɪst/",
+            examples: [
+              "Chemist studies chemical reactions",
+              "Chemist shop sells medicine",
+              "Research chemist develops drugs",
+              "Chemist works in laboratory",
+              "Organic chemist studies carbon",
+              "Analytical chemist tests substances",
+              "Industrial chemist makes products",
+              "Chemist mixes compounds carefully",
+              "Chemist degree required",
+              "Chemist discovers new materials"
+            ],
+            questions: [
+              {
+                question: "Who studies reactions?",
+                answers: [
+                  "Chemist studies",
+                  "Chemist reactions",
+                  "Studies chemist"
+                ]
+              },
+              {
+                question: "What sells medicine?",
+                answers: [
+                  "Chemist shop",
+                  "Shop chemist",
+                  "Chemist sells"
+                ]
+              },
+              {
+                question: "Who develops drugs?",
+                answers: [
+                  "Research chemist",
+                  "Chemist develops",
+                  "Chemist drugs"
+                ]
+              }
+            ]
+          },
+          {
+            word: "chill",
+            phonetic: "/tʃɪl/",
+            examples: [
+              "Chill the wine before serving",
+              "Feel a chill in air",
+              "Chill out means relax",
+              "Catch a chill get cold",
+              "Chill wind blows hard",
+              "Chill to the bone cold",
+              "Chill music soothes",
+              "Chill pill calms down",
+              "Chill factor makes colder",
+              "Netflix and chill phrase"
+            ],
+            questions: [
+              {
+                question: "What before serving?",
+                answers: [
+                  "Chill wine",
+                  "Chill before",
+                  "Wine chill"
+                ]
+              },
+              {
+                question: "What in air?",
+                answers: [
+                  "Feel chill",
+                  "Chill air",
+                  "Chill in"
+                ]
+              },
+              {
+                question: "What means relax?",
+                answers: [
+                  "Chill out",
+                  "Chill relax",
+                  "Out chill"
+                ]
+              }
+            ]
+          },
+          {
+            word: "congress",
+            phonetic: "/ˈkɑːŋɡrəs/",
+            examples: [
+              "Congress passes laws",
+              "Congress members elected",
+              "Congress convenes in January",
+              "Congress of Vienna historical",
+              "Medical congress held annually",
+              "Congress approves budget",
+              "Library of Congress stores books",
+              "Congress votes on bills",
+              "Continental Congress met",
+              "Congress adjourns for recess"
+            ],
+            questions: [
+              {
+                question: "What passes laws?",
+                answers: [
+                  "Congress passes",
+                  "Congress laws",
+                  "Passes congress"
+                ]
+              },
+              {
+                question: "Who elected?",
+                answers: [
+                  "Congress members",
+                  "Members congress",
+                  "Congress elected"
+                ]
+              },
+              {
+                question: "What convenes?",
+                answers: [
+                  "Congress convenes",
+                  "Convenes congress",
+                  "Congress January"
+                ]
+              }
+            ]
+          },
+          {
+            word: "dairy",
+            phonetic: "/ˈderi/",
+            examples: [
+              "Dairy products include milk",
+              "Dairy farm has cows",
+              "Dairy free means no milk",
+              "Dairy queen ice cream",
+              "Dairy industry important",
+              "Dairy cattle raised",
+              "Dairy aisle in store",
+              "Dairy farmer works hard",
+              "Dairy allergy common",
+              "Organic dairy preferred"
+            ],
+            questions: [
+              {
+                question: "What include milk?",
+                answers: [
+                  "Dairy products",
+                  "Products dairy",
+                  "Dairy include"
+                ]
+              },
+              {
+                question: "What has cows?",
+                answers: [
+                  "Dairy farm",
+                  "Farm dairy",
+                  "Dairy cows"
+                ]
+              },
+              {
+                question: "What means no milk?",
+                answers: [
+                  "Dairy free",
+                  "Free dairy",
+                  "Dairy no"
+                ]
+              }
+            ]
+          },
+          {
+            word: "descend",
+            phonetic: "/dɪˈsend/",
+            examples: [
+              "Descend the stairs carefully",
+              "Airplane descends for landing",
+              "Descend from royalty",
+              "Descend into chaos quickly",
+              "Descend mountain slowly",
+              "Night descends bringing darkness",
+              "Descend upon like locusts",
+              "Descend to new low",
+              "Descend in order rank",
+              "Descend lineage traced"
+            ],
+            questions: [
+              {
+                question: "What carefully?",
+                answers: [
+                  "Descend stairs",
+                  "Descend carefully",
+                  "Stairs descend"
+                ]
+              },
+              {
+                question: "What for landing?",
+                answers: [
+                  "Airplane descends",
+                  "Descends landing",
+                  "Descend airplane"
+                ]
+              },
+              {
+                question: "What from royalty?",
+                answers: [
+                  "Descend royalty",
+                  "Descend from",
+                  "Royalty descend"
+                ]
+              }
+            ]
+          },
+          {
+            word: "grocer",
+            phonetic: "/ˈɡroʊsər/",
+            examples: [
+              "Grocer sells food items",
+              "Local grocer nearby",
+              "Grocer shop on corner",
+              "Grocer delivers groceries",
+              "Grocer stocks shelves daily",
+              "Grocer weighs produce",
+              "Grocer accepts coupons",
+              "Independent grocer owns store",
+              "Grocer orders inventory",
+              "Family grocer trusted"
+            ],
+            questions: [
+              {
+                question: "Who sells food?",
+                answers: [
+                  "Grocer sells",
+                  "Grocer food",
+                  "Sells grocer"
+                ]
+              },
+              {
+                question: "What nearby?",
+                answers: [
+                  "Local grocer",
+                  "Grocer local",
+                  "Grocer nearby"
+                ]
+              },
+              {
+                question: "What on corner?",
+                answers: [
+                  "Grocer shop",
+                  "Shop grocer",
+                  "Grocer corner"
+                ]
+              }
+            ]
+          },
+          {
+            word: "hesitate",
+            phonetic: "/ˈhezɪteɪt/",
+            examples: [
+              "Don't hesitate to ask",
+              "Hesitate before answering",
+              "Hesitate means pause",
+              "Hesitate due to fear",
+              "Hesitate makes miss opportunity",
+              "Without hesitation acted",
+              "Hesitate in speech stutter",
+              "Hesitate to commit",
+              "Hesitate moment too long",
+              "Never hesitate helping"
+            ],
+            questions: [
+              {
+                question: "What to ask?",
+                answers: [
+                  "Don't hesitate",
+                  "Hesitate ask",
+                  "Not hesitate"
+                ]
+              },
+              {
+                question: "What before answering?",
+                answers: [
+                  "Hesitate before",
+                  "Hesitate answering",
+                  "Before hesitate"
+                ]
+              },
+              {
+                question: "What due to fear?",
+                answers: [
+                  "Hesitate fear",
+                  "Hesitate due",
+                  "Fear hesitate"
+                ]
+              }
+            ]
+          },
+          {
+            word: "institution",
+            phonetic: "/ˌɪnstɪˈtuːʃn/",
+            examples: [
+              "Financial institution handles money",
+              "Educational institution teaches students",
+              "Institution of marriage traditional",
+              "Mental institution treats patients",
+              "Institution established long ago",
+              "Institution of higher learning",
+              "Correctional institution is prison",
+              "Institution upholds traditions",
+              "Institution becomes established",
+              "Religious institution provides guidance"
+            ],
+            questions: [
+              {
+                question: "What handles money?",
+                answers: [
+                  "Financial institution",
+                  "Institution handles",
+                  "Institution money"
+                ]
+              },
+              {
+                question: "What teaches students?",
+                answers: [
+                  "Educational institution",
+                  "Institution teaches",
+                  "Institution students"
+                ]
+              },
+              {
+                question: "What's traditional?",
+                answers: [
+                  "Institution marriage",
+                  "Marriage institution",
+                  "Institution traditional"
+                ]
+              }
+            ]
+          },
+          {
+            word: "jog",
+            phonetic: "/dʒɑːɡ/",
+            examples: [
+              "Jog every morning for exercise",
+              "Jog someone's memory refresh",
+              "Jog along steadily",
+              "Morning jog refreshes mind",
+              "Jog at slow pace",
+              "Jog through the park",
+              "Jog memory with hints",
+              "Light jog not run",
+              "Jog trail marked",
+              "Jog regularly for health"
+            ],
+            questions: [
+              {
+                question: "What every morning?",
+                answers: [
+                  "Jog morning",
+                  "Jog exercise",
+                  "Morning jog"
+                ]
+              },
+              {
+                question: "What memory?",
+                answers: [
+                  "Jog memory",
+                  "Jog someone",
+                  "Memory jog"
+                ]
+              },
+              {
+                question: "What through park?",
+                answers: [
+                  "Jog park",
+                  "Jog through",
+                  "Through jog"
+                ]
+              }
+            ]
+          },
+          {
+            word: "merchant",
+            phonetic: "/ˈmɜːrtʃənt/",
+            examples: [
+              "Merchant sells goods",
+              "Merchant marine carries cargo",
+              "Merchant of Venice play",
+              "Merchant class trades",
+              "Wine merchant specializes",
+              "Merchant bank finances trade",
+              "Merchant ship transports",
+              "Merchant account processes payments",
+              "Merchant navy civilian fleet",
+              "Local merchant trusted"
+            ],
+            questions: [
+              {
+                question: "Who sells goods?",
+                answers: [
+                  "Merchant sells",
+                  "Merchant goods",
+                  "Sells merchant"
+                ]
+              },
+              {
+                question: "What carries cargo?",
+                answers: [
+                  "Merchant marine",
+                  "Marine merchant",
+                  "Merchant carries"
+                ]
+              },
+              {
+                question: "What's the play?",
+                answers: [
+                  "Merchant Venice",
+                  "Venice merchant",
+                  "Merchant play"
+                ]
+              }
+            ]
+          },
+          {
+            word: "poke",
+            phonetic: "/poʊk/",
+            examples: [
+              "Poke with a stick",
+              "Poke fun at someone",
+              "Pig in a poke means risk",
+              "Poke holes in argument",
+              "Facebook poke feature",
+              "Poke bowl Hawaiian food",
+              "Poke around means explore",
+              "Poke nose into business",
+              "Poke fire with stick",
+              "Slow poke moves slowly"
+            ],
+            questions: [
+              {
+                question: "What with stick?",
+                answers: [
+                  "Poke stick",
+                  "Poke with",
+                  "Stick poke"
+                ]
+              },
+              {
+                question: "What at someone?",
+                answers: [
+                  "Poke fun",
+                  "Fun poke",
+                  "Poke someone"
+                ]
+              },
+              {
+                question: "What in argument?",
+                answers: [
+                  "Poke holes",
+                  "Holes poke",
+                  "Poke argument"
+                ]
+              }
+            ]
+          },
+          {
+            word: "postpone",
+            phonetic: "/poʊstˈpoʊn/",
+            examples: [
+              "Postpone the meeting until tomorrow",
+              "Postpone decision for now",
+              "Postpone wedding due to rain",
+              "Postpone trip indefinitely",
+              "Postpone exam one week",
+              "Postpone payment if possible",
+              "Postpone surgery temporarily",
+              "Postpone inevitable eventually",
+              "Postpone vacation plans",
+              "Cannot postpone any longer"
+            ],
+            questions: [
+              {
+                question: "What until tomorrow?",
+                answers: [
+                  "Postpone meeting",
+                  "Postpone until",
+                  "Meeting postpone"
+                ]
+              },
+              {
+                question: "What for now?",
+                answers: [
+                  "Postpone decision",
+                  "Decision postpone",
+                  "Postpone now"
+                ]
+              },
+              {
+                question: "What due to rain?",
+                answers: [
+                  "Postpone wedding",
+                  "Wedding postpone",
+                  "Postpone rain"
+                ]
+              }
+            ]
+          },
+          {
+            word: "splash",
+            phonetic: "/splæʃ/",
+            examples: [
+              "Splash water playfully",
+              "Make a splash means noticed",
+              "Splash of color brightens",
+              "Splash down spacecraft lands",
+              "Splash zone gets wet",
+              "Splash guard protects",
+              "Splash out means spend freely",
+              "Splash page introduces site",
+              "Big splash at event",
+              "Splash across headlines"
+            ],
+            questions: [
+              {
+                question: "What playfully?",
+                answers: [
+                  "Splash water",
+                  "Splash playfully",
+                  "Water splash"
+                ]
+              },
+              {
+                question: "What means noticed?",
+                answers: [
+                  "Make splash",
+                  "Splash noticed",
+                  "Splash make"
+                ]
+              },
+              {
+                question: "What brightens?",
+                answers: [
+                  "Splash color",
+                  "Color splash",
+                  "Splash brightens"
+                ]
+              }
+            ]
+          },
+          {
+            word: "stubborn",
+            phonetic: "/ˈstʌbərn/",
+            examples: [
+              "Stubborn child refuses listen",
+              "Stubborn mule won't move",
+              "Stubborn stain won't remove",
+              "Stubborn attitude causes problems",
+              "Stubborn as a mule saying",
+              "Stubborn facts undeniable",
+              "Stubborn determination persists",
+              "Stubborn resistance continues",
+              "Stubborn streak in personality",
+              "Too stubborn to admit wrong"
+            ],
+            questions: [
+              {
+                question: "Who refuses listen?",
+                answers: [
+                  "Stubborn child",
+                  "Child stubborn",
+                  "Stubborn refuses"
+                ]
+              },
+              {
+                question: "What won't move?",
+                answers: [
+                  "Stubborn mule",
+                  "Mule stubborn",
+                  "Stubborn won't"
+                ]
+              },
+              {
+                question: "What won't remove?",
+                answers: [
+                  "Stubborn stain",
+                  "Stain stubborn",
+                  "Stubborn remove"
+                ]
+              }
+            ]
+          },
+          {
+            word: "suburb",
+            phonetic: "/ˈsʌbɜːrb/",
+            examples: [
+              "Suburb outside city center",
+              "Suburban life is quiet",
+              "Suburb has houses families",
+              "Move to suburb from city",
+              "Suburb commute to work",
+              "Wealthy suburb has mansions",
+              "Suburb shopping mall nearby",
+              "Suburb schools are good",
+              "Inner suburb closer downtown",
+              "Suburb sprawl expanding"
+            ],
+            questions: [
+              {
+                question: "What outside city?",
+                answers: [
+                  "Suburb outside",
+                  "Suburb city",
+                  "Outside suburb"
+                ]
+              },
+              {
+                question: "What's quiet?",
+                answers: [
+                  "Suburban life",
+                  "Life suburban",
+                  "Suburb quiet"
+                ]
+              },
+              {
+                question: "What has houses?",
+                answers: [
+                  "Suburb houses",
+                  "Suburb has",
+                  "Houses suburb"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tide",
+            phonetic: "/taɪd/",
+            examples: [
+              "Tide comes in and out",
+              "High tide covers beach",
+              "Low tide exposes rocks",
+              "Tide pool has creatures",
+              "Turn of the tide changes",
+              "Tide chart predicts times",
+              "Tide laundry detergent brand",
+              "Tide over means help temporarily",
+              "Rising tide lifts boats",
+              "Swim with the tide means conform"
+            ],
+            questions: [
+              {
+                question: "What comes in?",
+                answers: [
+                  "Tide comes",
+                  "Tide in out",
+                  "Comes tide"
+                ]
+              },
+              {
+                question: "What covers beach?",
+                answers: [
+                  "High tide",
+                  "Tide covers",
+                  "Tide beach"
+                ]
+              },
+              {
+                question: "What means help temporarily?",
+                answers: [
+                  "Tide over",
+                  "Tide help",
+                  "Over tide"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tragedy",
+            phonetic: "/ˈtrædʒədi/",
+            examples: [
+              "Tragedy struck the family",
+              "Greek tragedy is classical",
+              "Tragedy of Romeo and Juliet",
+              "Personal tragedy experienced",
+              "Tragedy befalls unexpectedly",
+              "Tragedy masks symbolize drama",
+              "National tragedy mourned",
+              "Tragedy and comedy contrast",
+              "Tragedy averted fortunately",
+              "Terrible tragedy occurred"
+            ],
+            questions: [
+              {
+                question: "What struck family?",
+                answers: [
+                  "Tragedy struck",
+                  "Tragedy family",
+                  "Struck tragedy"
+                ]
+              },
+              {
+                question: "What's classical?",
+                answers: [
+                  "Greek tragedy",
+                  "Tragedy classical",
+                  "Tragedy Greek"
+                ]
+              },
+              {
+                question: "What's the play?",
+                answers: [
+                  "Tragedy Romeo",
+                  "Romeo tragedy",
+                  "Tragedy Juliet"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit29",
+        words: [
+          {
+            word: "bomb",
+            phonetic: "/bɑːm/",
+            examples: [
+              "Bomb exploded downtown yesterday",
+              "Drop a bomb means surprise news",
+              "Bomb threat evacuated building",
+              "Bomb squad defuses explosives",
+              "Photo bomb ruins picture",
+              "Bomb shelter protects people",
+              "Bomb shell means shocking revelation",
+              "Time bomb ticks away",
+              "Bomb disposal expert trained",
+              "Bomb crater left behind"
+            ],
+            questions: [
+              {
+                question: "What exploded?",
+                answers: [
+                  "Bomb exploded",
+                  "Exploded bomb",
+                  "Bomb downtown"
+                ]
+              },
+              {
+                question: "What means surprise?",
+                answers: [
+                  "Drop bomb",
+                  "Bomb surprise",
+                  "Drop a"
+                ]
+              },
+              {
+                question: "What evacuated?",
+                answers: [
+                  "Bomb threat",
+                  "Threat bomb",
+                  "Bomb evacuated"
+                ]
+              }
+            ]
+          },
+          {
+            word: "certificate",
+            phonetic: "/sərˈtɪfɪkət/",
+            examples: [
+              "Birth certificate proves identity",
+              "Marriage certificate official document",
+              "Death certificate required",
+              "Certificate of achievement earned",
+              "Gift certificate redeemable",
+              "Certificate course shorter program",
+              "Medical certificate excuses absence",
+              "Certificate of deposit investment",
+              "Certificate authority verifies identity",
+              "Teaching certificate qualifies instructor"
+            ],
+            questions: [
+              {
+                question: "What proves identity?",
+                answers: [
+                  "Birth certificate",
+                  "Certificate proves",
+                  "Certificate identity"
+                ]
+              },
+              {
+                question: "What's official document?",
+                answers: [
+                  "Marriage certificate",
+                  "Certificate official",
+                  "Certificate marriage"
+                ]
+              },
+              {
+                question: "What earned?",
+                answers: [
+                  "Certificate achievement",
+                  "Certificate earned",
+                  "Achievement certificate"
+                ]
+              }
+            ]
+          },
+          {
+            word: "circumstance",
+            phonetic: "/ˈsɜːrkəmstæns/",
+            examples: [
+              "Under the circumstances understandable",
+              "Circumstance beyond control",
+              "Circumstance dictates action",
+              "Unforeseen circumstances arise",
+              "Extenuating circumstances considered",
+              "Circumstance of birth matters",
+              "Mitigating circumstances reduce sentence",
+              "Circumstance surrounding event unclear",
+              "Change of circumstance requires adjustment",
+              "Suspicious circumstances investigated"
+            ],
+            questions: [
+              {
+                question: "What's understandable?",
+                answers: [
+                  "Under circumstances",
+                  "Circumstances understandable",
+                  "The circumstances"
+                ]
+              },
+              {
+                question: "What beyond control?",
+                answers: [
+                  "Circumstance beyond",
+                  "Beyond circumstance",
+                  "Circumstance control"
+                ]
+              },
+              {
+                question: "What arise?",
+                answers: [
+                  "Unforeseen circumstances",
+                  "Circumstances arise",
+                  "Circumstance unforeseen"
+                ]
+              }
+            ]
+          },
+          {
+            word: "coffin",
+            phonetic: "/ˈkɔːfɪn/",
+            examples: [
+              "Coffin buried underground",
+              "Final nail in coffin means end",
+              "Coffin lowered into grave",
+              "Coffin made of wood",
+              "Coffin draped with flag",
+              "Open coffin viewing held",
+              "Coffin corner in football",
+              "Coffin bone in horse hoof",
+              "Coffin ship carried emigrants",
+              "Sleep like in a coffin"
+            ],
+            questions: [
+              {
+                question: "What buried?",
+                answers: [
+                  "Coffin buried",
+                  "Buried coffin",
+                  "Coffin underground"
+                ]
+              },
+              {
+                question: "What's the phrase?",
+                answers: [
+                  "Nail coffin",
+                  "Coffin nail",
+                  "Final nail"
+                ]
+              },
+              {
+                question: "What lowered?",
+                answers: [
+                  "Coffin lowered",
+                  "Lowered coffin",
+                  "Coffin grave"
+                ]
+              }
+            ]
+          },
+          {
+            word: "cope",
+            phonetic: "/koʊp/",
+            examples: [
+              "Cope with stress effectively",
+              "Cope mechanisms help",
+              "Cannot cope with pressure",
+              "Cope during difficult times",
+              "Learn to cope better",
+              "Cope with loss through therapy",
+              "Cope stone tops wall",
+              "Cope saw cuts curves",
+              "Cope with change gradually",
+              "Cope alone is difficult"
+            ],
+            questions: [
+              {
+                question: "What with stress?",
+                answers: [
+                  "Cope stress",
+                  "Cope with",
+                  "Stress cope"
+                ]
+              },
+              {
+                question: "What help?",
+                answers: [
+                  "Cope mechanisms",
+                  "Mechanisms cope",
+                  "Cope help"
+                ]
+              },
+              {
+                question: "What with pressure?",
+                answers: [
+                  "Cannot cope",
+                  "Cope pressure",
+                  "Cope with"
+                ]
+              }
+            ]
+          },
+          {
+            word: "criticism",
+            phonetic: "/ˈkrɪtɪsɪzəm/",
+            examples: [
+              "Constructive criticism helps improve",
+              "Harsh criticism hurts feelings",
+              "Criticism of policy widespread",
+              "Literary criticism analyzes texts",
+              "Accept criticism gracefully",
+              "Criticism comes with territory",
+              "Fair criticism is warranted",
+              "Criticism stings sometimes",
+              "Beyond criticism means perfect",
+              "Self criticism important"
+            ],
+            questions: [
+              {
+                question: "What helps improve?",
+                answers: [
+                  "Constructive criticism",
+                  "Criticism helps",
+                  "Criticism constructive"
+                ]
+              },
+              {
+                question: "What hurts feelings?",
+                answers: [
+                  "Harsh criticism",
+                  "Criticism hurts",
+                  "Criticism harsh"
+                ]
+              },
+              {
+                question: "What widespread?",
+                answers: [
+                  "Criticism policy",
+                  "Criticism widespread",
+                  "Policy criticism"
+                ]
+              }
+            ]
+          },
+          {
+            word: "devastate",
+            phonetic: "/ˈdevəsteɪt/",
+            examples: [
+              "Hurricane devastated the coast",
+              "News devastated the family",
+              "Fire devastated forest completely",
+              "War devastates countries",
+              "Devastated by loss deeply",
+              "Earthquake devastated city",
+              "Devastated crops failed",
+              "Emotionally devastated feels terrible",
+              "Devastated landscape remains",
+              "Devastate opponent in game"
+            ],
+            questions: [
+              {
+                question: "What the coast?",
+                answers: [
+                  "Hurricane devastated",
+                  "Devastated coast",
+                  "Devastate coast"
+                ]
+              },
+              {
+                question: "What the family?",
+                answers: [
+                  "News devastated",
+                  "Devastated family",
+                  "Devastate family"
+                ]
+              },
+              {
+                question: "What forest?",
+                answers: [
+                  "Fire devastated",
+                  "Devastated forest",
+                  "Devastate forest"
+                ]
+              }
+            ]
+          },
+          {
+            word: "frown",
+            phonetic: "/fraʊn/",
+            examples: [
+              "Frown shows displeasure",
+              "Frown upon means disapprove",
+              "Frown lines on forehead",
+              "Turn frown upside down",
+              "Frown deepened with worry",
+              "Frown at bad behavior",
+              "Frown furrows brow",
+              "Frown conveys sadness",
+              "Frown is opposite smile",
+              "Frown changes to smile"
+            ],
+            questions: [
+              {
+                question: "What shows displeasure?",
+                answers: [
+                  "Frown shows",
+                  "Frown displeasure",
+                  "Shows frown"
+                ]
+              },
+              {
+                question: "What means disapprove?",
+                answers: [
+                  "Frown upon",
+                  "Frown disapprove",
+                  "Upon frown"
+                ]
+              },
+              {
+                question: "What on forehead?",
+                answers: [
+                  "Frown lines",
+                  "Lines frown",
+                  "Frown forehead"
+                ]
+              }
+            ]
+          },
+          {
+            word: "gaze",
+            phonetic: "/ɡeɪz/",
+            examples: [
+              "Gaze into her eyes",
+              "Gaze at the stars",
+              "Gaze fixed on horizon",
+              "Gaze steadily forward",
+              "Gaze in wonder",
+              "Male gaze objectifies",
+              "Gaze averted nervously",
+              "Gaze upon beauty",
+              "Gaze lingers too long",
+              "Return someone's gaze"
+            ],
+            questions: [
+              {
+                question: "What into eyes?",
+                answers: [
+                  "Gaze eyes",
+                  "Gaze into",
+                  "Into gaze"
+                ]
+              },
+              {
+                question: "What at stars?",
+                answers: [
+                  "Gaze stars",
+                  "Gaze at",
+                  "Stars gaze"
+                ]
+              },
+              {
+                question: "What fixed?",
+                answers: [
+                  "Gaze fixed",
+                  "Fixed gaze",
+                  "Gaze horizon"
+                ]
+              }
+            ]
+          },
+          {
+            word: "glance",
+            phonetic: "/ɡlæns/",
+            examples: [
+              "Glance quickly at watch",
+              "Stolen glance across room",
+              "At first glance seems easy",
+              "Glance over shoulder nervously",
+              "Brief glance showed problem",
+              "Glance through document",
+              "Exchanged glances silently",
+              "Glance off surface deflect",
+              "Sidelong glance cast",
+              "Passing glance noted"
+            ],
+            questions: [
+              {
+                question: "What at watch?",
+                answers: [
+                  "Glance watch",
+                  "Glance quickly",
+                  "Quick glance"
+                ]
+              },
+              {
+                question: "What across room?",
+                answers: [
+                  "Stolen glance",
+                  "Glance across",
+                  "Glance room"
+                ]
+              },
+              {
+                question: "What seems easy?",
+                answers: [
+                  "First glance",
+                  "Glance seems",
+                  "At glance"
+                ]
+              }
+            ]
+          },
+          {
+            word: "grief",
+            phonetic: "/ɡriːf/",
+            examples: [
+              "Grief overwhelms after death",
+              "Grief counseling helps healing",
+              "Come to grief means fail",
+              "Good grief expression surprise",
+              "Grief stricken by loss",
+              "Grief process takes time",
+              "Grief and pain felt",
+              "Give someone grief means trouble",
+              "Grief support group meets",
+              "Unresolved grief persists"
+            ],
+            questions: [
+              {
+                question: "What overwhelms?",
+                answers: [
+                  "Grief overwhelms",
+                  "Grief death",
+                  "Overwhelms grief"
+                ]
+              },
+              {
+                question: "What helps healing?",
+                answers: [
+                  "Grief counseling",
+                  "Counseling grief",
+                  "Grief helps"
+                ]
+              },
+              {
+                question: "What means fail?",
+                answers: [
+                  "Come grief",
+                  "Grief fail",
+                  "Grief means"
+                ]
+              }
+            ]
+          },
+          {
+            word: "groom",
+            phonetic: "/ɡruːm/",
+            examples: [
+              "Groom the dog regularly",
+              "Groom gets married today",
+              "Groom bride at wedding",
+              "Groom horse carefully",
+              "Well groomed appearance neat",
+              "Groom for success prepare",
+              "Groom protégé train",
+              "Groom ski slopes flatten",
+              "Grooming behavior animals",
+              "Groom successor chosen"
+            ],
+            questions: [
+              {
+                question: "What regularly?",
+                answers: [
+                  "Groom dog",
+                  "Groom regularly",
+                  "Dog groom"
+                ]
+              },
+              {
+                question: "Who gets married?",
+                answers: [
+                  "Groom married",
+                  "Groom gets",
+                  "Gets groom"
+                ]
+              },
+              {
+                question: "What carefully?",
+                answers: [
+                  "Groom horse",
+                  "Horse groom",
+                  "Groom carefully"
+                ]
+              }
+            ]
+          },
+          {
+            word: "license",
+            phonetic: "/ˈlaɪsns/",
+            examples: [
+              "Driver's license required",
+              "License plate on car",
+              "License to practice medicine",
+              "Poetic license allows freedom",
+              "License fee must pay",
+              "License suspended for violation",
+              "License agreement signed",
+              "Liquor license needed",
+              "License granted officially",
+              "License renewal due"
+            ],
+            questions: [
+              {
+                question: "What required?",
+                answers: [
+                  "Driver's license",
+                  "License required",
+                  "License driver"
+                ]
+              },
+              {
+                question: "What on car?",
+                answers: [
+                  "License plate",
+                  "Plate license",
+                  "License car"
+                ]
+              },
+              {
+                question: "What to practice?",
+                answers: [
+                  "License practice",
+                  "License medicine",
+                  "Practice license"
+                ]
+              }
+            ]
+          },
+          {
+            word: "microscope",
+            phonetic: "/ˈmaɪkrəskoʊp/",
+            examples: [
+              "Microscope magnifies small objects",
+              "Look under microscope carefully",
+              "Electron microscope more powerful",
+              "Microscope reveals details",
+              "Microscope slide holds specimen",
+              "Microscope lens focuses image",
+              "Under microscope means scrutinized",
+              "Microscope objective magnifies",
+              "Light microscope uses light",
+              "Microscope stage holds sample"
+            ],
+            questions: [
+              {
+                question: "What magnifies?",
+                answers: [
+                  "Microscope magnifies",
+                  "Magnifies microscope",
+                  "Microscope small"
+                ]
+              },
+              {
+                question: "What more powerful?",
+                answers: [
+                  "Electron microscope",
+                  "Microscope powerful",
+                  "Microscope electron"
+                ]
+              },
+              {
+                question: "What reveals details?",
+                answers: [
+                  "Microscope reveals",
+                  "Reveals microscope",
+                  "Microscope details"
+                ]
+              }
+            ]
+          },
+          {
+            word: "nuclear",
+            phonetic: "/ˈnuːkliər/",
+            examples: [
+              "Nuclear power generates electricity",
+              "Nuclear weapon extremely destructive",
+              "Nuclear family consists parents children",
+              "Nuclear reactor produces energy",
+              "Nuclear war would devastate",
+              "Nuclear physics studies atoms",
+              "Nuclear option last resort",
+              "Nuclear submarine underwater",
+              "Nuclear waste disposal problem",
+              "Nuclear medicine treats disease"
+            ],
+            questions: [
+              {
+                question: "What generates electricity?",
+                answers: [
+                  "Nuclear power",
+                  "Power nuclear",
+                  "Nuclear generates"
+                ]
+              },
+              {
+                question: "What extremely destructive?",
+                answers: [
+                  "Nuclear weapon",
+                  "Weapon nuclear",
+                  "Nuclear destructive"
+                ]
+              },
+              {
+                question: "What consists parents?",
+                answers: [
+                  "Nuclear family",
+                  "Family nuclear",
+                  "Nuclear consists"
+                ]
+              }
+            ]
+          },
+          {
+            word: "portray",
+            phonetic: "/pɔːrˈtreɪ/",
+            examples: [
+              "Portray character in movie",
+              "Portray accurately in biography",
+              "Portray emotions through art",
+              "Portray villain convincingly",
+              "Portray historical figure",
+              "Portray situation realistically",
+              "Portray complex personality",
+              "Portray innocence falsely",
+              "Portray hero courageously",
+              "Portray events truthfully"
+            ],
+            questions: [
+              {
+                question: "What in movie?",
+                answers: [
+                  "Portray character",
+                  "Portray movie",
+                  "Character portray"
+                ]
+              },
+              {
+                question: "What accurately?",
+                answers: [
+                  "Portray accurately",
+                  "Portray biography",
+                  "Accurately portray"
+                ]
+              },
+              {
+                question: "What through art?",
+                answers: [
+                  "Portray emotions",
+                  "Emotions portray",
+                  "Portray art"
+                ]
+              }
+            ]
+          },
+          {
+            word: "rotate",
+            phonetic: "/ˈroʊteɪt/",
+            examples: [
+              "Earth rotates on axis",
+              "Rotate tires regularly",
+              "Rotate crops for soil",
+              "Rotate staff shifts evenly",
+              "Rotate image ninety degrees",
+              "Rotate duties among team",
+              "Rotate shoulder joint carefully",
+              "Rotate stock in store",
+              "Rotate chair around",
+              "Rotate leadership positions"
+            ],
+            questions: [
+              {
+                question: "What on axis?",
+                answers: [
+                  "Earth rotates",
+                  "Rotates axis",
+                  "Rotate earth"
+                ]
+              },
+              {
+                question: "What regularly?",
+                answers: [
+                  "Rotate tires",
+                  "Tires rotate",
+                  "Rotate regularly"
+                ]
+              },
+              {
+                question: "What for soil?",
+                answers: [
+                  "Rotate crops",
+                  "Crops rotate",
+                  "Rotate soil"
+                ]
+              }
+            ]
+          },
+          {
+            word: "souvenir",
+            phonetic: "/ˌsuːvəˈnɪr/",
+            examples: [
+              "Souvenir from vacation bought",
+              "Souvenir shop sells trinkets",
+              "Souvenir reminds of trip",
+              "Souvenir program kept",
+              "Souvenir photo taken",
+              "Souvenir penny pressed",
+              "Souvenir keychain collected",
+              "Souvenir t-shirt purchased",
+              "Souvenir magnet on fridge",
+              "Souvenir memories captured"
+            ],
+            questions: [
+              {
+                question: "What from vacation?",
+                answers: [
+                  "Souvenir vacation",
+                  "Souvenir bought",
+                  "Vacation souvenir"
+                ]
+              },
+              {
+                question: "What sells trinkets?",
+                answers: [
+                  "Souvenir shop",
+                  "Shop souvenir",
+                  "Souvenir sells"
+                ]
+              },
+              {
+                question: "What reminds?",
+                answers: [
+                  "Souvenir reminds",
+                  "Reminds souvenir",
+                  "Souvenir trip"
+                ]
+              }
+            ]
+          },
+          {
+            word: "submarine",
+            phonetic: "/ˌsʌbməˈriːn/",
+            examples: [
+              "Submarine travels underwater",
+              "Nuclear submarine stays submerged",
+              "Submarine sandwich is food",
+              "Submarine warfare tactical",
+              "Submarine periscope sees surface",
+              "Yellow submarine song",
+              "Submarine canyon underwater valley",
+              "Submarine captain commands crew",
+              "Submarine dive deep ocean",
+              "Submarine torpedo weapon"
+            ],
+            questions: [
+              {
+                question: "What travels underwater?",
+                answers: [
+                  "Submarine travels",
+                  "Submarine underwater",
+                  "Travels submarine"
+                ]
+              },
+              {
+                question: "What stays submerged?",
+                answers: [
+                  "Nuclear submarine",
+                  "Submarine stays",
+                  "Submarine submerged"
+                ]
+              },
+              {
+                question: "What's food?",
+                answers: [
+                  "Submarine sandwich",
+                  "Sandwich submarine",
+                  "Submarine food"
+                ]
+              }
+            ]
+          },
+          {
+            word: "trace",
+            phonetic: "/treɪs/",
+            examples: [
+              "Trace origins of word",
+              "Trace drawing on paper",
+              "Trace of evidence found",
+              "Trace phone call location",
+              "Trace family tree ancestors",
+              "Trace amounts detected",
+              "Trace steps backward",
+              "Trace outline carefully",
+              "Trace disappeared without trace",
+              "Trace elements needed"
+            ],
+            questions: [
+              {
+                question: "What of word?",
+                answers: [
+                  "Trace origins",
+                  "Origins trace",
+                  "Trace word"
+                ]
+              },
+              {
+                question: "What on paper?",
+                answers: [
+                  "Trace drawing",
+                  "Drawing trace",
+                  "Trace paper"
+                ]
+              },
+              {
+                question: "What found?",
+                answers: [
+                  "Trace evidence",
+                  "Evidence trace",
+                  "Trace found"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "unit30",
+        words: [
+          {
+            word: "coastline",
+            phonetic: "/ˈkoʊstlaɪn/",
+            examples: [
+              "The coastline stretches for miles beautifully",
+              "Erosion is damaging the coastline",
+              "They walked along the rocky coastline",
+              "The coastline is protected by law",
+              "Beautiful coastline attracts many tourists",
+              "The coastline curves around the bay",
+              "Rising seas threaten the coastline",
+              "The coastline offers stunning views",
+              "Protect the fragile coastline ecosystem",
+              "The coastline is dotted with villages"
+            ],
+            questions: [
+              {
+                question: "What's being damaged?",
+                answers: [
+                  "The coastline is",
+                  "Coastline erosion",
+                  "Protect coastline"
+                ]
+              },
+              {
+                question: "Where did they walk?",
+                answers: [
+                  "Along the coastline",
+                  "Coastline path",
+                  "Rocky coastline"
+                ]
+              },
+              {
+                question: "What attracts tourists?",
+                answers: [
+                  "Beautiful coastline",
+                  "The coastline",
+                  "Scenic coastline"
+                ]
+              }
+            ]
+          },
+          {
+            word: "deter",
+            phonetic: "/dɪˈtɜːr/",
+            examples: [
+              "The alarm system will deter burglars",
+              "Nothing could deter her determination",
+              "High prices deter many customers",
+              "Security cameras deter crime effectively",
+              "Don't let fear deter you",
+              "The punishment should deter others",
+              "Bad weather didn't deter them",
+              "Strict laws deter illegal activity",
+              "The warning signs deter trespassers",
+              "Difficulties won't deter us now"
+            ],
+            questions: [
+              {
+                question: "What will stop them?",
+                answers: [
+                  "That will deter them",
+                  "Should deter",
+                  "Deter criminals"
+                ]
+              },
+              {
+                question: "Did it stop you?",
+                answers: [
+                  "Didn't deter me",
+                  "Nothing deters",
+                  "Won't be deterred"
+                ]
+              },
+              {
+                question: "What's the purpose?",
+                answers: [
+                  "To deter crime",
+                  "Deter behavior",
+                  "Acts as deterrent"
+                ]
+              }
+            ]
+          },
+          {
+            word: "devise",
+            phonetic: "/dɪˈvaɪz/",
+            examples: [
+              "They devised a clever plan",
+              "Scientists devise new experiments daily",
+              "She devised a solution quickly",
+              "We need to devise a strategy",
+              "He devised an ingenious method",
+              "The team devised a backup plan",
+              "Can you devise a better approach",
+              "They devised a creative solution",
+              "The engineer devised a new system",
+              "Let's devise a way forward"
+            ],
+            questions: [
+              {
+                question: "What did they do?",
+                answers: [
+                  "Devised a plan",
+                  "They devised",
+                  "Devised strategy"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Devise a solution",
+                  "Need to devise",
+                  "Devise method"
+                ]
+              },
+              {
+                question: "How was it solved?",
+                answers: [
+                  "She devised it",
+                  "Devised answer",
+                  "Cleverly devised"
+                ]
+              }
+            ]
+          },
+          {
+            word: "distance",
+            phonetic: "/ˈdɪstəns/",
+            examples: [
+              "The distance between cities is far",
+              "Keep your distance from the fire",
+              "She ran a long distance today",
+              "Distance makes the heart grow fonder",
+              "Measure the distance accurately please",
+              "He kept his distance deliberately",
+              "The distance seems shorter now",
+              "Long distance relationships are difficult",
+              "Distance learning is popular nowadays",
+              "Within walking distance from here"
+            ],
+            questions: [
+              {
+                question: "How far is it?",
+                answers: [
+                  "Short distance",
+                  "Long distance",
+                  "What distance"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Keep your distance",
+                  "Maintain distance",
+                  "Stay distance"
+                ]
+              },
+              {
+                question: "Where is it?",
+                answers: [
+                  "Within distance",
+                  "Walking distance",
+                  "Some distance"
+                ]
+              }
+            ]
+          },
+          {
+            word: "expertise",
+            phonetic: "/ˌekspɜːrˈtiːz/",
+            examples: [
+              "She has expertise in marketing",
+              "We need your expertise urgently",
+              "His expertise is highly valued",
+              "Technical expertise is required here",
+              "The team lacks expertise",
+              "Years of expertise show clearly",
+              "Her expertise helped solve the problem",
+              "Medical expertise saved his life",
+              "Share your expertise with others",
+              "The job requires specialized expertise"
+            ],
+            questions: [
+              {
+                question: "What does she have?",
+                answers: [
+                  "She has expertise",
+                  "Her expertise",
+                  "Great expertise"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Need expertise",
+                  "Require expertise",
+                  "Technical expertise"
+                ]
+              },
+              {
+                question: "What helped?",
+                answers: [
+                  "Her expertise did",
+                  "The expertise",
+                  "Expert expertise"
+                ]
+              }
+            ]
+          },
+          {
+            word: "fracture",
+            phonetic: "/ˈfræktʃər/",
+            examples: [
+              "He has a fracture in his arm",
+              "The bone fracture needs surgery",
+              "Stress can fracture relationships",
+              "She suffered a skull fracture",
+              "The fracture will heal eventually",
+              "X rays show the fracture clearly",
+              "Compound fractures are serious",
+              "The fracture line is visible",
+              "Don't fracture your wrist again",
+              "Hairline fractures are hard to detect"
+            ],
+            questions: [
+              {
+                question: "What's wrong?",
+                answers: [
+                  "I have a fracture",
+                  "Bone fracture",
+                  "Fractured it"
+                ]
+              },
+              {
+                question: "How bad is it?",
+                answers: [
+                  "Simple fracture",
+                  "Compound fracture",
+                  "Hairline fracture"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Fractured my arm",
+                  "Got fracture",
+                  "Fracture occurred"
+                ]
+              }
+            ]
+          },
+          {
+            word: "headache",
+            phonetic: "/ˈhedeɪk/",
+            examples: [
+              "I have a terrible headache today",
+              "This project is a real headache",
+              "Stress causes headaches often",
+              "Take medicine for your headache",
+              "The noise gives me a headache",
+              "Migraines are severe headaches",
+              "She gets headaches frequently",
+              "Traffic is such a headache",
+              "The headache won't go away",
+              "Dealing with him is a headache"
+            ],
+            questions: [
+              {
+                question: "What's wrong?",
+                answers: [
+                  "I have headache",
+                  "Bad headache",
+                  "Terrible headache"
+                ]
+              },
+              {
+                question: "How's the project?",
+                answers: [
+                  "It's a headache",
+                  "Real headache",
+                  "Big headache"
+                ]
+              },
+              {
+                question: "What does it cause?",
+                answers: [
+                  "Causes headaches",
+                  "Gives headache",
+                  "Getting headache"
+                ]
+              }
+            ]
+          },
+          {
+            word: "implement",
+            phonetic: "/ˈɪmplɪment/",
+            examples: [
+              "We will implement the changes soon",
+              "The plan is ready to implement",
+              "They implemented new policies yesterday",
+              "Implement the strategy carefully",
+              "It's difficult to implement effectively",
+              "The system was implemented successfully",
+              "We need to implement reforms",
+              "How will you implement this",
+              "The company implemented cost cuts",
+              "Implement these recommendations immediately"
+            ],
+            questions: [
+              {
+                question: "What should we do?",
+                answers: [
+                  "Implement the plan",
+                  "Need to implement",
+                  "Must implement"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "They implemented it",
+                  "Was implemented",
+                  "Successfully implemented"
+                ]
+              },
+              {
+                question: "When will it start?",
+                answers: [
+                  "When we implement",
+                  "After implementing",
+                  "Implementation soon"
+                ]
+              }
+            ]
+          },
+          {
+            word: "insight",
+            phonetic: "/ˈɪnsaɪt/",
+            examples: [
+              "She has great insight into people",
+              "The book provides valuable insight",
+              "His insight helped solve the mystery",
+              "Gain insight through experience",
+              "The study offers new insights",
+              "Her insight is remarkable",
+              "Insight comes with age",
+              "The insight was profound",
+              "He lacks insight into his behavior",
+              "Offer some insight on the matter"
+            ],
+            questions: [
+              {
+                question: "What does she have?",
+                answers: [
+                  "Great insight",
+                  "She has insight",
+                  "Deep insight"
+                ]
+              },
+              {
+                question: "What helped?",
+                answers: [
+                  "His insight did",
+                  "The insight",
+                  "Valuable insight"
+                ]
+              },
+              {
+                question: "What's needed?",
+                answers: [
+                  "Need insight",
+                  "Gain insight",
+                  "Provide insight"
+                ]
+              }
+            ]
+          },
+          {
+            word: "limb",
+            phonetic: "/lɪm/",
+            examples: [
+              "He broke a limb falling down",
+              "The tree limb fell during storm",
+              "She stretched her tired limbs",
+              "Out on a limb means risky",
+              "All four limbs were injured",
+              "The limb needs to be removed",
+              "Artificial limbs help many people",
+              "He climbed out on the limb",
+              "Lower limbs include legs and feet",
+              "The limb was damaged badly"
+            ],
+            questions: [
+              {
+                question: "What's injured?",
+                answers: [
+                  "A limb is",
+                  "His limb",
+                  "Broken limb"
+                ]
+              },
+              {
+                question: "What fell?",
+                answers: [
+                  "A tree limb",
+                  "The limb",
+                  "Large limb"
+                ]
+              },
+              {
+                question: "What's the situation?",
+                answers: [
+                  "Out on limb",
+                  "Risk limb",
+                  "Life and limb"
+                ]
+              }
+            ]
+          },
+          {
+            word: "might",
+            phonetic: "/maɪt/",
+            examples: [
+              "I might go to the party",
+              "She might be late today",
+              "They fought with all their might",
+              "It might rain this afternoon",
+              "He might not come tomorrow",
+              "The army showed its might",
+              "You might want to reconsider",
+              "With all my might I pushed",
+              "Might makes right is wrong philosophy",
+              "I might have been mistaken"
+            ],
+            questions: [
+              {
+                question: "Will you come?",
+                answers: [
+                  "I might",
+                  "Might not",
+                  "Might come"
+                ]
+              },
+              {
+                question: "What's the weather?",
+                answers: [
+                  "Might rain",
+                  "It might",
+                  "Might be sunny"
+                ]
+              },
+              {
+                question: "How hard?",
+                answers: [
+                  "With all might",
+                  "Full might",
+                  "My might"
+                ]
+              }
+            ]
+          },
+          {
+            word: "optimism",
+            phonetic: "/ˈɑːptɪmɪzəm/",
+            examples: [
+              "Her optimism is inspiring always",
+              "Face challenges with optimism",
+              "The optimism was unfounded unfortunately",
+              "His optimism never wavers",
+              "There's cautious optimism now",
+              "Optimism helps overcome obstacles",
+              "The market shows renewed optimism",
+              "Blind optimism can be dangerous",
+              "She radiates optimism constantly",
+              "Maintain optimism during difficult times"
+            ],
+            questions: [
+              {
+                question: "What's her attitude?",
+                answers: [
+                  "Full of optimism",
+                  "Great optimism",
+                  "Her optimism"
+                ]
+              },
+              {
+                question: "How should we feel?",
+                answers: [
+                  "With optimism",
+                  "Have optimism",
+                  "Show optimism"
+                ]
+              },
+              {
+                question: "What's the mood?",
+                answers: [
+                  "Cautious optimism",
+                  "Renewed optimism",
+                  "Growing optimism"
+                ]
+              }
+            ]
+          },
+          {
+            word: "proficient",
+            phonetic: "/prəˈfɪʃənt/",
+            examples: [
+              "She's proficient in three languages",
+              "He became proficient through practice",
+              "You must be proficient in Excel",
+              "Proficient workers earn more money",
+              "They're proficient at their jobs",
+              "The team is highly proficient",
+              "Become proficient before applying",
+              "She's proficient with technology",
+              "Proficient skills are required here",
+              "He's not proficient enough yet"
+            ],
+            questions: [
+              {
+                question: "How good is she?",
+                answers: [
+                  "Very proficient",
+                  "She's proficient",
+                  "Highly proficient"
+                ]
+              },
+              {
+                question: "What's required?",
+                answers: [
+                  "Must be proficient",
+                  "Proficient skills",
+                  "Be proficient"
+                ]
+              },
+              {
+                question: "How did he learn?",
+                answers: [
+                  "Became proficient",
+                  "Now proficient",
+                  "Getting proficient"
+                ]
+              }
+            ]
+          },
+          {
+            word: "raft",
+            phonetic: "/ræft/",
+            examples: [
+              "They escaped on a wooden raft",
+              "The raft floated down the river",
+              "White water rafting is exciting",
+              "Build a raft from logs",
+              "The raft carried six people",
+              "Life raft saved everyone aboard",
+              "We went rafting last summer",
+              "The raft was unstable",
+              "A raft of new measures",
+              "The raft drifted to shore"
+            ],
+            questions: [
+              {
+                question: "What did they use?",
+                answers: [
+                  "A raft",
+                  "Used raft",
+                  "Built raft"
+                ]
+              },
+              {
+                question: "What's the activity?",
+                answers: [
+                  "Rafting",
+                  "Raft trip",
+                  "River rafting"
+                ]
+              },
+              {
+                question: "What saved them?",
+                answers: [
+                  "The life raft",
+                  "A raft",
+                  "Emergency raft"
+                ]
+              }
+            ]
+          },
+          {
+            word: "ridge",
+            phonetic: "/rɪdʒ/",
+            examples: [
+              "They hiked along the mountain ridge",
+              "The ridge offers spectacular views",
+              "Snow covered the ridge completely",
+              "The ridge is very narrow",
+              "Walk carefully on the ridge",
+              "The ridge runs north to south",
+              "High pressure ridge brings sunshine",
+              "The ridge line was clearly visible",
+              "They reached the ridge at noon",
+              "The roof ridge needs repair"
+            ],
+            questions: [
+              {
+                question: "Where did they hike?",
+                answers: [
+                  "Along the ridge",
+                  "On ridge",
+                  "Mountain ridge"
+                ]
+              },
+              {
+                question: "What's covered?",
+                answers: [
+                  "The ridge is",
+                  "Ridge covered",
+                  "Snow on ridge"
+                ]
+              },
+              {
+                question: "Where's the view?",
+                answers: [
+                  "From the ridge",
+                  "At ridge",
+                  "Ridge top"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shoulder",
+            phonetic: "/ˈʃoʊldər/",
+            examples: [
+              "He put his hand on my shoulder",
+              "She has broad shoulders",
+              "Shoulder the responsibility yourself",
+              "The road has no shoulder",
+              "She cried on his shoulder",
+              "Shoulder to shoulder they stood",
+              "My shoulder hurts from exercise",
+              "Give him the cold shoulder",
+              "Shoulder the burden together",
+              "Pull the car onto the shoulder"
+            ],
+            questions: [
+              {
+                question: "What hurts?",
+                answers: [
+                  "My shoulder does",
+                  "Shoulder pain",
+                  "Injured shoulder"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Shoulder responsibility",
+                  "Take shoulder",
+                  "Shoulder burden"
+                ]
+              },
+              {
+                question: "Where is it?",
+                answers: [
+                  "On my shoulder",
+                  "Road shoulder",
+                  "The shoulder"
+                ]
+              }
+            ]
+          },
+          {
+            word: "shove",
+            phonetic: "/ʃʌv/",
+            examples: [
+              "Don't shove people in line",
+              "He shoved me out of the way",
+              "She gave him a hard shove",
+              "Shove the door open with force",
+              "When push comes to shove decide",
+              "They shoved through the crowd",
+              "Someone shoved me from behind",
+              "Don't shove your opinions on others",
+              "He shoved the box under the bed",
+              "She shoved him away angrily"
+            ],
+            questions: [
+              {
+                question: "What happened?",
+                answers: [
+                  "He shoved me",
+                  "Got shoved",
+                  "She shoved"
+                ]
+              },
+              {
+                question: "What should I do?",
+                answers: [
+                  "Don't shove",
+                  "Shove it open",
+                  "Shove aside"
+                ]
+              },
+              {
+                question: "How did they move?",
+                answers: [
+                  "By shoving",
+                  "Shoved through",
+                  "Shove forward"
+                ]
+              }
+            ]
+          },
+          {
+            word: "spouse",
+            phonetic: "/spaʊs/",
+            examples: [
+              "My spouse is very supportive",
+              "Each spouse has equal rights",
+              "She introduced her spouse",
+              "Spouse benefits are included here",
+              "Your spouse can join you",
+              "The surviving spouse inherits everything",
+              "Both spouses must sign the document",
+              "He's searching for a spouse",
+              "Spouse visa takes time to process",
+              "They're spouses of military members"
+            ],
+            questions: [
+              {
+                question: "Who's that?",
+                answers: [
+                  "That's my spouse",
+                  "Her spouse",
+                  "His spouse"
+                ]
+              },
+              {
+                question: "Who can come?",
+                answers: [
+                  "Your spouse can",
+                  "Spouse allowed",
+                  "Bring spouse"
+                ]
+              },
+              {
+                question: "Who inherits?",
+                answers: [
+                  "The spouse does",
+                  "Surviving spouse",
+                  "Spouse inherits"
+                ]
+              }
+            ]
+          },
+          {
+            word: "thrust",
+            phonetic: "/θrʌst/",
+            examples: [
+              "He thrust the sword forward",
+              "The main thrust of the argument",
+              "Rocket engines provide thrust",
+              "She thrust the paper at him",
+              "Thrust into the spotlight suddenly",
+              "The thrust of the attack",
+              "He was thrust into leadership",
+              "Thrust your hand out quickly",
+              "The thrust of the spear",
+              "Strategic thrust of the campaign"
+            ],
+            questions: [
+              {
+                question: "What did he do?",
+                answers: [
+                  "He thrust it",
+                  "Thrust forward",
+                  "Thrust weapon"
+                ]
+              },
+              {
+                question: "What's the main point?",
+                answers: [
+                  "The main thrust",
+                  "Thrust of argument",
+                  "Central thrust"
+                ]
+              },
+              {
+                question: "What happened?",
+                answers: [
+                  "Was thrust into",
+                  "Thrust upon",
+                  "Suddenly thrust"
+                ]
+              }
+            ]
+          },
+          {
+            word: "tolerate",
+            phonetic: "/ˈtɑːləreɪt/",
+            examples: [
+              "I won't tolerate such behavior",
+              "She can't tolerate loud noises",
+              "We must tolerate different opinions",
+              "The body tolerates the medication well",
+              "He tolerates pain better than most",
+              "Don't tolerate bullying ever",
+              "Plants tolerate drought conditions",
+              "She barely tolerates his presence",
+              "Zero tolerance means won't tolerate",
+              "Can you tolerate spicy food"
+            ],
+            questions: [
+              {
+                question: "What won't you accept?",
+                answers: [
+                  "Won't tolerate it",
+                  "Can't tolerate",
+                  "Not tolerate"
+                ]
+              },
+              {
+                question: "What should we do?",
+                answers: [
+                  "Must tolerate",
+                  "Should tolerate",
+                  "Learn to tolerate"
+                ]
+              },
+              {
+                question: "How does it react?",
+                answers: [
+                  "Tolerates well",
+                  "Can tolerate",
+                  "Doesn't tolerate"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+
+    ],
   },
   {
     book: 4,
